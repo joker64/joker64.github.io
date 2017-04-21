@@ -1,0 +1,14 @@
+Package: com.aaronash.barrel
+Version: 1.5.9-2
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: winterboard
+Filename: /Barrel.deb
+Size: 33570 
+MD5sum: 2eb441de36197d67493d9d34f8c5f935
+SHA1: a740ad0fe47bdb6049740d564d2f2d3dc8679890
+SHA256: 1ea302c9982bc3e19b43066be8ce8946a3fe56e25dd970144a0e1d189cd6a18d
+Section: IOS10 Tweaks
+Description: Screen Actions
+Author: JOKER64 <lastman985@yahoo.com>
+Name:  Barrel

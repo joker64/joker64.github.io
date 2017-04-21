@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = threedeeprefs;
+	cell = PSLinkCell;
+	detail = threedeeprefsListController;
+	icon = threedeeprefs.png;
+	isController = 1;
+	label = Barrel;
+    };
+}
