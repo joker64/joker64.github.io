@@ -1,0 +1,14 @@
+Package: com.jonluca.masterrepoeasyinstall
+Version: 1.8
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: winterboard
+Filename: /Master.deb
+Size: 2366
+MD5sum: f93c400817424947b731b2cee7cce473
+SHA1:  46d6c4808bc7728d938e91ab33dfb8323b13c7b6
+SHA256:f580a812f847df09d33d4e3234556b59e4ca00b8f06ebf655f35701174e30566
+Section: Tweaks
+Description:  Master
+Author: JOKER64 <lastman985@yahoo.com>
+Name:  Cydia Sources
