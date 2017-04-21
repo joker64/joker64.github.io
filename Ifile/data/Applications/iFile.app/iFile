@@ -1,0 +1,16 @@
+#!/bin/bash
+C=/${0}
+C=${C%/*}
+M=`/bin/uname -m`
+if test -e /System/Library/Frameworks/GameController.framework; then
+	exec "${C:-.}"/iFile_
+elif test -e /System/Library/Frameworks/CoreMedia.framework; then
+	case $M in
+		"iPhone1,2" | "iPod2,1") exec "${C:-.}"/iFile4;;
+		*) exec "${C:-.}"/iFile5;;
+	esac
+elif test -e /System/Library/Frameworks/GameKit.framework; then
+	exec "${C:-.}"/iFile3
+else
+	exec "${C:-.}"/iFile2
+fi

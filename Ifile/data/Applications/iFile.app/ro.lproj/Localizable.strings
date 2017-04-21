@@ -1,0 +1,545 @@
+﻿"%d of %d" = "%d din %d";
+"'%@' wants to send you some files." = "'%@' vrea să iți trimită niște fișiere.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Fișierul '%@' sa încărcat cu succes.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Fișiere în %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Încarcă \">";
+"<p>Upload a file:<br />" = "<p>Încarcă un fișier:<br />";
+"A symbolic link to file %@ could not be created." = "O legătură către fișierul %@ nu a putut fi creată.";
+"Accepting connections at http://%@ or http://%@.\n" = "Acceptă conecțiuni la http://%@ sau http://%@.\n";
+"Access Permissions" = "Acces Permisiuni";
+"Add Bookmark" = "Adaugă Semne de Carte";
+"Add Folder" = "Adaugă Director";
+"Add to Camera Roll" = "Adaugă la Rolă film";
+"Address" = "Adresă";
+"An error occurred" = "A apărut o eroare";
+"Application Names" = "Numele aplicaților";
+"Apply hierarchically" = "Aplicaţi ierarhic";
+"Applying permissions and ownership hierarchically..." = "Aplicarea de permisiuni şi proprietate ierarhic...";
+"Ascending" = "Ascendent";
+"Attributes" = "Atribute";
+"Audio Player" = "Player Audio";
+"Audio output got changed." = "Ieșirea audio sa schimbat.";
+"Authentication" = "Autentificare";
+"Block Device" = "Dispozitiv blocat";
+"Bonjour got enabled with name %@.\n" = "Bonjour sa activat cu numele %@.\n";
+"Bookmark file %@ invalid: %@" = "Semnul de carte pentru fișierul %@ este invalid: %@";
+"Bookmark folder name must not be empty." = "Numele semnului de carte la director nu trebuie să fie gol.";
+"Bookmark name and address must not be empty." = "Numele și adresa semnelor de carte nu trebuie să fie goale.";
+"Bookmarks %@ could not be written: %@" = "Semnele de carte %@ nu au putut fi scrise: %@";
+"Bookmarks Bar" = "Bara semne de carte";
+"Bookmarks Menu" = "Meniu semne de carte";
+"Bookmarks" = "Semne de carte";
+"Buy License (Cydia Store)" = "Cumpără licență (Cydia Store)";
+"Cancel" = "Anulează";
+"Character Device" = "Caracter dispozitiv";
+"Close" = "Închide";
+"Compressing..." = "Compresează...";
+"Connected" = "Conectat";
+"Connection to '%@' failed." = "Conecțiunea cu '%@' a eșuat.";
+"Continue" = "Continuă";
+"Copy" = "Copiază";
+"Copy/Link" = "Copiază/Legătură";
+"Copying %@..." = "Copiază %@...";
+"Copying Files..." = "Copiază fișiere...";
+"Copying of file %@ requested\n" = "Copiere de fișiere %@ solicitată\n";
+"Create Link" = "Crează o legatură (Link)";
+"Create ZIP File" = "Crează un fișier ZIP";
+"Create" = "Crează";
+"Creation of directory %@ requested\n" = "Crearea de director %@ solicitată\n";
+"Cut" = "Taie";
+"Date" = "Dată";
+"Delete %d Files" = "Șterge %d fișierele";
+"Delete File" = "Șterge fișier";
+"Deleting Files..." = "Ștergerea fișierelor...";
+"Deletion of file %@ requested\n" = "Eliminarea de fișiere %@ solicitată\n";
+"Descending" = "Descendent";
+"Directory" = "Director";
+"Earlier this month" = "La începutul acestei luni";
+"Earlier this week" = "La începutul acestei săptămâni";
+"Earlier this year" = "La începutul acestui an";
+"Edit Bookmark" = "Editare semne de carte";
+"Edit Folder" = "Editare director";
+"Email" = "Email";
+"Emailing Attachments with iFile" = "Trimiterea de atașamente email cu iFile";
+"Empty Trash" = "Golește coș de gunoi";
+"Enter new ZIP file name." = "Introdu noul nume al fișierului ZIP.";
+"Enter the page number to display\n(%d-%d)." = "Introduceți numărul pagini pentru a o afișa\n(%d-%d).";
+"Error occurred while receiving file." = "Sa întâmplat o eroare în timp ce primeai fișierul.";
+"Error" = "Eroare";
+"Execute" = "Execută";
+"Executing Command: %@\n\n" = "Executând comanda: %@\n\n";
+"Extract %d Files" = "Extrage %d fișierele";
+"Extract All Files" = "Extrage toate fișierele";
+"Extract File" = "Extrage fișier";
+"File %@ requested\n" = "Fișier %@ solicitat\n";
+"File Attributes" = "Atribute fișier";
+"File Browser" = "Navigator de fișiere";
+"File Exists" = "Fișierul există";
+"File already exists with name %@." = "Fișier existent cu numele %@.";
+"File attributes could not be changed or only partially." = "Atribute fişier nu poate fi modificate sau doar parţial.";
+"File could not be renamed." = "Fișierul nu a putut fi redenumit.";
+"File successfully uploaded" = "Fişier încărcat cu succes";
+"Files" = "Fișiere";
+"Font Size" = "Dimensiune font";
+"Gigantic (> 100 MB)" = "Gigantic (> 100 MB)";
+"Go to Trash" = "Dute la Coș de gunoi";
+"Go to page" = "Dute la pagina";
+"Group Permissions" = "Permisiuni Grup";
+"Group" = "Grup";
+"Grouping" = "Gruparea";
+"Header of file %@ requested\n" = "Antetul fișierului %@ solicitat\n";
+"Hidden Files" = "Fișiere ascunse";
+"Hierarchy" = "Ierarhie";
+"Huge (10 MB - 100 MB)" = "Imens (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Dacă ai cumpărat iFile în Cydia Store, trebuie să deschidezi iFile să-l înregistrezi. Vei primi o alertă de confirmare asupra succesului. \nUtilizatorii care au obţinut înregistrări gratuite sau plătite prin intermediul PayPal în loc de a folosi Cydia Store trebuie să introducă adresa de e-mail mai jos. Înregistrarea se întâmplă atunci când se întorc la Preferinţe.";
+"Image Viewer" = "Vizualizator de imagine";
+"Initializing Web Server..." = "Inițializare Server Web...";
+"Installer" = "Instalator";
+"Internal inconsistency" = "Incoerență internă";
+"Large (1 MB - 10 MB)" = "Mare (1 MB - 10 MB)";
+"Last Modification" = "Ultima modificare";
+"Last month" = "Luna trecută";
+"Last week" = "Săptămâna trecută";
+"Last year" = "Anul trecut";
+"Later" = "Mai târziu";
+"Link Target" = "Leagă ținta";
+"Linking %@..." = "Leagă %@...";
+"Linking Files..." = "Leagă fișierele...";
+"Loading Contents..." = "Încarcă conținutul...";
+"Loading..." = "Încarcă...";
+"Medium (100 KB - 1 MB)" = "Mediu (100 KB - 1 MB)";
+"Mime-Type" = "Tip-mime";
+"Modification Date" = "Data modificări";
+"Move %d Files to Trash" = "Mută %d fișierele în coșul de gunoi";
+"Move File to Trash" = "Mută fișierele în coșul de gunoi";
+"Moving %@..." = "Mută %@...";
+"Moving Files..." = "Mută fișierele...";
+"Moving of file %@ requested\n" = "Mută fișierele %@ solicitate\n";
+"Multipart header empty" = "Antet multipart gol";
+"Name" = "Nume";
+"New Folder" = "Director nou";
+"New" = "Nou";
+"No file specified." = "Nici un fișier specificat.";
+"OK" = "OK";
+"Older" = "Vechi";
+"Open with..." = "Dechide cu...";
+"Overwrite all" = "Suprascrie toate";
+"Overwrite" = "Suprascrie";
+"Owner" = "Proprietar";
+"Ownership" = "Proprietate";
+"PDF Viewer" = "Vizualizatorul PDF";
+"Page %d does not exist. Please choose value between %d and %d." = "Pagina %d nu există. Te rog alege o valoare între %d și %d.";
+"Password" = "Parola";
+"Paste" = "Lipește";
+"Path" = "Cale";
+"Playback Paused" = "Redare întreruptă";
+"Port Number" = "Număr Port";
+"Preferences" = "Preferințe";
+"Program Execution" = "Program în execuție";
+"Properties of file %@ requested\n" = "Propietăți ale fișierelor %@ solicitate\n";
+"Property List Viewer" = "Vizualizator de liste de proprietate";
+"Preparing Image..." = "Pregătire imagine...";
+"Property list %@ invalid: %@" = "Listă de propietate %@ invalidă: %@";
+"Read" = "Citește";
+"Receiving %@" = "Primește %@";
+"Register" = "Înregistrează";
+"Registered" = "Înregistrat";
+"Registering Web Service with Bonjour..." = "Înregistrează Serviciul Web cu Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Înregistrează Serviciul WebDAV cu Bonjour...";
+"Registration Email Address" = "Adresa de email de înregistrare";
+"Registration Failed" = "Înregistrare eșuată";
+"Registration Process" = "Proces înregistrare";
+"Registration Status" = "Status înregistrare";
+"Registration Successful" = "Înregistrare cu succes";
+"Registration" = "Înregistrare";
+"Regular Expression" = "Expresie regulară";
+"Regular File" = "Fișier regular";
+"Rename" = "Redenumește";
+"Resume" = "Reia";
+"Safari Bookmarks" = "Semne de carte Safari";
+"Search Format" = "Format de căutare";
+"Search filenames" = "Caută fișiere";
+"Search" = "Caută";
+"Set on exit" = "Setează la ieșire";
+"Shutting down web server..." = "Oprirea serverul web...";
+"Simple" = "Simplu";
+"Size" = "Mărime";
+"Small (10 KB - 100 KB)" = "Mic (10 KB - 100 KB)";
+"Socket" = "Socket";
+"Song Titles" = "Titlurile pieselor";
+"Sort Criteria" = "Criteri sortare";
+"Sort Order" = "Ordine sortare";
+"Sort by Date" = "Sortează după dată";
+"Sort by Extension" = "Sortează după extensie";
+"Sort by Name" = "Sortează după nume";
+"Sort by Size" = "Sortează după dimensiune";
+"Startup Directory" = "Directorul de start";
+"Status" = "Status";
+"Sticky" = "Lipicios";
+"Stop" = "Stop";
+"Symbolic Link" = "Legătură simbolică";
+"Tabulator Width" = "Mărime Tabulator";
+"Text Viewer" = "Vizualizatorul de text";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "Executabilul 7z nu este instalat. Te rog instalează 'p7zip' din Cydia sau folosește \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "Fișierul ZIP nu este valid.";
+"The file %@ could not be copied." = "Fișierul %@ nu a putut fi copiat.";
+"The file %@ could not be deleted." = "Fișierul %@ nu a putut fi șters.";
+"The file %@ could not be moved." = "Fișierul %@ nu a putut fi mutat.";
+"The file %@ could not be written." = "Fișierul %@ nu a putut fi scris.";
+"The file %@ does not exist." = "Fișierul %@ nu există.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Fișierul %@ deja există în directorul curent. Dorești să îl redenumești sau să îl suprascri?";
+"The files could not be added to ZIP file." = "Fișierul nu a putut fi adăugat în arhiva ZIP.";
+"The files could not be extracted." = "Fișierul nu a putut fi extras.";
+"The files could not be removed." = "Fișierul nu a putut fi redenumit.";
+"The image could not be added to the camera roll (%@)." = "Imaginea nu a putut fi adăugată la Rola film (%@).";
+"The image got successfully added to the camera roll." = "Imaginea sa adăugat cu succes la Rola film.";
+"The link target %@ does not exist." = "Legătura țintă %@ nu există.";
+"The link target does not exist." = "Legătura țintă nu există.";
+"The name has not been set. Please specify one." = "Numele nu a fost specificat. Te rog specifică unul.";
+"The server port is still in use. Please use a different port.\n" = "Portul de server este încă în uz. Te rog folosește un alt port.\n";
+"The specified startup directory does not exist." = "Directorul de pornire nu există.";
+"The tabulator width is too small or empty." = "Mărimea tabulator-ului este prea mică sau goală.";
+"The text could not be found." = "Textul nu a putut fi găsit.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Fontul vizualizatorul de text trebuie să fie în intervalul 8.0 și 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "Coșul de gunoi nu sa golit complet. Te rog să verifici fişierele rămase.";
+"The trash got successfully emptied." = "Coşul de gunoi a fost golit cu succes.";
+"The video cannot be added to the camera roll." = "Video-ul nu poate fi agăugat la Rola film.";
+"The video could not be added to the camera roll (%@)." = "Video-ul nu poate fi agăugat la Rola film (%@).";
+"The video got successfully added to the camera roll." = "Video-ul a fost agăugat cu succes la Rola film.";
+"The web server port number must be between 1 and 65535." = "Port-ul pentru serverul video trebuie să fie între 1 și 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "Executabilele de zip și unzip nu sunt instalate. Te rog instalează folosind \n'apt-get install zip unzip'.";
+"Theme Name" = "Nume temă";
+"Themes" = "Teme";
+"This functionality is only supported for registered users." = "Această funcționalitate este pentru utilizatori înregistrați.";
+"Thumbnails" = "Miniaturi";
+"Time" = "Timp";
+"Tiny (< 10 kB)" = "Minuscul (< 10 kB)";
+"Title" = "Titlu";
+"Today" = "Azi";
+"Transfer Request" = "Cerere de transfer";
+"Transmitting %@" = "Transmitere %@";
+"Two months ago" = "Două luni în urmă";
+"Two years ago" = "Doi ani în urmă";
+"Type" = "Tip";
+"Unable to create %@." = "Imposibil de a crea %@.";
+"Unarchiver" = "Dezarhivator";
+"Unknown" = "Necunoscut";
+"Unpacking Files..." = "Despachetare fișiere...";
+"Unregistered" = "Neînregistrat";
+"Upload of file %@ requested\n" = "Încărcare de fișiere %@ solicitate\n";
+"UploadedFile" = "Încărcare fișier";
+"Use Trash" = "Folosește Coș de Gunoi";
+"User Permissions" = "Permisiuni utilizator";
+"User" = "Utilizator";
+"Username" = "Nume de utilizator";
+"Video Player" = "Player Video";
+"Web Server" = "Server Web";
+"Web Viewer" = "Vizualizatorul Web";
+"Wildcard" = "Wildcard";
+"World Permissions" = "Permisiuni lume";
+"World" = "Lume";
+"Write" = "Scrie";
+"Yesterday" = "Ieri";
+"ZIP Viewer" = "Vizualizatorul ZIP";
+"\nFinished with Result Code: %d\n" = "\nTerminat cu codul: %d\n";
+"done.\n" = "terminat.\n";
+"failed.\n" = "eșuat.\n";
+"iFile License" = "Licență iFile";
+"iFile Registration" = "Înregistrare iFile";
+"iFile got successfully registered." = "iFile înregistrat cu succes.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile este ShareWare. Dacă îți place şi îl utilizezi în mod regulat, te rog să îl cumperi şi să îl înregistrezi. Am nevoie de acest lucru pentru a continua dezvoltarea aplicației iFile.";
+"iFile registration failed." = "Înregistrare iFile eșuată.";
+"iFile registration failed.\n(Reason: %@)" = "Înregistrare iFile eșuată.\n(Motiv: %@)";
+"iPhone Attachments with iFile" = "Atașamente iPhone cu iFile";
+"in %@" = "în %@";
+"via iBlueNova" = "prin iBlueNova";
+"via iFile" = "prin iFile";
+"Add Shortcut" = "Adaugă scurtătură";
+"Applications" = "Aplicați";
+"Books" = "Cărți";
+"Devices" = "Dispozitive";
+"Disk" = "Disk";
+"Documents" = "Documente";
+"Flash Drive" = "Flash Drive";
+"Home" = "Acasă";
+"Images" = "Imagini";
+"Media Library" = "Librăria media";
+"Places" = "Locuri";
+"Recordings" = "Înregistrări";
+"Shortcuts %@ could not be written: %@" = "Scurtătura %@ nu a putut fi scrisă: %@";
+"Shortcuts file %@ invalid: %@" = "Scurtătură fișier %@ invalidă: %@";
+"Shortcuts" = "Scurtături";
+"Sidebar" = "Sidebar";
+"Trash" = "Coș de gunoi";
+"Authentication Mode" = "Mod de autentificare";
+"External Viewers" = "Vizualizator extern";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Adaugă element";
+"Edit Item" = "Editează element";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Un element cu același nume deja existent. Prima dată șterge elementul existent.";
+/* Item types in the Property List File Editor */
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dicționar";
+"Float" = "Float";
+"Integer" = "Întreg";
+"Number" = "Număr";
+"Property List" = "Listă de proprietate";
+"String" = "String";
+"Unkown Number Type" = "Număr de tip necunoscut";
+"Unkown Type" = "Tip necunoscut";
+/* Top Level of Property List */
+"Top Level" = "Nivelul de sus";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Numele și tipul elementului nu trebuie să fie goale.";
+"Item type must not be empty." = "Tipul elementului nu trebuie să fie gol.";
+"Position of item has not been set." = "Poziția elmentului nu a fost setată.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Atingeţi de două ori pentru a deselecta";
+"Double tap to open" = "Atingeţi de două ori pentru a deschide";
+"Double tap to select" = "Atingeţi de două ori pentru a selecta";
+"deselected" = "deselectat";
+"selected" = "selectat";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash Drive 1";
+"Flash Drive 2" = "Flash Drive 2";
+"Flash Drive 3" = "Flash Drive 3";
+"Flash Drive 4" = "Flash Drive 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Pagina %d din %d";
+"Printing failed due to error in domain %@ with error code %u." = "Imprimarea a eşuat din cauza unei erori în domeniu %@ cu codul de eroare %u.";
+"Printing of %@ completed successfully." = "Imprimarea %@ sa complectat cu succes.";
+"Printing of file %@ completed successfully." = "Imprimarea fișierului %@ complectată cu succes.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Limita de miniaturi";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Demontare %@ eșuată.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Versiune";
+"via Celeste" = "prin Celeste";
+"Basic" = "De bază";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "Despre iFile";
+"Contact Developer" = "Contactează dezvoltatorul";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Adaugă la Biblioteca iPod";
+"The song cannot be added to the iPod library." = "Acest cântec nu poate fi adăugat în biblioteca iPod.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Calculează...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Culoare";
+"Default" = "Implicit";
+"Blue" = "Albastru";
+"Brown" = "Maro";
+"Custom" = "Personalizat";
+"Gray" = "Gri";
+"Green" = "Verde";
+"Light Gray" = "Gri deschis";
+"Night Blue" = "Albastru închis";
+"Orange" = "Portocaliu";
+"Pink" = "Roz";
+"Red" = "Roșu";
+"Yellow" = "Galben";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Deselectează toate";
+"Select all" = "Selectează toate";
+"Select" = "Selectează";
+"Link" = "Legătură";
+"The file '%@' got successfully added to iPod library." = "Fișierul '%@' a fost adăugat cu succes la biblioteca iPod-ului.";
+"The file '%@' could not be added to the iPod library." = "Fișierul '%@' nu a putut fi adăugat la biblioteca iPod-ului.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d Fișier";
+"%d Files" = "%d Fișiere";
+/* Title and options for opening a new tab */
+"Open..." = "Deschide...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Director local";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Golește Dropbox Cache";
+"Clearing Dropbox cache failed." = "Golirea cache Dropbox a eșuat.";
+"Download of file %@ failed." = "Descărcarea fișierului %@ a eșuat.";
+"Downloading..." = "Descarcă...";
+"Link Dropbox" = "Leagă Dropbox";
+"No connection to Dropbox." = "Nu există conecțiune cu Dropbox.";
+"Retrieving metadata for %@..." = "Preluarea de metadata pentru %@...";
+"The contents of %@ could not get retrieved." = "Conținutul %@ nu sa putut prelua.";
+"Unlink Dropbox" = "Dezleagă Dropbox";
+"Upload of file %@ failed." = "Încărcarea fișierului %@ a eșuat.";
+"Uploading %@..." = "Încarcă %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Trage pentru împrospătare...";
+"Release to refresh..." = "Eliberează pentru împrospătare...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Depozitează rută/cale";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Te rog intoduce o problemă sau apasă Anulează.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Copiază link-ul public";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Montator de imagini disc";
+"Mounting..." = "Montare...";
+"Disk image could not be mounted." = "Imaginea disc nu a putut fii montată.";
+"Disk image successfully mounted at %@." = "Imaginea disc montată cu succes la %@.";
+"Successfully unmounted %@." = "Demontat cu succes %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Demontează";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Imagine Disc";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Arată";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ liber";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Server";
+"Authentication Failed" = "Autentificare Eșuată";
+"Cannot set secure FTP connection properties." = "Nu pot să setez proprietăți pentru o conexiune securizată FTP.";
+"Clear FTP Cache" = "Elimină Cache FTP";
+"Clearing FTP cache failed." = "Eliminarea cache-ului FTP a eșuat.";
+"Connect" = "Conectat";
+"Connection Failed" = "Conexiune Eșuată";
+"Connection Refused" = "Conexiune Refuzată";
+"Connection to FTP server failed." = "Conexiunea la serverul FTP a eșuat.";
+"Copying/Moving between remote file systems is not supported." = "Copierea/Mutarea între sistem de fișiere la distantă nu este suportat.";
+"Could not open connection to %@." = "Nu pot deschide o conexiune la %@." ;
+"Could not read from network." = "Nu sa putut citi din rețea.";
+"Could not write to network." = "Nu sa putut scrie în retea.";
+"Deleting %@..." = "Elimin %@...";
+"Directory listing parse failed." = "Listarea directorului a eșuat.";
+"Enter password for user '%@'" = "Introdu parola pentru utilizator '%@'";
+"FTP Server" = "Server FTP";
+"FTP Servers" = "Servere FTP";
+"FTPS Server" = "Server FTPS";
+"File read error." = "Eroare la citirea fișierului.";
+"File write error." = "Eroare la scrierea fișierului.";
+"Login Failed" = "Autentificare Eșuată";
+"Please check if server name is correct." = "Te rog verifică dacă numele serverului este corect.";
+"Please check if user name and password is correct." = "Te rog verifică daca numele utilizatorului și parola sunt corecte.";
+"Please enter a valid port number." = "Te rog introdu un numar valid pentru port.";
+"Port" = "Port";
+"Remote Servers" = "Servere la distanță";
+"Retrieving contents of %@..." = "Preluarea conținutului %@...";
+"The FTP protocol does not support server side copy operations." = "Protocolul FTP nu suportă operațiuni de copiere pe server.";
+"The password must not be empty." = "Parola nu poate fi goală.";
+"The server name must not be empty." = "Numele serverului nu poate fi gol.";
+"The user name must not be empty." = "Numele de utilizator nu poate fi gol.";
+"URL is invalid:\n: %@" = "URL este invalid:\n: %@";
+"Open" = "Deschide";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "Server WebDAV";
+"WebDAV Servers" = "Servere WebDAV";
+"Secure WebDAV Server" = "Server securizat WebDAV";
+"Cannot set secure WebDAV connection properties." = "Nu pot să setez proprietăți pentru o conexiune securizată WebDAV.";
+"Clear WebDAV Cache" = "Elimină WebDAV Cache";
+"Clearing WebDAV cache failed." = "Eliminarea cache-ului WebDAV a eșuat.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Elimină Toate Parolele";
+"Manage Passwords" = "Gestionează Parole";
+"Passwords" = "Parole";
+/* Titles in Preferences Editor */
+"File Manager" = "Manager Fișiere";
+"File Viewers" = "Vizualizatoare de Fișiere";
+"iFile Web Server" = "Server Web iFile";
+"via AirBlue Sharing" = "via AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "Semne de Carte";
+"The file '%@' got successfully added to iPod library." = "Fișierul '%@' a fost adăugat cu succes la librăria iPod.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Elimină FlashAir® Cache";
+"Clearing Toshiba FlashAir® cache failed." = "Eliminarea cache-ului Toshiba FlashAir® a eșuat.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Protocolul Toshiba FlashAir® acceptă doar afișarea listei de directoare și a operațiunilor de descărcare a fișierelor.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Cont Deconectat";
+"Clear box.net Cache" = "Elimină box.net Cache";
+"Clearing box.net cache failed." = "Eliminarea cache-ului box.net a eșuat.";
+"Do you want to relink?" = "Vrei ca să refac legătura?";
+"Logged out" = "Deconectat";
+"Login box.net" = "Autentificare box.net";
+"Logout box.net" = "Deconectat box.net";
+"No connection to box.net." = "Nici o conecțiune cu box.net.";
+"Relink" = "Relink";
+"You have logged out of your box.net account." = "Esti deconectat din contul box.net.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Sesiunea Dropbox a sfârșit";
+"Your dropbox account has been unlinked." = "Contul tău de dropbox a fost deconectat.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Server WebDAV securizat";
+"Server Address" = "Adresa Serverului";
+"Login" = "Logare";
+"Enter user and password:" = "Introdu userul si parola:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ folositi";
+/* message while updating file date on server */
+"Updating date of %@..." = "Se actualizeaza data fisierului %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Server invalid";
+"Server does not support required WebDAV options." = "Serverul nu este compatibil cu setarile WebDAV.";
+"Directory listing has wrong format." = "Listarea folderelor este intr-un format gresit.";
+"Modification date update failed." = "Modificarea datei nu a fost realizata cu succes.";
+"Bad HTTP Request." = "Cerere HTTP Invalida.";
+"Unauthorized Access." = "Acces neautorizat.";
+"Access forbidden." = "Acces interzis.";
+"Object not found on server." = "Obiectul nu a fost gasit pe server.";
+"Access method not allowed." = "Metoda de acces nu este permisa.";
+"Access conflict." = "Accesul a intampinat un conflic.";
+"Internal Server Error." = "Eroare de server interna.";
+"Functionality not implemented on server." = "Functionalitatea nu a fost implementata pe server.";
+"Insufficient storage on server." = "Spatiul de stocare de pe server este insuficient.";
+"HTTP error %d." = "Eroare HTTP %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Accepta Certificatul";
+"Accept" = "Accept";
+"Import" = "Importa";
+"Certificate Imported" = "Certificatul a fost importat";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Certificatul '%@' pentru acest webpage este invalid sau necunoscut Apasa Accept pentru a te conecta oricum.";
+"The certificate '%@' got successfully imported." = "Certificatul '%@' a fost importat cu succes.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Certificatul '%@' pentru acest webpage este invalid sau necunoscut Apasa Accept pentru a te conecta oricum.";
+"The import of certificate '%@' failed." = "Importatra certificatului '%@' a fost eronata.";
+/* Hex Editor Strings */
+"Hex Editor" = "Editor Hex";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Fisierul a fost modificat";
+"The file got changed. Do you want to save the changes?" = "Fisierul a fost modificat. Vrei sa salvezi fisierul?";
+"Yes" = "Da";
+"No" = "Nu";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Introdu byteul index decimal pentru afisarea (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Introdu byteul index hexadecimal pentru afisarea (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Byteul index %llX nu exista. Te rog alege o valoare intre %llX si %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Byteul index %lld nu exista. Te rog alege o valoare intre %lld si %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Byteul index '%@' nu este valid. Te rog alege o valoare intre %llX si %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Byteul index '%@' nu este valid. Te rog alege o valoare intre %lld si %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Impartit";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Folderele deasupra";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "Editor SQLite3";
+/* title for listing of database tables */
+"Tables" = "Tabele";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "Starile SQL-ului";
+"Failed to fetch SQL result" = "Nu s-a putut incarca raspunsul SQL";
+"Failed to fetch table names" = "Nu s-au putut incarca numele tabelelot";
+"Failed to prepare SQL statement" = "Nu s-au putut pregatii starile SQL-ului";
+"Failed to prepare for fetching table names" = "Nu s-au putut pregatii numele tabelelor";
+"Language" = "Limb\U0103";

@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="utf-8"?>	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">	
+<head>	
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />	
+<meta http-equiv="content-style-type" content="text/css" />	
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="../../common/index.css" />
+<title>変更履歴</title>
+</head>
+<body >
+<div id="content">
+<ul class="table">
+
+<li class="tableitem">
+<h2>2.2.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support to set the user interface language in iFile's preferences. This setting takes effect after restarting the application.</li>
+    <li>Added support for shortcuts on iPhone as on iPad (via bookmark button).</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>iFile shows now the application names again under iOS 8 in /var/mobile/Containers/Bundles/Application.</li>
+    <li>Fixed that external viewers are listed again under iOS 8.</li>
+    <li>Fixed crash when an image got saved to the camera roll under iOS 8.</li>
+    <li>Fixed that the pop-up menu in file browser did not hide when tapping outside of the pop-up menu.</li>
+    <li>Added Hebrew localization (previously not added).</li>
+    <li>iFile does not crash anymore after it got backgrounded: It stays 3 minutes in background before it exits.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.1.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added Hebrew localization.</li>
+    <li>Added iPhone 6 and iPhone 6 Plus support.</li>
+    <li>Added icons for iPhone 6 Plus.</li>
+    <li>During search in file list the search magnifying glass icon gets replaced with an activity indicator.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed problem in not listing some external viewers, e.g. Whatsapp, Dropbox, iMovie etc.</li>
+    <li>Fixed issue that Bluetooth transfers via GameKit were not working on iOS 7+ anymore.</li>
+    <li>Fixed issue that stored URL from a 2nd tab will be stored back to 1st tab.</li>
+    <li>Fixed that status bar was black on black in Audio Player.</li>
+    <li>Fixed bug in Box SDK that lead to crash on launch on iOS 8.</li>
+    <li>Updated "Pull down to refresh" arrow with iOS 7 styled one on iOS 7 and later.</li>
+    <li>Fixed that integer numbers containing a decimal indicator (, or .) got interpreted as floats in Property List Editor number fields.</li>
+    <li></li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.0.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed broken Open with... in Attributes Editor.</li>
+    <li>Corrected wrong iFile icon on iOS6 and below.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<<li class="tableitem">
+<h2>2.0.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Enhanced iFile to be compatible with iOS 7 including new icon, buttons, and iOS 7 look and feel.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed crash when used tried to enter a PayPal registration email address (only required for people who did not buy in Cydia Store).</li>
+    <li>iFile could not be terminated on iOS 7 via the App Switcher. This could only be fixed by always exiting it when you background it. However, it will stay active for another 180 seconds after backgrounding. It does not quit if you play music in background.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+li class="tableitem">
+<h2>1.9.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed crash when saving a modified file in Hex Editor.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.9.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added WebDAV client with support for HTTP and HTTPS.</li>
+    <li>Added Bonjour browser to find FTP, WebDAV and WebDAVS servers.</li>
+    <li>Added Hex Editor. It can be opened via Open with... in a file's Attributes Editor. It supports search, go to index, copy, cut, paste, delete, and undo/redo. Supported Gestures:
+      <ul>
+        <li>Tap on line numbers changes between hexadecimal and decimal representation.</li>
+        <li>Tap on hex/string fields sets cursor. Second tap on same position shows edit menu.</li>
+        <li>Double tap on hex/string fields selects a single byte/character.</li>
+        <li>Tripple tap on hex/string fields selects a complete line.</li>
+        <li>Long-press on hex/string fields lets you move the cursor around showing a magnifying glass.</li>
+        <li>Pinch changes the font size.</li>
+      </ul>
+    </li>
+    <li>Added SQLite3 Editor for files with extension sqlite, sqlite3, sqlitedb, db. It allows to edit integer, float and string fields. Blob fields are not editable.</li>
+    <li>Added new preferences option to have folders to be at top of file list or sorted the same way as files (only sort by size is an exception to this as folders don't have a size associated with them).</li>
+    <li>Added Shared section in shortcuts on iPad to contain remote file system shortcuts, e.g box.net and Dropbox.</li>
+    <li>Enabled mounting of MSDOS formatted disk images (DMG) and also mounting of ISO disk images.</li>
+    <li>Import of songs and videos to iPod Library is now a free feature requiring the Gremlin Framework package to be installed.</li>
+    <li>Bulgarian language support added (provided by Kristiyan Tanev).</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected download progress for download of a single file from an FTP server.</li>
+    <li>Corrected double loading of directory contents on iPhone after clearing a remote server cache.</li>
+    <li>Fixes to WebDAV server to better play with new iFile WebDAV client.</li>
+    <li>Added username and password form in case loading an FTP directory failed because of failed authentication.</li>
+    <li>Fixed failing directory creation during hierarchical upload to box.net.</li>
+    <li>Fixed that songlist and play options in Audio Player were ill formatted when Audio Player got opened in landscape mode on iPad.</li>
+    <li>Fixed that canceling downloads from Dropbox did just close the HUD, but did not cancel the operation.</li>
+    <li>Corrected that taps on the play options in Audio Player caused the play options view to be hidden.</li>
+    <li>Corrected illegal character in Czech localization.</li>
+    <li>Fixed that Dropbox-to-Dropbox move/copy did not work (also applies to renaming of files) because of changed Dropbox API.</li>
+    <li>Fixed bug that lead to not showing the viewer chooser for files that don't have a supported mime-type.</li>
+    <li>Fixed crash in Audio Player in case of certain invalid ID3 data in a song.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.8.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected iFile binary for old iDevices (armv6) to be identical to 1.7.2-2 instead of 1.7.0-2.</li>
+    <li>Corrected that iFile did not run as super user on old iDevices (armv6).</li>
+    <li>Updated Hungarian localization and HTML files.</li>
+    <li>Fixed crash on iOS 5.1 when linking to Dropbox (happened when Dropbox app was not installed).</li>
+    <li>Fixed that iFile did not remember that it got already linked to a box account.</li>
+    <li>Fixed that option bar got hidden in AudioPlayer when the user tapped on repeat mode button, shuffle button or iPod Library Import button.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.8.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Updated iFile for iPhone 5 (startup image) and iOS 6 support in general.</li>
+    <li>Support added for accessing box.net as remote file system.</li>
+    <li>Support for remote browsing of Toshiba FlashAir SDCards added as remote file system (browsing and copying supported).</li>
+    <li>Upgraded Dropbox SDK Version to 1.3.2 - mandatory to allow authentication beyond 30-Nov-2012.</li>
+    <li>Removed trash icon for closing tabs and added close button instead (similiar to Safari).</li>
+    <li>Added xm file extension to be opened in iFile's Text Editor by default.</li>
+    <li>Switched compiler from GCC to CLANG.</li>
+    <li>The fixes and enhancements of this release will only apply to armv7 based iOS devices, i.e. following iOS devices:
+        <ul>
+            <li>All iPads running iOS 4 or later.</li>
+            <li>All iPhones starting with iPhone 3GS or later.</li>
+            <li>All iPod touch starting with iPod touch (3rd gen.) or later.</li>
+        </ul>
+    </li>
+    <li>Added background images to file browser to ease identification of box, Dropbox and FTP tabs.</li>
+    <li>Added labels for file system type and path to tab chooser.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed crash in Registration Status dialog after entering it for 2nd time.</li>
+    <li>Corrected reflection of browser images in tab chooser.</li>
+    <li>Crash fixed in Zip Viewer.</li>
+    <li>Fixed deadlock during startup of iFile when a password needed to be entered for an FTP server, but it was blocked by the startup GUI.</li>
+    <li>Fixed registration failures on iOS 6</li>
+    <li>Fixed that browser did not refresh after file renaming on an iPad.</li>
+    <li>Fixed various issues with bookmarking of files on iPad.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.2-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed wrong field height in Preferences on iPad.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.2-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>iFile will now show a movie icon for avi files.</li>
+    <li>iFile's web server shows now also App names and song titles instead of cryptic paths when these options are enabled in iFile's preferences.</li>
+    <li>Updated iFile's web server's favicon.</li>
+    <li>Added support for automatically uploading text files edited on an FTP server after a save operation in Text Editor.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Explicitly setting of black background for tab chooser.</li>
+    <li>Avoided dead lock when password entry for FTP server was required, but GUI was blocked by glass pane.</li>
+    <li>Fixed that navigation bar did not get hidden during search on FTP server and Dropbox.</li>
+    <li>Fixed that search on FTP server and Dropbox did not show matching directories.</li>
+    <li>Added workaround to avoid crashes during directory listings on FTP servers not supporting UTF8 natively. Files with special characters on such servers list now correctly, but cannot be renamed, moved or copied.</li>
+    <li>Fixed broken creation of symbolic links via 'New' form.</li>
+    <li>Fixed GUI glitch of too large field for buying an iFile license.</li>
+    <li>Fixed empty preferences after returning from About iFile.</li>
+    <li>Fixed that hierarchical search always searched also in hidden folders independent of iFile's preferences setting.</li>
+    <li>Fixed that for cached files from an FTP server the list of file viewers was incorrectly displayed.</li>
+    <li>Fixed that an cancelled FTP file transfer did not get interrupted.</li>
+    <li>Fixed that file name of the ZIP got shortened when it contained multiple dots in its name.</li>
+    <li>Fixed that deletion of multiple files on FTP server stopped after first file deletion.</li>
+    <li>Fixed that a select all in search results did not make the toolbar visible again.</li>
+    <li>Corrected behavior when editing attributes of a file in search results: After pressing done in Attributes Editor, the user returns to the current directory instead of the search results.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.1-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support for loading MobileSubstrate extension SwipeShiftCaret.dylib.</li>
+    <li>Added support for hiding dot files on QNAP NAS (start with :2e). </li>
+    <li>Vietnamese Localization added.</li>
+    <li>preinst script included in iFile package that kills iFile before installation in Cydia.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected reformatted preferences view when returning from sub-views.</li>
+    <li>Corrected handling of empty file name when creating new file/folder/link to avoid crash.</li>
+    <li>Corrected handling special characters in user names in FTP URL's, e.g. email addresses.</li>
+    <li>Corrected that Attributes Editor did not close after FTP/Dropbox file renaming (iPhone).</li>
+    <li>Corrected that directory listing did not get updated after FTP/Dropbox file renaming (iPad).</li>
+    <li>Corrected reading of preferences so that they don't get overwritten by defaults (iOS 4.x).</li>
+    <li>Corrected shortened directory listings on FTP servers in case of large number of files./li>
+    <li>Corrected bug that not all files of large FTP directories did get copied/moved to local file system.</li>
+    <li>Fixed display issue when user rotated the iDevice in a viewer and then returned to file browser.</li>
+    <li>Fixed crash while storing a text file in Dropbox from Text Editor.</li>
+    <li>Corrected too small display of PDF's on 3rd generation iPad.</li>
+    <li>Corrected Image and PDF Viewer to display the images and PDF's fixed centered (iOS 5.x).</li>
+    <li>Corrected handling of copying between remote and local file systems in case of using just a single tab.</li>
+    <li>Fixed crash in Preferences->Registration Status.</li>
+    <li>Fixed crash when deleting files.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.0-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected Polish and Japanese localizations.</li>
+    <li>Included Hungarian and European Portuguese localizations in package.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.0-1 - バグフィックスリリース (iOS 4.x 以降)</h2>
+<ul class="list">
+<li>機能強化
+  <ul>
+    <li>ブックマーク使用時に新規タブを開くオプションを追加しました。</li>
+    <li>ローカルおよびリモートファイルのハンドリングを改良しました。</li>
+    <li>FTPクライアント機能のサポート(コピー、カット、ペースト、リネーム、デリート)。</li>
+    <li>Dropbox実装の見直しを行いました。</li>
+    <li>Bluetoothを使用したiFileからiFileへのファイル転送時、デバイスがロックされないようにしました。</li>
+    <li>拡張子によるソートおよびグループ化の場合にセクションインデックスを追加しました。</li>
+    <li>iFileの環境設定を再構築しました。</li>
+    <li>AirBlue共有をサポートしました。</li>
+    <li>iPadのCamera Connection Kitを使って接続されたHDDを自動マウントするようにしました(MSDOS and HFS file systems)。</li>
+    <li>ハンガリー語およびポルトガル語に対応しました。</li>
+  </ul>
+</li>
+<li>修正
+  <ul>
+    <li>ドイツ語と中国語のローカライズを修正しました。</li>
+    <li>Webサーバーでサイズの大きなファイルの取り扱いを修正しました。</li>
+    <li>環境設定での不正な値による潜在的なクラッシュを避けるため、厳密なチェックをするようにしました。</li>
+    <li>iPadでフォルダの属性を変更時にクラッシュする不具合を修正しました。</li>
+    <li>フランス語のローカライズを更新しました。</li>
+    <li>iOS 5.1のバグに起因するWebビューアーのクラッシュを修正しました。</li>
+    <li>マウントしたフラッシュデバイスで.と..を表示しないようにしました。</li>
+    <li>iOS 5.xでマウントされたディスクイメージが壊れる不具合を修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-3 - バグフィックスリリース (iOS 4.x 以降)</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>FireFox 8の不正なページのコンテンツヘッダーを読み込むときのWebサーバーの不具合を修正しました。</li>
+    <li>iPadからDropBoxのファイルをリネームしようとしたときの不具合を修正しました。</li>
+    <li>DropBoxのSDKのバージョンを0.3に更新しました。</li>
+    <li>韓国語のfeatures.htmlを追加しました。</li>
+    <li>iPadをランドスケープにした時、中国語の「引っ張って更新」のラベルが小さすぎる問題を修正しました。</li>
+    <li>登録状況ダイアログのフィールドのサイズを修正しました。</li>
+    <li>テキストエディタからDropBoxへ保存する際のHUDの「完了」ボタンの位置を修正しました。</li>
+    <li>ファイル名に特殊文字が含まれている時に、テキストエディタからDropBoxへの保存が失敗する問題を修正しました。</li>
+    <li>iOS 5のサポートメールで、送信/キャンセルボタンの処理を修正しました。</li>
+    <li>DropBoxからダウンロードした音楽ファイルをオーディオプレイヤーで再生できなかったのを修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-2 - バグフィックスリリース (iOS 4.x 以降)</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>フランス語の「写真はカメラロールに追加されました。」を修正しました。</li>
+    <li>Webビューアーのデフォルトmime-typesとしてimage/jpeg, image/bmp, image/png, image/tiff,image/gifを追加しました。</li>
+    <li>iPadのオーディオプレイヤーでネイティブ解像度の「アートワークなし」画像を追加しました。</li>
+    <li>ファイルブラウザ下部にある &quot;MB 空き&quot; をローカライズしました。</li>
+    <li>@2xの画像ファイルが正しく表示されなかったのを修正しました。</li>
+    <li>iFileを起動するたびにレジストレーションが読み込まれるのを修正しました。</li>
+    <li>ジャンルが登録されていないmp3ファイルが、オーディオプレイヤーをクラッシュさせる問題を修正しました。</li>
+    <li></li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-1 - バグフィックス&amp;追加リリース (iOS 4.x以降)</h2>
+<ul class="list">
+<li>機能強化
+  <ul>
+    <li>DMG (Apple Disk Image) をマウントできるようにしました。</li>
+    <li>DropBoxのファイルやフォルダがローカルにキャッシュされている場合、緑色で表示されるようになりました。</li>
+    <li>DropBoxがiFileにリンクされていれば、タブ追加ダイアログからDropBoxを選択した場合自動的に表示されます。</li>
+    <li>mp3のIDタグに埋め込まれたアートワークをサポートしました。</li>
+    <li>ファイル属性エディット時、MD5チェックサムをコピーできるようになりました。</li>
+    <li>ファイル属性エディット時、DropBoxの共有リンクをコピーできるようになりました。</li>
+    <li>DropBoxからのダウンロードをキャンセルできるようになりました。</li>
+    <li>サポートメールにおいて、問題が入力されていないメールが送信されないようにしました。</li>
+    <li>画像ビューアーのタイトルバーに画像サイズを表示するようにしました。</li>
+  </ul>
+</li>
+<li>修正
+  <ul>
+    <li>DropBox上のファイルの属性編集時に完了ボタンが動作しなかったのを修正。</li>
+    <li>iOS 4.3.xでカスタムキーボードをサポートするために必要なKeybordFix.dylibを読み込む時にタイプミスの問題があったのを修正しました。</li>
+    <li>いくつかのローカライズで、「引っ張って更新」のフォントサイズや矢印の位置に問題があったのを修正しました。</li>
+    <li>DropBoxのファイルで「…で開く」が使えるようになりました。</li>
+    <li>ファイル属性エディタ、テキストエディタ、plistエディタにおいてファイルを変更した後、ファイルリストが更新され、最上部にスクロールしてしまう問題を修正しました。</li>
+    <li>環境設定での間違った値によるクラッシュを修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.0-1 - バグフィックス&amp;追加リリース (iOS 4.x以降)</h2>
+<ul class="list">
+<li>機能強化
+  <ul>
+    <li>ファイルブラウザ
+      <ul>
+        <li>DropBoxをサポートしました(登録ユーザーのみ):
+          <ul>
+            <li>DropBoxからDropBox、DropBoxからローカル、ローカルからDropBoxに移動/コピー</li>
+            <li>DropBox上に新規フォルダの作成</li>
+            <li>DropBox上のファイル、フォルダの名前変更</li>
+            <li>サムネイルのサポート (32x32 および 64x64 (retina) )</li>
+            <li>ファイルのダウンロードとサムネイルのローカルキャッシュ</li>
+            <li>環境設定からローカルキャッシュの削除</li>
+            <li>環境設定からDropBoxへのリンク/解除</li>
+            <li>DropBoxタブ上でホームアイコンをタップすると、DropBoxのルートフォルダへ移動します。</li>
+          </ul>
+        </li>
+        <li>ファイルブラウザに&quot;引っ張って更新&quot;機能を追加(検索バーより上)</li>
+        <li>ファイルブラウザ下部に、現在のフォルダのファイル数と空き容量を表示するようにしました(ローカル、DropBoxとも)。</li>
+        <li>ファイルを長押しすることでフォルダ内の全ファイルを選択できるようになりました(非編集モードでも)。</li>
+      </ul>
+    </li>
+    <li>ファイル属性エディタ
+      <ul>
+        <li>曲やビデオをiPodライブラリに追加できるようになりました(CelesteかYourTubeを購入している場合のみ)。</li>
+      </ul>
+    </li>
+    <li>画像ビューアー
+      <ul>
+        <li>画像の削除時に確認をするようになりました。</li>
+      </ul>
+    </li>
+    <li>Webビューアー
+      <ul>
+        <li>Webアーカイブをサポート</li>
+      </ul>
+    </li>
+    <li>オーディオ&amp;ビデオプレイヤー
+      <ul>
+        <li>iTunesで購入した音楽/ビデオをサポート</li>
+      </ul>
+    </li>
+    <li>環境設定
+      <ul>
+        <li>パスを記憶する環境設定を追加しました。ファイル終了時にパスを覚えて次回起動時に復元します。</li>
+        <li>&quot;ゴミ箱を使用&quot; オプションをデフォルトでオンにしました。</li>
+      </ul>
+    </li>
+    <li>ローカライズ
+      <ul>
+        <li>ルーマニア語の変更履歴を更新しました。</li>
+        <li>ポーランド語を更新しました。</li>
+        <li>韓国語に対応しました。</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>修正
+  <ul>
+    <li>iOS 4.3.xでカスタムキーボードを使えるようにKeybordFix.dylibを読み込みします。</li>
+    <li>iFileの依存関係にdiskdev-cmdsパッケージを追加しました。これによりCamera Connection Kit経由でiPadに接続されたSDカード/USBメモリをアンマウントできるようになります。</li>
+    <li>ファイル属性エディタで&quot;内包している項目に適用&quot;をタップした時、&quot;…で開く&quot;ダイアログが開いてしまう問題を修正。</li>
+    <li>&quot;スワイプで削除&quot;がアクティブな情愛で編集ボタンを押したときに表示が乱れるのを修正しました。</li>
+    <li>iPhoneを回転した時、リロードされ、選択された項目が選択解除されてしまう問題を修正しました。</li>
+    <li>シンボリックリンクのリンク元のファイルが削除された場合、ファイルブラウザ上で非表示になってしまうのを修正しました。</li>
+    <li>about.html内の&quot;cydia:///package/&quot;を&quot;cydia://package/&quot;に修正しました。</li>
+    <li>Gremlin 2がインストールされていない場合、ファイル属性エディタでビデオをiPodにエクスポートするボタンを無効にします。</li>
+    <li>サポートメールをキャンセルした場合、確認ダイアログを出さないようにしました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-4 - バグフィックスリリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>パスにスペースを含むフォルダを作成できない問題を修正しました。</li>
+    <li>いくつかのユーザーにっとってまだ消えていない、回転し続けるホイールの問題を修正しました。</li>
+    <li>+ボタンをタップしてファイル/フォルダ/リンク作成を4回行うとクラッシュするのを修正しました。</li>
+    <li>プロパティリストで文字列フィールドを変更しても保存されないバグを修正しました。</li>
+    <li>プロパティリストエディタやテキストビューアでのファイル変更後、ファイルブラウザでその変更が更新されなかったのを修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-3 - バグフィックスリリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>存在しないフォルダがiFileの設定で参照された場合、永遠にホイールが回転する問題を修正しました。</li>
+    <li>ifile:///&lt;path&gt;のようなURLが正しく機能していなかったのを修正しました。</li>
+    <li>一部のユーザーの登録がうまくいかない問題を修正しました。</li>
+    <li>アーカイブの解凍やインストーラの実行後、ファイルブラウザが更新されていなかったのを修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-2 - バグフィックスリリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>iFile起動時に表示するフォルダが存在しなかった場合、ホイールが永遠に回転してしまう問題を修正しました。</li>
+    <li>iFileからiFileへファイル転送する時の送り側がクラッシュすることがあるのを修正しました。</li>
+    <li>全選択した後、ツールバーのボタンが機能していなかったのを修正しました。</li>
+    <li>階層下の検索をした後、検索結果をタップした時にクラッシュするのを修正しました。</li>
+    <li>不明なファイルタイプのファイルを4回開こうとした時にクラッシュするのを修正しました。</li>
+    <li>URL ifile:///&lt;path&gt;を経由してファイルを開こうとしても機能していなかったのを修正しました。これはAttachment SaverとSafari Download Managerの問題でした。</li>
+    <li>タブセレクタでタブを移動する時にカバーフローのアニメーションが遅くなってしまうのを修正しました。</li>
+    <li>タブセレクタのカバーフローにアンチエイリアシングを適用しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>特殊文字を含むファイルがあるとWebサーバーのインデックスページでリンク切れを起こす問題を修正しました。</li>
+    <li>中国語のローカライズを更新しました。</li>
+  </ul>
+</li>
+<li>機能強化
+  <ul>
+    <li>libstatusbar.dylibとSwipeToMoveCursor.dylibの読み込みを有効にしました。</li>
+    <li>ルーマニア語に対応しました。</li>
+    <li>Celeste/Gremlin 統合
+      <ul>
+        <li>Celeste (Bluetooth)を使ったファイル送信に対応しました。</li>
+        <li>Gremlin for @cocoanutappsを使ったiPodライブラリへの曲の追加に対応しました。 ファイル属性エディタとミュージックビューアーから追加できます。</li>
+        <li>iBluenovaのサポートを中止しました(iOS 4.x以降)。</li>
+      </ul>
+    </li>
+    <li>ファイルブラウザ
+      <ul>
+        <li>ファイル属性エディタにMD5チェックサムを追加しました。</li>
+        <li>起動時の初期フォルダの内容取得をバックグラウンドで行うようにしました。</li>
+        <li>起動時の初期フォルダを読み込んでいる最中は画面を薄暗くするようにしました。</li>
+        <li>編集モードのアクションボタンをクリップボードのボタンイメージに変更しました。</li>
+        <li>ファイルブラウザのツールバーに新しいボタンを追加し、8つまでのタブをサポートしました。</li>
+        <li>カバーフローによるタブセレクタを追加しました。ここでタブの追加/削除が行えます。</li>
+        <li>2本指でのスワイプでタブの移動ができるようになりました。</li>
+        <li>ファイルブラウザのツールバーから情報ボタンを削除しました。</li>
+        <li>項目長押しによる全選択/選択解除、コピー/カット/ペースト/リンクが素早く行えるようになりました。</li>
+        <li>ダブルタップによる全選択の動作を削除しました。</li>
+      </ul>
+    </li>
+    <li>環境設定
+      <ul>
+        <li>&quot;終了時に保存&quot;オプションを削除しました。</li>
+        <li>&quot;iFileについて&quot;と&quot;作者へ連絡&quot;を追加しました。</li>
+        <li>GUIのカラー設定を追加しました(ナビゲーションバー、ツールバー)。</li>
+        <li>デフォルトのアイコンテーマをLeopardにしました。</li>
+      </ul>
+    </li>
+    <li>プロパティリストエディタ
+      <ul>
+        <li>複数行のセル内の空きスペースを避けるために、セルの書式を修正しました。</li>
+        <li>文字列編集時のフォントを大きくしました。</li>
+      </ul>
+    </li>
+    <li>ZIPビューアー
+      <ul>
+        <li>パスワード保護されたZIPファイルをサポートしました。</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.2-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>Bluetooth経由でフォルダを転送した時にクラッシュする不具合を修正しました。</li>
+    <li>プロパティリストエディタの検索バーを実装しました。</li>
+    <li>階層下でのファイル検索中に過度にメモリを消費するのを修正しました。</li>
+    <li>WebビューアーとテキストビューアーにSVGファイルを関連付けしました(image/svg+xml mime-type)。</li>
+    <li>画像ビューアーに削除ボタンを追加しました。</li>
+    <li>プロパティリストエディタの文字列フィールドに複数行の値を許可するよう変更しました。</li>
+    <li>ファイル属性エディタのパスフィールドからフォルダに移動できるようにしました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-3 - バグフィックスリリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>PDFビューアーで、最後のページにスワイプすることができなかった不具合を修正しました。</li>
+    <li>iPadの画像およびPDFビューアーで、印刷フォーム、作成フォーム、ブックマークが表示されている時、ナビゲーションツールバーが隠れてしまう不具合を修正しました。</li>
+    <li>ビデオビューアーで無効な形式のファイルを読み込もうとした時のより良いエラーを実装しました。</li>
+    <li>iFileがバックグラウンドで動いておらず、ifile:///&lt;path&gt; URL経由で (Safari Download Managerなどから) ファイルビューアーが開こうとした時、選択リストが閉じてしまう不具合を修正しました。</li>
+    <li>2本指多ぶるタップによる画像およびPDFビューアーのズームアウト動作を修正しました。</li>
+    <li>オーディオプレイヤーのリピート/シャッフルオプションの可視性を強化しました(アルバムカバーをタップして表示)。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-2 - バグフィックスリリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+    <li>ファイル属性エディタでファイル名を変更した後に完了ボタンを押してもファイル属性エディタが閉じないバグを修正しました。</li>
+    <li>中国語のローカライズを更新しました(変更履歴、機能、紹介ページ)。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>機能強化
+  <ul>
+    <li>PDFビューアーで2本指タップによるズームアウトを追加しました。</li>
+    <li>ポルトガル語、チェコ語、アラビア語のローカライズを更新しました。</li>
+    <li>ポーランド語の変更履歴を更新しました。</li>
+  </ul>
+</li>
+<li>修正
+  <ul>
+    <li>iPadのポートレートモードでサイドボタンを押すとクラッシュする問題を修正しました。</li>
+    <li>フラッシュドライブ上のファイルの属性が表示されず、編集もできなかったバグを修正しました(iOSのバグに起因する)。</li>
+    <li>スワイプでファイル削除した後、ゴミ箱アイコンが無効の状態で残る不具合を修正しました。</li>
+    <li>&quot;…で開く&quot;を使って画像を開く時の処理を修正しました。</li>
+    <li>PDFおよび画像の拡大倍率を最大にしました。</li>
+    <li>パスワード保護されたrarファイルの内容を表示した時にクラッシュすることがあるのを修正しました。</li>
+    <li>PDFビューアーがクラッシュする不具合を修正しました.</li>
+    <li>PDFおよび画像ビューアーで同じファイルを3、4回開いた時にクラッシュする問題を修正しました。</li>
+    <li>テイストエディタ使用時、ランドスケープモードで検索バーを表示する時の問題を修正しました。</li>
+    <li>Leopardアイコンテーマのmpeg@2.pngをmpeg@2x.pngに修正しました。</li>
+    <li>MIME-type application/x-plistのファイルについて、プロパティリストエディタに加えテキストビューアーでも開けるようにしました。</li>
+    <li>プロパティリストエディタ
+      <ul>
+        <li>大規模な辞書や配列のパフォーマンスが向上しました。</li>
+        <li>空の文字列を含むファイルを保存した時の不具合を修正しました。</li>
+        <li>キーボードが表示されたまま編集を完了した場合にその変更が保存されなかった不具合を修正しました。</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.0-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>このリリースで追加された機能はiOS 4.0以降が必要になりますので注意してください。</li>
+<li>このリリースでは、中国語、トルコ語、ウクライナ語、スペイン語、ロシア語、スロバキア語、ポーランド語、日本語、イタリア語、ギリシャ語、フランス語、ドイツ語、フィンランド語、クロアチア語、オランダ語、英語のためにのみ更新されます。その他の言語ではマイナーリリースとなります。</li>
+<li>機能強化と修正
+  <ul>
+	<li>libactivator.dylibを読み込むようにしました。</li>
+	<li>中国語と英語のタイプミスを修正しました。</li>
+	<li>削除しようとするファイルと同じパスを持つファイルがすでにゴミ箱に入っていた場合、それを削除してからゴミ箱に移動されます。</li>
+	<li>新しいGUIをもつプロパティリストエディタを追加しました。</li>
+	<li>パスワード保護されたzipおよびrarファイルの解凍、閲覧に対応しました。</li>
+	<li>どの向きでも画面が回転するようにしました。</li>
+	<li>USBハブなどを使用してUSBメモリを同時4つまでマウントできるようになりました。</li>
+	<li>編集モード時のファイルブラウザでボイスオーバーの機能を強化しました。</li>
+	<li>サムネイルを追加するサイズの上限を設定できるようにしました。</li>
+	<li>Retinaディスプレイに対応しました 
+      <ul>
+	    <li>画像のサムネイル</li>
+	    <li>アイコンテーマ</li>
+	    <li>GUIのボタン</li>
+      </ul>
+    </li>
+	<li>画像ビューアー
+      <ul>
+        <li>スワイプ操作を追加しました。</li>
+        <li>ダブルタップによるズームを追加しました。</li>
+        <li>AirPrintをサポートしました (iOS 4.2.1以降)。</li>
+    	<li>以下のrawファイルをサポートしました:
+          <ul>
+	        <li>Canon: crw, cr2</li>
+	        <li>Epson: erf</li>
+	        <li>Fuji: raf</li>
+	        <li>Hasselblad: 3fr</li>
+	        <li>Kodak: kdc</li>
+	        <li>Mamiya: mef</li>
+	        <li>Minolta: mrw</li>
+	        <li>Nikon: nrw, nef</li>
+	        <li>Olympus: orf</li>
+	        <li>Panasonic: rw2</li>
+	        <li>Pentax: pef</li>
+	        <li>Sony: arw, sr2</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>PDFビューアー
+      <ul>
+        <li>スワイプ操作を追加しました。</li>
+        <li>ダブルタップによるズームを追加しました。</li>
+        <li>AirPrintをサポートしました (iOS 4.2.1以降)。</li>
+      </ul>
+    </li>
+    <li>テキストエディタ
+      <ul>
+	    <li>nib、plistおよびstringsファイルをプロパティリストとして認識するようになりました。</li>
+      </ul>
+    </li>
+    <li>ビデオビューアー
+      <ul>
+	    <li>AirPlayをサポートしました (iOS 4.2.1以降)。</li>
+	    <li>3g2および3gpp2をサポートしました。</li>
+	    <li>TV出力がおかしくなる不具合を修正しました。</li>
+      </ul>
+    </li>
+	<li>Webビューアー
+      <ul>
+        <li>AirPrintをサポートしました (iOS 4.2.1以降)。</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.2-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>機能強化と修正
+  <ul>
+	<li>チェコ語ローカライズを更新しました。</li>
+	<li>Application Supportフォルダを作成するようにしました。</li>
+	<li>ユーザーRootのアドレス帳のシンボリックリンクを作成できるようにしました。</li>
+	<li>iFileがバックグラウンドにある時のファイルのオープンをサポートしました。</li>
+	<li>iPodのコントロール、ヘッドセット操作(リモートコントロールイベントの処理)をサポートしました。前の曲、次の曲、再生、一時停止、停止が行えます。</li>
+	<li>バックグラウンド時、オーディオプレイヤーが次の曲を再生しない問題を修正しました。</li>
+	<li>iPadでショートカットを削除する時にクラッシュする問題を修正しました。</li>
+	<li>iOS 4.xが動作するiPhone 3Gでのアイコンを更新しました。</li>
+	<li>ファイルブラウザセルのアクセシビリティサポートを追加しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.1-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>機能強化
+  <ul>
+	<li>Web/WebDAVサーバーのダイジェスト認証を実装しました(Windows 7との互換)。</li>
+	<li>iOS 4以降のiPhone 4のための新しいアイコンを用意しました(Appアイコンやスポットライトの小さなアイコン)。</li>
+	<li>外部ビューアーを有効/無効にする設定項目を設けました。</li>
+  </ul>
+</li>
+<li>修正  
+  <ul>
+	<li>Webサーバー、環境設定が真っ暗になってしまうのを修正しました。</li>
+	<li>オーディオプレイヤーで、曲やプレイリストにアーティスト名が設定されていない時にクラッシュする不具合を修正しました。</li>
+	<li>オーディオプレイヤーで、非常に長い曲の時間が正しく表示されるように残り時間表示のスペースを調整しました。</li>
+	<li>ZIPファイル作成時やPDFビューアーで、アラートがキーボードの後に隠れないようにしました。</li>
+	<li>テキストエディタで編集モード中に検索するとクラッシュする問題を修正しました。</li>
+	<li>シンボリックリンク作成時にクラッシュする問題を修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.0-2 - バグフィックスリリース</h2>
+<ul class="list">
+<li>修正  
+  <ul>
+	<li>ファイル属性エディタで、&quot;完成&frasl;作成&quot;を押してもテキストフィールドの値が適用されない不具合を修正しました。</li>
+	<li>アンマウントしようとしているフラッシュドライブからファイルを開こうとした時の挙動を修正、すぐにアンマウントされるようにしました。</li>
+	<li>サムネイル作成時にクラッシュする問題を修正しました。</li>
+	<li>サムネイルの背景色を修正しました。</li>
+	<li>ポーランド語のローカライズのマイナーな修正。</li>
+	<li>添付ファイル付きのメールを作成する際、連絡先から受信者が見つけられない不具合を修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.0-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>iOS 3.2およびiOS 4.0でのファイル共有をサポート
+  <ul>
+	<li>メールの添付ファイルなど、他のアプリからさまざまなファイルを開けるようになりました。iFileは多くのファイルフォーマットに対応した外部ビューアーになります。</li>
+	<li>Pages, Numbers, Keynote, Air Sharingなどのファイルを開けるようになりました。</li>
+  </ul>
+</li>
+<li>iPad機能拡張
+  <ul>
+	<li>Camera Connection Kitを介して接続したUSBメモリやSDカードのマウント&frasl;アンマウントを含む、ショートカットとブックマークをサイドバーに追加しました。</li>
+	<li>デフォルトのGUIのカラーをグレーに変更しました。</li>
+	<li>ポップアップビューが出ている状態でボタンを押した場合、ポップアップビューを閉じてからボタンアクションを行うように変更しました。</li>
+	<li>設定を変更した時にすぐに変更がファイルブラウザに変更が反映されるように環境設定の動作を修正しました。</li>
+  </ul>
+</li>
+<li>全般的な機能強化
+  <ul>
+	<li>プログレスHUBがデバイスの回転に対応しました。</li>
+	<li>サムネイルのスクロールがスムーズになるように、サムネイルの作成をバックグラウンドスレッドで行うようにしました。</li>
+  </ul>
+</li>
+<li>修正  
+  <ul>
+	<li>iOS 4で起動時にクラッシュする問題を修正しました。</li>
+	<li>iOS 4でWebサーバーが壊れる問題を修正しました。</li>
+	<li>iPad上でファイル&frasl;フォルダ&frasl;リンクを作成した時に、ファイルリストを更新していなかったのを修正しました。</li>
+	<li>環境設定でアプリの名前を表示するオプションをオンにしていても動作していなかったのを修正しました。</li>
+	<li>iPadでアイテムを解凍する時、ZIPビューアーの表示位置を修正しました。</li>
+	<li>ファイル属性エディタで、ファイル名、リンクターゲットフィールドが画面外へスクロールした時にその内容を忘れてしまう問題を修正しました。</li>
+	<li>2GBを超えるファイルを表示する時の不具合を修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.2-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>iPadで追加された機能
+  <ul>
+	<li>ブックマーク、環境設定、ファイル属性、&quot;…で開く&quot;ダイアログおよびすべてのアクションダイアログの使用方法を追加しました。</li>
+	<li>ファイルブラウザに、曲名、検索結果などが表示されている時、ファイルサイズと変更日を表示するようにしました。</li>
+  </ul>
+</li>
+<li>MobileSubstrate機能拡張サポート
+  <ul>
+	<li>QuickScroll2をサポートしました。</li>
+  </ul>
+</li>
+<li>ファイルブラウザ
+  <ul>
+	<li>新しいファイル&frasl;フォルダ&frasl;リンクを作成する時、&quot;フォルダ&quot;をデフォルトにしました。</li>
+	<li>iPhoneOS 4.0用の影のないアイコン。</li>
+  </ul>
+</li>
+<li>修正  
+  <ul>
+	<li> xls, doc, htmlなどをWebビューアーで開く際、ズームがおかしくなるのを修正しました。</li>
+	<li>Minor correction in French localization</li>
+	<li>環境設定でオン&frasl;オフスイッチ付きのフィールドの設定が、スクロールするとそれらの設定を忘れてしまう不具合を修正しました。</li>
+	<li>上下逆さまの回転を無効にしました。</li>
+	<li>ブックマークエディタで、ブックマークを追加してすぐにそれを使用した際に、そのブックマークが保存されない不具合を修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.1-2 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>修正
+  <ul>
+	<li>iPad使用時、登録状況画面でメールアドレスを入力することができなかったのを修正しました。</li>
+	<li>マルチ言語用に変更履歴ファイルのエンコーディングを修正しました。</li>
+	<li>Rotation Inhibitor Mobile Substrate機能拡張の読み込みをサポートしました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.1-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>iPadのサポート
+  <ul>
+	<li>iPadでオーディオプレイヤーを正しく表示するようにしました。</li>
+	<li>iPad用の新しいアイコンを追加しました。</li>
+	<li>ポートレート、ランドスケープそれぞれに適した起動画面を表示するようにしました。</li>
+	<li>iPadをサポートするためInfo.plistを更新しました。</li>
+	<li>iPadおよびiOS 4.0でのビデオ再生を修正しました。</li>
+  </ul>
+</li>
+<li>修正
+  <ul>
+	<li>Webビューアーでxls, doc, html, pagesなどを表示させた時にクラッシュする問題を修正しました。</li>
+	<li>AppStoreからインストールしたユニバーサルアプリに誤ったinfo.plistのキーがあった場合にクラッシュするのを修正しました。</li>
+	<li>チェコ語のローカライズを修正しました。</li>
+	<li>次のMobileSubstrate機能拡張をロードしないようにしました。: ActionMenu, Backgrounder, WinterBoard, KeyboardSupport, SimulatedKeyEvents, mcclient, UIHook-iKeyEx3, resupported.</li>
+  </ul>
+</li>
+<li>オーディオプレイヤー
+  <ul>
+	<li>iFileの環境設定に、オーディオプレイヤーのリピートモードの設定を追加しました。</li>
+  </ul>
+</li>
+<li>Webサーバー
+  <ul>
+	<li>Last-ModifiedタグをHTML response headerに追加するWindowsのWebDAVクライアントで、iFileのWebDAVサーバーからPCへファイルのコピーをしようとした時の問題を修正しました。</li>
+	<li>誤ったチャンクのフォーマット処理が原因でMacからiFlieへのコピーが失敗する問題を修正しました。</li>
+	<li>Bonjourを使ったMacのWebDAVクライアントが、コピーおよび移動に失敗する問題を修正しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.0-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>ローカライズ
+  <ul>
+	<li>クロアチア語、フィンランド語およびギリシア語に対応しました。</li>
+</ul>
+</li>
+<li>修正
+  <ul>
+    <li>オーディオプレイヤー使用後、ムービープレイヤーを起動するとクラッシュするのを修正。</li>
+    <li>検索や画面の回転を行った時にクラッシュする問題があったのを修正しました。</li>
+    <li>テキストエディターで旧式のplistファイルを保存する際の問題を修正しました。</li>
+    <li>PDFビューアーで画像を表示する時のフェード効果をやめました。</li>
+  </ul>
+</li>
+<li>登録
+  <ul>
+    <li>Cydia Storeから購入した場合、Eメールアドレスの入力なしに登録されるようになりました。</li>
+  </ul>
+</li>
+<li>設定
+  <ul>
+    <li>/var/mobile/Applications 内のフォルダをわかりやすく表示するかどうかの設定</li>
+    <li>ファイルのグループ化の設定</li>
+    <li>ソート基準の設定</li>
+    <li>サムネイルの範囲をiFile設定に蓄えます。しかし設定GUI上では見る事はできません。</li>
+  </ul>
+</li>
+<li>ファイルブラウザ
+  <ul>
+    <li>Daniel Waldron(<a href="http://www.twitter.com/eyedevs">EyeDevs</a>)による新しいアイコンになりました。</li>
+    <li>iFileから別デバイス上のiFileへファイルをBluetooth転送することができるようになりました。両方のiFileは登録済みである必要があります。</li>
+    <li><a href="http://twitter.com/ibluenova">iBlueNova</a>を使用してファイルを送信できるようになりました。</li>
+    <li>以下の設定でファイルをグループ化することができます。:
+      <ul>
+        <li>アルファベット順によるグループ: A-Z および #</li>
+         <li>拡張しによるグループ化</li>
+         <li>ファイルサイズによるグループ化: 0-10KB, 10-100KB, 100KB-1MB, 1MB-10MB, 10MB-100MB, &gt;100MB.</li>
+         <li>日付によるグループ化: 今日, 昨日, 今週より前, 先週, 今月より前, 先月, 2ヶ月目, 今年より前, 昨年, 2年前, より古い.</li>
+      </ul>
+    </li>
+    <li>ソート時に大文字小文字を区別しなくなりました。また、数字のソートがよりわかりやすくなりました。例えば&quot;Hugo (10).txt&quot;は&quot;Hugo (8).txt&quot;より後にソートされます。</li>
+    <li>システムアイコンの代わりにカスタムアイコンを使用する際のブックマークアイコンの位置の修正。 (iPhoneOS のバグ)</li>
+    <li>設定で曲名の表示をオンにした時、ファイルタグ(曲名、アーティスト、アルバム)での検索ができるようになりました。</li>
+    <li>/var/mobile下におけるURLスキーム ifile:// の制限を撤廃しました。</li>
+  </ul>
+</li>
+<li>ファイルタイプ
+  <ul>
+    <li>PDFファイル: PDFファイル選択時に、PDFビューアーかWebビューアーを選べるようになりました。</li>
+    <li>SQLite3: mime-type application/x-sqlite3をサポートしました。外部ビューアーとしてkennytm's SQLite3アプリケーションを使用します。 (<a href="http://code.google.com/p/networkpx/downloads/list">ここ</a>で見つけることができます)</li>
+    <li>mm: 拡張子mmのファイルをテキストビューアーで開けるようになりました。</li>
+  </ul>
+</li>
+<li>PDFビューアー
+  <ul>
+    <li>ページを変更した時のメモリリークを修正。</li>
+    <li>現在のページ番号と総ページ数を表示しながら&quot;ページへ移動&quot;ボタンをナビゲーションバーに移動しました。</li>
+    <li>ページ移動ダイアログはプリセット値を持たなくなりました。</li>
+  </ul>
+</li>
+<li>Eメール添付
+  <ul>
+    <li>Eメール送信時、表題&quot;iFileからの添付ファイル&quot;、および本文&quot;iFileによってiPhoneから送信された添付ファイル&quot;の表記を取り除きました。</li>
+  </ul>
+</li>
+<li>Webサーバー
+  <ul>
+    <li>WebDAVに対応しました。(Windows, Linux, Mac OSX) - この機能は登録ユーザーに限られます。</li>
+    <li>ユーザー名/パスワードによる認証をサポートしました。ただしこれは基本的な保護のみになります。</li>
+    <li>リスト表示の時、ファイルよりフォルダを先に表示します。</li>
+    <li>時々不当に表示されたhttpアドレスに関する問題を修正。</li>
+    <li>しばしばWebサーバー起動に失敗したと訴えることがありましたが、これは使用しようとしたポートがすでに使用されていたということでした。ポートを再使用するように修正しました。</li>
+    <li>Internet Explorer使用時の、ファイルアップロードする際の不具合を修正しました。</li>
+    <li>アップロードするファイルがすでに存在する場合、”ファイル名(1)”のように括弧数字を付けるようにしました。</li>
+  </ul>
+</li>
+<li>MPEG4分析
+  <ul>
+    <li>iFileは、m4aの遅いシステムコールを使用する代わりに、metaデータから曲の長さを直接抽出します。これは、非常に大きなpodcastファイルのリスト表示の速度を向上させます。</li>
+  </ul>
+</li>
+<li>オーディオプレイヤー
+  <ul>
+    <li>アルバムカバーをダブルタップしてプレイリストビューに切り替わるようになりました。</li>
+    <li>繰り返しなしで1曲のみ演奏する新しい繰り返しモードを追加。これは新しいデフォルトです。</li>
+  </ul>
+</li>
+<li>ビデオプレイヤー
+  <ul>
+    <li>Apple TVケーブルを使っての映像出力に対応しました。</li>
+  </ul>
+</li>
+<li>圧縮ファイルビューアー
+  <ul>
+    <li>すべてのファイルを表示しないことがあった問題を修正。</li>
+  </ul>
+</li>
+<li>Unarchiver
+  <ul>
+    <li>圧縮ファイルの中を見ないで、全てのファイルを抽出することができるようになりました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.1.0-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>全般
+  <ul>
+    <li>iFileはiPhone OS 3.0以降で動作します。2.x互換のためのレガシーコードは取り除きました。</li>
+    <li>設定画面の登録状況が残っている時の登録方法を変更しました。</li>
+    <li>com.saurik.mamu (mailto:attachment=) への依存を取り除きました。</li>
+    <li>いくつかの機能は登録ユーザーのみが使用可能です:
+      <ul>
+        <li>名前によるファイルの検索。</li>
+        <li>外部ビューアーへの対応。</li>
+        <li>プレイリストで再生される新しいオーディオプレイヤー。</li>
+        <li>ファイル名の代りに曲名を表示。</li>
+        <li>デフォルトの画像アイコンの代りにサムネイルを表示。</li>
+        <li>テキストエディタでの検索。</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>ローカライズ
+  <ul>
+    <li>オランダ語、スロバキア語に対応しました。</li>
+  </ul>
+</li>
+<li>ファイルブラウザ
+  <ul>
+    <li>ファイル名検索を追加しました。現在のフォルダ、またはそのフォルダ下の階層を検索対象にできます。検索文字列は大文字小文字を区別せず、区別的発音符も同一視します。検索結果に対して削除、コピー、ZIP圧縮などが行えます。検索結果は日付、サイズ、ファイルのあるフォルダ、パスが表示されます。検索方法は次の3種類から選ぶことができます。
+      <ul>
+        <li>シンプル: 文字列を含むファイルを検索</li>
+        <li>ワイルドカード: *test*</li>
+        <li>正規表現: .*test.*</li>
+      </ul>
+	</li>
+    <li>上の階層に移動する時の再選択: 上の階層に移動した時にそのフォルダが選択状態になります。これでどこから移動してきたのかわかりやすくなります。</li>
+    <li>”~mobile/Applications”下にある分かりにくいフォルダ名をAppStoreアプリケーション名で表示します。アプリケーション名の元では本当のフォルダ名を表示します。</li>
+    <li>コピー、カット、ペーストはiPhone OSのクリップボードを使用するようになりました。ファイルパス(またはURL)を他のアプリケーションで利用できます。</li>
+    <li>ファイル名の代わりににオーディオファイルの曲名を表示することができます。 この機能は設定でオン/オフができます。</li>
+    <li>画像のサムネイルを表示することができます。 この機能は設定でオン/オフができます。サムネイルはサイズが1MB以下の画像に対して作られます。</li>
+  </ul>
+</li>
+<li>ファイル属性エディタ
+  <ul>
+    <li>フォルダのアクセス権の変更、オーナーとグループを設定ができるようになりました。
+      <ul>
+        <li>下の階層すべてにユーザーとグループを適用します。</li>
+        <li>フォルダのアクセス権は上位のフォルダと同様に設定されます。</li>
+        <li>ファイルのアクセス権は読み/書きについてのみ変更されます。ファイルが実行可能であった場合そのまま実行可能になります。スティッキービットはフォルダと同じように設定されます。</li>
+      </ul>
+	</li>
+    <li>画像ファイルの場合はiPhoneのカメラロールに累加するボタンが表示されます(イメージビューアーからも可能)。</li>
+    <li>ビデオの場合はiPhoneのカメラロールに累加するボタンが表示されます(iPhone OS 3.1以降のみ)。</li>
+    <li>iPhone OSのデータベースにないオーナー/グループを指定した時にクラッシュする問題を修正。</li>
+  </ul>
+</li>
+<li>ファイルタイプ
+  <ul>
+    <li>ppsフォーマットに対応しました。</li>
+    <li>mime-type video/x-flvの場合OpenStreamer (外部)を使うようになりました。</li>
+  </ul>
+</li>
+<li>ファイル圧縮
+  <ul>
+    <li>圧縮ファイル関連のいくつかの問題を修正しました。</li>
+    <li>mobileユーザーの所有権があるどんなフォルダでも、圧縮されたファイルの作成、解凍が出来ます。</li>
+    <li>tar.gz、tar.Z、およびtar.bz2の解凍が機能していなかったのを修正しました。</li>
+    <li>ZIPファイルのみ、圧縮されたファイル中の削除が行えます。</li>
+  </ul>
+</li>
+<li>シンボリックリンクの作成
+  <ul>
+    <li>シンボリックリンク作成を簡単に行えるようにしました:
+      <ul>
+        <li>ファイルブラウザの編集モードでファイルを選択します。</li>
+        <li>アクションボタンを押して&quot;コピー/リンク&quot;を選択します。</li>
+        <li>シンボリックリンクを作成したいフォルダまで移動します。</li>
+        <li>アクションボタンを押して&quot;シンボリックリンク&quot;を選びます。</li>
+      </ul>
+	</li>
+  </ul>
+</li>
+<li>オーディオプレイヤー
+  <ul>
+    <li>新たにデザインされたiPhone内蔵のiPodプレイヤーに似たオーディオプレイヤー。</li>
+    <li>m3uのプレイリスト、またはフォルダ内の全ファイル、検索結果のファイルに対して再生を行えます。</li>
+    <li>プレイリストや1曲単位でのリピート再生ができます。</li>
+    <li>プレイリストのシャップル再生ができます。</li>
+    <li>mp3とm4aのタグを読み取り、表示します。</li>
+    <li>m4aに埋め込まれたカバーアート、オーディオファイルと同じフォルダにあるfolder.jpgかcover.jpgを表示します。</li>
+    <li>前の曲、次の曲、早送り巻き戻しに対応しました。</li>
+    <li>再生時間、残り時間を表示できます。</li>
+  </ul>
+</li>
+<li>イメージビューアー
+  <ul>
+    <li>カメラロールに追加するボタンを追加しました。</li>
+  </ul>
+</li>
+<li>PDFビューアー
+  <ul>
+    <li>より大きく拡大表示できるように改善しました。</li>
+    <li>ドキュメントをダブルタップすることで2倍に拡大表示します。もう一度ダブルタップで画面幅に合わせて縮小します。</li>
+    <li>シングルタップでナビゲーションやステータスバーを隠します。</li>
+    <li>別のページに移動した時にドキュメントの左上にスクロールするようにしました。</li>
+  </ul>
+</li>
+<li>Webビューアー
+  <ul>
+    <li>ローカルファイル内のリンクに関して”ロード中…”としか表示されない問題を修正しました。</li>
+  </ul>
+</li>
+<li>テキストエディター/プロパティリストエディター
+  <ul>
+    <li>テキストエディターとプロパティリスとエディターを分離しました。これは別の拡張子を持つplistファイルを編集するのを容易にするためです。</li>
+    <li>ナビゲーションとステータスバーを表示/非表示するためのボタンを設置しました。</li>
+    <li>テキスト検索機能を追加しました。</li>
+    <li>テキストファイルの最後まで検索して見つけたところまでスクロールします。ヒットした文字列の強調表示はできません。</li>
+  </ul>
+</li>
+<li>Debianパッケージインストーラー
+  <ul>
+    <li>Debianパッケージのインストールができるようになりました。</li>
+  </ul>
+</li>
+<li>外部ビューアー
+  <ul>
+    <li>テーマによって指定された外部ビューアーが使えるようになりました。アプリケーションIDとmime-typeを指定することで動作します。カスタムURLスキームを使って外部ビューアーを起動し、ファイルを開きます。</li>
+  </ul>
+</li>
+<li>設定
+  <ul>
+    <li>mp3とm4aに含まれる曲名情報を表示するかどうかのオプションを追加しました。</li>
+    <li>画像のサムネイル表示を行うかどうかのオプションを追加しました。</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.1-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>iFileはシェアウェアとなりました。開発を続けていくために資金が必要なため、ご理解とご協力をお願いします。</li>
+<li>ポップアップ画面や設定から開かれるiFile登録のためのGUIを加えました。</li>
+<li>&quot;ifile://...&quot; というURLが扱えるようになりました。~mobile以下のフォルダのみ開く事ができます。</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.0-2 - バグフィックス</h2>
+<ul class="list">
+<li>rarファイルの解凍中に出るエラーメッセージの問題を修正。解凍されたファイルは現在、/private/var/mobileの代わりにカレントディレクトリに置かれます。</li>
+<li>ポーランド語のchangelog.htmlおよびfeatures.htmlのエンコーディングを修正しました。</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.0-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>iPhoneOS 2.x と 3.0 の両方に対応しました。</li>
+<li>チェコ語、ポーランド語、ウクライナ語に対応しました。</li>
+<li>寄付のお願い
+<ul>
+<li>起動時に、iFileのダウンロード数と寄付を受けた数を表示するようにしました。寄付ボタンを押すことでPayPalのページへ行くことができます。ダウンロードと寄付の数は、一日に一度インターネット(iphone.heinelt.eu)から取得されます。</li>
+</ul>
+</li>
+<li>ファイルブラウザ
+<ul>
+<li>編集モード時、ダブルタップですべてのファイルの選択/選択解除ができるようになりました。</li>
+<li>新規ファイル作成時の画面で、ファイルのタイプが編集可能であることを示すマークが表示されていなかったのを修正しました。</li>
+<li>コピー/移動
+<ul>
+<li>ファイルのコピーと移動はバックグラウンド(別々のスレッド)で動作するようになりました。</li>
+<li>ファイルのコピーと移動中にプログレスビューを表示するようにしました。</li>
+<li>コピー/移動先に同じファイルがあった時にダイアログを表示し、以下の処理を選べます。
+<ul>
+<li>処理のキャンセル</li>
+<li>名前の変更(自動的に&quot; (&lt;数字&gt;)&quot; を付け加えます)</li>
+<li>ファイルを上書き</li>
+<li>すべての重複ファイルを上書き</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>フォルダ属性
+<ul>
+<li>フォルダの属性を表示した時、フォルダ内のすべてのファイルの数とサイズを表示するようにしました。</li>
+</ul>
+</li>
+<li>ファイルの圧縮はバックグラウンドスレッドで動作するようになりました。</li>
+</ul>
+</li>
+<li>テキストビューアー
+<ul>
+<li>nibおよびxibファイルに対応しました。</li>
+</ul>
+</li>
+<li>ZIPビューアー
+<ul>
+<li>次の圧縮形式に対応するようになしました: 7z, deb, rar, tar, tar.gz, tar.bz2, tar.Z, tgz, tbz2, gz, bz2, Z.</li>
+<li>ZIPファイルにはunzip、rarファイルにはunrar、tarベースのファイルにはtarを使います。その他のすべての圧縮形式はmobileユーザー下で動作するp7zip (7z)を通じてサポートされます。</li>
+<li>ファイル項目の取得、解凍、削除はバックグラウンドスレッドで動作するようになりました。</li>
+</ul>
+</li>
+
+<li>Webサーバー
+<ul>
+<li>フォルダの移動(下位階層のみ)に対応しました。</li>
+<li>インデックスページの外観を変更しました。</li>
+<li>アップロードやダウンロード時にプログレスバーを表示するようにしました。</li>
+<li>ページとファイルのリクエストをステータスビューに表示するようにしました。</li>
+<li>設定からサーバーのポート番号を設定できるようになりました。</li>
+</ul>
+</li>
+<li>設定
+<ul>
+<li>Webサーバーのポート番号を設定できるようになりました。</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.7 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>中国語、ロシア語、トルコ語に対応しました。</li>
+<li>設定
+<ul>
+<li>テーマ、ソートの設定から戻った後の初期値の設定における細かい問題を修正しました。</li>
+</ul>
+</li>
+<li>Mime-Type
+<ul>
+<li>オーディオプレイヤー用にファイルタイプaudio/x-wavを追加しました（タイプミスで追加されていませんでした)。</li>
+</ul>
+</li>
+<li>ファイルブラウザ
+<ul>
+<li>ブラウザーのナビゲーション及びホームボタンを押した時にアニメーションするようにしました。</li>
+<li>フォルダを開いた時は、そのフォルダの最初の行にスクロールするようにし、上の階層へ移動した時は、そのフォルダが選択された状態になるようにしました。</li>
+<li>ブックマークボタンを追加しました (下記参照)。</li>
+<li>フォルダに数千のファイルが入っている状況でiFileを起動する時の問題を修正しました。これによってiFileはOSから強制終了されることはなくなるでしょう。</li>
+<li>右側にある青いボタンは、非編集モードと同様に表示されます。</li>
+</ul>
+</li>
+<li>属性編集
+<ul>
+<li>ファイルを開く時にビューアーを選べるようになりました。登録されていないファイルタイプでも、素早くビューアーを選んで開く事が出来ます。</li>
+</ul>
+</li>
+<li>ブックマーク
+<ul>
+<li>Safariのルック＆フィールに似たGUIと機能を持ちます。</li>
+<li>以下のブックマークをサポートします。ファイルブラウザ(フォルダのブックマークおよびブックマークの編集)、Webビューアー(ドキュメントとWebページのブックマーク), PDFビューアー(ドキュメントのブックマーク), テキストビューアー(ドキュメントのブックマーク).</li>
+<li>ブックマークはファイルブラウザ上でのみ開く事が出来ます。</li>
+<li>Safariのブックマークを扱うことができます。ただし変更はできません。</li>
+</ul>
+</li>
+<li>ドキュメント/Webビューアー
+<ul>
+<li>画面をタップすることでナビゲーションとツールバーを隠すことが出来ます。</li>
+</ul>
+</li>
+<li>PDFビューアー
+<ul>
+<li>画面をタップすることでナビゲーションとツールバーを隠すことが出来ます。</li>
+<li>ダブルタップで次のページへ移動します。</li>
+</ul>
+</li>
+<li>テキストビューアー
+<ul>
+<li>画面をタップすることでナビゲーションとツールバーを隠すことが出来ます。 タップによってカーソル位置が変わってしまうと機能しないことに注意してください(編集モード時)。</li>
+</ul>
+</li>
+<li>MobileSubstrateのサポート
+<ul>
+<li>MobileSubstrateのサポートを追加します: MobileSubstrateはrootユーザーで実行されるアプリケーションのため、自動的にロードされません。MobileSubstrateがiFileによってロードされると、すべてのMobileSubstrateベースの機能拡張がiFile上で動作するようになります。例えばClippyなどです。</li>
+<li>ファイルブラウザでClippyへファイルパスを受け渡せるようにしました。</li>
+</ul>
+</li>
+<li>ドキュメント
+<ul>
+<li>ローカライズされたマニュアルは、言語毎に別々のパッケージに分けられました。</li>
+<li>「特徴」「変更履歴」についてはメインのiFileパッケージ内に残しています。</li>
+<li>ドキュメントの「マニュアル」リンクをクリックすると適切な言語パッケージがインストールされるでしょう。</li>
+<li>iFileパッケージの肥大化に伴いこのような変更を行いました。</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.6-2 - バグフィックスリリース</h2>
+<ul class="list">
+<li>Webサーバー
+<ul>
+<li>メモリが少ない状況で大きなファイルをダウンロードしようとした時に起こる問題を修正しました。</li>
+<li>ダウンロードの目安になるよう、ファイルサイズ(Content-Length)をブラウザに送信します。</li>
+<li>空のアップロードに対する処理を強化しエラーページを表示させるようにしました。</li>
+<li>コンテンツヘッダーに関する問題を修正しました。不適切なファイルをダウンロードしようとした時、問題を呼び起こしていました。</li>
+</ul></li></ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.6-1 - バグフィックス&amp;追加リリース</h2>
+<ul class="list">
+<li>アラビア語、フランス語、日本語に対応しました。アラビア語とフランス語のドキュメントは今後のリリースで追加される予定です。</li>
+<li>ファイルブラウザ
+<ul>
+<li>シンボリックリンクは暗い青色で表示されます。</li>
+<li>通常モード時（編集モードではない時）にスワイプによる削除が出来るようになりました。</li>
+<li>編集モード時に&quot;+&quot;ボタンを押す事でファイル、フォルダまたはシンボリックリンクを作成出来るようになりました。所有権やアクセス権の設定も可能です。</li>
+<li>ファイルサイズを場合に応じてBytes,KB,MB,GB単位で表記するように変更しました。</li>
+<li>iFileが対応しないmime-typeのファイルを開こうとした時に、任意のアプリケーションかビューアーを選択できるようになりました。</li>
+<li>&quot;Leopard&quot;テーマを追加しました。</li>
+<li>ツールバーにホームボタンを追加しました。</li>
+</ul>
+</li>
+<li>Mime-types
+<ul>
+<li>拡張子<i>js</i>をtext/plainとして認識するようにしました。</li>
+<li>Word,Excel,Powerpoint(docx, xlsx, pptx)のOffice 2007形式をMime-Typeに追加しました。</li>
+</ul>
+</li>
+<li>エディタの設定
+<ul>
+<li>隠しファイルの表示/非表示が出来るようになりました。</li>
+<li>起動時に表示するフォルダを設定出来るようになりました。また、終了時のカレントフォルダを記憶して次回起動時に開くことも出来ます。</li>
+<li>テキストビューアーで表示するフォントのサイズが変えられるようになりました。</li>
+<li>テーマを切り替えて見た目を変更出来るようになりました。</li>
+<li>ファイルブラウザでファイルの並び順を変更出来るようになりました。名前、拡張子、サイズ、日付でソート出来ます。</li>
+</ul>
+</li>
+<li>ファイル属性エディタへの追加項目
+<ul>
+<li>ファイルサイズ</li>
+<li>ファイルタイプ:フォルダ、シンボリックリンク、通常ファイル</li>
+<li>シンボリックリンクの対象</li>
+<li>通常ファイルのMime-Type</li>
+</ul>
+</li>
+<li>テキストビューアー
+<ul>
+<li>編集モード時、編集ボタンからキャンセルボタンへ切り替わらないことがある問題を修正しました。</li>
+</ul>
+</li>
+<li>Webサーバー
+<ul>
+<li>webページ内にUTF-8キャラクターがある時に起こる問題を修正しました。</li>
+</ul>
+</li>
+</ul>
+</li>
+				<li class="tableitem">
+					<h2>0.9.5 - バグフィックス&amp;追加リリース
+					</h2>
+					<ul class="list">
+						<li>ZIPビューアーで、すべてのファイルを選んだ状態で解凍されないバグを修正しました。</li>
+						<li>CydiaとBigBossリポジトリの相互作用で起こりうる問題に対処するため、<i>eu.heinelt.iFile</i> から <i>eu.heinelt.ifile</i> までのアプリケーションIDを変更しました。</li>
+						<li>ファイル属性エディタで以下の項目を変更できます。
+							<ul>
+								<li>ファイルネーム</li>
+								<li>所有権（オーナーおよびグループ）</li>
+								<li>ユーザー、グループ、その他のアクセス権（読み、書き、実行、sticky bit）</li>
+							<li>最終変更日時</li>
+							</ul>
+						</li>
+						<li>テキストビューアーにテキストエディット機能を追加。
+							<ul>
+								<li>プロパティリスト（plist）ファイルはXMLとバイナリフォーマットの読み書きをサポートします。</li>
+								<li>テキストファイルのエンコードはUTF-8で読み込まれますが、うまくいかない場合はラテンISOで読み込まれます。</li>
+								<li>テキストファイルにタブが含まれている場合、スペースに変換します。これはiPhone OSのUITextViewがタブを無視するためです。書き込むときに再びスペースはタブに置き換えられます。</li>
+								<li>タブ幅を設定ダイアログから自由に変えられます。初期値は8です。</li>
+								<li>ファイル書き出し時に元のファイルと同じ所有者、アクセス権が設定されます（そうでない場合はルートになります）。</li>
+							</ul>
+						</li>
+						<li>ファイルの拡張子からmine-typeベースで関連付けるようインフラストラクチャを変更しました。</li>
+						<li>ファイルビューアーにおいて、拡張子よりmine-typeに基づくようインフラストラクチャを追加しました。mine-typeごとに複数のビューアーを選択する可能性を含みます。例えばtext/htmlはプレーンテキストビューアーかHTMLビューアーで見ることができます。</li>
+						<li>次のtext/plainの以下の拡張子をサポート: cfg, cnf, conf, j, java, list, php, plist, script, sh.</li>
+						<li>ファイルアイコンのテーマをサポートするためにインフラストラクチャを追加しました。</li>
+						<li>PDFビューアーのスクロールロック: ユーザーが水平または垂直方向のどちらかにスクロールを始めた時、そのスクロール動作をやめるまでもう片方の方向へのスクロールを禁止します。</li>
+						<li>タブ幅を設定するための設定ボタンと設定ビューを追加しました。</li>
+					</ul>
+				</li>
+				<li class="tableitem">
+					<h2>0.9.4 - 追加リリース
+					</h2>
+					<ul class="list">
+						<li>イタリア語のローカライズを追加しました。</li>
+						<li>Wi-Fiを通じたファイルアップロードとダウンロードのためにWebサーバーを作り直しました。高いパフォーマンスを実現し、サイズの大きいファイルのやり取りの信頼性が上がりました。</li>
+						<li>ZIPファイルのための新しいビューアーを追加しました。新規ZIPへのファイルの追加、ZIPファイルから選択されたファイルの解凍、削除をサポートします。</li>
+						<li>メールアプリを使って複数のファイルを添付したEメールを送ることができます。</li>
+						<li>PDFの最後のページが表示されないバグを修正しました。</li>
+					</ul>
+				</li>
+				<li class="tableitem">
+					<h2>0.9.3 - 追加リリース
+					</h2>
+					<ul class="list">
+						<li>このリリースでiFileはスーパーユーザー権限で稼働します。ユーザーは/varファイルシステムのどのファイルやフォルダでも名前変更や削除ができます。</li>
+						<li>編集モードはファイルやフォルダのカット&amp;コピー、ペーストをサポートします。</li>
+						<li>ドイツ語、英語、スペイン語のローカライズを追加しました。</li>
+					</ul>
+				</li>
+				<li class="tableitem">
+					<h2>0.9.2 - バグフィックスリリース
+					</h2>
+					<ul class="list">
+						<li>インストールして最初に起動した時、/var/mobile/Documentsより上の階層に移動できなかった問題を修正。</li>
+					</ul>
+				</li>
+				<li class="tableitem">
+					<h2>0.9.1 - <a href="http://thebigboss.org">BigBoss Repository</a>からの最初の公開リリース
+					</h2>
+					<ul class="list">
+						<li>テキストファイルは特殊なUITextViewコントローラーによって、通常のUIWebViewのフォントより小さく表示されます。</li>
+						<li>詳細なドキュメントを用意しました。</li>
+					</ul>
+				</li>
+				<li class="tableitem">
+					<h2>0.9.0 - 最初のバージョン
+					</h2>
+					<ul class="list">
+						<li>PDFは任意のページに移動できる機能を持ったビューアーで表示されます。</li>
+						<li>画像はUIWebViewを使って表示されます。</li>
+						<li>Excel, Word, PowerPoint, HTML, テキストはUIWebViewを使って表示されます。</li>
+						<li>ムービーとサウンドはMPMoviePlayerControllerを使って再生されます。</li>
+						<li>Webサーバーを使ってPC、Macなどからファイルの転送ができます。</li>
+						<li>一度に複数のファイルやフォルダを削除できます。</li>
+						<li>ファイルやフォルダの名前を変更できます。</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

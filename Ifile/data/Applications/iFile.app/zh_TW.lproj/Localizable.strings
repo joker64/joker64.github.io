@@ -1,0 +1,545 @@
+"%d of %d" = "第 %d 首（共 %d 首）";
+"'%@' wants to send you some files." = "『%@』想傳送一些檔案給您。";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>成功上載檔案 %@。</p>";
+"<h1>Files in %@</h1>\n" = "<h1>%@ 中的檔案</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" 上載 \">";
+"<p>Upload a file:<br />" = "<p>上載檔案<br />";
+"A symbolic link to file %@ could not be created." = "無法建立指向 %@ 的符號鏈接。";
+"Accepting connections at http://%@ or http://%@.\n" = "請在流覽器中輸入 http://%@ 或 http://%@ 以連接。\n";
+"Access Permissions" = "訪問權限";
+"Add Bookmark" = "添加書簽";
+"Add Folder" = "加入資料夾";
+"Add to Camera Roll" = "加入相簿";
+"Address" = "地址";
+"An error occurred" = "發生錯誤";
+"Application Names" = "應用程式名稱";
+"Apply hierarchically" = "套用至所有層級";
+"Applying permissions and ownership hierarchically..." = "正在更新所有層級的權限及擁有者…";
+"Ascending" = "升序";
+"Attributes" = "屬性";
+"Audio Player" = "音樂播放器";
+"Audio output got changed." = "音頻輸出方式改變。";
+"Authentication" = "驗證";
+"Block Device" = "塊裝置";
+"Bonjour got enabled with name %@.\n" = "Bonjour 已以名稱 %@ 啟用。\n";
+"Bookmark file %@ invalid: %@" = "無效的書簽檔案 %@：%@";
+"Bookmark folder name must not be empty." = "書簽資料夾的名稱不可留空。";
+"Bookmark name and address must not be empty." = "書簽名稱和地址不可留空。";
+"Bookmarks %@ could not be written: %@" = "無法寫入書簽 %@：%@";
+"Bookmarks Bar" = "書簽欄";
+"Bookmarks Menu" = "書簽表單";
+"Bookmarks" = "書簽";
+"Buy License (Cydia Store)" = "購買許可證（Cydia Store）";
+"Cancel" = "取消";
+"Character Device" = "字符裝置";
+"Close" = "關閉";
+"Compressing..." = "正在壓縮…";
+"Connected" = "已連接";
+"Connection to '%@' failed." = "無法連接到『%@』。";
+"Continue" = "繼續";
+"Copy" = "複製";
+"Copy/Link" = "複製/鏈接";
+"Copying %@..." = "正在複製 %@…";
+"Copying Files..." = "正在複製檔案…";
+"Copying of file %@ requested\n" = "請求複製 %@\n";
+"Create Link" = "建立鏈接";
+"Create ZIP File" = "建立 ZIP 壓縮檔";
+"Create" = "建立";
+"Creation of directory %@ requested\n" = "請求建立目錄 %@\n";
+"Cut" = "剪下";
+"Date" = "日期";
+"Delete %d Files" = "刪除 %d 個檔案";
+"Delete File" = "刪除檔案";
+"Deleting Files..." = "正在刪除檔案…";
+"Deletion of file %@ requested\n" = "請求刪除檔案 %@\n";
+"Descending" = "降序";
+"Directory" = "目錄";
+"Earlier this month" = "本月";
+"Earlier this week" = "本周";
+"Earlier this year" = "本年";
+"Edit Bookmark" = "編輯書簽";
+"Edit Folder" = "編輯資料夾";
+"Email" = "電子郵件";
+"Emailing Attachments with iFile" = "使用 iFile 發送的電子郵件附件";
+"Empty Trash" = "清理資源回收筒";
+"Enter new ZIP file name." = "輸入新壓縮檔名稱";
+"Enter the page number to display\n(%d-%d)." = "輸入要顯示的頁碼\n（%d-%d）。";
+"Error occurred while receiving file." = "接收檔案時發生錯誤。";
+"Error" = "錯誤";
+"Execute" = "執行";
+"Executing Command: %@\n\n" = "執行指令：%@\n\n";
+"Extract %d Files" = "解壓縮 %d 個檔案";
+"Extract All Files" = "解壓縮所有檔案";
+"Extract File" = "解壓縮檔案";
+"File %@ requested\n" = "請求檔案 %@\n";
+"File Attributes" = "檔案屬性";
+"File Browser" = "檔案流覽器";
+"File Exists" = "檔案已存在";
+"File already exists with name %@." = "檔案 %@ 已存在。";
+"File attributes could not be changed or only partially." = "無法更改此檔案全部或部分屬性。";
+"File could not be renamed." = "無法重新命名檔案。";
+"File successfully uploaded" = "檔案上載成功";
+"Files" = "檔案";
+"Font Size" = "字型大小";
+"Gigantic (> 100 MB)" = "超大（> 100 MB）";
+"Go to Trash" = "進入資源回收筒";
+"Go to page" = "轉到頁碼";
+"Group Permissions" = "同組權限";
+"Group" = "組別";
+"Grouping" = "分類";
+"Header of file %@ requested\n" = "請求檔案頭 %@\n";
+"Hidden Files" = "顯示隱藏檔案";
+"Hierarchy" = "所有層級";
+"Huge (10 MB - 100 MB)" = "很大（10 MB - 100 MB）";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." =  "若您是從 Cydia Store 下載的 iFile，只須啟動便可完成註冊。您會收到註冊成功的提示。\n\n若您得到免費註冊號，或經 PayPal 付款，請在下面輸入您的電郵地址，會於回到「設定」後自動註冊。";
+"Image Viewer" = "圖像檢視器";
+"Initializing Web Server..." = "正在初始化網頁伺服器…";
+"Installer" = "安裝程式";
+"Internal inconsistency" = "內部衝突";
+"Large (1 MB - 10 MB)" = "大（1 MB - 10 MB）";
+"Last Modification" = "最後修改";
+"Last month" = "上月";
+"Last week" = "上周";
+"Last year" = "去年";
+"Later" = "稍後";
+"Link Target" = "鏈接目標";
+"Linking %@..." = "正在鏈接 %@…";
+"Linking Files..." = "正在鏈接檔案…";
+"Loading Contents..." = "正在載入內容…";
+"Loading..." = "正在載入…";
+"Medium (100 KB - 1 MB)" = "中（100 KB - 1 MB）";
+"Mime-Type" = "MIME 類型";
+"Modification Date" = "修改日期";
+"Move %d Files to Trash" = "把 %d 個檔案丟到資源回收筒";
+"Move File to Trash" = "丟到資源回收筒";
+"Moving %@..." = "正在移動 %@…";
+"Moving Files..." = "正在移動檔案…";
+"Moving of file %@ requested\n" = "請求移動檔案 %@\n";
+"Multipart header empty" = "Multipart 檔案頭是空的";
+"Name" = "名稱";
+"New Folder" = "新建資料夾";
+"New" = "新增";
+"No file specified." = "未指定檔案。";
+"OK" = "確定";
+"Older" = "更舊";
+"Open with..." = "開啟方式…";
+"Overwrite all" = "全部覆蓋";
+"Overwrite" = "覆蓋";
+"Owner" = "擁有用戶";
+"Ownership" = "擁有者";
+"PDF Viewer" = "PDF 檢視器";
+"Page %d does not exist. Please choose value between %d and %d." = "第 %d 頁不存在，請輸入介乎 %d 和 %d 之間的數值。";
+"Password" = "密碼";
+"Paste" = "貼上";
+"Path" = "路徑";
+"Playback Paused" = "暫停";
+"Port Number" = "端口";
+"Preferences" = "設定";
+"Preparing Image..." = "正在準備圖像…";
+"Program Execution" = "執行程式";
+"Properties of file %@ requested\n" = "請求檔案 %@ 的屬性\n";
+"Property List Viewer" = "屬性表檢視器";
+"Property list %@ invalid: %@" = "屬性表 %@ 無效：%@";
+"Read" = "讀取";
+"Receiving %@" = "正在接收 %@";
+"Register" = "註冊";
+"Registered" = "已註冊";
+"Registering Web Service with Bonjour..." = "正在向 Bonjour 註冊網頁伺服器…";
+"Registering WebDAV Service with Bonjour..." = "正在以 Bonjour 註冊 WebDAV 服務…";
+"Registration Email Address" = "註冊電郵地址";
+"Registration Failed" = "註冊失敗";
+"Registration Process" = "註冊方式";
+"Registration Status" = "註冊狀態";
+"Registration Successful" = "註冊成功";
+"Registration" = "註冊";
+"Regular Expression" = "正則表達式";
+"Regular File" = "普通檔案";
+"Rename" = "重新命名";
+"Resume" = "繼續";
+"Safari Bookmarks" = "Safari 書簽";
+"Search Format" = "搜尋方式";
+"Search filenames" = "搜尋檔名";
+"Search" = "搜尋";
+"Set on exit" = "記住離開位置";
+"Shutting down web server..." = "正在關閉網頁伺服器…";
+"Simple" = "簡易";
+"Size" = "大小";
+"Small (10 KB - 100 KB)" = "小（10 KB - 100 KB）";
+"Socket" = "接口";
+"Song Titles" = "歌名";
+"Sort Criteria" = "排列方式";
+"Sort Order" = "排序";
+"Sort by Date" = "日期";
+"Sort by Extension" = "類型";
+"Sort by Name" = "名稱";
+"Sort by Size" = "大小";
+"Startup Directory" = "啟動路徑";
+"Status" = "狀態";
+"Sticky" = "粘滯";
+"Stop" = "停止";
+"Symbolic Link" = "符號鏈接";
+"Tabulator Width" = "Tab 寬度";
+"Text Viewer" = "純文字檢視器";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "未安裝 7z 可執行檔案。請通過 Cydia 安裝『p7zip』或使用以下命令安裝：\n『apt-get install p7zip』";
+"The ZIP file is not valid." = "無效的壓縮檔。";
+"The file %@ could not be copied." = "無法複製檔案 %@。";
+"The file %@ could not be deleted." = "無法刪除檔案 %@。";
+"The file %@ could not be moved." = "無法移動檔案 %@。";
+"The file %@ could not be written." = "無法寫入檔案 %@。";
+"The file %@ does not exist." = "檔案 %@ 不存在。";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "目前的目錄已存在檔案 %@ 。您打算重命名還是覆蓋它？";
+"The files could not be added to ZIP file." = "無法添加檔案到壓縮檔。";
+"The files could not be extracted." = "無法解壓縮檔案。";
+"The files could not be removed." = "無法刪除檔案。";
+"The image could not be added to the camera roll (%@)." = "無法新增圖像到相簿（%@）。";
+"The image got successfully added to the camera roll." = "圖像已儲存至相簿。";
+"The link target %@ does not exist." = "鏈接目標 %@ 不存在。";
+"The link target does not exist." = "鏈接目標不存在。";
+"The name has not been set. Please specify one." = "未設置名稱。請指定一個名稱。";
+"The server port is still in use. Please use a different port.\n" = "伺服器端口已被佔用。請選擇其他端口。\n";
+"The specified startup directory does not exist." = "所指定的啟動目錄不存在。";
+"The tabulator width is too small or empty." = "Tab 寬度太小或為空。";
+"The text could not be found." = "找不到此文字。";
+"The text viewer font size should in the range of 8.0 and 18.0." = "純文字檢視器的字體大小應該在 8.0 至 18.0 之間。";
+"The trash could not be completely emptied. Please check the remaining files." = "無法完全清理資源回收筒。請檢查餘下的檔案。";
+"The trash got successfully emptied." = "清理資源回收筒完成。";
+"The video cannot be added to the camera roll." = "無法新增影片到相簿。";
+"The video could not be added to the camera roll (%@)." = "無法新增影片到相簿（%@）。";
+"The video got successfully added to the camera roll." = "影片已儲存至相簿。";
+"The web server port number must be between 1 and 65535." = "網頁伺服器的端口應在 1 至 65535 之間。";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "未安裝 zip 和 unzip 可執行檔案。請通過 Cydia 安裝『unzip』和『zip』或使用以下命令安裝：\n『apt-get install zip unzip』";
+"Theme Name" = "主題名稱";
+"Themes" = "主題";
+"This functionality is only supported for registered users." = "使用此功能前請先註冊。";
+"Thumbnails" = "縮圖";
+"Time" = "時間";
+"Tiny (< 10 kB)" = "很小（< 10 kB）";
+"Title" = "標題";
+"Today" = "今日";
+"Transfer Request" = "傳輸請求";
+"Transmitting %@" = "正在傳輸 %@";
+"Two months ago" = "兩月前";
+"Two years ago" = "兩年前";
+"Type" = "類型";
+"Unable to create %@." = "無法建立 %@。";
+"Unarchiver" = "解壓縮";
+"Unknown" = "未知";
+"Unpacking Files..." = "正在解開檔案…";
+"Unregistered" = "未註冊";
+"Upload of file %@ requested\n" = "請求上載檔案 %@\n";
+"UploadedFile" = "已上載檔案";
+"Use Trash" = "資源回收筒";
+"User Permissions" = "擁有者權限";
+"User" = "擁有者";
+"Username" = "用戶名稱";
+"Video Player" = "影片播放器";
+"Web Server" = "網頁伺服器";
+"Web Viewer" = "網頁檢視器";
+"Wildcard" = "萬用字元";
+"World Permissions" = "其他用戶權限";
+"World" = "其他用戶";
+"Write" = "寫入";
+"Yesterday" = "昨日";
+"ZIP Viewer" = "壓縮檔檢視器";
+"\nFinished with Result Code: %d\n" = "\n完成，返回值：%d\n";
+"done.\n" = "完成。\n";
+"failed.\n" = "失敗。\n";
+"iFile License" = "iFile 授權";
+"iFile Registration" = "iFile 註冊";
+"iFile got successfully registered." = "成功註冊 iFile。";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile 是一個共用軟體。如果你喜歡或經常使用它，請購買並註冊，以支持我繼續開發 iFile。";
+"iFile registration failed." = "無法註冊 iFile。";
+"iFile registration failed.\n(Reason: %@)" = "無法註冊 iFile。\n（原因：%@）";
+"iPhone Attachments with iFile" = "使用 iFile 新增的 iPhone 附件";
+"in %@" = "在 %@";
+"via iBlueNova" = "經 iBlueNova";
+"via iFile" = "經 iFile";
+"Applications" = "應用程式";
+"Books" = "書籍";
+"Devices" = "裝置";
+"Disk" = "磁碟";  // assuming Disk means "the harddisk on the local device".
+"Documents" = "文件";
+"Flash Drive" = "隨身碟";  // assuming Flash Drive means http://en.wikipedia.org/wiki/USB_flash_drive
+"Home" = "主頁";  // shouldn't it show the user's name? Both Finder and Windows Explorer do that.
+"Images" = "圖像";
+"Media Library" = "媒體櫃";
+"Places" = "位置";   // ???
+"Recordings" = "錄像";
+"Shortcuts" = "捷徑";
+"Sidebar" = "側邊欄";    // "側邊欄" is the name of the sidebar in Mac. InWindows Explorer it's called "瀏覽窗格" a.k.a. Browsing pane.
+"Trash" = "資源回收筒";
+"Add Shortcut" = "新增捷徑";
+"Shortcuts %@ could not be written: %@" = "無法寫入捷徑 %@：%@";
+"Shortcuts file %@ invalid: %@" = "無效的捷徑檔 %@：%@";
+"Authentication Mode" = "認證模式";
+"External Viewers" = "外部檢視器";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "新增項目";
+"Edit Item" = "編輯項目";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "同名的項目已存在。請先刪除該項目。";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "陣列";
+"Boolean" = "布林值";
+"Data" = "資料";
+"Dictionary" = "字典";
+"Float" = "浮點";
+"Integer" = "整數";
+"Number" = "數字";
+"Property List" = "屬性表";
+"String" = "字串";
+"Unkown Number Type" = "未知的數值類型";
+"Unkown Type" = "未知的類型";
+/* Top Level of Property List */
+"Top Level" = "頂層";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "項目名稱及類型不能留空。";
+"Item type must not be empty." = "項目類型不能留空。";
+"Position of item has not been set." = "未設定項目位置。";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "按兩下取消選擇";
+"Double tap to open" = "按兩下開啟";
+"Double tap to select" = "按兩下選擇";
+"deselected" = "已取消選擇";
+"selected" = "已選擇";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "隨身碟 1";
+"Flash Drive 2" = "隨身碟 2";
+"Flash Drive 3" = "隨身碟 3";
+"Flash Drive 4" = "隨身碟 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "第 %d 頁（共 %d 頁）";
+"Printing failed due to error in domain %@ with error code %u." = "列印失敗：域名 %@ 發生錯誤，錯誤碼為 %u。";
+"Printing of %@ completed successfully." = "%@ 列印完成。";
+"Printing of file %@ completed successfully." = "檔案 %@ 列印完成。";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "縮圖上限";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "%@ 卸載失敗。";
+/* iFile Version Label used in iFile about page */
+"Version" = "版本";
+"via Celeste" = "經 Celeste";
+"Basic" = "基本（Basic）";
+"Digest" = "摘要（Digest）";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "關於 iFile";
+"Contact Developer" = "聯絡開發者";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "添加到 iPod 資源庫";
+"The song cannot be added to the iPod library." = "無法添加該曲目到 iPod 資源庫。";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "正在計算⋯";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "顏色";
+"Default" = "預設";
+"Blue" = "藍色";
+"Brown" = "棕色";
+"Custom" = "自訂";
+"Gray" = "灰色";
+"Green" = "綠色";
+"Light Gray" = "淺灰";
+"Night Blue" = "深藍";
+"Orange" = "橙色";
+"Pink" = "粉紅";
+"Red" = "紅色";
+"Yellow" = "黃色";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "取消選擇";
+"Select all" = "全選";
+"Select" = "選擇";
+"Link" = "鏈接";
+"The file '%@' got successfully added to iPod library." = "已成功添加『%@』到 iPod 資源庫。";
+"The file '%@' could not be added to the iPod library." = "無法添加『%@』到 iPod 资源库。";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d 個檔案/目錄";
+"%d Files" = "%d 個檔案/目錄";
+/* Title and options for opening a new tab */
+"Open..." = "開啟…";
+"Dropbox" = "Dropbox";
+"Local Directory" = "本地目錄";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "清理 Dropbox 快取";
+"Clearing Dropbox cache failed." = "無法清理 Dropbox 快取。";
+"Download of file %@ failed." = "無法下載檔案 %@。";
+"Downloading..." = "正在下載…";
+"Link Dropbox" = "綁定 Dropbox";
+"No connection to Dropbox." = "無法連接到 Dropbox。";
+"Retrieving metadata for %@..." = "正在獲取 %@ 的元資料…";
+"The contents of %@ could not get retrieved." = "無法獲取 %@ 的內容。";
+"Unlink Dropbox" = "解除綁定 Dropbox";
+"Upload of file %@ failed." = "無法上載檔案 %@。";
+"Uploading %@..." = "正在上載 %@…";
+/* File list refresh */
+"Pull down to refresh..." = "下拉以刷新…";
+"Release to refresh..." = "鬆開以刷新…";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "保存路徑";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "請輸入問題內容或點擊取消。";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "複製公開鏈接";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "磁碟鏡像加載器";
+"Mounting..." = "正在加載…";
+"Disk image could not be mounted." = "無法加載磁碟鏡像。";
+"Disk image successfully mounted at %@." = "成功加載磁碟鏡像於 %@。";
+"Successfully unmounted %@." = "成功卸載 %@。";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "卸載";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "磁碟鏡像";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "顯示";
+/* Updates for release 1.6.1-2 */
+", %@ free" = "，%@ 可用空間";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ 伺服器";
+"Authentication Failed" = "驗證失敗";
+"Cannot set secure FTP connection properties." = "無法設定加密 FTP 連接屬性。";
+"Clear FTP Cache" = "清理 FTP 快取";
+"Clearing FTP cache failed." = "清理 FTP 快取失敗。";
+"Connect" = "連接";
+"Connection Failed" = "連接失敗";
+"Connection Refused" = "拒絕連接";
+"Connection to FTP server failed." = "連接 FTP 伺服器失敗。";
+"Copying/Moving between remote file systems is not supported." = "不支援在遠端档案系統內的拷貝和移動操作。";
+"Could not open connection to %@." = "無法連接到 %@。" ;
+"Could not read from network." = "無法從網絡獲取數據。";
+"Could not write to network." = "無法傳輸數據到網絡。";
+"Deleting %@..." = "正在刪除 %@…";
+"Directory listing parse failed." = "目錄列表解析失敗。";
+"Enter password for user '%@'" = "輸入用戶‘%@’的密碼";
+"FTP Server" = "FTP 伺服器";
+"FTP Servers" = "FTP 伺服器";
+"FTPS Server" = "FTPS 伺服器";
+"File read error." = "档案讀取錯誤。";
+"File write error." = "档案寫入錯誤。";
+"Login Failed" = "登錄失敗";
+"Please check if server name is correct." = "請檢查伺服器名稱是否正確。";
+"Please check if user name and password is correct." = "請檢查用戶名和密碼是否正確。";
+"Please enter a valid port number." = "請輸入有效的埠數字。";
+"Port" = "埠";
+"Remote Servers" = "遠端伺服器";
+"Retrieving contents of %@..." = "正在獲取 %@ 的內容…";
+"The FTP protocol does not support server side copy operations." = "FTP 協議不支援在伺服器上的拷貝操作。";
+"The password must not be empty." = "請輸入密碼。";
+"The server name must not be empty." = "請輸入伺服器名稱。";
+"The user name must not be empty." = "請輸入用戶名。";
+"URL is invalid:\n: %@" = "URL 位址無效：\n：%@";
+"Open" = "打開";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV 伺服器";
+"WebDAV Servers" = "WebDAV 伺服器";
+"Secure WebDAV Server" = "加密 WebDAV 伺服器";
+"Cannot set secure WebDAV connection properties." = "無法設定加密 WebDAV 連接屬性。";
+"Clear WebDAV Cache" = "清理 WebDAV 快取";
+"Clearing WebDAV cache failed." = "清理 WebDAV 快取失敗。";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "清理全部密碼";
+"Manage Passwords" = "管理密碼";
+"Passwords" = "密碼";
+/* Titles in Preferences Editor */
+"File Manager" = "档案管理器";
+"File Viewers" = "档案浏覽器";
+"iFile Web Server" = "iFile 網頁伺服器";
+"via AirBlue Sharing" = "通過 AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "書簽";
+"The file '%@' got successfully added to iPod library." = "档案『%@』已成功添加到 iPod 資源庫。";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "東芝 FlashAir®";
+"Clear FlashAir® Cache" = "清理 FlashAir® 快取";
+"Clearing Toshiba FlashAir® cache failed." = "清理東芝 FlashAir® 快取失敗。";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "東芝 FlashAir® 協定僅支援目錄列表及檔案下載。";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "帳號已解除綁定";
+"Clear box.net Cache" = "清理 box.net 快取";
+"Clearing box.net cache failed." = "清理 box.net 快取失敗。";
+"Do you want to relink?" = "您確定要重新綁定？";
+"Logged out" = "已登出";
+"Login box.net" = "登入 box.net";
+"Logout box.net" = "登出 box.net";
+"No connection to box.net." = "無法連接到 box.net。";
+"Relink" = "重新綁定";
+"You have logged out of your box.net account." = "您已登出您的 box.net 帳號。";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropbox 會話已結束";
+"Your dropbox account has been unlinked." = "您已解除 Dropbox 的綁定。";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "加密 WebDAV 伺服器";
+"Server Address" = "伺服器地址";
+"Login" = "登入";
+"Enter user and password:" = "請輸入用戶名和密碼：";
+/* bytes used on remote file system */
+", %@ used" = "，已用 %@";
+/* message while updating file date on server */
+"Updating date of %@..." = "正在更新 %@ 的日期…";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "無效伺服器";
+"Server does not support required WebDAV options." = "伺服器不支援所需的 WebDAV 選項。";
+"Directory listing has wrong format." = "目錄列表包含錯誤的格式。";
+"Modification date update failed." = "無法更新修改日期。";
+"Bad HTTP Request." = "壞的 HTTP 請求。";
+"Unauthorized Access." = "未驗證的訪問。";
+"Access forbidden." = "禁止訪問。";
+"Object not found on server." = "伺服器上未找到該項目。";
+"Access method not allowed." = "訪問方式不被允許。";
+"Access conflict." = "訪問衝突。";
+"Internal Server Error." = "伺服器內部錯誤。";
+"Functionality not implemented on server." = "伺服器不支持此功能。";
+"Insufficient storage on server." = "伺服器存儲空間不足。";
+"HTTP error %d." = "HTTP 錯誤 %d。";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "接受網站證書";
+"Accept" = "接受";
+"Import" = "導入";
+"Certificate Imported" = "證書已導入";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "該網站的證書‘%@’未知或無效。請點擊接受以繼續連接。";
+"The certificate '%@' got successfully imported." = "已成功導入證書‘%@’。";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "該網站的證書未知或無效。請點擊接受以繼續連接。";
+"The import of certificate '%@' failed." = "無法導入證書‘%@’。";
+/* Hex Editor Strings */
+"Hex Editor" = "十六進位編輯器";
+/* Search entry options of Hex Editor */
+"Hex" = "十六進位";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "檔案已更改";
+"The file got changed. Do you want to save the changes?" = "檔案已被更改，您確定要保存更改的內容嗎？";
+"Yes" = "是";
+"No" = "否";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "請輸入十進位格式的字節位元索引以顯示（%d-%d）。";
+"Enter the hexadecimal byte index to display (%X-%X)." = "請輸入十六進位格式的字節位元索引以顯示（%X-%X）。";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "字節位元索引 %llX 不存在。請指定一個在 %llX 和 %llX 之間的數值。";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "字節位元索引 %llX 不存在。請指定一個在 %lld 和 %lld 之間的數值。";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "字節位元索引‘%@’無效。請指定一個在 %llX 和 %llX 之間的數值。";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "字節位元索引‘%@’無效。請指定一個在 %lld 和 %lld 之間的數值。";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "共享";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "档案夹在頂部";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 編輯器";
+/* title for listing of database tables */
+"Tables" = "资料表";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL 語法";
+"Failed to fetch SQL result" = "無法獲取 SQL 返回結果";
+"Failed to fetch table names" = "無法獲取资料表名";
+"Failed to prepare SQL statement" = "無法准備 SQL 語法";
+"Failed to prepare for fetching table names" = "無法准備獲取资料表名";
+"Language" = "\U8a9e\U8a00";

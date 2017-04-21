@@ -1,0 +1,545 @@
+"\nFinished with Result Code: %d\n" = "\nΟλοκληρώθηκε με Κώδικα Απτελέσματος: %d\n";
+"%d of %d" = "%d από %d";
+"'%@' wants to send you some files." = "Το '%@' επιθυμεί να σας αποστείλει μερικά αρχεία.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Το αρχείο '%@' ανέβηκε επιτυχώς.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Αρχεία στο %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Ανέβασμα \">";
+"<p>Upload a file:<br />" = "<p>Ανεβάστε ένα αρχείο:<br />";
+"A symblic link to file %@ could not be created." = "Αδυναμία δημιουργίας συντόμευσης για το αρχείο %@.";
+"Accepting connections at http://%@ or http://%@.\n" = "Αποδεχούμενες συνδέσεις στο http://%@ ή http://%@.\n";
+"Access Permissions" = "Πρόσβαση στα Δικαιώματα";
+"Add Bookmark" = "Πρόσθεση Σελιδοδείκτη";
+"Add Folder" = "Πρόσθεση Φακέλου";
+"Add to Camera Roll" = "Πρόσθεση στο Άλμπουμ Κάμερας";
+"Address" = "Διεύθυνση";
+"An error occurred" = "Ένα πρόβλημα προέκυψε";
+"Application Names" = "Τίτλοι Εφαρμογών";
+"Apply hierarchically" = "Εφαρμογή ιεραρχικά";
+"Applying permissions and ownership hierarchically..." = "Γίνεται εφαρμογή δικαιωμάτων και ιδιοκτησίας ιεραρχικά";
+"Ascending" = "Αύξουσα";
+"Attributes" = "Γνωρίσματα";
+"Audio output got changed." = "Η έξοδος ήχου άλλαξε.";
+"Audio Player" = "Αναπαραγωγή Μουσικής";
+"Authentication" = "Πιστοποίηση";
+"Block Device" = "Μπλοκάρισμα Συσκευής";
+"Bonjour got enabled with name %@.\n" = "Το Bonjour ενεργοποιήθηκε με την ονομασία %@.\n";
+"Bookmark file %@ invalid: %@" = "Άκυρο αρχείο σελιδοδείκτη %@: %@";
+"Bookmark folder name must not be empty." = "Η ονομασία φακέλου σελιδοδείκτη δε θα πρέπει να είναι κενή.";
+"Bookmark name and address must not be empty." = "Η ονομασία σελιδοδείκτη και η διεύθυνση δε θα πρέπει να είναι κενές.";
+"Bookmarks" = "Σελιδοδείκτες";
+"Bookmarks %@ could not be written: %@" = "Οι σελιδοδείκτες %@ δεν μπορούν να εγγραφούν: %@";
+"Bookmarks Bar" = "Γραμμή Σελιδοδεικτών";
+"Bookmarks Menu" = "Μενού Σελιδοδεικτών";
+"Buy License (Cydia Store)" = "Αγορά Άδειας (Cydia Store)";
+"Cancel" = "Ακύρωση";
+"Character Device" = "Χαρακτήρας Συσκευής";
+"Close" = "Κλείσιμο";
+"Compressing..." = "Συμπίεση...";
+"Connected" = "Συνδεδεμένο";
+"Connection to '%@' failed." = "Η σύνδεση με το '%@' απέτυχε.";
+"Continue" = "Συνέχεια";
+"Copy" = "Αντιγραφή";
+"Copy/Link" = "Αντιγραφή/Συντόμευση";
+"Copying %@..." = "Αντιγραφή %@...";
+"Copying Files..." = "Αντιγραφή Αρχείων...";
+"Copying of file %@ requested\n" = "Αίτηση αντιγραφής αρχείου %@\n";
+"Create" = "Δημιουργία";
+"Create Link" = "Δημιουργία συντόμευσης";
+"Create ZIP File" = "Δημιουργία αρχείου ZIP";
+"Creation of directory %@ requested\n" = "Αίτηση δημιουργίας καταλόγου %@\n";
+"Cut" = "Αποκοπή";
+"Date" = "Ημερομηνία";
+"Delete %d Files" = "Διαγραφή %d Αρχείων";
+"Delete File" = "Διαγραφή Αρχείου";
+"Deleting Files..." = "Διαγραφή Αρχείων...";
+"Deletion of file %@ requested\n" = "Αίτηση διαγραφής αρχείου %@\n";
+"Descending" = "Φθίνουσα";
+"Directory" = "Κατάλογος";
+"done.\n" = "ολοκληρώθηκε.\n";
+"Earlier this month" = "Νωρίτερα αυτόν το μήνα";
+"Earlier this week" = "Νωρίτερα αυτήν την εβδομάδα";
+"Earlier this year" = "Νωρίτερα αυτόν το χρόνο";
+"Edit Bookmark" = "Επεξεργασία Σελιδοδείκτη";
+"Edit Folder" = "Επεξεργασία Φακέλου";
+"Email" = "Email";
+"Emailing Attachments with iFile" = "Αποστολή Συννημένων σε Email με το iFile";
+"Empty Trash" = "Άδειασμα Κάδου";
+"Enter new ZIP file name." = "Εισάγετε νέα ονομασία αρχείου ZIP.";
+"Enter the page number to display\n(%d-%d)." = "Εισάγετε την επιθυμητή προβαλλόμενη σελίδα\n(%d-%d).";
+"Error" = "Σφάλμα";
+"Error occurred while receiving file." = "Παρουσιάστηκε σφάλμα κατά τη λήψη αρχείου.";
+"Execute" = "Εκτέλεση";
+"Executing Command: %@\n\n" = "Εκτέλεση Εντολής: %@\n\n";
+"Extract %d Files" = "Αποσυμπίεση %d Αρχείων";
+"Extract All Files" = "Αποσυμπίεση Όλων των Αρχείων";
+"Extract File" = "Αποσυμπίεση Αρχείου";
+"failed.\n" = "απέτυχε.\n";
+"File %@ requested\n" = "Αίτηση αρχείου %@\n";
+"File already exists with name %@." = "Το αρχείο υπάρχει ήδη με ονομασία %@.";
+"File Attributes" = "Γνωρίσματα Αρχείου";
+"File attributes could not be changed or only partially." = "Τα γνωρίσματα του αρχείου δεν μπορούν να αλλάξουν.";
+"File Browser" = "Περιηγητής Αρχείου";
+"File could not be renamed." = "Αδυναμία μετονομασίας αρχείου.";
+"File Exists" = "Το αρχείο υπάρχει";
+"File successfully uploaded" = "Το αρχείο ανέβηκε επιτυχώς";
+"Files" = "Αρχεία";
+"Font Size" = "Μέγεθος Γραμματοσειράς";
+"Gigantic (> 100 MB)" = "Γιγαντιαίο (> 100 MB)";
+"Go to page" = "Μετάβαση στη σελίδα";
+"Go to Trash" = "Μετάβαση στον Κάδο";
+"Group" = "Ομάδα";
+"Group Permissions" = "Δικαιώματα Ομάδας";
+"Grouping" = "Ομαδοποίηση";
+"Header of file %@ requested\n" = "Header of file %@ requested\n";
+"Hidden Files" = "Κρυφά Αρχεία";
+"Hierarchy" = "Ιεραρχία";
+"Huge (10 MB - 100 MB)" = "Τεράστιο (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Εάν αγοράσατε το iFile από το Cydia Store, απλώς χρειάζεται να εκκινήσετε το iFile για να εγγραφείτε. Θα εμφανιστεί ένα μήνυμα για την επιτυχής εγγραφή.\nΟι χρήστες που πήραν δωρεάν εγγραφή ή πλήρωσαν μέσω PayPal απ'ευθείας χωρίς τη χρήση του Cydia Store θα πρέπει να εισάγουν το email τους παρακάτω. Η εγγραφή ολοκληρώνεται όταν επιστρέψετε στις Προτιμήσεις.";
+"iFile got successfully registered." = "Το iFile εγγράφηκε επιτυχώς.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "Το iFile είναι τώρα ShareWare. Αν σας αρέσει και το χρησιμοποιείτε τακτικά, παρακαλώ αγοράστε το. Έτσι μας δίνετε το έναυσμα να συνεχίσουμε την ανάπτυξη του iFile.";
+"iFile License" = "Άδεια iFile";
+"iFile Registration" = "Εγγραφή iFile";
+"iFile registration failed." = "Η εγγραφή του iFile απέτυχε.";
+"iFile registration failed.\n(Reason: %@)" = "Η εγγραφή του iFile απέτυχε.\n(Αιτία: %@)";
+"Image Viewer" = "Προβολέας Εικόνων";
+"in %@" = "στο %@";
+"Initializing Web Server..." = "Εκκίνηση του Web Server...";
+"Installer" = "Installer";
+"Internal inconsistency" = "Εσωτερική αστάθεια";
+"iPhone Attachments with iFile" = "Συννημένα αρχεία του iPhone με το iFile";
+"Large (1 MB - 10 MB)" = "Μεγάλο (1 MB - 10 MB)";
+"Last Modification" = "Τελευταία Ρύθμιση";
+"Last month" = "Τον προηγούμενο μήνα";
+"Last week" = "Την προηγούμενη εβδομάδα";
+"Last year" = "Πέρυσι";
+"Later" = "Αργότερα";
+"Link Target" = "Προορισμός Συντόμευσης";
+"Linking %@..." = "Συντόμευση %@...";
+"Linking Files..." = "Συντόμευση Αρχείων...";
+"Loading Contents..." = "Φόρτωση Περιεχομένων..";
+"Loading..." = "Φόρτωση...";
+"Medium (100 KB - 1 MB)" = "Medium (100 KB - 1 MB)";
+"Mime-Type" = "Mime-Type";
+"Modification Date" = "Ημερομηνία Διαμόρφωσης";
+"Move %d Files to Trash" = "Διαγραφή %d Αρχείων στον Κάδο";
+"Move File to Trash" = "Μετακίνηση Αρχείων στον Κάδο";
+"Moving %@..." = "Μετακίνηση %@...";
+"Moving Files..." = "Μετακίνηση Αρχείων...";
+"Moving of file %@ requested\n" = "Αίτηση μετακίνησης αρχείου %@\n";
+"Multipart header empty" = "Multipart header empty";
+"Name" = "Ονομασία";
+"New" = "Νέο";
+"New Folder" = "Νέος Φάκελος";
+"No file specified." = "Δεν ορίστηκε αρχείο.";
+"OK" = "OK";
+"Older" = "Παλαιότερο";
+"Open with..." = "Άνοιγμα με...";
+"Overwrite" = "Αντικατάσταση";
+"Overwrite all" = "Αντικατάσταση όλων";
+"Owner" = "Ιδιοκτήτης";
+"Ownership" = "Ιδιοκτησία";
+"Page %d does not exist. Please choose value between %d and %d." = "Η σελίδα %d δεν υπάρχει. Παρακαλώ επιλέξτε μια τιμή μεταξύ %d και %d.";
+"Password" = "Κωδικός Πρόσβασης";
+"Paste" = "Επικόλληση";
+"Path" = "Διαδρομή";
+"PDF Viewer" = "Προβολέας PDF";
+"Playback Paused" = "Παύση Αναπαραγωγής";
+"Port Number" = "Αριθμός Θύρας";
+"Preferences" = "Προτιμήσεις";
+"Preparing Image..." = "Προετοιμασία Εικόνας...";
+"Program Execution" = "Εκτέλεση Προγράμματος";
+"Properties of file %@ requested\n" = "Ζητήθηκαν οι ιδιότητες του αρχείου %@\n";
+"Property list %@ invalid: %@" = "Άκυρο Property list %@: %@";
+"Property List Viewer" = "Προβολέας Property List";
+"Read" = "Ανάγνωση";
+"Receiving %@" = "Λήψη %@";
+"Register" = "Εγγραφή";
+"Registered" = "Εγγεγραμένος";
+"Registering Web Service with Bonjour..." = "Εγγραφή υπηρεσίας Web με το Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Εγγραφή υπηρεσίας WebDAV με το Bonjour...";
+"Registration" = "Εγγραφή";
+"Registration Email Address" = "Email εγγραφής";
+"Registration Failed" = "Η εγγραφή απέτυχε";
+"Registration Process" = "Διαδικασία Εγγραφής";
+"Registration Status" = "Κατάσταση Εγγραφής";
+"Registration Successful" = "Επιτυχής Εγγραφή";
+"Regular Expression" = "Κανονική Έκφραση";
+"Regular File" = "Κανονικό Αρχείο";
+"Rename" = "Μετονομασία";
+"Resume" = "Συνέχεια";
+"Safari Bookmarks" = "Σελιδοδείκτες Safari";
+"Search" = "Αναζήτηση";
+"Search filenames" = "Αναζήτηση ονομασιών";
+"Search Format" = "Μορφή Αναζήτησης";
+"Set on exit" = "Ορισμός κατά την έξοδο";
+"Shutting down web server..." = "Κλείσιμο web server...";
+"Simple" = "Απλό";
+"Size" = "Μέγεθος";
+"Small (10 KB - 100 KB)" = "Μικρό (10 KB - 100 KB)";
+"Socket" = "Υποδοχή";
+"Song Titles" = "Τίτλοι Τραγουδιών";
+"Sort by Date" = "Ταξινόμηση κατά Ημερομηνία";
+"Sort by Extension" = "Ταξινόμηση κατά Κατάληξη";
+"Sort by Name" = "Ταξινόμηση κατά Όνομα";
+"Sort by Size" = "Ταξινόμηση κατά Μέγεθος";
+"Sort Criteria" = "Κριτήρια Ταξινόμησης";
+"Sort Order" = "Σειρά Ταξινόμησης";
+"Startup Directory" = "Κατάλογος κατά την Εκκίνηση";
+"Status" = "Κατάσταση";
+"Sticky" = "Sticky";
+"Stop" = "Σταμάτημα";
+"Symbolic Link" = "Συντόμευση";
+"Tabulator Width" = "Πλάτος Πινακοποιητή";
+"Text Viewer" = "Προβολέας Εγγράφων";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "Το εκτελέσιμο ερχείο 7z δεν είναι εγκατεστημένο. Παρακαλώ εγκαταστήστε το 'p7zip' από το Cydia ή χρησιμοποιήστε το Terminal και εισάγετε \n'apt-get install p7zip'.";
+"The file %@ could not be copied." = "Αδυναμία αντιγραφής αρχείου %@.";
+"The file %@ could not be deleted." = "Αδυναμία διαγραφής αρχείου %@.";
+"The file %@ could not be moved." = "Αδυναμία μετακίνησης αρχείου %@.";
+"The file %@ could not be written." = "Αδυναμία εγγραφής αρχείου %@.";
+"The file %@ does not exist." = "Το αρχείο %@ δεν υπάρχει.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Το αρχείο %@ υπάρχει ήδη στον τωρινό κατάλογο. Επιθυμείτε να το μετονομάσετε ή να το αντικαταστήσετε;";
+"The files could not be added to ZIP file." = "Τα αρχεία δεν μπορούν να πρστεθούν σε αρχείο ZIP.";
+"The files could not be extracted." = "Αδυναμία αποσυμπίεσης αρχείων.";
+"The files could not be removed." = "Αδυναμία διαγραφής αρχείων";
+"The image could not be added to the camera roll (%@)." = "Αδυναμία εισαγωγής εικόνας στο Άλμπουμ Φωτογραφιών (%@).";
+"The image got successfully added to the camera roll." = "Η εικόνα προστέθηκε επιτυχώς στο άλμπουμ κάμερας.";
+"The link target %@ does not exist." = "Ο προορισμός συντόμευσης %@ δεν υπάρχει.";
+"The link target does not exist." = "Ο προορισμός συντόμευσης δεν υπάρχει.";
+"The name has not been set. Please specify one." = "Δεν έχει οριστεί ονομασία. Παρακαλώ ορίστε μία.";
+"The server port is still in use. Please use a different port.\n" = "Η θύρα του server είναι σε χρήση. Παρακαλώ χρησιμοποιήστε άλλη θύρα.\n";
+"The specified startup directory does not exist." = "Ο ορισμένος κατάλοηος εκκίνησης δεν υπάρχει";
+"The tabulator width is too small or empty." = "Το πλάτος του πινακοποιητή είναι πολύ μικρό ή κενό.";
+"The text could not be found." = "Αδυναμία εύρεσης κειμένου.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Το μεγεθος γραμματοσειράς του προβολέα εγγράφων πρέπει να πάρει τιμή από 8.0 έως και 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "Ο κάδος δεν μπορεί να αδειάσει ολοκληρωτικά. Παρακαλώ ελέγξτε τα υπολειπόμενα αρχεία.";
+"The trash got successfully emptied." = "Ο κάδος άδειασε επιτυχώς.";
+"The video cannot be added to the camera roll." = "Αδυναμία εισαγωγής βίντεο στο Άλμπουμ Κάμερας.";
+"The video could not be added to the camera roll (%@)." = "Αδυναμία εισαγωγής βίντεο στο Άλμπουμ Κάμερας (%@).";
+"The video got successfully added to the camera roll." = "Το βίντεο προστέθηκε επιτυχώς στο άλμπουμ κάμερας.";
+"The web server port number must be between 1 and 65535." = "Η θύρα του web server πρέπει να πέρνει τιμές από 1 έως και 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "Το εκτελέσιμο αρχείο zip και unzip δεν είναι εγκατεστημένο. Παρακαλώ εγκαταστήστε το χρησιμοποιώντας \n'apt-get install zip unzip'.";
+"The ZIP file is not valid." = "Το αρχείο ΖΙΡ είναι άκυρο.";
+"Theme Name" = "Όνομα Θέματος";
+"Themes" = "Θέματα";
+"This functionality is only supported for registered users." = "Αυτή η λειτουργία είναι διαθέσιμη μόνο για εγγεγραμένους χρήστες.";
+"Thumbnails" = "Προεπισκοπήσεις";
+"Time" = "Ώρα";
+"Tiny (< 10 kB)" = "Μικροσκοπικό (< 10 kB)";
+"Title" = "Τίτλος";
+"Today" = "Σήμερα";
+"Transfer Request" = "Αίτημα Μεταφοράς";
+"Transmitting %@" = "Μεταφορά %@";
+"Two months ago" = "Πριν δύο μήνες";
+"Two years ago" = "Πριν δύο χρόνια";
+"Type" = "Πληκτρολόγηση";
+"Unable to create %@." = "Αδυναμία δημιουργίας %@.";
+"Unarchiver" = "Αποσυμπιεστής";
+"Unknown" = "Άγνωστο";
+"Unpacking Files..." = "Αποσυμπίεση Αρχείων...";
+"Unregistered" = "Μη Εγγεγραμμένος";
+"Upload of file %@ requested\n" = "Αίτηση ανεβάσματος αρχείου %@\n";
+"UploadedFile" = "Ανεβασμένο Αρχείο";
+"Use Trash" = "Χρησιμοποίηση Κάδου";
+"User" = "Χρήστης";
+"User Permissions" = "Δικαιώματα Χρήστη";
+"Username" = "Όνομα Χρήστη";
+"Video Player" = "Αναπαραγωγή Video";
+"Web Server" = "Web Server";
+"Web Viewer" = "Προβολέας Web";
+"Wildcard" = "Ειδική";
+"World" = "Όλοι";
+"World Permissions" = "Δικαιώματα Όλων";
+"Write" = "Γράψιμο";
+"Yesterday" = "Χθες";
+"ZIP Viewer" = "Προβολέας ZIP";
+"via iBlueNova" = "μέσω iBlueNova";
+"via iFile" = "μέσω iFile";
+"Add Shortcut" = "Προσθήκη Συντόμευσης";
+"Applications" = "Εφαρμογές";
+"Books" = "Βιβλία";
+"Devices" = "Συσκευές";
+"Disk" = "Δίσκος";
+"Documents" = "Έγγραφα";
+"Flash Drive" = "Εξωτερικός Δίσκος";
+"Home" = "Αρχική";
+"Images" = "Εικόνες";
+"Media Library" = "Πολυμέσα";
+"Places" = "Περιοχές";
+"Recordings" = "Ηχογραφήσεις";
+"Shortcuts %@ could not be written: %@" = "Οι συντομεύσεις %@ αδυνατούν να προστεθούν: %@";
+"Shortcuts file %@ invalid: %@" = "Η συντόμευση %@ είναι άκυρη: %@";
+"Shortcuts" = "Συντομεύσεις";
+"Sidebar" = "Πλαϊνή Μπάρα";
+"Trash" = "Κάδος";
+"Authentication Mode" = "Αυθεντικότητα";
+"External Viewers" = "Εξωτερικοί Προβολείς";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Προσθήκη αντικειμένου";
+"Edit Item" = "Διόρθωση αντικειμένου";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Ένα αντικείμενο με το ίδιο όνομα υπάρχει ήδη. Διαγράψτε το υπάρχον πρώτα.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Αριθμός";
+"Property List" = "Λίστα Ιδιοτήτων";
+"String" = "String";
+"Unkown Number Type" = "Αγνωστος τύπος αριθμού";
+"Unkown Type" = "Άγνωστος τύπος";
+/* Top Level of Property List */
+"Top Level" = "Αρχικό επίπεδο";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Το όνομα και ο τύπος του αντικειμένου δεν μπορούν να είναι κενά.";
+"Item type must not be empty." = "Το αντικείμενο δεν πρέπει να είναι κενό.";
+"Position of item has not been set." = "Η θέση του αντικειμένου δεν έχει ορισθεί";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Διπλό ταπ για να απεπιλέξετε";
+"Double tap to open" = "Διπλό ταπ για άνοιγμα";
+"Double tap to select" = "Διπλό ταπ για επιλογή";
+"deselected" = "μη επιλεγμένο";
+"selected" = "επιλεγμένο";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash Drive 1";
+"Flash Drive 2" = "Flash Drive 2";
+"Flash Drive 3" = "Flash Drive 3";
+"Flash Drive 4" = "Flash Drive 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Σελίδα %d από %d";
+"Printing failed due to error in domain %@ with error code %u." = "Η εκτύπωση απέτυχε λόγω σφάλματος στο domain %@ με κωδικό σφάλματος %u.";
+"Printing of %@ completed successfully." = "Η εκτύπωση του %@ ολοκληρώθηκε επιτυχώς.";
+"Printing of file %@ completed successfully." = "Η εκτύπωση του αρχείου %@ ολοκληρώθηκε επιτυχώς.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Όριακό μέγεθος μικρογραφίας";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Η αποσύνδεση %@ απέτυχε.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Έκδοση";
+"via Celeste" = "μέσω Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "Περί iFile";
+"Contact Developer" = "Επικοινωνία με Developer";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Προσθήκη στο iPod Library";
+"The song cannot be added to the iPod library." = "Το τραγούδι δεν μπορεί να προστεθεί στο iPod library.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Υπολογισμός...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Χρώμα";
+"Default" = "Προεπιλογή";
+"Blue" = "Μπλέ";
+"Brown" = "Καφέ";
+"Custom" = "Προσαρμοσμένο";
+"Gray" = "Γκρί";
+"Green" = "Πράσινο";
+"Light Gray" = "Ανοιχτό Γκρί";
+"Night Blue" = "Μπλέ Σκούρο";
+"Orange" = "Πορτοκαλί";
+"Pink" = "Ρόζ";
+"Red" = "Κόκκινο";
+"Yellow" = "Κίτρινο";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Αποεπιλογή όλων";
+"Select all" = "Επιλογή όλων";
+"Select" = "Επιλογή";
+"Link" = "Σύνδεσμος";
+"The file '%@' got successfully added to iPod library." = "Το αρχείο '%@' προστέθηκε επιτυχώς στο iPod library.";
+"The file '%@' could not be added to the iPod library." = "Το αρχείο '%@' δεν μπορεί να προστεθεί στο iPod library.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d Αρχείο";
+"%d Files" = "%d Αρχεία";
+/* Title and options for opening a new tab */
+"Open..." = "Άνοιγμα...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Τοπικός Κατάλογος";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Άδειασμα του Dropbox Cache";
+"Clearing Dropbox cache failed." = "Το άδειασμα του Dropbox cache απέτυχε.";
+"Download of file %@ failed." = "Η μεταφόρτωση του αρχείου %@ απέτυχε.";
+"Downloading..." = "Μεταφόρτωση...";
+"Link Dropbox" = "Σύνδεση Dropbox";
+"No connection to Dropbox." = "Δεν υπάρχει σύνδεση στο Dropbox.";
+"Retrieving metadata for %@..." = "Ανάκτηση μεταδεδομένων για %@...";
+"The contents of %@ could not get retrieved." = "Τα περιεχόμενα από %@ αδυνατούν να ανακτηθούν.";
+"Unlink Dropbox" = "Αποσύνδεση Dropbox";
+"Upload of file %@ failed." = "Το ανέβασμα του αρχείου %@ απέτυχε.";
+"Uploading %@..." = "Ανέβασμα %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Τραβήξτε κάτω για ανανέωση...";
+"Release to refresh..." = "Ελευθερώστε για ανανέωση...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Αποθήκευση καταλόγων";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Παρακαλώ εισάγετε ένα πρόβλημα ή πατήστε Άκυρο.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Αντιγραφή Δημόσιου Συνδέσμου";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Σύνδεση Εικόνας Δίσκου";
+"Mounting..." = "Σύνδεση...";
+"Disk image could not be mounted." = "Η εικόνα δίσκου δεν μπορεί να συνδεθεί.";
+"Disk image successfully mounted at %@." = "Η εικόνα δίσκου συνδέθηκε επιτυχώς στο %@.";
+"Successfully unmounted %@." = "Επιτυχής αποσύνδεση %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Αποσύνδεση";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Εικόνα Δίσκου";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Προβολή";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ ελεύθερα";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Διακομιστής";
+"Authentication Failed" = "Απέτυχε ο έλεγχος ταυτότητας";
+"Cannot set secure FTP connection properties." = "Δεν μπορείτε να ορίσετε ιδιότητες για ασφαλή σύνδεση FTP.";
+"Clear FTP Cache" = "Εκκένωση FTP Cache";
+"Clearing FTP cache failed." = "Η εκκένωση του FTP cache απέτυχε.";
+"Connect" = "Σύνδεση";
+"Connection Failed" = "Αποτυχία Σύνδεσης";
+"Connection Refused" = "Άρνηση Σύνδεσης";
+"Connection to FTP server failed." = "Αποτυχία σύνδεσης στο διακομιστή FTP.";
+"Copying/Moving between remote file systems is not supported." = "Η Αντιγραφή/Μετακίνηση μεταξύ απομακρυσμένων συστημάτων αρχείων δεν υποστηρίζεται.";
+"Could not open connection to %@." = "Αδυναμία σύνδεσης σε %@." ;
+"Could not read from network." = "Αδυναμία διαβάσματος από το δίκτυο.";
+"Could not write to network." = "Αδυναμία γράψιμου στο δίκτυο.";
+"Deleting %@..." = "Διαγραφή %@...";
+"Directory listing parse failed." = "Αποτυχία ανάλυσης καταλόγου.";
+"Enter password for user '%@'" = "Εισάγετε κωδικό για το χρήστη '%@'";
+"FTP Server" = "Διακομιστής FTP";
+"FTP Servers" = "Διακομιστές FTP";
+"FTPS Server" = "Διακομιστής FTPS";
+"File read error." = "Σφάλμα ανάγνωσης αρχείου.";
+"File write error." = "Σφάλμα εγγραφής αρχείου.";
+"Login Failed" = "Αποτυχία Σύνδεσης";
+"Please check if server name is correct." = "Παρακαλώ ελέγξτε αν το όνομα του διακομιστή είναι σωστό.";
+"Please check if user name and password is correct." = "Παρακαλώ ελέγξτε αν το όνομα και ο κωδικός πρόσβασης είναι σωστά.";
+"Please enter a valid port number." = "Παρακαλώ εισάγετε ένα έγκυρο αριθμό θύρας.";
+"Port" = "Θύρα";
+"Remote Servers" = "Απομακρυσμένοι Διακομιστές";
+"Retrieving contents of %@..." = "Ανάκτηςη περιεχομένου του %@...";
+"The FTP protocol does not support server side copy operations." = "Το πρωτόκολλο FTP δεν υποστηρίζει λειτουργίες αντιγραφής.";
+"The password must not be empty." = "Ο κωδικός δεν πρέπει να είναι κενός.";
+"The server name must not be empty." = "Το όνομα διακομιστή δεν πρέπει να είναι κενό.";
+"The user name must not be empty." = "Το όνομα χρήστη δεν πρέπει να είναι κενό.";
+"URL is invalid:\n: %@" = "Λανθασμένο URL:\n: %@";
+"Open" = "Άνοιγμα";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "Διακομιστής WebDAV";
+"WebDAV Servers" = "Διακομιστές WebDAV";
+"Secure WebDAV Server" = "Ασφαλής Διακομιστής WebDAV";
+"Cannot set secure WebDAV connection properties." = "Αδυναμία ορισμού ασφαλών ιδιοτήτων WebDAV.";
+"Clear WebDAV Cache" = "Εκκένωση WebDAV Cache";
+"Clearing WebDAV cache failed." = "Η εκκένωση του WebDAV cache απέτυχε.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Διαγραφή Όλων των Κωδικών Πρόσβασης";
+"Manage Passwords" = "Διαχείριση Κωδικών Πρόσβασης";
+"Passwords" = "Κωδικοί Πρόσβασης";
+/* Titles in Preferences Editor */
+"File Manager" = "Διαχείριση Αρχείων";
+"File Viewers" = "Προβολή Αρχείων";
+"iFile Web Server" = "Διακομιστής iFile Web";
+"via AirBlue Sharing" = "μέσω AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "Σελιδοδείκτης";
+"The file '%@' got successfully added to iPod library." = "Το αρχείο '%@' προστέθηκε επιτυχώς στο iPod library.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Εκκαθάριση προσωρινής μνήμης FlashAir®";
+"Clearing Toshiba FlashAir® cache failed." = "Η εκκαθάριση της προσωρινής μνήμης Toshiba FlashAir® απέτυχε.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Το πρωτόκολλο του Toshiba FlashAir® υποστηρίζει μόνο λίστες φακέλων και μεταφόρτωση αρχείων.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Ο λογαριασμός αποσυνδέθηκε";
+"Clear box.net Cache" = "Εκκαθάριση προσωρινής μνήμης box.net";
+"Clearing box.net cache failed." = "Η εκκαθάριση προσωρινής μνήμης του box.net απέτυχε.";
+"Do you want to relink?" = "Θέλετε επανασύνδεση?";
+"Logged out" = "Αποσυνδέθηκε";
+"Login box.net" = "Σύνδεση στο box.net";
+"Logout box.net" = "Αποσύνδεση από box.net";
+"No connection to box.net." = "Δεν υπάρχει σύνδεση στο box.net.";
+"Relink" = "Επανασύνδεση";
+"You have logged out of your box.net account." = "Έχετε αποσυνδεθεί από το λογαριασμό του box.net .";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Η σύνδεη στο Dropbox έληξε";
+"Your dropbox account has been unlinked." = "Ο λογαριασμός σας στο dropbox έχει αποσυνδεθεί.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Ασφαλείς Διακομιστές WebDAV";
+"Server Address" = "Διεύθυνση Διακομιστή";
+"Login" = "Είσοδος";
+"Enter user and password:" = "Εισάγετε όνομα και κωδικό:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ χρησιμοποιημένα";
+/* message while updating file date on server */
+"Updating date of %@..." = "Ανανέωση ημερομηνίας του %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Λάθος Διακομιστής";
+"Server does not support required WebDAV options." = "Ο διακομιστής δεν υποστηρίζει τις απαιτούμενες επιλογές WebDAV.";
+"Directory listing has wrong format." = "Η μορφή της λίστας είναι λανθασμένη.";
+"Modification date update failed." = "Απέτυχε η ενημέρωση της ημερομηνίας επεξεργασίας.";
+"Bad HTTP Request." = "Κακή ζήτηση HTTP.";
+"Unauthorized Access." = "Μη εγκεκριμένη πρόσβαση.";
+"Access forbidden." = "Απαγορευμένη πρόσβαση.";
+"Object not found on server." = "Το αντικείμενο δεν βρέθηκε στον διακομιστή.";
+"Access method not allowed." = "Δεν επιτρέπεται η μέθοδος πρόσβασης.";
+"Access conflict." = "Πρόβλημα πρόσβασης.";
+"Internal Server Error." = "Πρόβλημα διακομιστή.";
+"Functionality not implemented on server." = "Η λειτουργία δεν υπάρχει στο διακομιστή.";
+"Insufficient storage on server." = "Ανεπαρκής χώρος αποθήκευσης στο διακομιστή.";
+"HTTP error %d." = "Πρόβλημα HTTP %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Αποδοχή Πιστοποιητικού Ιστοσελίδας";
+"Accept" = "Αποδοχή";
+"Import" = "Εισαγωγή";
+"Certificate Imported" = "Το Πιστοποιητικό Εισήχθη";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Το πιστοποιητικό '%@' για αυτήν την ιστοσελίδα είναι άγνωστο ή λανθασμένο. Πατήστε αποδοχή για εισαγωγή ούτως ή άλλως.";
+"The certificate '%@' got successfully imported." = "Το πιστοποιητικό '%@' εισήχθη επιτυχώς.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Το πιστοποιητικό για αυτήν την ιστοσελίδα είναι άγνωστο ή λανθασμένο. Πατήστε αποδοχή για εισαγωγή ούτως ή άλλως.";
+"The import of certificate '%@' failed." = "Η εισαγωγή του πιστοποιητικού '%@' απέτυχε.";
+/* Hex Editor Strings */
+"Hex Editor" = "Επεξεργαστής Hex";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Το Αρχείο Άλλαξε";
+"The file got changed. Do you want to save the changes?" = "Το αρχείο άλλαξε. Επιθυμείτε να σώσετε τις αλλαγές;";
+"Yes" = "Ναι";
+"No" = "Όχι";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Εισάγετε το δεκαδικό byte για προβολή (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Εισάγετε το δεκαεξαδικό byte για προβολή(%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Το Byte %llX δεν υπάρχει. Παρακαλώ επιλέξτε μια τιμή ανάμεσα σε %llX και %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Το Byte %lld δεν υπάρχει. Παρακαλώ επιλέξτε μια τιμή ανάμεσα σε %lld και %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Το Byte '%@' είναι λάθος. Παρακαλώ επιλέξτε μια τιμή ανάμεσα σε %llX και %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Το Byte '%@' είναι λάθος. Παρακαλώ επιλέξτε μια τιμή ανάμεσα σε %lld και %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Κοινόχρηστο";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Φάκελοι στην Κορυφή";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "Επεξεργασία SQLite3";
+/* title for listing of database tables */
+"Tables" = "Πίνακες";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "Δήλωση SQL";
+"Failed to fetch SQL result" = "Αποτυχία εύρεσης αποτελέσματος SQL";
+"Failed to fetch table names" = "Αποτυχία εύρεσης ονομάτων πινάκων";
+"Failed to prepare SQL statement" = "Αποτυχία προετοιμασίας δήλωσης SQL";
+"Failed to prepare for fetching table names" = "Αποτυχία προετοιμασίας εύρεσης ονομάτων πινάκων";
+"Language" = "\U0393\U03bb\U03ce\U03c3\U03c3\U03b1";

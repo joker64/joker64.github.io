@@ -1,0 +1,1468 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>Log-ul de schimbări</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="../../common/index.css" />
+</head>
+<body >
+<div id="content">
+<ul class="table">
+
+<li class="tableitem">
+<h2>2.2.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support to set the user interface language in iFile's preferences. This setting takes effect after restarting the application.</li>
+    <li>Added support for shortcuts on iPhone as on iPad (via bookmark button).</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>iFile shows now the application names again under iOS 8 in /var/mobile/Containers/Bundles/Application.</li>
+    <li>Fixed that external viewers are listed again under iOS 8.</li>
+    <li>Fixed crash when an image got saved to the camera roll under iOS 8.</li>
+    <li>Fixed that the pop-up menu in file browser did not hide when tapping outside of the pop-up menu.</li>
+    <li>Added Hebrew localization (previously not added).</li>
+    <li>iFile does not crash anymore after it got backgrounded: It stays 3 minutes in background before it exits.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.1.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added Hebrew localization.</li>
+    <li>Added iPhone 6 and iPhone 6 Plus support.</li>
+    <li>Added icons for iPhone 6 Plus.</li>
+    <li>During search in file list the search magnifying glass icon gets replaced with an activity indicator.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed problem in not listing some external viewers, e.g. Whatsapp, Dropbox, iMovie etc.</li>
+    <li>Fixed issue that Bluetooth transfers via GameKit were not working on iOS 7+ anymore.</li>
+    <li>Fixed issue that stored URL from a 2nd tab will be stored back to 1st tab.</li>
+    <li>Fixed that status bar was black on black in Audio Player.</li>
+    <li>Fixed bug in Box SDK that lead to crash on launch on iOS 8.</li>
+    <li>Updated "Pull down to refresh" arrow with iOS 7 styled one on iOS 7 and later.</li>
+    <li>Fixed that integer numbers containing a decimal indicator (, or .) got interpreted as floats in Property List Editor number fields.</li>
+    <li></li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.0.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed broken Open with... in Attributes Editor.</li>
+    <li>Corrected wrong iFile icon on iOS6 and below.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.0.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Enhanced iFile to be compatible with iOS 7 including new icon, buttons, and iOS 7 look and feel.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed crash when used tried to enter a PayPal registration email address (only required for people who did not buy in Cydia Store).</li>
+    <li>iFile could not be terminated on iOS 7 via the App Switcher. This could only be fixed by always exiting it when you background it. However, it will stay active for another 180 seconds after backgrounding. It does not quit if you play music in background.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.9.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed crash when saving a modified file in Hex Editor.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.9.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added WebDAV client with support for HTTP and HTTPS.</li>
+    <li>Added Bonjour browser to find FTP, WebDAV and WebDAVS servers.</li>
+    <li>Added Hex Editor. It can be opened via Open with... in a file's Attributes Editor. It supports search, go to index, copy, cut, paste, delete, and undo/redo. Supported Gestures:
+      <ul>
+        <li>Tap on line numbers changes between hexadecimal and decimal representation.</li>
+        <li>Tap on hex/string fields sets cursor. Second tap on same position shows edit menu.</li>
+        <li>Double tap on hex/string fields selects a single byte/character.</li>
+        <li>Tripple tap on hex/string fields selects a complete line.</li>
+        <li>Long-press on hex/string fields lets you move the cursor around showing a magnifying glass.</li>
+        <li>Pinch changes the font size.</li>
+      </ul>
+    </li>
+    <li>Added SQLite3 Editor for files with extension sqlite, sqlite3, sqlitedb, db. It allows to edit integer, float and string fields. Blob fields are not editable.</li>
+    <li>Added new preferences option to have folders to be at top of file list or sorted the same way as files (only sort by size is an exception to this as folders don't have a size associated with them).</li>
+    <li>Added Shared section in shortcuts on iPad to contain remote file system shortcuts, e.g box.net and Dropbox.</li>
+    <li>Enabled mounting of MSDOS formatted disk images (DMG) and also mounting of ISO disk images.</li>
+    <li>Import of songs and videos to iPod Library is now a free feature requiring the Gremlin Framework package to be installed.</li>
+    <li>Bulgarian language support added (provided by Kristiyan Tanev).</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected download progress for download of a single file from an FTP server.</li>
+    <li>Corrected double loading of directory contents on iPhone after clearing a remote server cache.</li>
+    <li>Fixes to WebDAV server to better play with new iFile WebDAV client.</li>
+    <li>Added username and password form in case loading an FTP directory failed because of failed authentication.</li>
+    <li>Fixed failing directory creation during hierarchical upload to box.net.</li>
+    <li>Fixed that songlist and play options in Audio Player were ill formatted when Audio Player got opened in landscape mode on iPad.</li>
+    <li>Fixed that canceling downloads from Dropbox did just close the HUD, but did not cancel the operation.</li>
+    <li>Corrected that taps on the play options in Audio Player caused the play options view to be hidden.</li>
+    <li>Corrected illegal character in Czech localization.</li>
+    <li>Fixed that Dropbox-to-Dropbox move/copy did not work (also applies to renaming of files) because of changed Dropbox API.</li>
+    <li>Fixed bug that lead to not showing the viewer chooser for files that don't have a supported mime-type.</li>
+    <li>Fixed crash in Audio Player in case of certain invalid ID3 data in a song.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.8.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected iFile binary for old iDevices (armv6) to be identical to 1.7.2-2 instead of 1.7.0-2.</li>
+    <li>Corrected that iFile did not run as super user on old iDevices (armv6).</li>
+    <li>Updated Hungarian localization and HTML files.</li>
+    <li>Fixed crash on iOS 5.1 when linking to Dropbox (happened when Dropbox app was not installed).</li>
+    <li>Fixed that iFile did not remember that it got already linked to a box account.</li>
+    <li>Fixed that option bar got hidden in AudioPlayer when the user tapped on repeat mode button, shuffle button or iPod Library Import button.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.8.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Updated iFile for iPhone 5 (startup image) and iOS 6 support in general.</li>
+    <li>Support added for accessing box.net as remote file system.</li>
+    <li>Support for remote browsing of Toshiba FlashAir SDCards added as remote file system (browsing and copying supported).</li>
+    <li>Upgraded Dropbox SDK Version to 1.3.2 - mandatory to allow authentication beyond 30-Nov-2012.</li>
+    <li>Removed trash icon for closing tabs and added close button instead (similiar to Safari).</li>
+    <li>Added xm file extension to be opened in iFile's Text Editor by default.</li>
+    <li>Switched compiler from GCC to CLANG.</li>
+    <li>The fixes and enhancements of this release will only apply to armv7 based iOS devices, i.e. following iOS devices:
+        <ul>
+            <li>All iPads running iOS 4 or later.</li>
+            <li>All iPhones starting with iPhone 3GS or later.</li>
+            <li>All iPod touch starting with iPod touch (3rd gen.) or later.</li>
+        </ul>
+    </li>
+    <li>Added background images to file browser to ease identification of box, Dropbox and FTP tabs.</li>
+    <li>Added labels for file system type and path to tab chooser.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed crash in Registration Status dialog after entering it for 2nd time.</li>
+    <li>Corrected reflection of browser images in tab chooser.</li>
+    <li>Crash fixed in Zip Viewer.</li>
+    <li>Fixed deadlock during startup of iFile when a password needed to be entered for an FTP server, but it was blocked by the startup GUI.</li>
+    <li>Fixed registration failures on iOS 6</li>
+    <li>Fixed that browser did not refresh after file renaming on an iPad.</li>
+    <li>Fixed various issues with bookmarking of files on iPad.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.2-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed wrong field height in Preferences on iPad.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.2-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>iFile will now show a movie icon for avi files.</li>
+    <li>iFile's web server shows now also App names and song titles instead of cryptic paths when these options are enabled in iFile's preferences.</li>
+    <li>Updated iFile's web server's favicon.</li>
+    <li>Added support for automatically uploading text files edited on an FTP server after a save operation in Text Editor.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Explicitly setting of black background for tab chooser.</li>
+    <li>Avoided dead lock when password entry for FTP server was required, but GUI was blocked by glass pane.</li>
+    <li>Fixed that navigation bar did not get hidden during search on FTP server and Dropbox.</li>
+    <li>Fixed that search on FTP server and Dropbox did not show matching directories.</li>
+    <li>Added workaround to avoid crashes during directory listings on FTP servers not supporting UTF8 natively. Files with special characters on such servers list now correctly, but cannot be renamed, moved or copied.</li>
+    <li>Fixed broken creation of symbolic links via 'New' form.</li>
+    <li>Fixed GUI glitch of too large field for buying an iFile license.</li>
+    <li>Fixed empty preferences after returning from About iFile.</li>
+    <li>Fixed that hierarchical search always searched also in hidden folders independent of iFile's preferences setting.</li>
+    <li>Fixed that for cached files from an FTP server the list of file viewers was incorrectly displayed.</li>
+    <li>Fixed that an cancelled FTP file transfer did not get interrupted.</li>
+    <li>Fixed that file name of the ZIP got shortened when it contained multiple dots in its name.</li>
+    <li>Fixed that deletion of multiple files on FTP server stopped after first file deletion.</li>
+    <li>Fixed that a select all in search results did not make the toolbar visible again.</li>
+    <li>Corrected behavior when editing attributes of a file in search results: After pressing done in Attributes Editor, the user returns to the current directory instead of the search results.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.1-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support for loading MobileSubstrate extension SwipeShiftCaret.dylib.</li>
+    <li>Added support for hiding dot files on QNAP NAS (start with :2e). </li>
+    <li>Vietnamese Localization added.</li>
+    <li>preinst script included in iFile package that kills iFile before installation in Cydia.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected reformatted preferences view when returning from sub-views.</li>
+    <li>Corrected handling of empty file name when creating new file/folder/link to avoid crash.</li>
+    <li>Corrected handling special characters in user names in FTP URL's, e.g. email addresses.</li>
+    <li>Corrected that Attributes Editor did not close after FTP/Dropbox file renaming (iPhone).</li>
+    <li>Corrected that directory listing did not get updated after FTP/Dropbox file renaming (iPad).</li>
+    <li>Corrected reading of preferences so that they don't get overwritten by defaults (iOS 4.x).</li>
+    <li>Corrected shortened directory listings on FTP servers in case of large number of files./li>
+    <li>Corrected bug that not all files of large FTP directories did get copied/moved to local file system.</li>
+    <li>Fixed display issue when user rotated the iDevice in a viewer and then returned to file browser.</li>
+    <li>Fixed crash while storing a text file in Dropbox from Text Editor.</li>
+    <li>Corrected too small display of PDF's on 3rd generation iPad.</li>
+    <li>Corrected Image and PDF Viewer to display the images and PDF's fixed centered (iOS 5.x).</li>
+    <li>Corrected handling of copying between remote and local file systems in case of using just a single tab.</li>
+    <li>Fixed crash in Preferences->Registration Status.</li>
+    <li>Fixed crash when deleting files.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.0-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected Polish and Japanese localizations.</li>
+    <li>Included Hungarian and European Portuguese localizations in package.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added option to open new tabs using bookmarks.</li>
+    <li>Completely refactored local and remote file handling.</li>
+    <li>New FTP client supporting copy, cut, paste, rename, delete.</li>
+    <li>Overhaul of Dropbox implementation.</li>
+    <li>Changed iFile-to-iFile Bluetooth transfer to disable device locking during transfer.</li>
+    <li>Added section index also in case of sorting and grouping files by extension.</li>
+    <li>Restructured iFile's preferences.</li>
+    <li>AirBlue Sharing support added.</li>
+    <li>Added support for auto mounting harddisks (MSDOS and HFS file systems) on iPad via Camera Connection Kit.</li>
+    <li>Hungarian and European Portuguese localization added.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected German and Chinese localizations.</li>
+    <li>Fixed handling of large files sizes for download, upload and directory listing in Web Server.</li>
+    <li>Added strict type checking on preferences to avoid potential crashes because of illegal values in the preference file.</li>
+    <li>Fixed crash on iPad while changing attributes hierarchically.</li>
+    <li>Updated French localization.</li>
+    <li>Fixed crash of Web Viewer on iOS 5.1 (caused by iOS bug).</li>
+    <li>Avoided showing of . and .. for mounted flash drives.</li>
+    <li>Fixed broken disk image mounting for iOS 5.x.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-3 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed issue in web server's content headers leading to corrupt pages for Firefox 8.</li>
+    <li>Fixed segmentation fault when renaming Dropbox files on iPad.</li>
+    <li>Updated Dropbox SDK to version 0.3.</li>
+    <li>Added korean translator to features.html.</li>
+    <li>Corrected too small "Pull down to reload" label in Chinese in landscape on iPad.</li>
+    <li>Fixed registration status dialog field sizes.</li>
+    <li>Corrected position of Done button in HUD when saving a file to Dropbox from Text Editor.</li>
+    <li>Fixed that saving a file from Text Editor to Dropbox failed when the filename contained special characters.</li>
+    <li>Fixed Send/Cancel button handling for support emails for iOS 5.</li>
+    <li>Fixed that downloaded Dropbox music files could not be played in Audio Player.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected French translation for "The image got successfully added to the camera roll.".</li>
+    <li>Added Web Viewer as default for mime-types image/jpeg, image/bmp, image/png, image/tiff,image/gif.</li>
+    <li>Added no-artwork image for Audio Player in iPad's native resolution.</li>
+    <li>Localized "MB free" at bottom of file browser.</li>
+    <li>Corrected that image sizes did not get displayed correctly for @2x files.</li>
+    <li>Fixed bug that lead to re-registration of iFile at every start.</li>
+    <li>Fixed crash in Audio Player related to empty genre string setting in mp3 files.</li>
+    <li></li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support for DMG (Apple Disk Image) mounting./li>
+    <li>Dropbox files and directories get shown in green color if they are contained in local cache.</li>
+    <li>Dropbox choice in add tab dialog will only be shown if iFile got linked to Dropbox.</li>
+    <li>Added support for cover art embedded in mp3 files (ID3).</li>
+    <li>Added support for copying a file's MD5 sum in Attributes Editor by tapping on it.</li>
+    <li>Added support for copying public Dropbox link in Attributes Editor.</li>
+    <li>Added support for cancelling Dropbox downloads.</li>
+    <li>Enhanced support email to block email sending when no issue has been entered.</li>
+    <li>Added support for displaying the image size in title bar in Image Viewer.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed that Done button in Attributes Editor did not work for Dropbox files.</li>
+    <li>Corrected typo in file name for loading of KeybordFix.dylib to support custom keyboards also on iOS 4.3.x.</li>
+    <li>Corrected that in some translations the "Pull down to refresh..." had a too large font and that the arrow had the wrong position.</li>
+    <li>Added support for Open with... in Attributes Editor for Dropbox files.</li>
+    <li>Corrected that after a file change, e.g. attributes, text editor, plist editor, the list got reloaded and scrolled to top.</li>
+    <li>Fixed crash because of illegal preference values.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>File Browser
+      <ul>
+        <li>Full Dropbox support with following features (Registered Users):
+          <ul>
+            <li>Copy/move from local file system to Dropbox, from Dropbox to local file system, from Dropbox to Dropbox.</li>
+            <li>Create new folders in Dropbox.</li>
+            <li>Edit filename for files and folders on Dropbox.</li>
+            <li>Show thumbnails in file browser if they are available from Dropbox - supported in 32x32 and 64x64 (retina) resolution.</li>
+            <li>Downloaded files and thumbnails get cached locally.</li>
+            <li>The Dropbox cache can be cleared in Preferences.</li>
+            <li>A user can link to and unlink from Dropbox via Preferences.</li>
+            <li>Pressing Home button on a Dropbox tab gets the user to Dropbox root directory.</li>
+          </ul>
+        </li>
+        <li>Added support for "Pull down to reload" in file browser (above search bar).</li>
+        <li>Added display of number of files in current directory and free bytes in associated file system at bottom of file browser (for local file system and Dropbox).</li>
+        <li>Added support for long press on table to select all also in non-editing mode.</li>
+      </ul>
+    </li>
+    <li>Attributes Editor
+      <ul>
+        <li>Added support for Add to iPod Library for songs and videos (only available if Celeste or YourTube got also purchased).</li>
+      </ul>
+    </li>
+    <li>Image Viewer
+      <ul>
+        <li>Added confirmation for image deletion in Image Viewer.</li>
+      </ul>
+    </li>
+    <li>Web Viewer
+      <ul>
+        <li>Added webarchive support.</li>
+      </ul>
+    </li>
+    <li>Audio and Video Player
+      <ul>
+        <li>Added support for playing content (music/videos) purchased in iTunes.</li>
+      </ul>
+    </li>
+    <li>Preferences
+      <ul>
+        <li>Added preferences setting to store paths, i.e. paths of tabs get stored on exit.</li>
+        <li>Changed default of "Use Trash" to Yes.</li>
+      </ul>
+    </li>
+    <li>Localizations
+      <ul>
+        <li>Updated Romanian localization and change-log.</li>
+        <li>Polish updated.</li>
+        <li>Added Korean localization.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Added loading of KeybordFix.dylib to support custom keyboards also on iOS 4.3.x.</li>
+    <li>Added iFile package dependency on diskdev-cmds package to allow unmount of SDCards/USB sticks connected to iPad via Camera Connection Kit.</li>
+    <li>Fixed that when tapping on 'Apply hierarchically' in Attributes Editor, the 'Open with...' dialog came up.</li>
+    <li>Fixed that with active "swipe to delete" pressing the Edit button lead to inconsistent table appearance.</li>
+    <li>Corrected that rotation deselected browser items and reloaded folder contents.</li>
+    <li>Fixed that if a file got removed that a symbolic link pointed to, lead to hiding the symbolic link in the file browser.</li>
+    <li>Corrected cydia:///package/ to cydia://package/ in all about.html.</li>
+    <li>Disabled iPod lib export button for videos in Attributes Editor if Gremlin 2 is not installed.</li>
+    <li>Disabled confirmation dialog when cancelling a support email.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-4 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+    <li>Reparată problema că nu puteai crea directoare care conțineau spați în calea lor.</li>
+    <li>Reparată problema că spinning wheel nu dispărea pentru anumiși utilizatori.</li>
+    <li>Reparată atunci când apăsai pe butonul + pentru a adăuga un fișier/director/legătură pentru a 4 oară iFile prăbușea.</li>
+    <li>Corectat bug-ul că schimbările în câmpul Șir a unui Array într-o listă de proprietate nu erau memorate.</li>
+    <li>Corectat că după o schimbare a unui fișier în Editorul de Liste de proprietate sau Vizualizatorul de text navigatorul de fișiere nu era actualizat.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-3 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+    <li>Reparată problema când un director care nu există are facută referință în preferințele iFile, iFile va afișa pentru totdeauna spinning wheel.</li>
+    <li>Reparat atunci când folosind un URL de felul ifile:///<cale> 
+    nu naviga la aceea cale în navigatorul de fișiere pentru fișiere și nu mergea deloc dacă URL-ul facea referință la un director.</li>
+    <li>Corectată nereușirea întegistrări pentru anumiți utilizatori.</li>
+    <li>Reparat că un director nu era actualizat după rularea Dezarhivatorului și Instalatorului.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-2 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+    <li>Reparată problema când un director de start iFile nu exista, iFile arăta pentru totdeauna spinning wheel.</li>
+    <li>Reparată prabușirea când transmiterea unui fișier de la iFile la iFile (cel care trimitea prăbușea).</li>
+    <li>Reparat bug-ul când un utilizator alegea selectează tot, iFile nu activa butoanele barei de unelte.</li>
+    <li>Reparat prăbușirea când atingerea pe un director în rezultatele de căutare al căutări iererhice.</li>
+    <li>Reparată prabușirea când alegând un vizualizator pentru un fișier făra a cunoaște tipul fișierului pentru a 4 oară.</li>
+    <li>Reparat atunci când deschiderea de fișiere în iFile prin URL ifile:///<cale> nu a mai funcționat. Aceasta a fost o problemă în context cu Attachment Saver și Safari Download Manager.</li>
+    <li>Încetinită animația când mutarea taburilor în alegătorul de taburi (cover flow).</li>
+    <li>Activat antialiasing în alegătorul de tab (cover flow).</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+    <li>Corectate legăturile din indexul Serverului Web pentru fișiere cu caractere speciale.</li>
+    <li>Actualizată traducerea în Chineză.</li>
+  </ul>
+</li>
+<li>Îmbunătățiri
+  <ul>
+    <li>Încărcarea de libstatusbar.dylib și SwipeToMoveCursor.dylib sunt activate.</li>
+    <li>Traducerea în Română adăugată.</li>
+    <li>Integrare cu Celeste/Gremlin 
+      <ul>
+        <li>Adăugat suport pentru trimiterea de fișiere prin Celeste (Bluetooth).</li>
+        <li>Adăugat suport pentru adăugarea de cântece în Biblioteca iPod folosind Gremlin de la @cocoanutapps. Aceasta este posibilă în Editorul de atribute și Playerul audio.</li>
+        <li>Îndepărtat suport pentru iBluenova din iOS 4.x și mai târziu.</li>
+      </ul>
+    </li>
+    <li>Navigatorul de Fișiere
+      <ul>
+        <li>Adăugat calcularea de sumă MD5 pentru fișiere în Editorul de atribute.</li>
+        <li>Conținutul directorului inițial se încarcă în fundal.</li>
+        <li>Adăugat glass pane covering GUI <span title="Click for alternate translations">în timpul</span> <span title="Click for alternate translations">încărcări conţinutului</span> <span title="Click for alternate translations">director</span><span title="Click for alternate translations">ului iniţial</span><span title="Click for alternate translations">.</span></li>
+        <li>Înlocuit butonul de acțiune cu butonul clipboard (modul de editare).</li>
+        <li>Adăugat suport pentru pâna la 8 taburi prin noul buton în bara de unelte în navigatorul de fișiere.</li>
+        <li>Adăugat tab alegător folosind cover flow GUI. Permite adăugarea și eliminarea de taburi.</li>
+        <li>Adăugat suport pentru two-finger swipe gesture a permite plimbarea printre taburi.</li>
+        <li>Eliminat butonul info din bara de unelte din navigatorul de fișiere.</li>
+        <li>Adăugat suport pentru apăsare lungă pe tabel pentru a selecta, selectează toate, deselectează toate, copiază, taie, lipește, legătură.</li>
+        <li>Eliminat comportamentul pentru o dublă atingere pe tabel a selecta/deselecta toate fișierele.</li>
+      </ul>
+    </li>
+    <li>Preferițe
+      <ul>
+        <li>Eliminat opțiunea "Memorizează la ieșire" din preferințe.</li>
+        <li>Adăugate câmpurile Despre iFile și Contactează Dezvoltator.</li>
+        <li>Implementat setări pentru culori GUI (bara de navigația și bara de unelte din vizualizatori selectați).</li>
+        <li>Schimbate iconițele implicite la Leopard.</li>
+      </ul>
+    </li>
+    <li>Editorul de Property List
+      <ul>
+        <li>Corectat formatarea de celule pentru a evita spațile goale în celule multi-line.</li>
+        <li>Schimbat mărimea fontului folosit în editorul de șir în Editorul de Property List (mai mare).</li>
+      </ul>
+    </li>
+    <li>Vizualizatorul ZIP
+      <ul>
+        <li>Adăugat suport pentru extragere de fișiere zip criptate cu parolă.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.2-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Rezolvări
+  <ul>
+    <li>Rezolvată problema când iFile se prăbușea atunci când trimitea directoare prin Bluetooth (acum va abandona).</li>
+    <li>Implementată bara de căutare pentru Editorul de Property List.</li>
+    <li>Rezolvată problema de consumație de memorie enormă în timpul căutări de fișiere.</li>
+    <li>Înregistrate Vizualizatorul Web șiVizualizatorul de Text pentru fișiere SVG (image/svg+xml mime-type).</li>
+    <li>Adăugat butonul de ștergere on Vizualizatorul de Imagine..</li>
+    <li>Schimbat câmpul string în Editorul de Property List să permită valori pe mai multe lini.</li>
+    <li>Adăugat suport pentru a merge la directorul unui fișier prin Editorul de Atribute.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-3 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+    <li>Corectată o problemă în care Vizualizatorul PDF nu permitea să ajungi la ultima pagină.</li>
+    <li>Corectat pe iPad unde vizualizatoarele de Imagine și PDF ascundeau bara de navigație și de unelte când formularul de tipărire și formularul de creare a semnelor de carte sunt vizibile.</li>
+    <li>Implementat o tratare mai bună a erorilor în Player Video pentru formatele invalide.</li>
+    <li>Rezolvată problema când iFile nu rula în fundal și deschidea fișiere prin URL-ul iFile ifile:///
+      (ex. pentru Safari Download Manager) deschidea vizualizatorul de fișiere, dar nu închidea lista cu vizualizatori.</li>
+    <li>Corectat comportamentul two-finger double-tap zoom-out în Vizualizatoarele de Imagine și PDF pentru a mări complect.</li>
+    <li>Player-ul Audio Player va reține opțiunea de repeat/shuffle (arătată după ce apeși pe coperta albumului).</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-2 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+    <li>Reparat bug care apasând butonul Gata după schimbarea numelui fișierului în Editorul de Atribute nu închidea Editorul de Atribute.</li>
+    <li>Actualizată traducerea Chineză de Log-ul de schimbari, caracteristici și despre.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Îmbunătățiri
+  <ul>
+    <li>Adăugat suport pentru two-finger double tap pentru a mări în Vizualizatorul PDF și de Imagine.</li>
+    <li>Actualizate traducerile Portugheze, Cehă și Arabică.</li>
+    <li>Actualzată log-ul de schimbări în poloneză</li></ul></li>
+<li>Reparări
+  <ul>
+    <li>Reparată prăbușirea în modul portrait când apăsat butonul din bara laterală pe iPad.</li>
+    <li>Corectat bug (legat de iOS bug) în care atributele fișierelor de pe un flash drive nu erau arătate și nu puteau fi editate.</li>
+    <li>Reparată problema când iconița coșului de gunoi rămânea dezactivat dupa swipe să ștergi.</li>
+    <li>Reparat problema cu manipularea imaginilor prin Deschide cu... în Vizualizatorul de Imagini.</li>
+    <li>Limitat zoom-in în Vizualizatoarele PDF și de Imagine la scala zoom max.</li>
+    <li>Reparată prăbușirea iFile când afișând conținutul unui fișier rar criptat cu parolă.</li>
+    <li>Reparată prăbușirea Vizualizatorului PDF.</li>
+    <li>Reparată prăbușirea când deschiderea aceluași fișier de 3 sau 4 ori în vizualizatorul PDF sau în cel de Imagini.</li>
+    <li>Reparată problema afișări barei de căutare în Editorul de text în modul landscape.</li>
+    <li>Corectat numele din mpeg@2.png în mpeg@2x.png în teme Leopard.</li>
+    <li>Înregistrat Vizualizatorul de Text în plus de Editorul de Property List pentru application/x-plist mime-type ca vizualizatorul implicit.</li>
+    <li>Editorul de Property List
+      <ul>
+        <li>Performanță înbunătățită pentru mari dicționari și matrice.</li>
+        <li>Rezolvat bug-ul care a dus la șiruri goale în Editorul de Property List după salvare.</li>
+        <li>Revolvată problema că iFile nu a memorizat valoare câmpului în cazul în care Gata era apăsat când un câmp va fi editat (tastatura vizibilă).</li>
+      </ul>
+    </li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.0-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Notă: Aceste îmbunătățiri din această lansare sunt disponibile doar dispozitivelor cu iOS 4.0 sau mai târziu.</li>
+<li>Această lansare conține doar actualizări la traducerile în Chineză, Croată, Olandeză, Engleză, Finlandeză, Frenceză, Germană, Greacă, Italiană, Japaneză, Poloneză, Rusă, Slovacă, Spaniolă, Turcă, Ucraniană. Toate celelalte traduceri vor fii actualizate în versiunile urmatoare.</li>
+<li>Îmbunătățiri și Reparări
+  <ul>
+	<li>Adăugată încărcarea libactivator.dylib.</li>
+	<li>Corectate greșeli în Traducerile Chineze și Engleze.</li>
+	<li>Dacă coșul de gunoi este în folosință și un fișier este mutat în el, un fișier existent în acceași cale va fii ștearsă înainte de mutare.</li>
+	<li>Adăugată o nouă interfață (GUI) la Editorul de Property List.</li>
+	<li>Adăugat suport în Vizualizatorul ZIP pentru extragerea fișierelor protejate cu parolă.</li>
+	<li>Rotația în toate direcțile este din nou permisă.</li>
+	<li>Îmbunătățită montarea stick-ului USB în asa fel încât e posibil montarea în același timp a multiple stick-uri (e.g. folosind același USB hub). Momentan doar 4 montări în maralel este permis.</li>
+	<li>Îmbunătățăt suportul pentru Voice Over pentru navigator-ul de fișiere în modul de editare.</li>
+	<li>Adăugat la preferințe limita pentru mărimea miniaturilor.</li>
+	<li>Adăugat suport ecran Retina pentru
+	  <ul>
+	    <li>miniaturil imaginilor</li>
+	    <li>iconițele temelor</li>
+	    <li>imaginile butoanelor în GUI</li>
+      </ul>
+    </li>
+	<li>Vizualizatorul de imagini
+	  <ul>
+        <li>Adăugată funcționalitatea de swipe.</li>
+        <li>Adăugat double-tap pentru zoom.</li>
+        <li>Adăugat suport pentru AirPrint (iOS 4.2.1 sau mai târziu).</li>
+	<li>Adăugat suport pentru formatul fișierelor raw:
+	  <ul>
+	    <li>Canon: crw, cr2</li>
+	    <li>Epson: erf</li>
+	    <li>Fuji: raf</li>
+	    <li>Hasselblad: 3fr</li>
+	    <li>Kodak: kdc</li>
+	    <li>Mamiya: mef</li>
+	    <li>Minolta: mrw</li>
+	    <li>Nikon: nrw, nef</li>
+	    <li>Olympus: orf</li>
+	    <li>Panasonic: rw2</li>
+	    <li>Pentax: pef</li>
+	    <li>Sony: arw, sr2</li>
+	    </ul>
+	  </li>
+      </ul>
+    </li>
+    <li>Vizualizatorul PDF
+      <ul>
+        <li>Adăugată funcționalitatea swipe.</li>
+        <li>Adăugat double-tap pentru zoom.</li>
+        <li>Adăugat suport pentru AirPrint (iOS 4.2.1 sau mai târziu).</li>
+      </ul>
+    </li>
+    <li>Editorul de Text
+      <ul>
+	    <li>fișierele nib, plist și strings  sunt interpretate ca și fișiere property list.</li>
+      </ul>
+    </li>
+    <li>Player Video 
+      <ul>
+	    <li>Adăugat suport pentru AirPrint (iOS 4.2.1 sau mai târziu).</li>
+	    <li>Adăugat suport pentru formatele video 3g2 și 3gpp2.</li>
+	    <li>Reparat  TV Out.</li>
+      </ul>
+    </li>
+	<li>Vizualizatorul Web
+      <ul>
+        <li>Adăugat suport pentru AirPrint (iOS 4.2.1 sau mai târziu).</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.2-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Îmbunătățiri și Reparări
+  <ul>
+	<li>Actualizată traducerea în Cehă</li>
+	<li>Adăugat crearea de directoare de &quot;application support&quot;.</li>
+	<li>Adăugat crearea de legătură simbolică pentru AddressBook pentru utilizatsymbolic link for user root.</li>
+	<li>Adăugat suport pentu deschiderea fișierelor când iFile este în fundal (background).</li>
+	<li>Adăugat suport pentru controalele iPod, suport pentru căști, ex. anterior, următor, redare, pauză, stop.</li>
+	<li>Reparat atunci când Playerul audio nu mergea la cântecul următor când este în fundal (background).</li>
+	<li>Reparat prăbușirea atunci când o scurtătură este ștearsă pe iPad.</li>
+	<li>Actualizate iconițele pentru iOS 4.x pe iPhone 3G(S) etc.</li>
+	<li>Suport accesabilitate adăugat la celulele navigatorul de fișiere.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.1-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Îmbunătățiri
+  <ul>
+	<li>Implementat autentificare de tip digest pentru Serverele Web/WebDAV (îl face compatibil cu Windows 7).</li>
+	<li>Iconițe noi pentru iOS4 pe iPhone 4 (iconițe pentru aplicați și iconiță mai mică pentru spotlight).</li>
+	<li>Adăugat setarea preferințelor pentru activa/dezactiva vizualizatori externi.</li></ul></li>
+<li>Reparări
+  <ul>
+	<li>Reparat că Serverul Web, Preferințele se făcea negru.</li>
+	<li>Reparat prăbușirea în Playerul Audio când artistul nu era setat pentru un cântec sau liste redare sunt afișate.</li>
+	<li>Corrected space for song length remainder time for the song position slider in Audio Player so that very long song times get shown correctly.</li>
+	<li>Reparată poziția alertei pentru crearea unui fișier ZIP în navigatorul de fișiere și pentru a sări la o pagină într-un fișier PDF în vizualizatorul PDF în asa fel încât să nu mai fie ascuns dupa tastatură.</li>
+	<li>Reparată prăbușirea lui iFile în Editorul de Text în momentul căutări în modul editare. </li>
+	<li>Reparată prabușirea când era creată o legatură simbolică.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.0-2 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+	<li>Reparată problema în Editorul de Atribute când valorile din câmpurile text nu sunt folosite când apeși Gata/Crează.</li>
+	<li>Reparat atunci când deschiderea unui fișier în oricare vizualizator duce la demontarea unui flash drive. Acum iFile îl demontează la ieșire.</li>
+	<li>Reparată prabușirea în thumbnailing.</li>
+	<li>Corectată culoarea fundalului al miniaturilor.</li>
+	<li>Corecții minore în traducerea Poloneză.</li>
+	<li>Reparat atunci când destinatarul nu era găsit în contactele utilizatorului atunci când compunând un email cu atașamente.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.0-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Adăugat suport pentu partajarea de fișiere (file sharing) din iOS 3.2 și iOS 4.0
+  <ul>
+	<li>Adăugat suport pentru deschiderea tipul fișierelor în iFile de aplicați extrne pe iOS 3.2 și iOS 4.0, ex. atașamentele din Mobile Mail. iFile devine un vizualizatoru extern pentru multiple formate.</li>
+	<li>Adăugat suport pentru a folosi noul schimb de fișiere în asa fel că iFile poate să deschidă fișiere cu vizualizatori externi (AppStore) care suportă anumite tipuri de fișiere, ex. Pages, Numbers, Keynote, Air Sharing etc.</li>
+  </ul>
+</li>
+<li>Îmbunătățiri iPad 
+  <ul>
+	<li>Adăugat bara laterală care conține scurtături și semne de carte pentru iPad inclusiv suport pentru mountarea și demountarea pentru stick-uri USB și SDCard conectate la iPad prin Camera Connection Kit.</li>
+	<li>Schimbate culorile de la GUI pe iPad ca să fie grai implicit.</li>
+	<li>Schimbat comportamentul butonul cu vizualizare pop-over în asa fel apasând butonul va apărea un pop-over si doar dupa ce ai inchis pop-over acțiunea butonul va fi executată.</li>
+	<li>Corectat comportamentul preferințelor ca efectul asupra navigatorului de fișiere să fie imediat după schimbarea setărilor.</li>
+  </ul>
+</li>
+<li>Îmbunătățiri generale
+  <ul>
+	<li>Schimbat progresul HUD cu unul nou care suportă rotația dispozitivului.</li>
+	<li>Mutate crearea miniaturiloe în fundal astfel încât defilarea miniaturilor este mai lină.</li>
+  </ul>
+</li>
+<li>Reparări
+  <ul>
+	<li>Reparat prăbușirea la pornire pe iOS4.</li>
+	<li>Reparat serverul Web pentru iOS4.</li>
+	<li>Corectat crearea de fișiere/directoare/legături navigatorul de fișiere nu actualiza lista de fișiere pe iPad.</li>
+	<li>Corectată problema când era setat numele fișierelor în preferințe nu erau afișate pe iPad.</li>
+	<li>Corectată poziția acțiuni de vizualizare în vizualizatorul ZIP când despachetează fișiere pe iPad.</li>
+	<li>Corectată problema când câmpurile de la numele fișierelor și legăturile țintă uitau setarile când erau defilate în afara vizualizari în Editorul de Atribute.</li>
+	<li>Corectată afișarea mărimi în navigatorul de fișiere pentru fișiere> 2GB.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.2-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Adăugat suport pentru iPad
+  <ul>
+	<li>Utilizarea de vizualizatori pop-over pentru semne de carte, preferințe, atribute, Deschide cu... dialoguri și dialoguri pentru toate acțiunile.</li>
+	<li>Arată mărimea  și data modificări fișierelor în navigatorul de fișiere când sunt arătate titlurile cântecelor, rezultatele căutări etc.</li>
+  </ul>
+</li>
+<li>Suport pentru extensile MobileSubstrate 
+  <ul>
+    <li>Adăugată încărcarea de QuickScroll2 când este disponibil.</li>
+</ul>
+</li>
+<li>Navigatorul de fișiere
+  <ul>
+	<li>Schimbat implicit la "Director" când crearea de noi fișiere/directoare/legături.</li>
+	<li>Nouă iconiță fără umbre pentru iPhoneOS 4.0.</li>
+  </ul>
+</li>
+<li>Reparări
+  <ul>
+	<li>Reparat mărirea stricată în Vizualizatorul WEB, ex. xls, doc, html documents etc.</li>
+	<li>Corecție minoră în traducerea Franceză</li>
+	<li>Reparat atunci când câmpurile cu comutator cu  on/off în Preferințe "uitau" setările în timpul derulări.</li>
+	<li>Îndepărtat rotația cu susul în jos.</li>
+	<li>Reparat atunci când editorul de semne de carte nu salva semnele de carte în cazul în care eraul adăugate și folosite imediat.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.1-2 - Corecție de erori</h2>
+<ul class="list">
+<li>Reparări
+  <ul>
+	<li>Reparat când câmpul Statusul Înregistrări nu permitea introducerea unei adrese de email pe iPad.</li>
+	<li>Corectat codarea fișierului log-uri de schimbări pentru multe limbi.</li>
+	<li>Adăugat încărcarea extensiei Rotation Inhibitor Mobile Substrate.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.1-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Adăugat suport pentru iPad
+  <ul>
+	<li>Ajustat Player-ul Audio să corespundă cu rezoluția iPad-ului.</li>
+	<li>Adăugat noi iconițe necesare pentru rezoluția iPad-ului.</li>
+	<li>Adăugate imagini de pornire pentru iPad în modurile portrait și landscape.</li>
+	<li>Actualizat Info.plist să conțină orientările pentru iFile suportat pe iPad.</li>
+	<li>Reparată redarea video pen iPad și iOS 4.0.</li>
+  </ul>
+</li>
+<li>Repărari
+  <ul>
+	<li>Reparată prabușirea Vizualizatorului Web (folosind pentru vizualizarea documentelor  xls, doc, html, pages etc.)</li>
+	<li>Reparată prabușirea în cazul în care un utilizator avea instalată aplicația Universală (iPhone și iPad) din AppStore carea folosea chei incorecte în Info.plist pentru listarea iconițelor.</li>
+	<li>Actualizat traducerea în Cehă și documentația.</li>
+	<li>Îndepărtată încărcarea automată a extensilor de MobileSubstrate înafară de: ActionMenu, Backgrounder, WinterBoard, KeyboardSupport, SimulatedKeyEvents, mcclient, UIHook-iKeyEx3, resupported.</li>
+  </ul>
+</li>
+<li>Player Audio
+<ul>
+	<li>Adăugat stocarea setărilor în modul de repetare a playerului audio în preferințele iFile.</li>
+</ul>
+</li>
+<li>Serverul Web 
+  <ul>
+    <li>Reparată problema când operațiunea de copiere eșua cînd copiai fișiere din serverul iFile's WebDAV pe un PC folosind Windows' WebDAV (adăugat Last-Modified tag la antetul răspunsului HTML).</li>
+	<li>Rezolvată problema când copierea dintre iFile și Mac eșuează din cauza a unei erori de format greșit al iFile.</li>
+	<li>Rezolvat atunci când solicitarea de mutarea sau copierea eșua pe clientul  WebDAV de pe MAC folosind Bonjour.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.0-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Adăugate traducerile
+  <ul>
+    <li>Suport pentru Croată, Finlandeză și Greacă.</li>
+  </ul>
+</li>
+<li>Reparări
+  <ul>
+    <li>Reparat prăbușirea atunci când pornești Playerul de video după Playerul Audio.</li>
+    <li>Reparat prăbușirea când căutarea și rotarea dispozitivului în acelși timp.</li>
+    <li>Reparată problema când salvând fișiere PLIST din stilul vechi în Editorul de text.</li>
+    <li>Scos efectul de fade al titlului imaginilor în Vizualizatorul PDF.</li>
+  </ul>
+</li>
+<li>Înregistrare
+  <ul>
+    <li>Nou mecanism de înregistrare când utilizatori care au cumpărat iFile din Cydia
+    Store nu mai trebuie sa introducă adresa de email în iFile.</li>
+  </ul>
+</li>
+<li>Preferințe
+  <ul>
+    <li>Setare de a ascunde/arăta numele aplicaților în /var/mobile/Applications</li>
+    <li>Setare care permite a arăta fișierele în grupuri (Grouping)</li>
+    <li>Setare a permite sortarea acendent sau descendent.</li>
+    <li>Limita miniaturilor e stocată în preferințele iFile, dar nu arătată de GUI.</li>
+  </ul>
+</li>
+<li>Navigarea fișierelor
+  <ul>
+	<li>Noi iconițe pentru iFile făcute de Daniel Waldron de la <a href="http://www.twitter.com/eyedevs">EyeDevs</a></li>
+    <li>iFile-to-iFile Bluetooth transfer de fișiere. Cel care primește nu trebuie să aibă iFile înregistrat. Cel care trimite trebuie să aibă iFile înregistrat.</li>
+    <li>Transfer de un singur fișier via <a href="http://twitter.com/ibluenova">iBlueNova</a> la toate dispozitivile suportate</li>
+    <li>Navigatorul de fișiere permite gruparea fișierele depinzând de anumite criteri:
+      <ul>
+        <li>Grupare alfabetică cu Index: A-Z, și#.</li>
+         <li>Grupare după extensie</li>
+         <li>Grupare după grupuri de mărime: 0-10KB, 10-100KB, 100KB-1MB, 1MB-10MB, 10MB-100MB, >100MB.</li>
+         <li>Grupare după intervale de data: Azi, Ieri, La începutul acestei săpămâni, Săptămâna trecută, La începutul acestei luni, Luna trecută, Două luni în urmă, La începutul acestui an, Anul trecut, 2 ani în urmă, Mai vechi.</li>
+      </ul>
+    </li>
+    <li>Schimbăt sortarea de numele fișierelor și extenilor să fie case insensitive, dar și să sorteze după numere în numele fișierelor, ex. un fișiere numit "Hugo (10).txt" acuma va apărea după "Hugo (8).txt".</li>
+    <li>Rezolvată poziția iconiței semnelor de carte folosind o iconiță personalizata înlocul iconiței de sistem (iPhoneOS bug).</li>
+    <li>Sporită căutarea de fișiere să caute li tagurile fișierelor audio (titlu, artist, album) când este pornit afișarea titlului cântecelor în preferinșele iFile.</li>
+    <li>Scoasă limitarea de URL personlizat ifile:// pentru fișierele din /var/mobile.</li>
+  </ul>
+</li>
+<li>Tipuri de fișiere
+  <ul>
+    <li>Fișiere PDF: Utilizatori pot să aleagă Vizualizatorul de Web sau Vizualizatorul PDF pentru a vizualiza fișiere PDF.</li>
+    <li>SQLite3: Suport pentru mime-type application/x-sqlite3 interacționând și folosind aplicația kennytm's SQLite3 ca vizualizator extern (poate fi găsită <a href="http://code.google.com/p/networkpx/downloads/list">aici</a>).</li>
+    <li>mm: Fișiere cu extensia mm sunt acuma asociate cu Vizualizatoru de text.</li>
+  </ul>
+</li>
+<li>Vizualizatorul PDF
+  <ul>
+    <li>Reparată scurgerea de memorie când schimbarea la o pagină diferită.</li>
+    <li>Mutat butonul "dute la pagina" la bara de navigație afișând pagina curentă și numărul total de pagini.</li>
+    <li>Dialogul dute la pagina nu mai are prezentă o valoare.</li>
+  </ul>
+</li>
+<li>Trimiterea de atașamente prin email
+  <ul>
+    <li>Îndepărtat "Trimiterea de atașamente email cu iFile" de la subiect și "Atașamente iPhone cu iFile" din corp atunci când trimiți atașamete prin email.</li>
+  </ul>
+</li>
+<li>Server Web
+  <ul>
+    <li>Adăugat suport pentru WebDAV (permite folosința iFile ca un drive de rețea pe Windows, Linux și MacOSX) - această funcționalitate este doar pentru utilizatori înregistrați.</li>
+    <li>Adăugat suport pentru protectie cu nume utilizator/parolă a serverului web. Aceasta este doar o protecție de bază.</li>
+    <li>Schimbată listarea directoarelor a lista întâi directoarele apoi fișierele.</li>
+    <li>Reparată problema cu anumite afișări incorecte cu adresele http a serverului web.</li>
+    <li>Reparată problema când serverul web reclama pornerea greșită a serviciului. Motivul a fost că portul era încă în folosință. Acum refolosește portul și nu mai reclama acest lucru.</li>
+    <li>Reparată problema ca numele fișierului nu era fosit când era încarcat cu Internet Explorer.</li>
+    <li>Schimbat modul încărcări fișierelor sunt numite în cazul în care același nume este existent: Noile fișiere primesc numele original cu "(
+      <number>
+      )" plus extensia, ex. "uploaded.txt" este redenumit cu  "uploaded (1).txt" dacă "uploaded.txt" deja există.</li>
+  </ul>
+</li>
+<li>MPEG 4 Audio File Parsing
+  <ul>
+    <li>iFile extrage lungimea cântecului din m4a's meta data înloc de a folosi o chemare sistem lentă. Aceasta accelerează listarea titlurile cântecelor în navigatorul de fișiere pentru fișiere podcast foarte mari.</li>
+  </ul>
+</li>
+<li>Playerul Audio
+  <ul>
+    <li>Adăugat suport pentru double tap pe coperta albumului pentru a schimba la vizualizarea de lista de redare.</li>
+    <li>Adăugat nou mod de repetare pentru a rula un cântec fără repetare. Acesta este noul implicit.</li>
+  </ul>
+</li>
+<li>Playerul Video
+  <ul>
+    <li>Adăugat suport pentru ieșire TV prin cablu oficial Apple.</li>
+  </ul>
+</li>
+<li>Compresat Vizualizator de fișiere
+  <ul>
+    <li>Reparată problema când nu toate fișierele conținute în un fișier tar erau afișate.</li>
+  </ul>
+</li>
+<li>Dezarhivator
+  <ul>
+    <li>Adițional la Compresat Vizualizator de fișiere acuma este posibil să extragi fișierele dintr-un fișier compresat fără de ai vedea conținutul.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.1.0-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>General
+  <ul>
+    <li>iFile este acuma compatibil doar cu 3.0. Tot codul pentru compatibilitatea 2.x a fost eliminată.</li>
+    <li>Schimbată înregistrarea să se întâmple și atunci când pleci de la Statusul Înregistrări din Preferințele iFile.</li>
+    <li>Dependența pachetului com.saurik.mamu (mailto:attachment=) a fost eliminat.</li>
+    <li>Unele dintre aceste funcționalități din această lansare vor fi doar pentru utilizatori înregistrați:
+      <ul>
+        <li>Căutarea de numele fișierelor.</li>
+        <li>Suport pentru vizualizatori externi.</li>
+        <li>Redarea de liste de redare vor fi redate în noul Player Audio.</li>
+        <li>Afișarea titlurilor cântecelor înloc de numele fișierelor audio.</li>
+        <li>Afișarea de miniaturi înloc de iconișele implicite.</li>
+        <li>Funcționalitatea de căutare în Editorul de text.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>Traduceri
+  <ul>
+    <li>Adăugate traducerile în Olandeză și Slovacă.</li>
+  </ul>
+</li>
+<li>Navigatorul de fișiere
+  <ul>
+    <li>Adăugată capabilitatea de a căuta după numele fișierelor. Căutarea poate fi făcută doar în directorul curent sau în toată ierarhia de directoare începând cu directorul curent. Șirul căutat nu este case și diaclitice sensibil. Căutarea în modul de editare a navigatorului de fișiere permite ștergerea, copierea, tăierea, și arhivarea a fișierelor găsite și apoi selectare. Rezultatul căutat afișează data și mprimea a directorului curent și calea a altor directoare. Prin preferințele iFile utilizatorul poate să aleagă dacă șirul căutat poate să fie de felul
+      <ul>
+        <li>Format simplu: textul căutat e în conținutul numelui fișierului, ex. "test",</li>
+        <li>Format Wildcard, ex."*test*",</li>
+        <li>Format expresie regulară, ex. ".*test.*".</li>
+      </ul>
+	</li>
+    <li>Schimbat comportamentul a navigatorului când navigând sus în ierarhie: Acum directorul curent va fi deselectat după navigarea în sus. Aceasta face mai usor înțelegerea de unde ai navigat.</li>
+    <li>Adăugat suport a afișa numele aplicaților din AppStore în loc de numele folderului critic din ~mobile/Applications. Sub numele aplicației apare numele real al directorului.</li>
+    <li>Copiat, tăiat și lipire au fost mutate în clipboard-ul global al iPhoneOS. Aceasta are un efect secundat că calea fișierelor (și URL fișierelor) a fișierelor copiate va fi diponibil la alte aplicați. Conținutul fișierelor nu va fii copiat în clipboard.</li>
+    <li>Titlul unui cântec poate fi afișat înloc de numele fișierului. Aceasta poate fi activat/dezactivat din preferințele iFile.</li>
+    <li>Pentru imagini iFile poate să afișeze miniaturi înloc de imaginea implicită. Aceasta poate fi activat/dezactivat din preferințele iFile. Miniaturile sunt create doar pentru fișiere mai mici de 1MB.</li>
+  </ul>
+</li>
+<li>Editorul de atribute
+  <ul>
+    <li>Adăugat suport pentru a schimba permisiunile și proprietarul pentru un director ierarhic.
+      <ul>
+        <li>Aplică utilizator și grup pentru toate directoarele și fișierelor din ierarhie.</li>
+        <li>Pentru permisiunile directoarelor vor fi setate identic cu directoarele de mai sus.</li>
+        <li>Pentru permisiunile fișierelor vor fi setate cu respect cu citere și scriere așa setate la directoarele de mai sus. Dacă un fișiere a fost executabil, el va rămâne executabil. Biți lipicioși vor fi setați ca și directoarele mai sus.</li>
+      </ul>
+	</li>
+    <li>Adăugat buton în cazul imaginilor pentru a fi adăugate la Rola film al iPhone (deasemenea este posibil și în vizualizatorul de imagini).</li>
+    <li>Adăugat buton în cazul fișierelor video pentru a fi adăugate la Rola film al iPhone (disponibil doar în iPhoneOS 3.1).</li>
+    <li>Reparat prăbușirea în cazul fișerelor/direcotarelor cu proprietar sau grup setat la un ID care nu există în baza de date a utilizator/grup al iPhoneOS.</li>
+  </ul>
+</li>
+<li>Tipuri de fișiere
+  <ul>
+    <li>Adăugat pps ca și format de fișier suportat.</li>
+    <li>Adăugat mime-type video/x-flv pentru a deschide OpenStreamer (extern).</li>
+  </ul>
+</li>
+<li>Manipularea fișierelor compresate
+  <ul>
+    <li>Reparat probleme multiple în conjunction cu fișierele compresate.</li>
+    <li>Fișierele compresate acum pot fi create și extrase în orice director nu doar în cele  care este proprietar utilizatorul mobile.</li>
+    <li>Extragerea de fișiere tar.gz, tar.Z și tar.bz2 nu mergeau deloc în trecut. Acum aceasta lucrează.</li>
+    <li>Ștergerea de fișiera din fișiere compresate este suportat doar pentru fișierele zip.</li>
+  </ul>
+</li>
+<li>Crearea de legături simbolice
+  <ul>
+    <li>Crearea de legături simbolice a fost facută mai ușoară:
+      <ul>
+        <li>Selectează fișierul care vrei să îl faci ca legătură în navigatorul de fișiere în modul de editare.</li>
+        <li>Apasă butonul și alege "Copiază/Legătură".</li>
+        <li>Dute la directorul unde vrei să creezi legătura simbolică.</li>
+        <li>Apasă din nou butonul de acțiune și alege "Legătură simbolică".</li>
+      </ul>
+	</li>
+  </ul>
+</li>
+<li>Player Audio
+  <ul>
+    <li>Un complect nou design pentru player-ul audio care seamănă cu player-ul audio construit in OS.</li>
+    <li>Suport pentru redarea fișierelor din lista de redare din fișiere m3u, toate fișierele dintr-un director sau toate fișierele găsite cu interfața de căutare.</li>
+    <li>Suport pentru a repeta toată lista de redare sau un singur cântec.</li>
+    <li>Suport shuffle play a listelor de redare.</li>
+    <li>Tagurile pentru fișierele audio sunt suportate pentru fișierele mp3 și m4a și sunt afișate.</li>
+    <li>Coperta fișierelor este suportat dacă este în fișierul m4a sau ca folder.jpg sau cover.jpg îin același director.</li>
+    <li>Suport pentru cântecul precedent, următorul, mai repede sau înapoi.</li>
+    <li>Arată timpul curent și timpul rămas al unui cântec.</li>
+  </ul>
+</li>
+<li>Vizualizatorul de imagini
+  <ul>
+    <li>Vizualizatorul de imagini are acum în bara de unelte un buton pentru a depozita o imagine in Rola film.</li>
+  </ul>
+</li>
+<li>Vizualizatorul PDF
+  <ul>
+    <li>Rescris modul de manipulare pentru desenare acum este posibil mărirea pe o scală foarte mare.</li>
+    <li>Double tap acum mărește cu factor 2 sau - dacă deja este mărit - va minimiza la mărimea pagini.</li>
+    <li>Single tap arată sau ascunde bara de status și de navigație.</li>
+    <li>Atunci când mergi pe o altă pagină vizualizatorul va merge la colțul stânga sus.</li>
+  </ul>
+</li>
+<li>Vizualizatoru de Web
+  <ul>
+    <li>Corectată problema în care legăturile locale din pagini bara de navigație va fi actualizată și arată doar  "Încarcă...".</li>
+  </ul>
+</li>
+<li>Editorul de text//Property List
+  <ul>
+    <li>Editorul de text și editorul de property list sunt separate. În acest mod este mai ușor ca să editezi fișierele plist care au altă extensie prin Deschide cu...</li>
+    <li>Adăugat buton la bara de unelte penru a ascunde/afișează bara de navigație și bara de status.</li>
+    <li>Adăugat funcționalitatea și butonul pentru căutare. Căutarea se înfăsoară în jur la sfârșitul fișierului. Dacă șirul căutat este găsit atunci editorul il va afișa. Evidenșierea textului gpsit nu este posibil.</li>
+    <li>Adăugată posibilitatea de-a ascunde tastatura în modul de editate (butonul Gata).</li>
+  </ul>
+</li>
+<li>Debian Package Installer
+  <ul>
+    <li>iFile acum poate să instaleze pachete Debian în plus cu despachetarea conținutului lor.</li>
+  </ul>
+</li>
+<li>Vizualizatori externi
+  <ul>
+    <li>iFile suportă acum vizualizatori externi definiți de theme. Aceasta lucrează prin specificarea ID-ului aplicației și o schemă personala a aplicației pentu un mime-type. iFile atunci va deschide un fișiere prin trecerea drumul său la vizualizatorul exter folosind o schemă URL personalizată.</li>
+  </ul>
+</li>
+<li>Preferințe:
+  <ul>
+    <li>Nouă opțiune pentru a afișa titlurile cântecelor înloc de numele fișierelor audio (mp3 and m4a).</li>
+    <li>Nouă opțiune pentru afișarea miniaturilor înloc de iconițele fișierelor.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.1-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>iFile devine ShareWare. Un număr de utilizatori s-au plâns că donațile nu ar trebui să fie obligatori. Din moment ce am nevoie de unele compensați financiare pentru dezvoltarea iFile, nu o să le mai chem 'donați' , dar 'înregistrare' va fi mai clară.</li>
+<li>Adăugată interfața pentru iFile înregistrări ca un pop-up sau Preferințele iFile.</li>
+<li>Adăugat suport pentru manipularea URL ifile://.... Doar fișiere din ~mobile pot fi deschise folosing așa URL.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.0-2 - Corecție de erori</h2>
+<ul class="list">
+<li>Corectate problema cu mesaje de eroare când se despacheta fișierele rar. Fișierele extrase vor fi puse în directorul curent înloc de /private/var/mobile.</li>
+<li>Corectată codarea în changelog.html și features.html în documentația Poloneză</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.0-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Compatibilitate cu iPhoneOS 2.x și 3.0</li>
+<li>Adăugate traducerile în Cehă, Poloneză și Ucraniană.</li>
+<li>Alertă pentru Donație
+  <ul>
+    <li>Când iFile este pornit va afișă o alertă care informează utilizatorul despre numărul curent de descărcări ale iFile și numărul de donați lipsă până la următoarea versiune. Utilizatorul are oportunitatea să meargă direct la PayPal ca să doneze. Statusurile de descărcare și donați sunt descărcate de pe internet (iphone.heinelt.eu) când iFile este pornit. Descărcare se întamplă doar o singură dată pe zi.</li>
+  </ul>
+</li>
+<li>Navigatorul de fișiere
+  <ul>
+  <li>Double tap select/deselectează toate fișierele dintr-un director în modul editare.</li>
+  <li>Reparată problema când la crearea unui nou fișier/director/legătură câmpul 'Tip' nu era afișat ca fiind editabil chiar dacă e. Câmpul 'Tip' arată chevron din partea dreaptă.</li>
+  <li>Copiază/Mută
+    <ul>
+  <li>Copierea și mutarea de fișiere este acum în fundal (thread separat).</li>
+  <li>O bară de progres este afișată informând despre mutarea/copierea fișierului.</li>
+  <li>Când un fișier deja există un dialog este arătat care permite utilizatorului să
+    <ul>
+  <li>Anulează operațiunea.</li>
+  <li>Redenumește fișierul care urmează să fie copiat (este redenumit automatic - ' (
+    <number>
+    )' va fii adăugat.)</li>
+  <li>Suprascrie fișierul existent.</li>
+  <li>Suprascrie toate fișierele existente.</li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+  <li>Atributele Directoarelor
+    <ul>
+  <li>Pentru un director editorul de atribute acum arată mărimea conținutului (suma mărimilor a tuturor fișierelor conținute în director) și numărul de fișiere aflate în director.</li>
+  </ul>
+  </li>
+  <li>Compesia de filșiere este făcută în fundal.</li>
+  </ul>
+</li>
+<li>Vizualizatorul de Text
+  <ul>
+<li>Adăugat suport pentru fișierele nib și xib.</li>
+</ul>
+</li>
+<li>Vizualizatorul Zip
+  <ul>
+<li>Adăugat suport pentru extragerea a mai multe formate de compresie: 7z, deb, rar, tar, tar.gz, tar.bz2, tar.Z, tgz, tbz2, gz, bz2, Z.</li>
+<li>Extragerea pentru fișierele zip este folosit unzip, unrar pentru fișierele rar, tar pentru toate fișierele bazate pe tar. Toate celelalte extensi sunt suportate prin p7zip (7z) rulate sub utilizatorul mobile.</li>
+<li>Vizualizând conținutul fișierului, extragerea de fișiere și ștergerea de fișiere acum se fac în fundal.</li>
+</ul>
+</li>
+
+<li>Serverul Web
+  <ul>
+<li>Adăugat suport pentru navigare de fișiere (descend în ierarhie)</li>
+<li>Pagina index a serverului a fost refăcută.</li>
+<li>Adăugată o bară de progres pentru încărcare și descărcare a fișierelor.</li>
+<li>Stutus Server  vizualizează lista de cerere pentru toate paginile și fișierele.</li><li>Numărul portului de Server poate fi acum configurat în Preferințe.</li>
+</ul>
+</li>
+<li>Preferințe
+  <ul>
+<li>Adăugat câmpul pentru a permite setararea numărului portului al Serverului Web.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.7 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Adăugate traducerile Amharic (Etiopian), Chineză, Rusă și Turcă.</li>
+<li>Preferințe
+<ul>
+<li>Rezolvate probleme minore cu setările de câmpuri la valorile inițiale după întoarcerea de la setarea unei teme sau ordinea de sortare.</li>
+</ul>
+</li>
+<li>Mime-Types
+<ul>
+<li>Adăugat audio/x-wav la mime-types pentru audio player.</li>
+</ul>
+</li>
+<li>Navigatorul de fișiere
+<ul>
+<li>Animați adăugate pentru navigația navigatorului și pentru butonul de acasă.</li>
+<li>Navigator scroll la primul rând când descrescător într-un directoru și la rândul anterior selectat când ascendent în ierarhie.</li>
+<li>Butonul Semne de carte adăugate (mai jos).</li>
+<li>Rezolvată problema cu performanța în timpul porniri al iFile în contextul 
+directoarelor cu o mulțime de fișiere. Ca rezultat iFile nu mai este
+oprit de sistemul de operare.</li>
+<li>Butonul albastru din partea dreaptă este afișat și în modul de non-editare.</li>
+</ul>
+</li>
+<li>Editorul de atribute
+<ul>
+<li>Acum este suportată alegerea unui vizualizator cu deschide fișiere cu. 
+Aceasta nu este o setare, dar deschide un vizualizator direct cu fișierul curent.</li>
+</ul>
+</li>
+<li>Semne de Carte
+<ul>
+<li>GUI arată la fel și se simpte la fel ca și in Safari cu respect cu toate functionalitățile.</li>
+<li>Suport pentru Semne de Carte adăugate la Navigatorul de fișiere (semne de carte pentru directoare și  folosință/editare de semne de carte), la Vizualizatorul Web (documente și pagini web), Vizualizatorul PDF (documente), Vizualizatorul Text (documente).</li>
+<li>Semnele de carte pot fi deschide doar fin Navigatorul de fișiere.</li>
+<li>Semnele de carte din Safari pot fii folosite, dar nu modificate.</li>
+</ul>
+</li>
+<li>Vizualizatorul de Documente/Web
+  <ul>
+<li>Bara de navigație și de unelte poate fi ascunsă cu o singură atingere.</li></ul></li>
+<li>Vizualizatorul PDF
+  <ul>
+<li>Bara de navigație și de unelte poate fi ascunsă cu o singură atingere.</li>
+<li>O dublă atingere navighează la pagina următoare.</li>
+</ul>
+</li>
+<li>Vizualizatorul de Text
+  <ul>
+<li>Bara de navigație și de unelte poate fi ascunsă cu o singură atingere. Notă: aceasta se întâmplă doar daca pozitia cursorul nu se modifică(în modul editare).</li>
+</ul>
+</li>
+<li>Suport pentru MobileSubstrate
+  <ul>
+<li>Adăugat suport pentru MobileSubstrate: MobileSubstrate nu este încărcat automat pentru aplicații care rulează sub utilizatorul "root". Acum cu MobileSubstrate că se încarcă cu iFile toate extensiile bazate  pe MobileSubstrate merg și în iFile, ex. Clippy etc.</li>
+<li>Adăugat suport pentru Navigatorul de Fișiere ca să trimită calea fișierelor la Clippy.</li>
+</ul>
+</li>
+<li>Documentație
+  <ul>
+<li>Manualele traduse au fost mutate în Cydia ca și pachete separate pentru fiecare limbă.</li>
+<li>Caracteristici și log-ul de schimbări rămând în pachetul principal iFile.</li>
+<li>Când apeși pe link-ul "Manual" în documentația Cydia se va deschide cu pachetul corect și iți va permite instalarea lui.</li>
+<li>Această schimbare a fost necesară pentru că applicația iFile devenea prea mare.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.6-2 - Corecție de erori</h2>
+<ul class="list">
+<li>Serverul Web
+<ul>
+<li>Problemă rezolvată cu iFile întrând în situația când nu mai este memorie cu
+fișiere mari în timpul descărcări.</li>
+<li>Mărit suportul pentru încărcari goale a arăta erori.</li>
+<li>Problemă rezolvată în care antetul conținutului conține un byte mai mult cu valoare
+ zero. Duce la problemă cu toate fișierele descărcate.</li>
+</ul></li></ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.6-1 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Adăugate traducerile Arabă, Franceză și Japoneză. Documentația Arabă și Frenceză
+vor fi traduse în versiunea următoare.</li>
+<li>Navigatorul de Fișiere
+<ul>
+<li>Legăturile simbolice au numele fișierelor marcate cu albastru negru.</li>
+<li>Swipe pentru a șterge implementat în modul normal (non-editare).</li>
+<li>Adăugat butonul '+' în modul de editare pentru a permite creare de fișiere, directoare sau legături simbolice inclusiv setarea de permisiuni și proprietar.</li>
+<li>Schimbat felul de afișare în tabel să arete mărimea fișierelor ca Bytes, 
+KB, MB, GB.</li>
+<li>Adăugat suport pentru deschiderea de fișiere necunoscute cu
+"Deschide cu..." pentru a alege o aplicație pentru vizualizare (momentan doar vizualizatori interni sunt suportați).</li>
+<li>Adăugată tema "Leopard".</li>
+<li>Adăugat butonul Home toolbar.</li>
+</ul>
+</li>
+<li>Mime-types
+<ul>
+<li>Adăugată extensia <i>js</i> ca parte din text/plain.</li>
+<li>Adăugate extensi de Office 2007 formatele de Word, Excel, Powerpoint
+(docx, xlsx, pptx) la mime-types corespunzătoare.</li>
+</ul>
+</li>
+<li>Editorul de Preferințe
+<ul>
+<li>Suport pentru a arăta/ascunde directoare/fișiere ascunse.</li>
+<li>Suport pentru calea implicită la start cu: setează la ieșire sau o cale anume.</li>
+<li>Suport pentru mărime font în vizualizatorul text.</li>
+<li>Suport pentru alegerea unei teme adăugate.</li>
+<li>Suport pentru sortare în navigatorul de fișiere adăugat: Sortează după nume, extensie, mărime, sau dată.</li>
+</ul>
+</li>
+<li>Câmpuri adiționale în editorul de atribute
+<ul>
+<li>Mărimea fișierului</li>
+<li>Tipul fisierului, ex. Director, Legătură Simbolică, Fișier normal</li>
+<li>Legătură Țintă pentru Legături Simbolice</li>
+<li>Mime-Type pentru Fișiere Regulare</li>
+</ul>
+</li>
+<li>Vizualizatorul Text
+<ul>
+<li>Problemă rezolvată în modul editare în care apăsând cancel textul dispărea.</li>
+</ul>
+</li>
+<li>Server Web
+<ul>
+<li>Problemă rezolvată cu caracterele UTF-8 afișând în pagini Web.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.5 - Corecție de erori și noi funcționalități</h2>
+<ul class="list">
+<li>Rezolvată problema unde vizualizatorul ZIP nu extrage fișierele când este ales butonul <i>Extrage Toate Fișierele</i>.</li>
+<li>Schimabat ID-ul aplicației din <i>eu.heinelt.iFile</i> în <i>eu.heinelt.ifile</i>
+din cauza unor probleme cu interacția dintre Cydia și BigBoss repository.</li>
+<li>Îmbunătățiri pentru atributele fișierelor pentru editare de</li>
+<ul>
+<li>numele fișierelor</li>
+<li>proprietarul fișierului (proprietar și grup)</li>
+<li>permisiunile fișierului de acces pentru utilizator, grup și lume (citire, scriere, executare, bit lipicios).</li>
+<li>ultima dată și ora ale modificărilor aplicate fișierului</li>
+</ul>
+<li>Adăugat suport pentru editare text în vizualizatorul text:</li>
+<ul>
+<li>Fișierele Property list (plist) sunt suportate pentru scriere și citire (XML 
+și Binar).</li>
+<li>Fișierele text sunt citite cu UTF-8 sau - dacă aceasta eșuează - ca ISO-Latin.</li>
+<li>Fișierele text care conțin tabulatori sunt mărite la citire în, i.e. 
+tabulatori sunt schimbate cu spați (funcționalitatea măriri), pentru că iPhoneOS UITextView altfel va înghiți tabulatorilor. În timpul scrieri a fișierelor spațiile sunt schimbate cu tabulatori.</li>
+<li>Mărimea tabulatorului poate să fie setată în noul dialog din Preferințe. 
+Implicit este 8.</li>
+<li>Fișierele scrise pe disk vor avea același proprietar, grup și accesul
+permisiunilor ca și fișierul original (altfel va fii "root").</li>
+</ul>
+<li>Schimbată infrastructura pentru manipularea extensiile fișierelor ca să se bazeze pe 
+mime-types și pe extensi asociate.</li>
+<li>Adăugată infrastructură pentru vizualizatori de fișiere ca să se bazeze pe mime-types 
+înloc de extensii. Aceasta include și posibilitatea de viualizatoare multiple pentru
+ mime-type ca utilizatorul poate să aleagă vizualizatorul corect, ex. 
+text/html pot fii vizualizate cu vizualizatorul de text sau cu un vizualizator HTML.</li>
+<li>Adăugat următoarele extensi la text/plain: cfg, cnf, conf, j, java, 
+list, php, plist, script, sh.</li>
+<li>Adăugată infrastructură pentru teme la iconițele fișierelor.</li>
+<li>Adăugat blocare direcțională la scrol în vizualizatorul PDF: Dacă utilizatorul începe să
+gliseze într-o direcție generală (orizontală sau verticală),  
+vizualizatorul PDF Viewer dezactivează scrol-ul în alte direcți până cănd utilizatorul
+se oprește din scrol.</li>
+<li>Adăugat butonul Preferințe și vizualizarea Preferințelor care permite editarea
+mărimi tabulatorului</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.4 - Lansare de  noi funcționalități</h2>
+<ul class="list">
+<li>Traducere în Italiană adăugată.</li>
+<li>Rescriere totalp a Serverului WEB pentru descărcarea și încărcarea prin intermediul WIFI. 
+Performanţă mult îmbunătăţită. Suport pentru fişiere mari este acum de încredere.</li>
+<li>Suport pentru fișierele ZIP a fost adăugat cu un nou vizualizator. Este posibil să adaugi
+fișiere la noul fișier ZIP, extragere la toate sau la anumite fișiere din fișierul ZIP, 
+și ștergerea fișierelor din fișiere ZIP.</li>
+<li>Trimiterea de email cu atașamente cu unul sau mai multe fișiere cu Apple MobileMail.</li>
+<li>Problemă rezolvată cînd Vizualizatorul PDF nu afișa ultima pagină.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.3 - Lansare de  noi funcționalități </h2>
+<ul class="list">
+<li>Această versiune permite la iFile să rulere cu permisiu de super utilizator.
+Acum utilizatorul poate să redenumească și să șteargă orice fișier sau director în
+fișierele sistem /var.</li>
+<li>Modul de editare acum suportă copierea, mutarea și lipirea de fișiere și directoare.</li>
+<li>În plus de traducerile în Germană și Engleză, traducerea în Spaniolă a fost adăugată.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.2 - Corecție de erori</h2>
+<ul class="list">
+<li>Aceast versiune repară problema când un utilzator ajunge în
+ /var/mobile/Documents după prima instalare și start, 
+dar nu mai poate naviga sus în ierarhie.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.1 - Lansarea inițială la public în <a href="http://thebigboss.org">BigBoss Repository</a></h2>
+<ul class="list">
+<li>Fișierele text sunt afișate în controler specific UITextView controller cu font mai mic
+ decât fontul UIWebView.</li>
+<li>Documentație detaileată inclusă</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.0 - Versiunea Inițială</h2>
+<ul class="list">
+<li>PDF-urile sunt afișate cu un vizualizator personalizat cu capacitatea de a sări la pagini
+specifice.</li>
+<li>Imaginile sunt afișate folosind UIWebView.</li>
+<li>Excel, Word, PowerPoint, HTML, Text sunt afișate folosind UIWebView.</li>
+<li>Videourile și sunetele sunt rulate folosind MPMoviePlayerController.</li>
+<li>Serverul Web permite trasferarea de fișiere la și de la iFile la orice
+    PC, Mac etc.</li>
+<li>Ștergerea de multiple fișiere sau directoare de odată.</li>
+<li>Redenumirea de fișiere și directoare.</li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+</body>
+</html>

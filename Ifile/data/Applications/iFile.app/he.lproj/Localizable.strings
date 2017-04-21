@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>
+Finished with Result Code: %d
+</key>
+	<string>הסתיים עם קוד d%</string>
+	<key>%@ Server</key>
+	<string>שרת %@</string>
+	<key>%d File</key>
+	<string>%d קובץ , </string>
+	<key>%d Files</key>
+	<string>%d קבצים , </string>
+	<key>%d of %d</key>
+	<string>%d מתוך %d</string>
+	<key>'%@' wants to send you some files.</key>
+	<string>'%@' רוצה לשלוח לך קבצים.</string>
+	<key>, %@ free</key>
+	<string>נותרו %@</string>
+	<key>, %@ used</key>
+	<string>בשימוש @% ,</string>
+	<key>&lt;h1&gt;%@&lt;/h1&gt;&lt;p&gt;The file '%@' got successfully uploaded.&lt;/p&gt;</key>
+	<string>&lt;h1&gt;%@&lt;/h1&gt;&lt;p&gt;הקובץ %@ הועלה בהצלחה&lt;/p&gt;</string>
+	<key>&lt;h1&gt;Files in %@&lt;/h1&gt;
+</key>
+	<string>&lt;h1&gt;קבצים בתוך %@&lt;/h1&gt;
+</string>
+	<key>&lt;input type="submit" value=" Upload "&gt;</key>
+	<string>&lt;input type="submit" value=" Upload "&gt;</string>
+	<key>&lt;p&gt;Upload a file:&lt;br /&gt;</key>
+	<string>&lt;p&gt;העלה קובץ:&lt;br /&gt;</string>
+	<key>A symbolic link to file %@ could not be created.</key>
+	<string>קיצור דרך לקובץ %@ אינו יכול להיווצר</string>
+	<key>ASCII</key>
+	<string>ASCII</string>
+	<key>About iFile</key>
+	<string>מידע על iFile</string>
+	<key>Accept</key>
+	<string>מאשר</string>
+	<key>Accept Website Certificate</key>
+	<string>מאשר תנאי אינטרנט</string>
+	<key>Accepting connections at http://%@ or http://%@.
+</key>
+	<string>Accepting connections at http://%@ or http://%@.
+</string>
+	<key>Access Permissions</key>
+	<string>הרשאות כניסה</string>
+	<key>Access conflict.</key>
+	<string>Access conflict.</string>
+	<key>Access forbidden.</key>
+	<string>Access forbidden.</string>
+	<key>Access method not allowed.</key>
+	<string>Access method not allowed.</string>
+	<key>Account Unlinked</key>
+	<string>החשבון נותק</string>
+	<key>Add Bookmark</key>
+	<string>הוסף סימניה</string>
+	<key>Add Folder</key>
+	<string>הוסף תיקיה</string>
+	<key>Add Item</key>
+	<string>הוסף פריט</string>
+	<key>Add Shortcut</key>
+	<string>הוסף קיצור דרך</string>
+	<key>Add to Camera Roll</key>
+	<string>הוסף לתמונות</string>
+	<key>Add to iPod Library</key>
+	<string>הוסף לנגן המוסיקה</string>
+	<key>Address</key>
+	<string>כתובת</string>
+	<key>An error occurred</key>
+	<string>שגיאה התרחשה</string>
+	<key>An item with the same name already exists. Delete the existing item first.</key>
+	<string>אותו קובץ נמצא כבר , מחק את הקובץ הראשון קודם</string>
+	<key>Application Names</key>
+	<string>שם האפליקציה</string>
+	<key>Applications</key>
+	<string>אפליקציות</string>
+	<key>Apply hierarchically</key>
+	<string>Apply hierarchically</string>
+	<key>Applying permissions and ownership hierarchically...</key>
+	<string>Applying permissions and ownership hierarchically...</string>
+	<key>Array</key>
+	<string>Array</string>
+	<key>Ascending</key>
+	<string>Ascending</string>
+	<key>Attributes</key>
+	<string>Attributes</string>
+	<key>Audio Player</key>
+	<string>נגן שמע</string>
+	<key>Audio output got changed.</key>
+	<string>יציאת שמע השתנתה</string>
+	<key>Authentication</key>
+	<string>Authentication</string>
+	<key>Authentication Failed</key>
+	<string>Authentication Failed</string>
+	<key>Authentication Mode</key>
+	<string>Authentication Mode</string>
+	<key>Bad HTTP Request.</key>
+	<string>Bad HTTP Request.</string>
+	<key>Basic</key>
+	<string>Basic</string>
+	<key>Block Device</key>
+	<string>חסום מכשיר</string>
+	<key>Blue</key>
+	<string>כחול</string>
+	<key>Bonjour</key>
+	<string>Bonjour</string>
+	<key>Bonjour got enabled with name %@.
+</key>
+	<string>
+Bonjour הופעל עם שם %@</string>
+	<key>Bookmark</key>
+	<string>סימניה</string>
+	<key>Bookmark file %@ invalid: %@</key>
+	<string>Bookmark file %@ invalid: %@</string>
+	<key>Bookmark folder name must not be empty.</key>
+	<string>שם תיקית הסימניות אינו יכול להיות ריק.</string>
+	<key>Bookmark name and address must not be empty.</key>
+	<string>שם הסימניה אינו יכול להיות ריק</string>
+	<key>Bookmarks</key>
+	<string>סימניות</string>
+	<key>Bookmarks %@ could not be written: %@</key>
+	<string>Bookmarks %@ could not be written: %@</string>
+	<key>Bookmarks Bar</key>
+	<string>שורת הסימניות</string>
+	<key>Bookmarks Menu</key>
+	<string>תפריט הסימניות</string>
+	<key>Books</key>
+	<string>ספרים</string>
+	<key>Boolean</key>
+	<string>Boolean</string>
+	<key>Brown</key>
+	<string>חום</string>
+	<key>Buy License (Cydia Store)</key>
+	<string>קנה רשיון (סידיה)</string>
+	<key>Byte index %llX does not exist. Please choose value between %llX and %llX.</key>
+	<string>Byte index %llX does not exist. Please choose value between %llX and %llX.</string>
+	<key>Byte index %lld does not exist. Please choose value between %lld and %lld.</key>
+	<string>הביט %dll אינו נמצא אנא בחר ביט בין %dll ל %dll</string>
+	<key>Byte index '%@' is not valid. Please choose value between %llX and %llX.</key>
+	<string>Byte index '%@' is not valid. Please choose value between %llX and %llX.</string>
+	<key>Byte index '%@' is not valid. Please choose value between %lld and %lld.</key>
+	<string>Byte index '%@' is not valid. Please choose value between %lld and %lld.</string>
+	<key>Calculating...</key>
+	<string>מחשב...</string>
+	<key>Cancel</key>
+	<string>ביטול</string>
+	<key>Cannot set secure FTP connection properties.</key>
+	<string>Cannot set secure FTP connection properties.</string>
+	<key>Cannot set secure WebDAV connection properties.</key>
+	<string>Cannot set secure WebDAV connection properties.</string>
+	<key>Certificate Imported</key>
+	<string>Certificate Imported</string>
+	<key>Character Device</key>
+	<string>Character Device</string>
+	<key>Clear All Passwords</key>
+	<string>מחק את כל הסיסמאות</string>
+	<key>Clear Dropbox Cache</key>
+	<string>נקה נתונים של Dropbox</string>
+	<key>Clear FTP Cache</key>
+	<string>נקה נתונים של FTP</string>
+	<key>Clear FlashAir® Cache</key>
+	<string>נקה נתונים של FlashAir®</string>
+	<key>Clear WebDAV Cache</key>
+	<string>נקה מטמון של WebDAV</string>
+	<key>Clear box.net Cache</key>
+	<string>נקה נתונים של box.net</string>
+	<key>Clearing Dropbox cache failed.</key>
+	<string>ניקוי הנתונים של Dropbox נכשל</string>
+	<key>Clearing FTP cache failed.</key>
+	<string>ניקוי הנתונים של FTP נכשל</string>
+	<key>Clearing Toshiba FlashAir® cache failed.</key>
+	<string>ניקוי הנתונים של Toshiba FlashAir® נכשל</string>
+	<key>Clearing WebDAV cache failed.</key>
+	<string>ניקוי הנתונים של WebDAV נכשל</string>
+	<key>Clearing box.net cache failed.</key>
+	<string>ניקוי הנתונים של box.net נכשל</string>
+	<key>Close</key>
+	<string>סגור</string>
+	<key>Color</key>
+	<string>צבע</string>
+	<key>Compressing...</key>
+	<string>מכין...</string>
+	<key>Connect</key>
+	<string>התחבר</string>
+	<key>Connected</key>
+	<string>מחובר</string>
+	<key>Connection Failed</key>
+	<string>חיבור נכשל</string>
+	<key>Connection Refused</key>
+	<string>Connection Refused</string>
+	<key>Connection to '%@' failed.</key>
+	<string>החיבור ל %@ נכשל</string>
+	<key>Connection to FTP server failed.</key>
+	<string>החיבור ל FTP הופסק</string>
+	<key>Contact Developer</key>
+	<string>פנה למפתח</string>
+	<key>Continue</key>
+	<string>המשך</string>
+	<key>Copy</key>
+	<string>העתק</string>
+	<key>Copy Public Link</key>
+	<string>העתק לינק</string>
+	<key>Copy/Link</key>
+	<string>העתק/קשר</string>
+	<key>Copying %@...</key>
+	<string>מעתיק %@...</string>
+	<key>Copying Files...</key>
+	<string>מעתיק קבצים...</string>
+	<key>Copying of file %@ requested
+</key>
+	<string>Copying of file %@ requested
+</string>
+	<key>Copying/Moving between remote file systems is not supported.</key>
+	<string>העברה בין שרתי מערכת אינה אפשרית</string>
+	<key>Could not open connection to %@.</key>
+	<string>לא ניצן לפתוח את החיבור של %@</string>
+	<key>Could not read from network.</key>
+	<string>אי אפשר לקרוא מהרשת</string>
+	<key>Could not write to network.</key>
+	<string>אי אפשר לרשום לרשת</string>
+	<key>Create</key>
+	<string>צור</string>
+	<key>Create Link</key>
+	<string>צור קיצור דרך</string>
+	<key>Create ZIP File</key>
+	<string>צור קובץ ZIP</string>
+	<key>Creation of directory %@ requested
+</key>
+	<string>Creation of directory %@ requested
+</string>
+	<key>Custom</key>
+	<string>מותאם</string>
+	<key>Cut</key>
+	<string>גזור</string>
+	<key>Data</key>
+	<string>Data</string>
+	<key>Date</key>
+	<string>תאריך</string>
+	<key>Default</key>
+	<string>ברירת מחדל</string>
+	<key>Delete %d Files</key>
+	<string>מחק %d קבצים</string>
+	<key>Delete File</key>
+	<string>מחק קובץ</string>
+	<key>Deleting %@...</key>
+	<string>מוחק %@...</string>
+	<key>Deleting Files...</key>
+	<string>מוחק קבצים...</string>
+	<key>Deletion of file %@ requested
+</key>
+	<string>Deletion of file %@ requested
+</string>
+	<key>Descending</key>
+	<string>Descending</string>
+	<key>Deselect all</key>
+	<string>בטל סימון לכל הקבצים</string>
+	<key>Devices</key>
+	<string>מכשירים</string>
+	<key>Dictionary</key>
+	<string>Dictionary</string>
+	<key>Digest</key>
+	<string>Digest</string>
+	<key>Directory</key>
+	<string>תיקיה</string>
+	<key>Directory listing has wrong format.</key>
+	<string>Directory listing has wrong format.</string>
+	<key>Directory listing parse failed.</key>
+	<string>Directory listing parse failed.</string>
+	<key>Disk</key>
+	<string>Disk</string>
+	<key>Disk Image</key>
+	<string>Disk Image</string>
+	<key>Disk Image Mounter</key>
+	<string>Disk Image Mounter</string>
+	<key>Disk image could not be mounted.</key>
+	<string>Disk image could not be mounted.</string>
+	<key>Disk image successfully mounted at %@.</key>
+	<string>Disk image successfully mounted at %@.</string>
+	<key>Display</key>
+	<string>תצוגה</string>
+	<key>Do you want to relink?</key>
+	<string>את/ה רוצה לקשר מחדש?</string>
+	<key>Documents</key>
+	<string>Documents</string>
+	<key>Double tap to deselect</key>
+	<string>לחיצ כפולה להפסקת הבחירה</string>
+	<key>Double tap to open</key>
+	<string>לחיצה כפולה לפתיחה</string>
+	<key>Double tap to select</key>
+	<string>לחיצה כפולה לבחירה</string>
+	<key>Download of file %@ failed.</key>
+	<string>Download of file %@ failed.</string>
+	<key>Downloading...</key>
+	<string>מוריד...</string>
+	<key>Dropbox</key>
+	<string>Dropbox</string>
+	<key>Dropbox Session Ended</key>
+	<string>Dropbox Session Ended</string>
+	<key>Earlier this month</key>
+	<string>מוקדם יותר החודש</string>
+	<key>Earlier this week</key>
+	<string>מוקדם יותר השבוע</string>
+	<key>Earlier this year</key>
+	<string>מוקדם יותר השנה</string>
+	<key>Edit Bookmark</key>
+	<string>ערוך סימניה</string>
+	<key>Edit Folder</key>
+	<string>ערוך תיקייה</string>
+	<key>Edit Item</key>
+	<string>ערוך יישום</string>
+	<key>Email</key>
+	<string>מייל</string>
+	<key>Emailing Attachments with iFile</key>
+	<string>Emailing Attachments with iFile</string>
+	<key>Empty Trash</key>
+	<string>רוקן את סל המחזור</string>
+	<key>Enter new ZIP file name.</key>
+	<string>הכנס שם ZIP חדש</string>
+	<key>Enter password for user '%@'</key>
+	<string>הכנס סיסמה חדשה למשתמש %@</string>
+	<key>Enter the decimal byte index to display (%d-%d).</key>
+	<string>Enter the decimal byte index to display (%d-%d).</string>
+	<key>Enter the hexadecimal byte index to display (%X-%X).</key>
+	<string>Enter the hexadecimal byte index to display (%X-%X).</string>
+	<key>Enter the page number to display
+(%d-%d).</key>
+	<string>הכנס מספר עמוד שברצונך לעבור אליו (%d%-d)</string>
+	<key>Enter user and password:</key>
+	<string>הכנס משתמש וסיסמה:</string>
+	<key>Error</key>
+	<string>שגיאה</string>
+	<key>Error occurred while receiving file.</key>
+	<string>שגיאה התרחשה בעת קיבול הקובץ</string>
+	<key>Execute</key>
+	<string>חלץ</string>
+	<key>Executing Command: %@
+
+</key>
+	<string>Executing Command: %@
+
+</string>
+	<key>External Viewers</key>
+	<string>שימוש עם אפליקציות חיצוניות</string>
+	<key>Extract %d Files</key>
+	<string>חלץ %d קבצים</string>
+	<key>Extract All Files</key>
+	<string>חלץ את כל הקבצים</string>
+	<key>Extract File</key>
+	<string>חלץ קובץ</string>
+	<key>FTP Server</key>
+	<string>שרת FTP</string>
+	<key>FTP Servers</key>
+	<string>שרתי FTP</string>
+	<key>FTPS Server</key>
+	<string>שרתי FTPS</string>
+	<key>Failed to fetch SQL result</key>
+	<string>Failed to fetch SQL result</string>
+	<key>Failed to fetch table names</key>
+	<string>Failed to fetch table names</string>
+	<key>Failed to prepare SQL statement</key>
+	<string>Failed to prepare SQL statement</string>
+	<key>Failed to prepare for fetching table names</key>
+	<string>Failed to prepare for fetching table names</string>
+	<key>File %@ requested
+</key>
+	<string>File %@ requested
+</string>
+	<key>File Attributes</key>
+	<string>File Attributes</string>
+	<key>File Browser</key>
+	<string>File Browser</string>
+	<key>File Changed</key>
+	<string>הקובץ השתנה</string>
+	<key>File Exists</key>
+	<string>קובץ קיים</string>
+	<key>File Manager</key>
+	<string>מנהל קבצים</string>
+	<key>File Viewers</key>
+	<string>תצוגת קובץ</string>
+	<key>File already exists with name %@.</key>
+	<string>קובץ כבר קיים עם השם %@</string>
+	<key>File attributes could not be changed or only partially.</key>
+	<string>File attributes could not be changed or only partially.</string>
+	<key>File could not be renamed.</key>
+	<string>הקובץ לא יכול לשנות את שמו</string>
+	<key>File read error.</key>
+	<string>File read error.</string>
+	<key>File successfully uploaded</key>
+	<string>הקובץ הועלה בהצלחה</string>
+	<key>File write error.</key>
+	<string>File write error.</string>
+	<key>Files</key>
+	<string>קבצים</string>
+	<key>Flash Drive</key>
+	<string>כונן קשיח</string>
+	<key>Flash Drive 1</key>
+	<string>Flash Drive 1</string>
+	<key>Flash Drive 2</key>
+	<string>Flash Drive 2</string>
+	<key>Flash Drive 3</key>
+	<string>Flash Drive 3</string>
+	<key>Flash Drive 4</key>
+	<string>Flash Drive 4</string>
+	<key>Float</key>
+	<string>Float</string>
+	<key>Folders On Top</key>
+	<string>תיקיות למעלה</string>
+	<key>Font Size</key>
+	<string>גודל פונט</string>
+	<key>Functionality not implemented on server.</key>
+	<string>Functionality not implemented on server.</string>
+	<key>Gigantic (&gt; 100 MB)</key>
+	<string>עצום (&gt;100 מגה בית)</string>
+	<key>Go to Trash</key>
+	<string>לך לסל המחזור</string>
+	<key>Go to page</key>
+	<string>לך לעמוד</string>
+	<key>Gray</key>
+	<string>אפור</string>
+	<key>Green</key>
+	<string>ירוק</string>
+	<key>Group</key>
+	<string>קבוצה</string>
+	<key>Group Permissions</key>
+	<string>הרשאות קבוצה</string>
+	<key>Grouping</key>
+	<string>קבוצות</string>
+	<key>HTTP error %d.</key>
+	<string>HTTP error %d.</string>
+	<key>Header of file %@ requested
+</key>
+	<string>Header of file %@ requested
+</string>
+	<key>Hex</key>
+	<string>Hex</string>
+	<key>Hex Editor</key>
+	<string>עורך Hex</string>
+	<key>Hidden Files</key>
+	<string>קבצים מוחבאים</string>
+	<key>Hierarchy</key>
+	<string>קבצים</string>
+	<key>Home</key>
+	<string>בית</string>
+	<key>Huge (10 MB - 100 MB)</key>
+	<string>ענק (10 מגה בית - 100 מגה בית)</string>
+	<key>If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.
+Users who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences.</key>
+	<string>מי שקנה את iFile דרך חנות הסידיה אמור לקבל הודעה ש iFile  נרכש
+מי שקנה דרך PayPal יכניס את כתובת המייל שלו לאישור.</string>
+	<key>Image Viewer</key>
+	<string>תצוגת תמונות</string>
+	<key>Images</key>
+	<string>תמונות</string>
+	<key>Import</key>
+	<string>ייבא</string>
+	<key>Initializing Web Server...</key>
+	<string>Initializing Web Server...</string>
+	<key>Installer</key>
+	<string>התקן</string>
+	<key>Insufficient storage on server.</key>
+	<string>Insufficient storage on server.</string>
+	<key>Integer</key>
+	<string>Integer</string>
+	<key>Internal Server Error.</key>
+	<string>שגיאת שרת</string>
+	<key>Internal inconsistency</key>
+	<string>Internal inconsistency</string>
+	<key>Invalid Server</key>
+	<string>שרת לא טוב</string>
+	<key>Item name and type must not be empty.</key>
+	<string>שם הפריט וסוגו אינם יכולים להיות ריקים</string>
+	<key>Item type must not be empty.</key>
+	<string>סוג הפריט אינו יכול להיות ריק</string>
+	<key>Large (1 MB - 10 MB)</key>
+	<string>גדול (1 מגה בית - 10 מגה בית)</string>
+	<key>Last Modification</key>
+	<string>עריכה אחרונה</string>
+	<key>Last month</key>
+	<string>חודש שעבר</string>
+	<key>Last week</key>
+	<string>שבוע שעבר</string>
+	<key>Last year</key>
+	<string>שנה שעברה</string>
+	<key>Later</key>
+	<string>מאוחר יותר</string>
+	<key>Light Gray</key>
+	<string>אפור בהיר</string>
+	<key>Link</key>
+	<string>קישור</string>
+	<key>Link Dropbox</key>
+	<string>קשר את Dropbox</string>
+	<key>Link Target</key>
+	<string>מקשר מטרה</string>
+	<key>Linking %@...</key>
+	<string>מקשר @%...</string>
+	<key>Linking Files...</key>
+	<string>מקשר קבצים...</string>
+	<key>Loading Contents...</key>
+	<string>טוען תוכן...</string>
+	<key>Loading...</key>
+	<string>טוען...</string>
+	<key>Local Directory</key>
+	<string>קבצים מקומיים</string>
+	<key>Logged out</key>
+	<string>התנתק</string>
+	<key>Login</key>
+	<string>הכנס</string>
+	<key>Login Failed</key>
+	<string>ההתחברות נכשלה</string>
+	<key>Login box.net</key>
+	<string>התחבר ל box.net</string>
+	<key>Logout box.net</key>
+	<string>התנתק ב box.net</string>
+	<key>MD5</key>
+	<string>MD5</string>
+	<key>Manage Passwords</key>
+	<string>נהל סיסמאות</string>
+	<key>Media Library</key>
+	<string>ספריית מדיה</string>
+	<key>Medium (100 KB - 1 MB)</key>
+	<string>בינוני (100 קילו ביט - 1 מגה בית)</string>
+	<key>Mime-Type</key>
+	<string>Mime-Type</string>
+	<key>Modification Date</key>
+	<string>תאריך עריכה</string>
+	<key>Modification date update failed.</key>
+	<string>שינוי תאריך העריכה האחרונה נכשל</string>
+	<key>Mounting...</key>
+	<string>Mounting...</string>
+	<key>Move %d Files to Trash</key>
+	<string>העבר %d קבצים לסל המחזור</string>
+	<key>Move File to Trash</key>
+	<string>העבר קובץ לסל המחזור</string>
+	<key>Moving %@...</key>
+	<string>מעביר @%...</string>
+	<key>Moving Files...</key>
+	<string>מעביר קבצים...</string>
+	<key>Moving of file %@ requested
+</key>
+	<string>Moving of file %@ requested
+</string>
+	<key>Multipart header empty</key>
+	<string>Multipart header empty</string>
+	<key>Name</key>
+	<string>שם</string>
+	<key>New</key>
+	<string>חדש</string>
+	<key>New Folder</key>
+	<string>תיקייה חדשה</string>
+	<key>Night Blue</key>
+	<string>כחול לילה</string>
+	<key>No</key>
+	<string>לא</string>
+	<key>No connection to Dropbox.</key>
+	<string>אין קישור ל Dropbox</string>
+	<key>No connection to box.net.</key>
+	<string>אין חיבור ל box.net.</string>
+	<key>No file specified.</key>
+	<string>No file specified.</string>
+	<key>Number</key>
+	<string>מספר</string>
+	<key>OK</key>
+	<string>בסדר</string>
+	<key>Object not found on server.</key>
+	<string>האובייקט אינו נמצא בשרת</string>
+	<key>Older</key>
+	<string>ישן יותר</string>
+	<key>Open</key>
+	<string>פתח</string>
+	<key>Open with...</key>
+	<string>פתח עם...</string>
+	<key>Open...</key>
+	<string>פתח...</string>
+	<key>Orange</key>
+	<string>כתום</string>
+	<key>Overwrite</key>
+	<string>כתוב מחדש</string>
+	<key>Overwrite all</key>
+	<string>כתוב מחדש הכל</string>
+	<key>Owner</key>
+	<string>בעלים</string>
+	<key>Ownership</key>
+	<string>בעלות על</string>
+	<key>PDF Viewer</key>
+	<string>תצוגת PDF</string>
+	<key>Page %d does not exist. Please choose value between %d and %d.</key>
+	<string>הדף %d אינו נמצא אנא בחר עמוד בין %d ל %d</string>
+	<key>Page %d of %d</key>
+	<string>עמוד %d מתוך %d</string>
+	<key>Password</key>
+	<string>סיסמה</string>
+	<key>Passwords</key>
+	<string>סיסמאות</string>
+	<key>Paste</key>
+	<string>הדבק</string>
+	<key>Path</key>
+	<string>יציאה</string>
+	<key>Pink</key>
+	<string>ורוד</string>
+	<key>Places</key>
+	<string>מקומות</string>
+	<key>Playback Paused</key>
+	<string>חזרה לאחור הופסקה</string>
+	<key>Please check if server name is correct.</key>
+	<string>בבקשה תבדוק ששם השרת נכון</string>
+	<key>Please check if user name and password is correct.</key>
+	<string>בבקשה תבדוק אם השם משתמש או הסיסמה נכונים</string>
+	<key>Please enter a valid port number.</key>
+	<string>הכנס מספר שרת חוקי</string>
+	<key>Please enter an issue or press Cancel.</key>
+	<string>בבקשה הכנס בעיה או לחץ לביטול</string>
+	<key>Port</key>
+	<string>פורט</string>
+	<key>Port Number</key>
+	<string>מספר פורט</string>
+	<key>Position of item has not been set.</key>
+	<string>מיקום הפריט לא הוגדר</string>
+	<key>Preferences</key>
+	<string>הגדרות</string>
+	<key>Preparing Image...</key>
+	<string>מכין תמונה...</string>
+	<key>Printing failed due to error in domain %@ with error code %u.</key>
+	<string>ההדפסה נכשלה עם הדומיין %@ , שגיאה %u</string>
+	<key>Printing of %@ completed successfully.</key>
+	<string>ההדפסה של %@ הושלמה בהצלחה</string>
+	<key>Printing of file %@ completed successfully.</key>
+	<string>ההדפסה של הקובץ %@ הושלמה בהצלחה</string>
+	<key>Program Execution</key>
+	<string>Program Execution</string>
+	<key>Properties of file %@ requested
+</key>
+	<string>Properties of file %@ requested
+</string>
+	<key>Property List</key>
+	<string>Property List</string>
+	<key>Property List Viewer</key>
+	<string>תצוגת Plist</string>
+	<key>Property list %@ invalid: %@</key>
+	<string>Property list %@ invalid: %@</string>
+	<key>Pull down to refresh...</key>
+	<string>משוך למטה כדי לרענן...</string>
+	<key>Read</key>
+	<string>קריאה</string>
+	<key>Receiving %@</key>
+	<string>מקבל %@</string>
+	<key>Recordings</key>
+	<string>הקלטות</string>
+	<key>Red</key>
+	<string>אדום</string>
+	<key>Register</key>
+	<string>הרשמה</string>
+	<key>Registered</key>
+	<string>רשום</string>
+	<key>Registering Web Service with Bonjour...</key>
+	<string>Registering Web Service with Bonjour...</string>
+	<key>Registering WebDAV Service with Bonjour...</key>
+	<string>נרשם ל webDav עם Bonjour...</string>
+	<key>Registration</key>
+	<string>הרשמה</string>
+	<key>Registration Email Address</key>
+	<string>הרשם עם כתובת מייל</string>
+	<key>Registration Failed</key>
+	<string>ההרשמה נכשלה</string>
+	<key>Registration Process</key>
+	<string>תהליך הרשמה</string>
+	<key>Registration Status</key>
+	<string>מצב ההרשמה</string>
+	<key>Registration Successful</key>
+	<string>ההרשמה הצליחה</string>
+	<key>Regular Expression</key>
+	<string>Regular Expression</string>
+	<key>Regular File</key>
+	<string>קובץ רגיל</string>
+	<key>Release to refresh...</key>
+	<string>שחרר כדי לרענן...</string>
+	<key>Relink</key>
+	<string>קשר מחדש</string>
+	<key>Remote Servers</key>
+	<string>שרתים חיצוניים</string>
+	<key>Rename</key>
+	<string>שנה שם</string>
+	<key>Resume</key>
+	<string>המשך</string>
+	<key>Retrieving contents of %@...</key>
+	<string>Retrieving contents of %@...</string>
+	<key>Retrieving metadata for %@...</key>
+	<string>Retrieving metadata for %@...</string>
+	<key>SQL statement</key>
+	<string>SQL statement</string>
+	<key>SQLite3 Editor</key>
+	<string>עורך SQLite3</string>
+	<key>Safari Bookmarks</key>
+	<string>סימניות safari</string>
+	<key>Search</key>
+	<string>חיפוש</string>
+	<key>Search Format</key>
+	<string>חפש פורמט</string>
+	<key>Search filenames</key>
+	<string>חפש קבצים</string>
+	<key>Secure WebDAV Server</key>
+	<string>שרת Secure WebDAV</string>
+	<key>Secure WebDAV Servers</key>
+	<string>שרתי Secure WebDAV</string>
+	<key>Select</key>
+	<string>בחר</string>
+	<key>Select all</key>
+	<string>בחר הכל</string>
+	<key>Server Address</key>
+	<string>כתובת השרת</string>
+	<key>Server does not support required WebDAV options.</key>
+	<string>Server does not support required WebDAV options.</string>
+	<key>Set on exit</key>
+	<string>הגדר ביציאה</string>
+	<key>Shared</key>
+	<string>שותף</string>
+	<key>Shortcuts</key>
+	<string>קיצורי דרך</string>
+	<key>Shortcuts %@ could not be written: %@</key>
+	<string>Shortcuts %@ could not be written: %@</string>
+	<key>Shortcuts file %@ invalid: %@</key>
+	<string>Shortcuts file %@ invalid: %@</string>
+	<key>Shutting down web server...</key>
+	<string>מכבה את השרת...</string>
+	<key>Sidebar</key>
+	<string>Sidebar</string>
+	<key>Simple</key>
+	<string>פשוט</string>
+	<key>Size</key>
+	<string>גודל</string>
+	<key>Small (10 KB - 100 KB)</key>
+	<string>קטן (10 קילו בית - 100- קילו בית)</string>
+	<key>Socket</key>
+	<string>Socket</string>
+	<key>Song Titles</key>
+	<string>שם השירים</string>
+	<key>Sort Criteria</key>
+	<string>Sort Criteria</string>
+	<key>Sort Order</key>
+	<string>Sort Order</string>
+	<key>Sort by Date</key>
+	<string>מיין לפי תאריך</string>
+	<key>Sort by Extension</key>
+	<string>Sort by Extension</string>
+	<key>Sort by Name</key>
+	<string>מיין לפי שם</string>
+	<key>Sort by Size</key>
+	<string>מיין לפי גודל</string>
+	<key>Startup Directory</key>
+	<string>Startup Directory</string>
+	<key>Status</key>
+	<string>מצב</string>
+	<key>Sticky</key>
+	<string>Sticky</string>
+	<key>Stop</key>
+	<string>עצור</string>
+	<key>Store Paths</key>
+	<string>Store Paths</string>
+	<key>String</key>
+	<string>String</string>
+	<key>Successfully unmounted %@.</key>
+	<string>Successfully unmounted %@.</string>
+	<key>Symbolic Link</key>
+	<string>קיצור דרך</string>
+	<key>Tables</key>
+	<string>Tables</string>
+	<key>Tabulator Width</key>
+	<string>מידת רוחב הבר</string>
+	<key>Text Viewer</key>
+	<string>עורך טקסט</string>
+	<key>The 7z executable is not installed. Please install 'p7zip' with Cydia or using 
+'apt-get install p7zip'.</key>
+	<string>הקובץ p7zip אינו מותקן, אנא התקן אותו באמצעות סידיה</string>
+	<key>The FTP protocol does not support server side copy operations.</key>
+	<string>The FTP protocol does not support server side copy operations.</string>
+	<key>The Toshiba FlashAir® protocol supports only directory listing and file download operations.</key>
+	<string>The Toshiba FlashAir® protocol supports only directory listing and file download operations.</string>
+	<key>The ZIP file is not valid.</key>
+	<string>The ZIP file is not valid.</string>
+	<key>The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway.</key>
+	<string>The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway.</string>
+	<key>The certificate '%@' got successfully imported.</key>
+	<string>The certificate '%@' got successfully imported.</string>
+	<key>The certificate for this website is unknown or invalid. Tap accept to connect anyway.</key>
+	<string>The certificate for this website is unknown or invalid. Tap accept to connect anyway.</string>
+	<key>The contents of %@ could not get retrieved.</key>
+	<string>The contents of %@ could not get retrieved.</string>
+	<key>The file %@ could not be copied.</key>
+	<string>הקובץ %@ אינו ניתן להעתקה</string>
+	<key>The file %@ could not be deleted.</key>
+	<string>הקובץ %@ אינו יכול להמחק</string>
+	<key>The file %@ could not be moved.</key>
+	<string>הקובץ %@ אינו ניתן להעברה</string>
+	<key>The file %@ could not be written.</key>
+	<string>The file %@ could not be written.</string>
+	<key>The file %@ does not exist.</key>
+	<string>הקובץ %@ לא קיים</string>
+	<key>The file %@ exists already in current directory. Do you want to rename or overwrite it?</key>
+	<string>הקובץ %@ קיים כבר בתיקיה זאת האם ברצונך להוסיף אותו בשם אחר</string>
+	<key>The file '%@' could not be added to the iPod library.</key>
+	<string>הקובץ ׳%@׳ אינו יכול להתווסף לספריית ה iPod</string>
+	<key>The file '%@' got successfully added to iPod library.</key>
+	<string>הקובץ '%@׳ התווסף בהצלחה לספריית ה iPod</string>
+	<key>The file got changed. Do you want to save the changes?</key>
+	<string>הקובץ השתנה , האם ברצונך לשמור את השינויים?</string>
+	<key>The files could not be added to ZIP file.</key>
+	<string>הקבצים לא יכלו להדחס לקובץ ה ZIP</string>
+	<key>The files could not be extracted.</key>
+	<string>הקבצים אינם יכולים להיחלץ מקובץ ה ZIP</string>
+	<key>The files could not be removed.</key>
+	<string>הקבצים אינם יכולים להמחק</string>
+	<key>The image could not be added to the camera roll (%@).</key>
+	<string>התמונה לא יכלה להתווסף לתמונת (%@)</string>
+	<key>The image got successfully added to the camera roll.</key>
+	<string>התמונה הוספה לתמונות שלך בהצלחה.</string>
+	<key>The import of certificate '%@' failed.</key>
+	<string>The import of certificate '%@' failed.</string>
+	<key>The link target %@ does not exist.</key>
+	<string>קיצור הדרך @% לא נמצא</string>
+	<key>The link target does not exist.</key>
+	<string>הקישור לא נמצא</string>
+	<key>The name has not been set. Please specify one.</key>
+	<string>השם לא הוגדר</string>
+	<key>The password must not be empty.</key>
+	<string>הסיסמה אינה יכולה להיות ריקה</string>
+	<key>The server name must not be empty.</key>
+	<string>שם השרת אינו יכול להיות ריק</string>
+	<key>The server port is still in use. Please use a different port.
+</key>
+	<string>
+שם פורט השרת עדיין בשימוש, אנא השתמש עם אחד אחר</string>
+	<key>The song cannot be added to the iPod library.</key>
+	<string>השיר לא יכל להתווסף לספריית המדיה</string>
+	<key>The specified startup directory does not exist.</key>
+	<string>The specified startup directory does not exist.</string>
+	<key>The tabulator width is too small or empty.</key>
+	<string>גודל מידת הבר קטן מידי או שאין גודל חוקי</string>
+	<key>The text could not be found.</key>
+	<string>הטקסט לא נמצא</string>
+	<key>The text viewer font size should in the range of 8.0 and 18.0.</key>
+	<string>גודל הפונט של תצוגת הטקסט צריך להיות בין 8.0 ל 18.0</string>
+	<key>The trash could not be completely emptied. Please check the remaining files.</key>
+	<string>סל המחזור לא התרוקן לגמרי.</string>
+	<key>The trash got successfully emptied.</key>
+	<string>סל המיחזור נוקה בהצלחה.</string>
+	<key>The user name must not be empty.</key>
+	<string>שם המשתמש לא יכול להיות ריק</string>
+	<key>The video cannot be added to the camera roll.</key>
+	<string>הסרטון לא יכל להתווסף לתמונות</string>
+	<key>The video could not be added to the camera roll (%@).</key>
+	<string>הסרטון לא התווסף לתמונות שלך (%@).</string>
+	<key>The video got successfully added to the camera roll.</key>
+	<string>הסרטון הוסף בהצלחה לתמונות.</string>
+	<key>The web server port number must be between 1 and 65535.</key>
+	<string>מספר הפורט חייב להיות בין 1 ל 65535</string>
+	<key>The zip and unzip executable is not installed. Please install using 
+'apt-get install zip unzip'.</key>
+	<string>הקבצים ZIP ו UNZIP אינם נמצאים 
+בבקשה התקן אותם 'apt-get install zip unzip'.</string>
+	<key>Theme Name</key>
+	<string>שם ערכת הנושא</string>
+	<key>Themes</key>
+	<string>ערכות נושא</string>
+	<key>This functionality is only supported for registered users.</key>
+	<string>תוכן זה מורשה רק למשתמשים רשומים</string>
+	<key>Thumbnail Limit</key>
+	<string>Thumbnail Limit</string>
+	<key>Thumbnails</key>
+	<string>Thumbnails</string>
+	<key>Time</key>
+	<string>זמן</string>
+	<key>Tiny (&lt; 10 kB)</key>
+	<string>קטן (&lt;10 קילו ביט)</string>
+	<key>Title</key>
+	<string>כותרת</string>
+	<key>Today</key>
+	<string>היום</string>
+	<key>Top Level</key>
+	<string>Top Level</string>
+	<key>Toshiba FlashAir®</key>
+	<string>Toshiba FlashAir®</string>
+	<key>Transfer Request</key>
+	<string>בקשת העברה</string>
+	<key>Transmitting %@</key>
+	<string>Transmitting %@</string>
+	<key>Trash</key>
+	<string>סל המחזור</string>
+	<key>Two months ago</key>
+	<string>לפני חודשיים</string>
+	<key>Two years ago</key>
+	<string>לפני שנתיים</string>
+	<key>Type</key>
+	<string>סוג</string>
+	<key>URL is invalid:
+: %@</key>
+	<string>הקישור אינו תקין :%@</string>
+	<key>Unable to create %@.</key>
+	<string>אי אפשר ליצור את %@</string>
+	<key>Unarchiver</key>
+	<string>חלץ הכל</string>
+	<key>Unauthorized Access.</key>
+	<string>Unauthorized Access.</string>
+	<key>Unknown</key>
+	<string>לא ידוע</string>
+	<key>Unkown Number Type</key>
+	<string>מספר אינו ידוע</string>
+	<key>Unkown Type</key>
+	<string>סוג לא ידוע</string>
+	<key>Unlink Dropbox</key>
+	<string>התנתק מ DropBox</string>
+	<key>Unmount</key>
+	<string>Unmount</string>
+	<key>Unmounting %@ failed.</key>
+	<string>Unmounting %@ failed.</string>
+	<key>Unpacking Files...</key>
+	<string>מחלץ קבצים...</string>
+	<key>Unregistered</key>
+	<string>לא רשום</string>
+	<key>Updating date of %@...</key>
+	<string>מעלה תאריך של %@...</string>
+	<key>Upload of file %@ failed.</key>
+	<string>העלאה של הקובץ %@ נכשלה</string>
+	<key>Upload of file %@ requested
+</key>
+	<string>
+בקשת העלאה של הקובץ %@</string>
+	<key>UploadedFile</key>
+	<string>קובץ הועלה</string>
+	<key>Uploading %@...</key>
+	<string>מעלה %@...</string>
+	<key>Use Trash</key>
+	<string>השתמש בסל המחזור</string>
+	<key>User</key>
+	<string>משתמש</string>
+	<key>User Permissions</key>
+	<string>הרשאות משתמש</string>
+	<key>Username</key>
+	<string>שם משתמש</string>
+	<key>Version</key>
+	<string>גרסה</string>
+	<key>Video Player</key>
+	<string>נגן מדיה</string>
+	<key>Web Server</key>
+	<string>Web Server</string>
+	<key>Web Viewer</key>
+	<string>תצוגת דפדפן</string>
+	<key>WebDAV Server</key>
+	<string>שרת WebDAV</string>
+	<key>WebDAV Servers</key>
+	<string>שרתי WebDAV</string>
+	<key>Wildcard</key>
+	<string>Wildcard</string>
+	<key>World</key>
+	<string>עולם</string>
+	<key>World Permissions</key>
+	<string>World Permissions</string>
+	<key>Write</key>
+	<string>כתיבה</string>
+	<key>Yellow</key>
+	<string>צהוב</string>
+	<key>Yes</key>
+	<string>כן</string>
+	<key>Yesterday</key>
+	<string>אתמול</string>
+	<key>You have logged out of your box.net account.</key>
+	<string>התנתקת מחשבון ה box.net שלך</string>
+	<key>Your dropbox account has been unlinked.</key>
+	<string>חשבון ה DropBox שלך נותק</string>
+	<key>ZIP Viewer</key>
+	<string>תצוגת ZIP</string>
+	<key>box.net</key>
+	<string>box.net</string>
+	<key>deselected</key>
+	<string>בטל סימון</string>
+	<key>done.
+</key>
+	<string>
+נגמר.</string>
+	<key>failed.
+</key>
+	<string>
+נכשל.</string>
+	<key>ftp.server.com</key>
+	<string>ftp.server.com</string>
+	<key>iFile License</key>
+	<string>רשיון iFile</string>
+	<key>iFile Registration</key>
+	<string>הרשמת iFile</string>
+	<key>iFile Web Server</key>
+	<string>iFile Web Server</string>
+	<key>iFile got successfully registered.</key>
+	<string> iFile נרכש בהצלחה</string>
+	<key>iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development.</key>
+	<string>אם אתה משתמש קבוע של iFile בבקשה חשוב לקנות אותו , זה חשוב לי להמשך הפיתוח</string>
+	<key>iFile registration failed.</key>
+	<string>ההרשמה ל iFile נכשלה</string>
+	<key>iFile registration failed.
+(Reason: %@)</key>
+	<string>ההרשמות ל iFile נכשלה
+הסיבה : %@</string>
+	<key>iPhone Attachments with iFile</key>
+	<string>iPhone Attachments with iFile</string>
+	<key>in %@</key>
+	<string>in %@</string>
+	<key>selected</key>
+	<string>נבחר</string>
+	<key>via AirBlue Sharing</key>
+	<string>דרך AirBlue Sharing</string>
+	<key>via Celeste</key>
+	<string>דרך Celeste</string>
+	<key>via iBlueNova</key>
+	<string>דרך iBlueNova</string>
+	<key>via iFile</key>
+	<string>דרך iFile</string>
+	<key>www.server.com</key>
+	<string>www.server.com</string>
+	<key>Language</key>
+	<strings>\U05e9\U05e4\U05d4</string>
+</dict>
+</plist>

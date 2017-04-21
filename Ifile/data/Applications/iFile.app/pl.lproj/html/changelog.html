@@ -1,0 +1,1449 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+<head>
+<title>Rejestr zmian</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<link rel="stylesheet" href="../../common/index.css" />
+</head>
+<body >
+<div id="content">
+<ul class="table">
+
+<li class="tableitem">
+<h2>2.2.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support to set the user interface language in iFile's preferences. This setting takes effect after restarting the application.</li>
+    <li>Added support for shortcuts on iPhone as on iPad (via bookmark button).</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>iFile shows now the application names again under iOS 8 in /var/mobile/Containers/Bundles/Application.</li>
+    <li>Fixed that external viewers are listed again under iOS 8.</li>
+    <li>Fixed crash when an image got saved to the camera roll under iOS 8.</li>
+    <li>Fixed that the pop-up menu in file browser did not hide when tapping outside of the pop-up menu.</li>
+    <li>Added Hebrew localization (previously not added).</li>
+    <li>iFile does not crash anymore after it got backgrounded: It stays 3 minutes in background before it exits.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.1.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added Hebrew localization.</li>
+    <li>Added iPhone 6 and iPhone 6 Plus support.</li>
+    <li>Added icons for iPhone 6 Plus.</li>
+    <li>During search in file list the search magnifying glass icon gets replaced with an activity indicator.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed problem in not listing some external viewers, e.g. Whatsapp, Dropbox, iMovie etc.</li>
+    <li>Fixed issue that Bluetooth transfers via GameKit were not working on iOS 7+ anymore.</li>
+    <li>Fixed issue that stored URL from a 2nd tab will be stored back to 1st tab.</li>
+    <li>Fixed that status bar was black on black in Audio Player.</li>
+    <li>Fixed bug in Box SDK that lead to crash on launch on iOS 8.</li>
+    <li>Updated "Pull down to refresh" arrow with iOS 7 styled one on iOS 7 and later.</li>
+    <li>Fixed that integer numbers containing a decimal indicator (, or .) got interpreted as floats in Property List Editor number fields.</li>
+    <li></li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.0.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed broken Open with... in Attributes Editor.</li>
+    <li>Corrected wrong iFile icon on iOS6 and below.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>2.0.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Enhanced iFile to be compatible with iOS 7 including new icon, buttons, and iOS 7 look and feel.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed crash when used tried to enter a PayPal registration email address (only required for people who did not buy in Cydia Store).</li>
+    <li>iFile could not be terminated on iOS 7 via the App Switcher. This could only be fixed by always exiting it when you background it. However, it will stay active for another 180 seconds after backgrounding. It does not quit if you play music in background.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.9.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed crash when saving a modified file in Hex Editor.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.9.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added WebDAV client with support for HTTP and HTTPS.</li>
+    <li>Added Bonjour browser to find FTP, WebDAV and WebDAVS servers.</li>
+    <li>Added Hex Editor. It can be opened via Open with... in a file's Attributes Editor. It supports search, go to index, copy, cut, paste, delete, and undo/redo. Supported Gestures:
+      <ul>
+        <li>Tap on line numbers changes between hexadecimal and decimal representation.</li>
+        <li>Tap on hex/string fields sets cursor. Second tap on same position shows edit menu.</li>
+        <li>Double tap on hex/string fields selects a single byte/character.</li>
+        <li>Tripple tap on hex/string fields selects a complete line.</li>
+        <li>Long-press on hex/string fields lets you move the cursor around showing a magnifying glass.</li>
+        <li>Pinch changes the font size.</li>
+      </ul>
+    </li>
+    <li>Added SQLite3 Editor for files with extension sqlite, sqlite3, sqlitedb, db. It allows to edit integer, float and string fields. Blob fields are not editable.</li>
+    <li>Added new preferences option to have folders to be at top of file list or sorted the same way as files (only sort by size is an exception to this as folders don't have a size associated with them).</li>
+    <li>Added Shared section in shortcuts on iPad to contain remote file system shortcuts, e.g box.net and Dropbox.</li>
+    <li>Enabled mounting of MSDOS formatted disk images (DMG) and also mounting of ISO disk images.</li>
+    <li>Import of songs and videos to iPod Library is now a free feature requiring the Gremlin Framework package to be installed.</li>
+    <li>Bulgarian language support added (provided by Kristiyan Tanev).</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected download progress for download of a single file from an FTP server.</li>
+    <li>Corrected double loading of directory contents on iPhone after clearing a remote server cache.</li>
+    <li>Fixes to WebDAV server to better play with new iFile WebDAV client.</li>
+    <li>Added username and password form in case loading an FTP directory failed because of failed authentication.</li>
+    <li>Fixed failing directory creation during hierarchical upload to box.net.</li>
+    <li>Fixed that songlist and play options in Audio Player were ill formatted when Audio Player got opened in landscape mode on iPad.</li>
+    <li>Fixed that canceling downloads from Dropbox did just close the HUD, but did not cancel the operation.</li>
+    <li>Corrected that taps on the play options in Audio Player caused the play options view to be hidden.</li>
+    <li>Corrected illegal character in Czech localization.</li>
+    <li>Fixed that Dropbox-to-Dropbox move/copy did not work (also applies to renaming of files) because of changed Dropbox API.</li>
+    <li>Fixed bug that lead to not showing the viewer chooser for files that don't have a supported mime-type.</li>
+    <li>Fixed crash in Audio Player in case of certain invalid ID3 data in a song.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.8.1-1 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected iFile binary for old iDevices (armv6) to be identical to 1.7.2-2 instead of 1.7.0-2.</li>
+    <li>Corrected that iFile did not run as super user on old iDevices (armv6).</li>
+    <li>Updated Hungarian localization and HTML files.</li>
+    <li>Fixed crash on iOS 5.1 when linking to Dropbox (happened when Dropbox app was not installed).</li>
+    <li>Fixed that iFile did not remember that it got already linked to a box account.</li>
+    <li>Fixed that option bar got hidden in AudioPlayer when the user tapped on repeat mode button, shuffle button or iPod Library Import button.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.8.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Updated iFile for iPhone 5 (startup image) and iOS 6 support in general.</li>
+    <li>Support added for accessing box.net as remote file system.</li>
+    <li>Support for remote browsing of Toshiba FlashAir SDCards added as remote file system (browsing and copying supported).</li>
+    <li>Upgraded Dropbox SDK Version to 1.3.2 - mandatory to allow authentication beyond 30-Nov-2012.</li>
+    <li>Removed trash icon for closing tabs and added close button instead (similiar to Safari).</li>
+    <li>Added xm file extension to be opened in iFile's Text Editor by default.</li>
+    <li>Switched compiler from GCC to CLANG.</li>
+    <li>The fixes and enhancements of this release will only apply to armv7 based iOS devices, i.e. following iOS devices:
+        <ul>
+            <li>All iPads running iOS 4 or later.</li>
+            <li>All iPhones starting with iPhone 3GS or later.</li>
+            <li>All iPod touch starting with iPod touch (3rd gen.) or later.</li>
+        </ul>
+    </li>
+    <li>Added background images to file browser to ease identification of box, Dropbox and FTP tabs.</li>
+    <li>Added labels for file system type and path to tab chooser.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed crash in Registration Status dialog after entering it for 2nd time.</li>
+    <li>Corrected reflection of browser images in tab chooser.</li>
+    <li>Crash fixed in Zip Viewer.</li>
+    <li>Fixed deadlock during startup of iFile when a password needed to be entered for an FTP server, but it was blocked by the startup GUI.</li>
+    <li>Fixed registration failures on iOS 6</li>
+    <li>Fixed that browser did not refresh after file renaming on an iPad.</li>
+    <li>Fixed various issues with bookmarking of files on iPad.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.2-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed wrong field height in Preferences on iPad.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.2-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>iFile will now show a movie icon for avi files.</li>
+    <li>iFile's web server shows now also App names and song titles instead of cryptic paths when these options are enabled in iFile's preferences.</li>
+    <li>Updated iFile's web server's favicon.</li>
+    <li>Added support for automatically uploading text files edited on an FTP server after a save operation in Text Editor.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Explicitly setting of black background for tab chooser.</li>
+    <li>Avoided dead lock when password entry for FTP server was required, but GUI was blocked by glass pane.</li>
+    <li>Fixed that navigation bar did not get hidden during search on FTP server and Dropbox.</li>
+    <li>Fixed that search on FTP server and Dropbox did not show matching directories.</li>
+    <li>Added workaround to avoid crashes during directory listings on FTP servers not supporting UTF8 natively. Files with special characters on such servers list now correctly, but cannot be renamed, moved or copied.</li>
+    <li>Fixed broken creation of symbolic links via 'New' form.</li>
+    <li>Fixed GUI glitch of too large field for buying an iFile license.</li>
+    <li>Fixed empty preferences after returning from About iFile.</li>
+    <li>Fixed that hierarchical search always searched also in hidden folders independent of iFile's preferences setting.</li>
+    <li>Fixed that for cached files from an FTP server the list of file viewers was incorrectly displayed.</li>
+    <li>Fixed that an cancelled FTP file transfer did not get interrupted.</li>
+    <li>Fixed that file name of the ZIP got shortened when it contained multiple dots in its name.</li>
+    <li>Fixed that deletion of multiple files on FTP server stopped after first file deletion.</li>
+    <li>Fixed that a select all in search results did not make the toolbar visible again.</li>
+    <li>Corrected behavior when editing attributes of a file in search results: After pressing done in Attributes Editor, the user returns to the current directory instead of the search results.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.1-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support for loading MobileSubstrate extension SwipeShiftCaret.dylib.</li>
+    <li>Added support for hiding dot files on QNAP NAS (start with :2e). </li>
+    <li>Vietnamese Localization added.</li>
+    <li>preinst script included in iFile package that kills iFile before installation in Cydia.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected reformatted preferences view when returning from sub-views.</li>
+    <li>Corrected handling of empty file name when creating new file/folder/link to avoid crash.</li>
+    <li>Corrected handling special characters in user names in FTP URL's, e.g. email addresses.</li>
+    <li>Corrected that Attributes Editor did not close after FTP/Dropbox file renaming (iPhone).</li>
+    <li>Corrected that directory listing did not get updated after FTP/Dropbox file renaming (iPad).</li>
+    <li>Corrected reading of preferences so that they don't get overwritten by defaults (iOS 4.x).</li>
+    <li>Corrected shortened directory listings on FTP servers in case of large number of files./li>
+    <li>Corrected bug that not all files of large FTP directories did get copied/moved to local file system.</li>
+    <li>Fixed display issue when user rotated the iDevice in a viewer and then returned to file browser.</li>
+    <li>Fixed crash while storing a text file in Dropbox from Text Editor.</li>
+    <li>Corrected too small display of PDF's on 3rd generation iPad.</li>
+    <li>Corrected Image and PDF Viewer to display the images and PDF's fixed centered (iOS 5.x).</li>
+    <li>Corrected handling of copying between remote and local file systems in case of using just a single tab.</li>
+    <li>Fixed crash in Preferences->Registration Status.</li>
+    <li>Fixed crash when deleting files.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.0-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected Polish and Japanese localizations.</li>
+    <li>Included Hungarian and European Portuguese localizations in package.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.7.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added option to open new tabs using bookmarks.</li>
+    <li>Completely refactored local and remote file handling.</li>
+    <li>New FTP client supporting copy, cut, paste, rename, delete.</li>
+    <li>Overhaul of Dropbox implementation.</li>
+    <li>Changed iFile-to-iFile Bluetooth transfer to disable device locking during transfer.</li>
+    <li>Added section index also in case of sorting and grouping files by extension.</li>
+    <li>Restructured iFile's preferences.</li>
+    <li>AirBlue Sharing support added.</li>
+    <li>Added support for auto mounting harddisks (MSDOS and HFS file systems) on iPad via Camera Connection Kit.</li>
+    <li>Hungarian and European Portuguese localization added.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Corrected German and Chinese localizations.</li>
+    <li>Fixed handling of large files sizes for download, upload and directory listing in Web Server.</li>
+    <li>Added strict type checking on preferences to avoid potential crashes because of illegal values in the preference file.</li>
+    <li>Fixed crash on iPad while changing attributes hierarchically.</li>
+    <li>Updated French localization.</li>
+    <li>Fixed crash of Web Viewer on iOS 5.1 (caused by iOS bug).</li>
+    <li>Avoided showing of . and .. for mounted flash drives.</li>
+    <li>Fixed broken disk image mounting for iOS 5.x.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-3 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed issue in web server's content headers leading to corrupt pages for Firefox 8.</li>
+    <li>Fixed segmentation fault when renaming Dropbox files on iPad.</li>
+    <li>Updated Dropbox SDK to version 0.3.</li>
+    <li>Added korean translator to features.html.</li>
+    <li>Corrected too small "Pull down to reload" label in Chinese in landscape on iPad.</li>
+    <li>Fixed registration status dialog field sizes.</li>
+    <li>Corrected position of Done button in HUD when saving a file to Dropbox from Text Editor.</li>
+    <li>Fixed that saving a file from Text Editor to Dropbox failed when the filename contained special characters.</li>
+    <li>Fixed Send/Cancel button handling for support emails for iOS 5.</li>
+    <li>Fixed that downloaded Dropbox music files could not be played in Audio Player.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-2 - Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected French translation for "The image got successfully added to the camera roll.".</li>
+    <li>Added Web Viewer as default for mime-types image/jpeg, image/bmp, image/png, image/tiff,image/gif.</li>
+    <li>Added no-artwork image for Audio Player in iPad's native resolution.</li>
+    <li>Localized "MB free" at bottom of file browser.</li>
+    <li>Corrected that image sizes did not get displayed correctly for @2x files.</li>
+    <li>Fixed bug that lead to re-registration of iFile at every start.</li>
+    <li>Fixed crash in Audio Player related to empty genre string setting in mp3 files.</li>
+    <li></li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.1-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>Added support for DMG (Apple Disk Image) mounting./li>
+    <li>Dropbox files and directories get shown in green color if they are contained in local cache.</li>
+    <li>Dropbox choice in add tab dialog will only be shown if iFile got linked to Dropbox.</li>
+    <li>Added support for cover art embedded in mp3 files (ID3).</li>
+    <li>Added support for copying a file's MD5 sum in Attributes Editor by tapping on it.</li>
+    <li>Added support for copying public Dropbox link in Attributes Editor.</li>
+    <li>Added support for cancelling Dropbox downloads.</li>
+    <li>Enhanced support email to block email sending when no issue has been entered.</li>
+    <li>Added support for displaying the image size in title bar in Image Viewer.</li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Fixed that Done button in Attributes Editor did not work for Dropbox files.</li>
+    <li>Corrected typo in file name for loading of KeybordFix.dylib to support custom keyboards also on iOS 4.3.x.</li>
+    <li>Corrected that in some translations the "Pull down to refresh..." had a too large font and that the arrow had the wrong position.</li>
+    <li>Added support for Open with... in Attributes Editor for Dropbox files.</li>
+    <li>Corrected that after a file change, e.g. attributes, text editor, plist editor, the list got reloaded and scrolled to top.</li>
+    <li>Fixed crash because of illegal preference values.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.6.0-1 - Feature and Bugfix Release (iOS 4.x and later)</h2>
+<ul class="list">
+<li>Enhancements
+  <ul>
+    <li>File Browser
+      <ul>
+        <li>Full Dropbox support with following features (Registered Users):
+          <ul>
+            <li>Copy/move from local file system to Dropbox, from Dropbox to local file system, from Dropbox to Dropbox.</li>
+            <li>Create new folders in Dropbox.</li>
+            <li>Edit filename for files and folders on Dropbox.</li>
+            <li>Show thumbnails in file browser if they are available from Dropbox - supported in 32x32 and 64x64 (retina) resolution.</li>
+            <li>Downloaded files and thumbnails get cached locally.</li>
+            <li>The Dropbox cache can be cleared in Preferences.</li>
+            <li>A user can link to and unlink from Dropbox via Preferences.</li>
+            <li>Pressing Home button on a Dropbox tab gets the user to Dropbox root directory.</li>
+          </ul>
+        </li>
+        <li>Added support for "Pull down to reload" in file browser (above search bar).</li>
+        <li>Added display of number of files in current directory and free bytes in associated file system at bottom of file browser (for local file system and Dropbox).</li>
+        <li>Added support for long press on table to select all also in non-editing mode.</li>
+      </ul>
+    </li>
+    <li>Attributes Editor
+      <ul>
+        <li>Added support for Add to iPod Library for songs and videos (only available if Celeste or YourTube got also purchased).</li>
+      </ul>
+    </li>
+    <li>Image Viewer
+      <ul>
+        <li>Added confirmation for image deletion in Image Viewer.</li>
+      </ul>
+    </li>
+    <li>Web Viewer
+      <ul>
+        <li>Added webarchive support.</li>
+      </ul>
+    </li>
+    <li>Audio and Video Player
+      <ul>
+        <li>Added support for playing content (music/videos) purchased in iTunes.</li>
+      </ul>
+    </li>
+    <li>Preferences
+      <ul>
+        <li>Added preferences setting to store paths, i.e. paths of tabs get stored on exit.</li>
+        <li>Changed default of "Use Trash" to Yes.</li>
+      </ul>
+    </li>
+    <li>Localizations
+      <ul>
+        <li>Updated Romanian localization and change-log.</li>
+        <li>Polish updated.</li>
+        <li>Added Korean localization.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>Fixes
+  <ul>
+    <li>Added loading of KeybordFix.dylib to support custom keyboards also on iOS 4.3.x.</li>
+    <li>Added iFile package dependency on diskdev-cmds package to allow unmount of SDCards/USB sticks connected to iPad via Camera Connection Kit.</li>
+    <li>Fixed that when tapping on 'Apply hierarchically' in Attributes Editor, the 'Open with...' dialog came up.</li>
+    <li>Fixed that with active "swipe to delete" pressing the Edit button lead to inconsistent table appearance.</li>
+    <li>Corrected that rotation deselected browser items and reloaded folder contents.</li>
+    <li>Fixed that if a file got removed that a symbolic link pointed to, lead to hiding the symbolic link in the file browser.</li>
+    <li>Corrected cydia:///package/ to cydia://package/ in all about.html.</li>
+    <li>Disabled iPod lib export button for videos in Attributes Editor if Gremlin 2 is not installed.</li>
+    <li>Disabled confirmation dialog when cancelling a support email.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-4 - Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed issue with not being able to create directories containing spaces in their path.</li>
+    <li>Fixed issue that spinning wheel still did not disappear for some users.</li>
+    <li>Fixed issue that pressing + button to add a file/folder/link for fourth time crashed iFile.</li>
+    <li>Corrected bug that changes in a String field of an Array in a property list did not get stored.</li>
+    <li>Corrected that after a change of a file in Property List Editor or Text Viewer the file browser did not get updated.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-3 - Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed issue that if a non-existing folder was referenced in iFile's preferences, iFile still showed the spinning wheel forever.</li>
+    <li>Fixed that using a URL like ifile:///<path> did not go to that path in the file browser for files and did not work at all if the URL referred to a directory.</li>
+    <li>Corrected failing registration for some users with registration problems.</li>
+    <li>Fixed that directory did not get updated after running the Installer and Unarchiver.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-2 - Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed issue that if a folder iFile starts with did not exist, iFile showed the spinning wheel forever.</li>
+    <li>Fixed crash when transferring a file from iFile to iFile (sender crashes).</li>
+    <li>Fixed bug that when a user chose select all, iFile did not enable the toolbar buttons.</li>
+    <li>Fixed crash when tapping on folder in search results of hierarchical search.</li>
+    <li>Fixed crash when choosing a viewer for a file without known type for 4th time.</li>
+    <li>Fixed that opening files in iFile via URL ifile:///<path> did not work anymore. This was a problem in context with Attachment Saver and Safari Download Manager.</li>
+    <li>Slowed down animation when moving through tabs in tab chooser (cover flow).</li>
+    <li>Enabled antialiasing in tab chooser (cover flow).</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.5.0-1 - Feature and Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected broken links in Web Server index pages for files with special characters.</li>
+    <li>Updated Chinese localizations.</li>
+  </ul>
+</li>
+<li>Enhancements
+  <ul>
+    <li>Loading of libstatusbar.dylib and SwipeToMoveCursor.dylib enabled.</li>
+    <li>Romanian localization added.</li>
+    <li>Celeste/Gremlin Integration
+      <ul>
+        <li>Added support for sending files via Celeste (Bluetooth).</li>
+        <li>Added support for adding songs to iPod Library using Gremlin for @cocoanutapps. This is possible in Attributes Editor and Music Player.</li>
+        <li>Removed support for iBluenova for iOS 4.x and later.</li>
+      </ul>
+    </li>
+    <li>File Browser
+      <ul>
+        <li>Added MD5 sum calculation for files in Attributes Editor.</li>
+        <li>Initial directory content retrieval backgrounded.</li>
+        <li>Added glass pane covering GUI while loading initial directory content.</li>
+        <li>Replaced action button with clipboard button image (editing mode).</li>
+        <li>Added support for up to eight tabs via new button in file browser toolbar.</li>
+        <li>Added tab chooser using cover flow GUI. Allows adding and removing tabs.</li>
+        <li>Added support for two-finger swipe gesture to allow swiping between tabs.</li>
+        <li>Removed info button from file browser toolbar.</li>
+        <li>Added support for long press on table to select, select all, deselect all, copy, cut, paste, link.</li>
+        <li>Removed behavior that double tapping the table selected/deselected all files.</li>
+      </ul>
+    </li>
+    <li>Preferences
+      <ul>
+        <li>Removed "Store on exit" option in preferences as it is obsolete in context of tabs.</li>
+        <li>Added About iFile and Contact Developer fields.</li>
+        <li>Implemented GUI Color setting (navigation bars and toolbars for selected viewers).</li>
+        <li>Changed default icon theme to Leopard.</li>
+      </ul>
+    </li>
+    <li>Property List Editor
+      <ul>
+        <li>Corrected cell formatting to avoid empty space in multi-line cells.</li>
+        <li>Changed font size used in String Editor in Property List Editor (larger).</li>
+      </ul>
+    </li>
+    <li>ZIP Viewer
+      <ul>
+        <li>Added support for extracting password encrypted zip files.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.2-1 - Feature and Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed iFile crash when sending directories via Bluetooth (will just abort).</li>
+    <li>Implemented search bar for Property List Editor.</li>
+    <li>Fixed overly large memory consumption during hierarchical file search.</li>
+    <li>Registered Web Viewer and Text Viewer for SVG files (image/svg+xml mime-type).</li>
+    <li>Added delete button in Image Viewer.</li>
+    <li>Changed string fields in Property List Editor to allow multi-line values.</li>
+    <li>Added support to go to directory of a file via Attributes Editor's path field.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-3 - Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Corrected bug that PDF Viewer did not allow to swipe to last page.</li>
+    <li>Corrected on iPad that Image and PDF Viewer hid the navigation bar and tool bar when print form and bookmark creation form were visible.</li>
+    <li>Implemented better error handling in Video Player for invalid formats.</li>
+    <li>Fixed issue that if iFile was not yet running in background and opening a file in iFile via ifile:///<path> URL (e.g. from Safari Download Manager) opened the file viewer, but did not close the file viewer choice list.</li>
+    <li>Corrected two-finger double-tap zoom-out behavior in Image and PDF Viewer to completely zoom out.</li>
+    <li>Enhanced Audio Player to remember visibility of repeat/shuffle options (shown after tap on album cover).</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-2 - Bugfix Release</h2>
+<ul class="list">
+<li>Fixes
+  <ul>
+    <li>Fixed bug that pressing Done button after a file name change in Attributes Editor did not close the Attributes Editor.</li>
+    <li>Updated Chinese translation of change-log, features and about pages.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.1-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Ulepszenia
+  <ul>
+    <li>Dodane wsparcie dla stuknięcia dwa razy dwoma palcami aby oddalić w przeglądarce PDF oraz w przeglądarce obrazów.</li>
+    <li>Zaktualizowana czeska i arabska lokalizacja</li>
+    <li>Zaktualizowane polskie tłumaczenie rejestru zmian</li>
+  </ul>
+</li>
+<li>Naprawy
+  <ul>
+    <li>Naprawione wysypywanie się aplikacji w trybie pionowym podczas naciskania guziczka paska bocznego na iPad'zie.</li>
+    <li>Naprawiony błąd (błąd iOS), że atrybuty plików umieszczonych na dysku flash nie były pokazywane i nie można było ich edytować.</li>
+    <li>Naprawione, gdy ikonka kosza pozostawała nieaktywna po akcji przesuń aby usunąć.</li>
+    <li>Naprawione wyświetlanie obrazów poprzez Otwórz w... przeglądarce obrazów.</li>
+    <li>Ograniczone przybliżanie w przeglądarce PDF i przeglądarce obrazów do maksymalnej skali przybliżenia.</li>
+    <li>Naprawione wysypywanie się iFile podczas pokazywania zawartości plików rar chronionych hasłem.</li>
+    <li>Naprawione wysypywanie się przeglądarki PDF.</li>
+    <li>Naprawione wysypywanie się aplikacji podczas otwierania po raz trzeci lub czwarty tego samego pliku w przeglądarce PDF i przeglądarce obrazów.</li>
+    <li>Naprawiony problem z wyświetlaniem paska wyszukiwania w edytorze tekstu w trybie poziomym.</li>
+    <li>Poprawiona nazwa mpeg@2.png na mpeg@2x.png w motywie Leopard.</li>
+    <li>Zarejestrowanie przeglądarki tekstu jako domyślnej przeglądarki, z wyłączeniem edytora PLIST dla typów MIME application/x-plist.</li>
+    <li>Edytor PLIST
+      <ul>
+        <li>Poprawki wyświetlania dla dużych wartości dictionary i array.</li>
+        <li>Naprawiony błąd prowadzący do zapisywania pustych plików strings w edytorze PLIST po zapisaniu zmian.</li>
+        <li>Naprawione, gdy iFile nie zapisywał wartości pola w przypadku, gdy naciśnięto gotowe podczas edytowania pliku (była widoczna klawiatura).</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.4.0-1 - Naprawy błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Uwaga! Wszystkie usprawnienia w tej wersji są dostępne tylko w urządzeniach z iOS4.0 lub nowszym.</li>
+<li>Ulepszenia i naprawy
+  <ul>
+	<li>Dodane wsparcie dla libactivator.dylib.</li>
+	<li>Naprawione literówki w chińskiej i angielskiej lokalizacji.</li>
+	<li>Gdy korzystasz z kosza, a plik powinien zostać do niego przeniesiony, istniejący już plik o takiej samej ścieżce docelowej zostaje najpierw usunięty przed przeniesieniem.</li>
+	<li>Dodany nowy, graficzny edytor plików Property List.</li>
+	<li>Dodane wsparcie dla wypakowywania plików rar chronionych hasłem w przeglądarce ZIP.</li>
+	<li>Rotacje w każdym kierunku są znów dostępne.</li>
+	<li>Rozbudowane montowanie dysków USB, tak że możliwe jest zamontowanie  wielu dysków jednocześnie (np. przy użyciu hub'a USB). Obecnie maksymalna ilość równocześnie podpiętych dysków wynosi 4.</li>
+	<li>Rozbudowane wsparcie dla Voice Over dla przeglądarki plików w trybie edycji.</li>
+	<li>Dodana możliwość ograniczenia rozmiaru miniaturek w ustawieniach.</li>
+	<li>Dodane wsparcie dla wyświetlacza display dla 
+      <ul>
+	    <li>miniatur obrazów</li>
+	    <li>motywów ikon</li>
+	    <li>obrazów guziczków w interfejsie graficznym</li>
+      </ul>
+    </li>
+	<li>Przeglądarka obrazów
+      <ul>
+        <li>Dodana możliwość przesuwania zdjęć.</li>
+        <li>Dodane, że podwójne stuknięcie w zdjęcie przybliża je.</li>
+        <li>Dodane wsparcie dla AirPrint (iOS 4.2.1 i nowsze).</li>
+    	<li>Dodane wsparcie dla plików raw w formatach:
+          <ul>
+	        <li>Canon: crw, cr2</li>
+	        <li>Epson: erf</li>
+	        <li>Fuji: raf</li>
+	        <li>Hasselblad: 3fr</li>
+	        <li>Kodak: kdc</li>
+	        <li>Mamiya: mef</li>
+	        <li>Minolta: mrw</li>
+	        <li>Nikon: nrw, nef</li>
+	        <li>Olympus: orf</li>
+	        <li>Panasonic: rw2</li>
+	        <li>Pentax: pef</li>
+	        <li>Sony: arw, sr2</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Przeglądarka PDF
+      <ul>
+        <li>Dodana możliwość przesuwania stron.</li>
+        <li>Dodane, że podwójne stuknięcie w dokument przybliża go.</li>
+        <li>Dodane wsparcie dla AirPrint (iOS 4.2.1 i nowsze).</li>
+      </ul>
+    </li>
+    <li>Edytor tekstu
+      <ul>
+	    <li>pliki nib, plist i strings są interpretowane jako pliki plist.</li>
+      </ul>
+    </li>
+    <li>Odtwarzacz wideo
+      <ul>
+	    <li>Dodane wsparcie dla AirPlay (iOS 4.2.1 i nowsze).</li>
+	    <li>Dodane wsparcie dla formatów wide: 3g2 i 3gpp2.</li>
+	    <li>Naprawione niedziałające TV Out.</li>
+      </ul>
+    </li>
+	<li>Przeglądarka WWW
+      <ul>
+        <li>Dodane wsparcie dla AirPrint (iOS 4.2.1 i nowsze).</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.2-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Ulepszenia i naprawy
+  <ul>
+	<li>Poprawki w czeskiej lokalizacji</li>
+	<li>Dodana możliwość tworzenia folderów wsparcia aplikacji</li>
+	<li>Dodana możliwość tworzenia skrótów do książki adresowej dla użytkownika root.</li>
+	<li>Dodane wsparcie dla otwierania plików podczas, gdy iFile działa w tle.</li>
+	<li>Dodane wsparcie dla przycisków iPod'a, słuchawek (obsługa pilota słuchawkowego), tj. poprzedni, następny utwór, graj, zatrzymaj, wyłącz.</li>
+	<li>Naprawione gdy odtwarzacz audio nie odtwarzał kolejnego utworu gdy iFile działał w tle.</li>
+	<li>Naprawione wysypywanie się aplikacji podczas usuwania skrótów na iPad'zie.</li>
+	<li>Zaktualizowana ikona dla iOS 4.x dla iPhone 3G(S) itd.</li>
+	<li>Wsparcie dostępności dodane do komórek przeglądarki plików.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.1-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Ulepszenia
+  <ul>
+	<li>Dodana autoryzacja dla serwerów WWW/WebDAV (kompatybilna z Windows 7).</li>
+	<li>Nowe ikony dla iOS4 na iPhone 4 (ikona aplikacji i mała ikona dla spotlight).</li>
+	<li>Dodana w ustawieniach możliwość włączenia/wyłączenia zewnętrznych przeglądarek.</li>
+  </ul>
+</li>
+<li>Naprawy  
+  <ul>
+	<li>Naprawione gdy serwer WWW i Ustawienia były zaczernione.</li>
+	<li>Naprawione wysypywanie się odtwarzacza audio gdy nie było przydzielonego wykonawcy do piosenki i wyświetlała się lista utworów.</li>
+	<li>Zwiększone miejsce na nazwę utworu w odtwarzaczu audio aby bardzo długi tytuły i czasy utworów wyświetlały się poprawnie.</li>
+	<li>Naprawiona pozycja alertu tworzenia archiwum ZIP w przeglądarce plików oraz dla Idź do strony w przeglądarce PDF tak, że nie jest ukryty za klawiaturą.</li>
+	<li>Naprawione wysypywanie się iFile w edytorze tekstu podczas wyszukiwania w trybie edycji. </li>
+	<li>Naprawione wysypywanie się aplikacji podczas tworzenia skrótów.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.0-2 - Naprawa błędów</h2>
+<ul class="list">
+<li>Naprawy  
+  <ul>
+	<li>Naprawiony problem w edytorze uprawnień, gdy wartości wpisane w pola tekstowe nie zostawały użyte po wciśnięciu guziczka gotowe/utwórz.</li>
+	<li>Naprawione, gdy otwieranie pliku w którejkolwiek przeglądarce prowadziło do odmontowania podłączonego dysku flash. Teraz iFile odmontowuje podczas wyłączania.</li>
+	<li>Naprawione wysypywanie się aplikacji podczas tworzenia miniaturek.</li>
+	<li>Poprawiony kolor tła miniaturek.</li>
+	<li>Drobne poprawki w polskiej lokalizacji.</li>
+	<li>Naprawione nieznajdowanie odbiorców wiadomości podczas tworzenia email'a z załącznikiem.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.3.0-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Dodane wsparcie dla udostępniania plików przez iTunes dla iOS 3.2 i iOS 4.0 
+  <ul>
+	<li>Dodane wsparcie dla otwierania różnych typów plików w iFile za pomocą zewnętrznych aplikacji dla iOS 3.2 i iOS 4.0, np. załączniki Mail. iFile stał się zewnętrzną przeglądarką wielu formatów plików.</li>
+	<li>Dodane wsparcie dla wymiany nowych plików tak, że iFile może otwierać pliki za pomocą zewnętrznych (pochodzących z AppStore) przeglądarek wspierających konkretne typy plików, np. Pages, Numbers, Keynote, Air Sharing itp.</li>
+  </ul>
+</li>
+<li>Ulepszenia dla iPad'a
+  <ul>
+	<li>Dodany panel boczny zawierający skróty i zakładki oraz zewnętrzne dyski Flash i karty SD połączone przez Camera Connection Kit.</li>
+	<li>Zmieniony kolor GUI na iPad'zie aby domyślnie był szary.</li>
+	<li>Zmienione zachowanie przycisków w przypadku gdy okna pop-over są otwarte, tak że podczas gdy okno pop-over jest otwarte, a my naciśniemy przycisk, okno najpierw zostanie zamknięte, a potem zostanie wykonana akcja przydzielona do przycisku.</li>
+	<li>Poprawione zachowanie ustawień aby efekt zmian był natychmiastowy w przeglądarce plików.</li>
+  </ul>
+</li>
+<li>Ogólne ulepszenia
+  <ul>
+	<li>Pasek postępu zastąpiony nowym, wspierającym rotację urządzenia.</li>
+	<li>Tworzenie miniatur przeniesione do procesów tła więc przewijanie z miniaturami jest szybsze.</li>
+  </ul>
+</li>
+<li>Naprawy  
+  <ul>
+	<li>Naprawione wysypywanie się przy rozruchu na iOS4.</li>
+	<li>Naprawiony zepsuty Server WWW na iOS4.</li>
+	<li>Naprawione, gdy po utworzeniu pliku/folderu/linka przeglądarka plików nie aktualizowała widoku na iPad'zie.</li>
+	<li>Naprawione, gdy ścieżki z aplikacjami z AppStore nie pokazywały nazwy aplikacji mimo włączonej opcji w ustawieniach na iPad.</li>
+	<li>Poprawiony widok akcji w przeglądarce zip podczas rozpakowywania plików na iPad'zie.</li>
+	<li>Poprawione, gdy nazwa pliku i cele linków zapominały swoich ustawień podczas przewinięcia ich w widoku edytora uprawnień.</li>
+	<li>Poprawione wyświetlanie rozmiaru pliku w przeglądarce dla plików > 2GB.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.2-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Dodane wsparcie dla iPad'a
+  <ul>
+	<li>Używanie menu pop-over dla zakładek, ustawień, atrybutów, Otwórz za pomocą... oraz pozostałych akcji.</li>
+	<li>Pokazywanie rozmiaru pliku i daty jego modyfikacji w przeglądarce plików podczas wyświetlania tytułów utworów, wyników wyszukiwania itp.</li>
+  </ul>
+</li>
+<li>Wsparcie rozszerzeń MobileSubstrate
+  <ul>
+	<li>Wczytywanie QuickScroll2 jeśli dostępne.</li>
+  </ul>
+</li>
+<li>Przeglądarka plików
+  <ul>
+	<li>Zmienione domyślnie na tworzenie folderu podczas tworzenia nowego pliku/folderu/linka.</li>
+	<li>Nowa ikona iFile bez cienia dla iPhoneOS 4.0.</li>
+  </ul>
+</li>
+<li>Naprawy  
+  <ul>
+	<li>Naprawione problemy z przybliżaniem w przeglądarce WWW dla dokumentów: xls, doc, html itd.</li>
+	<li>Drobne poprawki w francuskiej lokalizacji</li>
+	<li>Naprawione pola typu włącz/wyłącz, które "zapominały" swoje wcześniejsze ustawienie podczas przewijania.</li>
+	<li>Usunięta rotacja "do góry nogami".</li>
+	<li>Naprawione, gdy edytor zakładek nie zapisywał zakładek w przypadku gdy zaraz po dodaniu zakładki wybierało się ją.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.1-2 - Naprawa błędów</h2>
+<ul class="list">
+<li>Naprawy
+  <ul>
+	<li>Naprawiony błąd niepozwalający na wprowadzenie zarejestrowanego adresu email na iPad'zie w oknie rejestracji.</li>
+	<li>Poprawione kodowanie rejestrów zmian dla wielu języków.</li>
+	<li>Dodane wsparcie dla wczytywania rozszerzenia Mobile Substrate -  Rotation Inhibitor.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.1-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Dodane wsparcie dla iPad'a
+  <ul>
+	<li>Poprawiony odtwarzacz audio aby wyświetlał się poprawnie na iPad'zie.</li>
+	<li>Dodane nowe ikony w rozdzielczości iPad'a.</li>
+	<li>Dodane obrazki rozruchu dla iPad'a dla trybu poziomego i pionowego.</li>
+	<li>Zaktualizowano Info.plist aby zawierał informacje o orientacji iFile na iPad'zie.</li>
+	<li>Naprawione odtwarzanie wideo dla iPad'a i OS 4.0.</li>
+  </ul>
+</li>
+<li>Naprawy
+  <ul>
+	<li>Naprawione wysypywanie się przeglądarki WWW (używanej do przeglądania dokumentacji, xls, doc, html, pages itp.)</li>
+	<li>Naprawione wysypywanie się aplikacji w przypadku gdy użytkownik miał zainstalowane z App Store uniwersalne aplikacje (iPhone i iPad), które używały niepoprawnych kluczy wyświetlania ikon w Info.plist.</li>
+	<li>Zaktualizowana czeska lokalizacja i dokumentacja</li>
+	<li>Usunięte automatyczne wczytywanie rozszerzeń MobileSubstrate z wyłączeniem: ActionMenu, Backgrounder, WinterBoard, KeyboardSupport, SimulatedKeyEvents, mcclient, UIHook-iKeyEx3, resupported.</li>
+  </ul>
+</li>
+<li>Odtwarzacz audio
+  <ul>
+	<li>Dodany tryb powtarzania odtwarzania do ustawień odtwarzacza audio w preferencjach iFile.</li>
+  </ul>
+</li>
+<li>Serwer WWW
+  <ul>
+	<li>Naprawiony problem z nieudanym kopiowaniem pliku z serwera WebDAV w iFile do komputera PC używającego Windowsowego klienta WebDAV (dodano tag ostatniej modyfikacji w nagłówku odpowiedzi HTML).</li>
+	<li>Naprawiony problem z nieudanym kopiowaniem z komputera Mac do iFile powodowany przez błąd iFile w interpretacji części formatów plików.</li>
+	<li>Naprawiony problem z żądaniem przenoszenia lub kopiowania pliku na kliencie WebDAV dla Mac podczas używania Bonjour.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.2.0-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Dodatkowe lokalizacje
+  <ul>
+	<li>Dodana lokalizacja Chorwacka, Fińska i Grecka.</li>
+  </ul>
+</li>
+<li>Naprawy
+  <ul>
+    <li>Naprawione wysypywanie się przeglądarki wideo, gdy została uruchomiona po przeglądarce audio.</li>
+	<li>Poprawione, gdy podczas zmiany orientacji przy wyszukiwaniu pojawiał się błąd.</li>
+	<li>Naprawiony problem występujący podczas zapisywania plików PLIST old-style w edytorze tekstu.</li>
+	<li>Usunięty efekt przyciemniania elementów obrazków w przeglądarce PDF</li>
+  </ul>
+</li>
+<li>Rejestracja
+	<ul>
+		<li>Nowy mechanizm rejestracji powodujący, że ci którzy zakupili iFile w Cydia Store nie muszą ponownie podawać adresu email.</li>
+	</ul>
+</li>
+<li>Preferencje
+  <ul>
+    <li>Opcja pokaż/ukryj nazwy aplikacji w /var/mobile/Applications</li>
+    <li>Opcja zezwolenia na grupowanie plików (Grupowanie)</li>
+    <li>Opcja wyboru malejącego i rosnącego sortowania.</li>
+    <li>Limit pokazywania miniatur w ustawieniach iFile, nie dostępny w GUI Ustawień.</li>
+  </ul>
+</li>
+<li>Przeglądarka plików
+  <ul>
+	<li>Nowa ikona iFile zaprojektowana przez Daniel'a Waldron'a z <a href="http://www.twitter.com/eyedevs">EyeDevs</a></li>
+    <li>Transfer Bluetooth iFile-do-iFile. Po stronie otrzymującego nie wymagana jest rejestracja produktu. Wysyłający musi zarejestrować swoją wersję iFile.</li>
+	<li>Transfer pojedynczych plików przez <a href="http://twitter.com/ibluenova">iBlueNova</a> do któregokolwiek z obsługiwanych urządzeń</li>
+	<li>Przeglądarka pozwala teraz na grupowanie plików w zależności od wybranej metody sortowania:
+      <ul>
+        <li>Grupowanie alfabetyczne z indeksami: A-Z, i #.</li>
+         <li>Grupowanie wg rozszerzeń</li>
+         <li>Grupowanie wg przedziału rozmiarowego: 0-10KB, 10-100KB, 100KB-1MB, 1MB-10MB, 10MB-100MB, >100MB.</li>
+         <li>Grupowanie według przedziału czasowego: Dzisiaj, Wczoraj, Wcześniej w tym tygodniu, Ostatni tydzień, Wcześniej w tym miesiącu, Ostatni miesiąc, Dwa miesiące temu, Wcześniej w tym roku, Ostatni rok, Dwa lata temu, Starsze.</li>
+      </ul>
+    </li>
+    <li>Zmienione sortowanie nazw plików i rozszerzeń, aby było nie tylko niewrażliwe na wielkość liter, ale także sortowanie po numerach w nazwie pliku, np. plik nazwany "Hugo (10).txt" zostanie wyświetlony po "Hugo (8).txt".</li>
+    <li>Naprawiona pozycja ikony zakładek dzięki użyciu niestandardowej ikony, zamiast systemowej (błąd iPhoneOS).</li>
+    <li>Rozszerzone możliwości wyszukiwania pozwalające na wyszukiwanie tagów (tytuł, artysta, album), gdy wyświetlanie tytułów utworów jest włączone w ustawieniach.</li>
+    <li>Ograniczanie schematu URL ifile:// do jedynie /var/mobile zostało usunięte.</li>
+  </ul>
+</li>
+<li>Typy Plików
+  <ul>
+    <li>Pliki PDF: Użytkownik może teraz wybrać zarówno przeglądarkę WWW jak i przeglądarkę PDF do przeglądania plików PDF.</li>
+    <li>SQLite3: Wsparcie dla typu MIME application/x-sqlite3 pracujące z aplikacją kennytm's SQLite3 dostępną jako zewnętrzna przeglądarka (do pobrania <a href="http://code.google.com/p/networkpx/downloads/list">tutaj</a>).</li>
+    <li>mm. Pliki z rozszerzeniem mm są teraz obsługiwane przez przeglądarkę tekstu</li>
+  </ul>
+</li>
+<li>Przeglądarka PDF
+  <ul>
+    <li>Poprawione pochłanianie pamięci podczas zmiany strony.</li>
+    <li>Przesunięty guziczek "idź do strony" do paska nawigacyjnego wyświetlającego numer aktualnej strony i ilość stron w pliku.</li>
+    <li>Idź do strony dialog nie ma już ustawialnej wartości.</li>
+  </ul>
+</li>
+<li>Wysyłanie załączników Email
+  <ul>
+    <li>Usunięte "Wysyłanie załączników z iFile" z tytułu i "Załączniki iPhone z iFile" z treści, podczas wysyłania email'i za pomocą iFile.</li>
+  </ul>
+</li>
+<li>Server WWW
+  <ul>
+    <li>Dodane wsparcie dla WebDAV (pozwalające na używanie iFile jako dysku internetowego w systemach Windows, Linux i MacOSX) - niedostępne dla niezarejestrowanych użytkowników.</li>
+    <li>Dodane zabezpieczenie serwera WWW nazwą użytkownika i hasłem. To tylko podstawowe zabezpieczenie.</li>
+    <li>Zmienione wyświetlanie plików, aby najpierw wyświetlać foldery, a potem pliki.</li>
+    <li>Naprawiony problem z niepoprawnie wyświetlanym adresem http serwera WWW.</li>
+    <li>Naprawiony problem z błędem podczas uruchamiania serwera. Powodem było używanie portu wciąż będącego w użyciu. Teraz odnawia port i nie wyrzuca błędów.</li>
+    <li>Naprawiony problem z traceniem nazwy pliku przy wgrywaniu przez Internet Explorer.</li>
+    <li>Zmieniona metoda nazywania plików jeśli plik o tej samej nazwie istniał w folderze: Nowy plik dostaje oryginalną nazwę z "(<numerem>)" oraz rozszerzenie, np. "uploaded.txt" zostanie przemianowany na "uploaded (1).txt" jeśli "uploaded.txt" już istniał.</li>
+  </ul>
+</li>
+<li>Parsowanie plików audio MPEG 4
+  <ul>
+    <li>iFile wypakowuje długość utworu bezpośrednio z meta daty pliku m4a zamiast powolnego systemowego wywołania. Przyspiesza to wyświetlanie listy tytułów utworów w przeglądarce dla bardzo dużych podcastów i list utworów.</li>
+  </ul>
+</li>
+<li>Odtwarzacz Audio
+  <ul>
+    <li>Dodane wsparcie dla podwójnego dotknięcia okładki aby wyświetlić widok playlisty.</li>
+    <li>Dodany nowy tryb powtórzenia, aby odtwarzać pojedynczy utwór tylko raz. Jest to domyślne ustawienie.</li>
+  </ul>
+</li>
+<li>Odtwarzacz wideo
+	<ul>
+		<li>Dodane wsparcie dla TV-out przez oficjalny kabel Apple.</li>
+	</ul>
+</li>
+<li>Przeglądarka plików skompresowanych
+  <ul>
+    <li>Naprawiony problem, gdy nie wszystkie pliki skompresowane w pliku tar były wyświetlane.</li>
+  </ul>
+</li>
+<li>Wypakuj pliki
+  <ul>
+    <li>W przeciwieństwie do przeglądarki plików skompresowanych można teraz wypakować pliki, bez zaglądania do archiwum.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.1.0-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Ogółem
+  <ul>
+    <li>iFile jest teraz kompatybilne tylko z OS 3.0. Cały kod dla OS 2.x został usunięty.</li>
+    <li>Zmieniona rejestracja, aby była również widoczna przy opuszczaniu Statusu Rejestracji w ustawieniach iFile.</li>
+    <li>Zależność od paczki com.saurik.mamu (mailto:attachment=) została usunięta.</li>
+    <li>Część z funkcjonalności z tej wersji będzie dostępna tylko dla zarejestrowanych użytkowników:
+      <ul>
+        <li>Wyszukiwanie plików po nazwach.</li>
+        <li>Wsparcie dla zewnętrznych przeglądarek.</li>
+        <li>Odtwarzanie list utworów w nowym odtwarzaczu audio.</li>
+        <li>Wyświetlanie tytułu piosenki zamiast nazwy pliku dla pików muzycznych.</li>
+        <li>Wyświetlanie miniaturek zamiast domyślnych ikon dla obrazów.</li>
+        <li>Wyszukiwanie fraz w edytorze tekstu.</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>Lokalizacje
+  <ul>
+    <li>Dodana lokalizacja Holenderska i Słowacka.</li>
+  </ul>
+</li>
+<li>Przeglądarka plików
+  <ul>
+    <li>Dodana opcja wyszukiwania nazw plików. Wyszukiwanie może zostać rozpoczęte tylko w obecnym katalogu lub w całej hierarchii począwszy od obecnego katalogu. Silnik wyszukiwania jest niewrażliwy na duże i małe litery oraz na znaki diakrytyczne. Wyszukiwanie w trybie edycji w przeglądarce plików pozwala na usuwanie, kopiowanie, wycinanie oraz kompresowanie wyszukanych a następnie zaznaczonych plików. Wyniki wyszukiwania pokazują datę oraz rozmiar obecnego katalogu lub ścieżki dla innych katalogów. W ustawieniach iFile użytkownik może wybrać metodę wyszukiwania
+      <ul>
+        <li>Format prosty: wyszukuje tekstu zawartego w nazwie, np. "test",</li>
+        <li>Format dzikiej karty, np."*test*",</li>
+        <li>Format dokładnego wyrażenia, np. ".*test.*".</li>
+      </ul>
+	</li>
+    <li>Zmienione zachowanie odznaczania w przeglądarce podczas nawigowania w górę hierarchii: Teraz odpowiedni katalog pozostaje odznaczony po nawigowaniu w górę. Ułatwia to zrozumienie "skąd przyszliśmy".</li>
+    <li>Dodana funkcjonalność wyświetlania nazwy folderu aplikacji z AppStore zamiast jej identyfikatora dla folderów w ~mobile/Applications. Pod nazwą aplikacji wyświetlona zostanie oryginalna nazwa folderu.</li>
+    <li>Kopiuj, wytnij i wklej zostało przeniesione do globalnego schowka iPhone OS. To pozwala na użycie ścieżek, czy adresów URL w innych aplikacjach. Zawartość plików nie jest kopiowana do schowka.</li>
+    <li>Tytuł piosenki może zostać wyświetlony zamiast nazwy pliku. Funkcjonalność ta może zostać włączona/wyłączona w ustawieniach iFile.</li>
+    <li>Dla obrazów iFile może wyświetlać miniaturkę zamiast domyślnej ikony. Funkcjonalność ta może zostać włączona/wyłączona w ustawieniach iFile. Miniaturki będą jedynie tworzone dla obrazów mniejszych niż 1MB.</li>
+  </ul>
+</li>
+<li>Edytor atrybutów
+  <ul>
+    <li>Dodana możliwość zmiany atrybutów i własności hierarchicznie dla folderu.
+      <ul>
+        <li>Stosuje własność użytkownik i grupa do wszystkich katalogów i plików w folderze.</li>
+        <li>Dla podkatalogów zezwolenia dostępu  ustawiane są identycznie jak dla edytowanego folderu.</li>
+        <li>Dla plików zezwolenia dostępu ustawiane są tak samo tylko dla odczytu i zapisu. Jeśli plik był wykonywalny, pozostaje wykonywalny. Sticky przydzielane jest identycznie jak dla edytowanego katalogu.</li>
+      </ul>
+	</li>
+    <li>Dla plików obrazów dodany guziczek pozwalający na dodanie obrazu do rolki z aparatu (możliwe również z poziomu przeglądarki obrazów).</li>
+    <li>Dla plików wideo dodany guziczek pozwalający na dodanie wideo do rolki z aparatu (dostępne tylko dla iPhone OS 3.1).</li>
+    <li>Naprawiony błąd, że gdy ustawiono ID nie istniejące w bazie user/group iPhone'a, powodowało problemy z iFile.</li>
+  </ul>
+</li>
+<li>Typu plików
+  <ul>
+    <li>Dodana obsługa plików pps.</li>
+    <li>Dodany typ MIME video/x-flv otwierany w OpenStreamer (zewnętrznie).</li>
+  </ul>
+</li>
+<li>Obsługa skompresowanych archiwów
+  <ul>
+    <li>Naprawione problemy związane ze skompresowanymi plikami.</li>
+    <li>Skompresowane pliki mogą być teraz tworzone i wypakowywane w każdym folderze i nie tylko te, które są własnością użytkownika.</li>
+    <li>Wypakowywanie tar.gz, tar.Z i tar.bz2 nie działała w przeszłości. Teraz działa.</li>
+    <li>Usuwanie plików ze skompresowanego pliku jest możliwe tylko w przypadku archiwów zip.</li>
+  </ul>
+</li>
+<li>Tworzenie skrótów
+  <ul>
+    <li>Tworzenie skrótów zostało uproszczone:
+      <ul>
+        <li>Wybierz plik, z którego chcesz stworzyć skrót w przeglądarce plików w trybie edycji.</li>
+        <li>Wciśnij guziczek akcji i wybierz "Kopiuj/Skrót".</li>
+        <li>Przejdź do ścieżki, w której chcesz stworzyć skrót.</li>
+        <li>Wciśnij ponownie guziczek akcji i wybierz "Skrót".</li>
+      </ul>
+	</li>
+  </ul>
+</li>
+<li>Odtwarzacz audio
+  <ul>
+    <li>Całkowicie nowy odtwarzacz audio przypominający wbudowany odtwarzacz.</li>
+    <li>Wsparcie dla odtwarzania list m3u, wszystkich plików w katalogu lub wszystkich znalezionych przez wyszukiwarkę iFile.</li>
+    <li>Wsparcie dla powtarzania całej listy lub pojedynczego utworu.</li>
+    <li>Wsparcie dla losowego odtwarzania listy.</li>
+    <li>Wsparcie dla tagów plików audio (mp3 i m4a) wyświetlanych w przeglądarce.</li>
+    <li>Okładki albumów oraz załączone okładki w plikach m4a jako folder.jpg lub cover.jpg w tym samym katalogu.</li>
+    <li>Obsługa dla "poprzedni utwór", "następny utwór", przewijania do przodu i do tyłu.</li>
+    <li>Pokazuje obecny czas i czas, który pozostał do końca utworu.</li>
+  </ul>
+</li>
+<li>Przeglądarka obrazów
+  <ul>
+    <li>Przeglądarka obrazów jest teraz również dodatkowym guziczkiem umożliwiającym dodanie obrazu do rolki z aparatu.</li>
+  </ul>
+</li>
+<li>Przeglądarka PDF
+  <ul>
+    <li>Napisany od nowa schemat rysowania pozwalający na większe przybliżenia.</li>
+    <li>Podwójne dotknięcie przybliża 2x lub - jeśli już przybliżone - oddala do rozmiaru strony.</li>
+    <li>Pojedyncze dotknięcie pokazuje i ukrywa pasek narzędziowy i nawigacyjny.</li>
+    <li>Podczas przechodzenia na następną stronę przeglądarka automatycznie przewinie do lewego górnego rogu.</li>
+  </ul>
+</li>
+<li>Przeglądarka internetowa
+  <ul>
+    <li>Poprawiony problem gdy dla linków na stronie pasek nawigacyjny pokazywał tylko "Wczytuję...".</li>
+  </ul>
+</li>
+<li>Edytor tekstu/Edytor plików plist
+  <ul>
+    <li>Edytor tekstu i edytor plików plist zostały oddzielone. Dzięki temu łatwiej jest edytować pliki formatu plist o innym rozszerzeniu przy użyciu Otwórz za pomocą...</li>
+    <li>Dodany guziczek w pasku narzędzi do ukrywania/pokazywania paska nawigacyjnego i statusu.</li>
+    <li>Dodany guziczek i funkcjonalność wyszukiwania tekstu. Wyszukiwanie kończy się wraz z końcem pliku. Jeśli znalezione zostaną "string'i" edytor automatycznie pokazuje wynik. Podświetlenie tekstu nie jest możliwe.</li>
+    <li>Dodana możliwość ukrycia klawiatury w trybie edycji (guziczek Gotowe).</li>
+  </ul>
+</li>
+<li>Instalator paczek DEB
+  <ul>
+    <li>iFile może teraz instalować paczki deb poprzez rozpakowanie ich zawartości.</li>
+  </ul>
+</li>
+<li>Zewnętrzne przeglądarki
+  <ul>
+    <li>iFile obsługuje teraz zewnętrzne przeglądarki zdefiniowane przez motywy. Funkcjonuje to w ten sposób, że determinowany jest identyfikator aplikacji oraz jej schemat dla danego typu MIME. iFile otworzy wtedy plik podając ścieżkę zewnętrznej przeglądarce.</li>
+  </ul>
+</li>
+<li>Ustawienia:
+  <ul>
+    <li>Nowa opcja pokazywania tytułu utworu zamiast nazwy pliku (mp3 i m4a).</li>
+    <li>Nowa opcja pokazywania miniaturek obrazu zamiast domyślonej ikony.</li>
+  </ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.1-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>iFile staje się Shareware. Wielu użytkowników żaliło się, że wsparcie dotacją nie powinno być wymuszane. Odkąd wymagam pewnego zadośćuczynienia za rozwijanie iFile, przestałem nazywać to "dotacją", lecz 'rejestracją' co powinno być jaśniejsze.</li>
+<li>Dodany graficzny interfejs rejestracji możliwy do otwarcia z okna pop-up Rejestracji iFile lub z Ustawień iFile.</li>
+<li>Dodane wsparcie dla obsługi URL typu ifile://... . Tylko pliki z ~mobile mogą zostać otwarte przy użyciu takiego URL.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.0-2 - Naprawa błędów</h2>
+<ul class="list">
+<li>Naprawiony problem błędu podczas rozpakowywania plików rar. Rozpakowywane pliki zostają umieszczone w obecnym katalogu zamiast w /private/var/mobile.</li>
+<li>Poprawione kodowanie w changelog.html i features.html w Polskiej dokumentacji.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>1.0.0-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Kompatybilność z oprogramowaniem iPhone 2.x i 3.0</li>
+<li>Dodana Czeska, Polska i Ukraińska lokalizacja.</li>
+<li>Alert Dotacyjny.
+<ul>
+<li>Podczas uruchamiania iFile wyświetli okno informujące o ilości ściągniętych kopii iFile oraz o ilości brakujących dotacji pozwalających na wypuszczenie kolejnej wersji programu. Użytkownik będzie miał możliwość bezpośrednio przejść na stronę PayPal i wesprzeć autora. Licznik pobrań i dotacji będzie ściągany z Internetu (iphone.heinelt.eu) podczas uruchamiania iFile. Pobieranie tych danych będzie następowało tylko raz dziennie.</li>
+</ul>
+</li>
+<li>Przeglądarka plików
+<ul>
+<li>Podwójne dotknięcie w trybie edycji zaznacza/odznacza wszystkie pliki w danym folderze.</li>
+<li>Naprawione, że dla tworzenia nowego pliku/folderu/link'a pole 'Typ' nie pokazywało możliwości edycji, chociaż dawało. Pole 'Typ' oznaczone jest niebieską strzałką po prawej stronie.</li>
+<li>Kopiuj/Przenieś
+<ul>
+<li>Kopiowanie i przenoszenie plików odbywa się teraz w tle (osobny proces).</li>
+<li>Widoczna jest belka postępu procesu przenoszenia/kopiowania pliku.</li>
+<li>Jeśli plik już istnieje pojawia się okno pozwalające na:
+<ul>
+<li>Anulowanie procesu.</li>
+<li>Zmianę nazwy kopiowanego pliku (przemianowuje automatycznie - ' (&lt;numer&gt;)' zostanie dołączony.)</li>
+<li>Nadpisanie istniejącego pliku.</li>
+<li>Nadpisanie wszystkich istniejących plików.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Atrybuty Folderów
+<ul>
+<li>Dla folderów edytor atrybutów pokazuje teraz rozmiar jego zawartości (sumę rozmiaru wszystkich plików w nim zawartych) i liczbę zawartych plików.</li>
+</ul>
+</li>
+<li>Kompresowanie plików odbywa się w tle.</li>
+</ul>
+</li>
+<li>Przeglądarka tekstu
+<ul>
+<li>Wsparcie dla plików nib i xib dodane.</li>
+</ul>
+</li>
+<li>Przeglądarka ZIP
+<ul>
+<li>Dodana możliwość obsługi bardziej skompresowanych formatów jak: 7z, deb, rar, tar, tar.gz, tar.bz2, tar.Z, tgz, tbz2, gz, bz2, Z.</li>
+<li>Wypakowywanie używa unzip dla plików zip, unrar dla plików rar, tar dla wszystkich plików opartych na tar. Wszystkie inne rozszerzenia są obsługiwane przez p7zip (7z).</li>
+<li>Wczytywanie zawartości plików, wypakowywanie i usuwanie plików odbywa się w tle.</li>
+</ul>
+</li>
+
+<li>Serwer WWW
+<ul>
+<li>Dodana możliwość przeglądania folderów ("w dół" w hierarchii)</li>
+<li>Strona główna serwera przeszła facelifting.</li>
+<li>Dodany pasek postępu dla przesyłanych i ściąganych plików.</li>
+<li>Widok statusu serwera wyświetla teraz wszystkie strony i oczekiwane pliki.</li>
+<li>Numer portu serwera może być teraz skonfigurowany w ustawieniach.</li>
+</ul>
+</li>
+<li>Ustawienia
+<ul>
+<li>Dodane pole wyboru numeru portu Serwera WWW.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.7 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Dodana lokalizacja dla Etiopii, Chin, Rosji i Turcji.</li>
+<li>Ustawienia
+<ul>
+<li>Naprawiony błąd wracania programu do domyślnych ustawień po zmianie motywu graficznego lub metody sortowania.</li>
+</ul>
+</li>
+<li>Typy MIME
+<ul>
+<li>Poprawiony audio/x-wav w typach MIME dla odtwarzacza audio (literówka).</li>
+</ul>
+</li>
+<li>Przeglądarka plików
+<ul>
+<li>Dodane animacje dla przeglądarki i dla przycisku HOME.</li>
+<li>Przeglądarka przewija do pierwszego rzędu, gdy wchodzimy do folderu. W wypadku powrotu "w górę" przewija do ostatniego folderu.</li>
+<li>Dodany guziczek zakładek (zobacz poniżej).</li>
+<li>Poprawione działanie podczas włączania iFile w katalogu z bardzo dużą ilością plików. W rezultacie iFile nie wyłącza się teraz w takim przypadku.</li>
+<li>Niebieski guziczek informacji o pliku/folderze widoczny jest teraz także w trybie normalnym (wcześniej tylko w trybie edycji).</li>
+</ul>
+</li>
+<li>Edytor Atrybutów
+<ul>
+<li>Możliwość wyboru przeglądarki do otwierania plików. Otwiera przeglądarkę bezpośrednio z obecnym plikiem.</li>
+</ul>
+</li>
+<li>Zakładki
+<ul>
+<li>GUI z takim samym wyglądem jak w Safari.</li>
+<li>Wsparcie dla zakładek dodane do przeglądarki plików (foldery zakładek i używanie/edytowanie zakładek), do przeglądarki WWW (zakładki dokumentów i stron WWW), przeglądarki PDF (zakładki dokumentów), przeglądarki tekstu (zakładki dokumentów).</li>
+<li>Zakładki mogą zostać uruchomione jedynie z poziomu przeglądarki plików.</li>
+<li>Zakładki Safari są dostępne, ale nie można ich modyfikować.</li>
+</ul>
+</li>
+<li>Przeglądarka Dokumentów/stron WWW
+<ul>
+<li>Pasek nawigacyjny i pasek narzędzi mogą zostać ukryte poprzez jedno dotknięcie.</li>
+</ul>
+</li>
+<li>Przeglądarka PDF
+<ul>
+<li>Pasek nawigacyjny i pasek narzędzi mogą zostać ukryte poprzez jedno dotknięcie.</li>
+<li>Podwójne dotknięcie przenosi na następną stronę.</li>
+</ul>
+</li>
+<li>Przeglądarka tekstu
+<ul>
+<li>Pasek nawigacyjny i pasek narzędzi mogą zostać ukryte poprzez jedno dotknięcie. Stanie się tak tyko wtedy gdy nie zmieni się pozycja kursora (w trybie edycji).</li>
+</ul>
+</li>
+<li>Wsparcie dla MobileSubstrate
+<ul>
+<li>Dodane wsparcie dla MobileSubstrate: MobileSubstrate nie włącza się automatycznie dla aplikacji działających z użytkownikiem "root". Teraz skoro MobileSubstrate włącza się przy iFile wszystkie oparte na MobileSubstrate rozszerzenia działają również w iFile, np. Clippy itd.</li>
+<li>Dodane do przeglądarki plików przekazywanie ścieżki pliku przez Clippy.</li>
+</ul>
+</li>
+<li>Dokumentacja
+<ul>
+<li>Zlokalizowana instrukcja została przeniesiona do osobnych paczek Cydii dla każdego języka.</li>
+<li>Możliwości i rejestr zmian wciąż pozostają w głównej paczce iFile.</li>
+<li>Podczas wybierania opcji "Instrukcja obsługi" pokaże się link do Cydii do paczki w odpowiednim języku, pozwalając automatycznie ją zainstalować.</li>
+<li>Zmiana ta była potrzebna ze względu na ciągły wzrost rozmiaru podstawowej paczki iFile.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.6-2 - Naprawa błędów</h2>
+<ul class="list">
+<li>Serwer WWW
+<ul>
+<li>Naprawiony problem z brakiem pamięci podczas ściągania przez iFile dużych plików.</li>
+<li>Poprawiony system ściągania plików tak, że przeglądarka wie jaki rozmiar ma plik i wie czego oczekiwać.</li>
+<li>Poprawiona obsługa pustych przesyłek - pokazuje stronę błędu.</li>
+<li>Naprawiony problem z zawartością nagłówka, kiedy zawierał o bajt za dużo z wartością zero. Prowadził do tego, że wszystkie pobrane pliki były niepoprawne.</li>
+</ul></li></ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.6-1 - Naprawa błędów i nowe funkcje</h2>
+<ul class="list">
+<li>Dodana lokalizacja Arabska, Francuska i Japońska. Dokumentacja Arabska i Francuska zostanie przetłumaczona w następnej wersji.</li>
+<li>Przeglądarka Plików
+<ul>
+<li>Skróty są oznaczone niebieskim kolorem nazwy.</li>
+<li>Wstrząśnij aby usunąć dodane w normalnym trybie(nie w trybie edycji).</li>
+<li>Dodany guziczek '+' w trybie edycji, aby umożliwić tworzenie plików, folderów i skrótów wraz z ustawieniami zezwoleń dostępu i własnościami.</li>
+<li>Zmieniony format wyświetlania rozmiaru plików, aby wyświetlał jako Bajty, KB, MB, GB.</li>
+<li>Dodana możliwość otwierania plików bez znanego typu MIME za pomocą "Otwórz za pomocą...", aby wybrać aplikację do przeglądania (obecnie wspiera tylko wewnętrzne przeglądarki)</li>
+<li>Dodany motyw "Leopard".</li>
+<li>Dodany guziczek Dom.</li>
+</ul>
+</li>
+<li>Typy MIME
+<ul>
+<li>Dodane rozszerzenie <i>js</i> do przeglądarki tekstu.</li>
+<li>Dodane rozszerzenia MSOffice 2007 dla Word, Excel, Powerpoint
+(docx, xlsx, pptx) do odpowiednich typów MIME.</li>
+</ul>
+</li>
+<li>Edytor Ustawień
+<ul>
+<li>Dodana opcja ukrycia/pokazania ukrytych plików/folderów.</li>
+<li>Dodana opcja ścieżki startowej: ustawianej podczas opuszczania aplikacji lub wstępnie zdefiniowanej.</li>
+<li>Dodana opcja wyboru rozmiaru czcionki w przeglądarce tekstu.</li>
+<li>Dodana opcja wyboru motywu graficznego.</li>
+<li>Dodana opcja sortowania w przeglądarce plików: Sortuj wg. nazwy, rozszerzenia, 
+rozmiaru i daty.</li>
+</ul>
+</li>
+<li>Dodatkowe pola w Edytorze Atrybutów
+<ul>
+<li>Rozmiar Pliku</li>
+<li>Typ pliku, np. Folder, Skrót, Zwykły plik</li>
+<li>Cel linku dla Skrótów</li>
+<li>Typ MIME dla Zwykłych plików</li>
+</ul>
+</li>
+<li>Przeglądarka tekstu
+<ul>
+<li>Naprawiony problem, gdy w trybie edycji podczas anulowania znikał tekst.</li>
+</ul>
+</li>
+<li>Serwer WWW
+<ul>
+<li>Naprawiony problem ze znakami w UTF-8 w wyświetlanych stronach WWW.</li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.5 - Naprawione błędy i nowe funkcje</h2>
+<ul class="list">
+<li>Naprawiony problem kiedy przeglądarka ZIP nie wypakowywała niczego po wybraniu opcji <i>Wypakuj 
+Wszystkie Pliki</i>.</li>
+<li>Zmieniony identyfikator aplikacji z <i>eu.heinelt.iFile</i> na <i>eu.heinelt.ifile</i>
+z powodu możliwych problemów z Cydią i interakcji z repozytorium BigBoss.</li>
+<li>Edytor atrybutów plików rozwinięty o edycję</li>
+<ul>
+<li>nazwy pliku</li>
+<li>własności pliku (właściciel i grupa)</li>
+<li>zezwolenia dostępu do pliku dla użytkownika, grupy i wszystkich (read, write, 
+execute, sticky bit)</li>
+<li>daty i czasu ostatniej modyfikacji pliku</li>
+</ul>
+<li>Dodana możliwość edycji tekstu w przeglądarce tekstu:</li>
+<ul>
+<li>Możliwość odczytu i tworzenia plików Property list (plist) (XML 
+i Binarnie).</li>
+<li>Pliki tekstowe odczytywane w formacie UTF-8 lub - gdy się to nie uda - jako ISO-Latin.</li>
+<li>Pliki tekstowe zawierające tabulatory były bardzo rozszerzone podczas czytania, 
+np. tabulatory zostały zastąpione przez spacje (rozszerzona funkcjonalność), 
+ponieważ UITextView systemu operacyjnego iPhone'a w przeciwnym wypadku "połykał" tabulatory. 
+Podczas pisania plików tekstowych spacje zamieniane są ponownie tabulatorami (nierozszerzona funkcjonalność).</li>
+<li>Szerokość tabulatora może zostać ustawiona w nowym oknie ustawień. Domyślnie szerokość wynosi 8.</li>
+<li>Pliki zapisane spowrotem na dysk dostaną takie same własności oraz zezwolenia dostępu jak oryginalny plik (w przeciwnym wypadku - root).</li>
+</ul>
+<li>Zmieniona struktura zarządzania rozszerzeniami plików oraz powiązanymi rozszerzeniami oparta na mime-type.</li>
+<li>Dodana infrastruktura przeglądarek plików opartych na typie MIME, a nie na rozszerzeniach. Daje to możliwość wyboru różnych przeglądarek
+przez typ MIME, więc możemy wybrać odpowiednią np. pliki text/html mogą być przeglądane przez prostą przeglądarkę tekstu lub przeglądarkę HTML.</li>
+<li>Dodane obsługiwane rozszerzenia do przeglądarki tektu: cfg, cnf, conf, j, java, 
+list, php, plist, script, sh.</li>
+<li>Dodana możliwość tworzenia motywów graficznych dla ikon różnych typów plików.</li>
+<li>Dodana blokada przewijania w przeglądarce PDF: Jeśli zaczniemy przeglądać w jednym kierunku (horyzontalnie lub wertykalnie), przeglądarka blokuje przewijanie w drugą stronę dopóki użytkownik nie zatrzyma przewijania w wybranym kierunku.</li>
+<li>Dodany guziczek Ustawienia oraz okno ustawień do edycji szerokości tabulatora.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.4 - Nowe funkcje</h2>
+<ul class="list">
+<li>Dodana Włoska lokalizacja.</li>
+<li>Przepisany od nowa Serwer WWW dla przesyłania i ściągania plików przez WiFi. 
+Wyniki znacznie się poprawiły. Przesyłanie dużych plików jest już niezawodne.</li>
+<li>Dodana obsługa plików ZIP z nową przeglądarką. Daje możliwość dodawania plików do nowego pliku ZIP, wypakowanie wszystkich lub zaznaczonych plików z pliku ZIP oraz usuwanie plików z pliku ZIP.</li>
+<li>Wysyłanie jednego lub więcej załączników email'em za pomocą Apple MobileMail.</li>
+<li>Naprawiony błąd, gdy przeglądarka PDF nigdy nie pokazywała ostatniej strony.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.3 - Nowe funkcje</h2>
+<ul class="list">
+<li>Ta publikacja pozwala iFile na działanie na prawach super użytkownika (super user).
+Użytkownik może teraz zmienić nazwę i usunąć każdy plik lub folder na partycji /var.</li>
+<li>Tryb edycji daje możliwość kopiowania, wycinania i wklejania plików i folderów.</li>
+<li>Poza Angielską i Niemiecką lokalizacją dodano Hiszpańską.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.2 - Naprawione Błędy</h2>
+<ul class="list">
+<li>Ta publikacja naprawiała problem gdy użytkownik zatrzymywał się w /var/mobile/Documents po instalacji, ale nie mógł poruszać się w górę w hierarchi.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.1 - Wstępna publikacja w <a href="http://thebigboss.org">repozytorium BigBoss</a></h2>
+<ul class="list">
+<li>Pliki tekstowe wyświetlane teraz w specyficznym kontrolerze UITextView z mniejszą czcionką niż czcionka UIWebView.</li>
+<li>Zawarta dokumentacja detali.</li>
+</ul>
+</li>
+
+<li class="tableitem">
+<h2>0.9.0 - Wstępna wersja</h2>
+<ul class="list">
+<li>Wyświetlanie plików PDF w specjalnym widoku z możliwością wyboru strony.</li>
+<li>Wyświetlanie obrazów za pomocą UIWebView.</li>
+<li>Wyświetlanie plików Excel, Word, PowerPoint, HTML, Text za pomocą UIWebView.</li>
+<li>Filmy i dźwięk odtwarzane za pomocą MPMoviePlayerController.</li>
+<li>Serwer WWW umożliwia transfer plików z i do iFile z każdym komputerem PC, Mac itd.</li>
+<li>Usuwanie wielu plików i folderów na raz.</li>
+<li>Zmienianie nazwy plików i folderów.</li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+</body>
+</html>
