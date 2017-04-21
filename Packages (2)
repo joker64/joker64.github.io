@@ -2,7 +2,7 @@ Package: eu.heinelt.ifile
 Version: 2.2.0-1
 Architecture: iphoneos-arm
 Maintainer: JOKER64 <lastman985@yahoo.com>
-Depends: winterboard
+Depends: file-cmds,zip,unzip,p7zip,bzip2,unrar,diskdev-cmds
 Filename: /Ifile.deb
 Size: 9751882
 MD5sum: 88766f339cc7b150e356331e4594db7b
