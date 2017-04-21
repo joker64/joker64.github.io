@@ -1,0 +1,545 @@
+"%d of %d" = "%d de %d";
+"'%@' wants to send you some files." = "'%@' quer te enviar alguns arquivos.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>O arquivo '%@' foi carregado com sucesso.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Files in %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Upload \">";
+"<p>Upload a file:<br />" = "<p>Subir um arquivo no servidor (Upload):<br />";
+"A symbolic link to file %@ could not be created." = "Não pode ser criado um link simbólico para o arquivo %@";
+"Accepting connections at http://%@ or http://%@.\n" = "Aceitando conexões em http://%@ ou http://%@.\n";
+"Access Permissions" = "Permissões de acesso";
+"Add Bookmark" = "Adicionar marcador";
+"Add Folder" = "Adicionar pasta";
+"Add to Camera Roll" = "Adicionar ao Rolo da Câmera";
+"Address" = "Endereço";
+"An error occurred" = "Ocorreu um erro";
+"Application Names" = "Nomes das Aplicações ";
+"Apply hierarchically" = "Aplicar hierarquicamente";
+"Applying permissions and ownership hierarchically..." = "Aplicando permissões e propriedade hierarquicamente...";
+"Ascending" = "Crescente";
+"Attributes" = "Atributos";
+"Audio Player" = "Reprodutor de Áudio";
+"Audio output got changed." = "Saída de áudio alterada.";
+"Authentication" = "Autenticação";
+"Block Device" = "Bloquear Dispositivo";
+"Bonjour got enabled with name %@.\n" = "Bonjour foi habilitado com o nome %@.\n";
+"Bookmark file %@ invalid: %@" = "Marcador %@ inválido: %@";
+"Bookmark folder name must not be empty." = "Sem nome na pasta de marcadores";
+"Bookmark name and address must not be empty." = "Sem nome e/ou endereço na pasta de marcadores";
+"Bookmarks %@ could not be written: %@" = "Marcadores %@ não podem ser gravados: %@";
+"Bookmarks Bar" = "Barra dos Marcadores";
+"Bookmarks Menu" = "Menu dos Marcadores";
+"Bookmarks" = "Marcadores";
+"Buy License (Cydia Store)" = "Comprar licença (Cydia Store)";
+"Cancel" = "Cancelar";
+"Character Device" = "Caracteres do Dispositivo";
+"Close" = "Fechar";
+"Compressing..." = "Compactando...";
+"Connected" = "Conectado";
+"Connection to '%@' failed." = "A conexão para '%@' falhou.";
+"Continue" = "Continuar";
+"Copy" = "Copiar";
+"Copy/Link" = "Copiar/Linkar";
+"Copying %@..." = "Copiando %@...";
+"Copying Files..." = "Copiando Arquivos...";
+"Copying of file %@ requested\n" = "Cópia de arquivo %@ solicitada\n";
+"Create Link" = "Criar Link";
+"Create ZIP File" = "Criar Arquivo ZIP";
+"Create" = "Criar";
+"Creation of directory %@ requested\n" = "Criação do diretório %@ solicitada\n";
+"Cut" = "Cortar";
+"Date" = "Data";
+"Delete %d Files" = "Deletar %d Arquivos";
+"Delete File" = "Deletar Arquivo";
+"Deleting Files..." = "Deletando Arquivos...";
+"Deletion of file %@ requested\n" = "Exclusão do arquivo %@ solicitada\n";
+"Descending" = "Decrescente";
+"Directory" = "Diretório";
+"Earlier this month" = "No início deste mês";
+"Earlier this week" = "No início desta semana";
+"Earlier this year" = "No início deste ano";
+"Edit Bookmark" = "Editar Marcador";
+"Edit Folder" = "Editar Pasta";
+"Email" = "Email";
+"Emailing Attachments with iFile" = "Enviando Anexos com o iFile";
+"Empty Trash" = "Esvaziar lixeira";
+"Enter new ZIP file name." = "Colocar novo nome no arquivo ZIP.";
+"Enter the page number to display\n(%d-%d)." = "Coloque o número da página para exibição (%d-%d).";
+"Error occurred while receiving file." = "Ocorreu um erro durante o recebimento do arquivo.";
+"Error" = "Erro";
+"Execute" = "Executar";
+"Executing Command: %@\n\n" = "Executando Comando: %@\n\n";
+"Extract %d Files" = "Extrair %d Arquivos";
+"Extract All Files" = "Extrair todos os Arquivos";
+"Extract File" = "Extrair Arquivo";
+"File %@ requested\n" = "Arquivo %@ solicitado\n";
+"File Attributes" = "Atributos do Arquivo";
+"File Browser" = "Explorador de Arquivos";
+"File Exists" = "Arquivo já existe";
+"File already exists with name %@." = "Já existe um arquivo com o nome %@.";
+"File attributes could not be changed or only partially." = "Os atributos do arquivo não podem ser alterados, ou apenas parcialmente.";
+"File could not be renamed." = "Arquivo não pode ser renomeado.";
+"File successfully uploaded" = "Upload realizado com sucesso";
+"Files" = "Arquivos";
+"Font Size" = "Tamanho da Fonte";
+"Gigantic (> 100 MB)" = "Gigantesco (> 100 MB)";
+"Go to Trash" = "Ir para a Lixeira";
+"Go to page" = "Ir para a página";
+"Group Permissions" = "Permissões do Grupo";
+"Group" = "Grupo";
+"Grouping" = "Agrupamento";
+"Header of file %@ requested\n" = "Cabeçalho do arquivo %@ solicitado\n";
+"Hidden Files" = "Esconder Arquivos";
+"Hierarchy" = "Hierarquia";
+"Huge (10 MB - 100 MB)" = "Enorme (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Se você comprou o iFile na Cydia Store, você só precisa iniciar o iFile para que ele seja registrado. Você receberá um alerta de confirmação, em caso de sucesso. \nUsuários que possuem inscrições gratuitas ou pagas diretamente via PayPal ao invés de usar a Cydia Store, precisarão introduzir seu endereço de e-mail abaixo. O registro ocorrerá ao retornar para as Preferências";
+"Image Viewer" = "Visualizador de Imagem";
+"Initializing Web Server..." = "Iniciando o Servidor Web...";
+"Installer" = "Instalador";
+"Internal inconsistency" = "Inconsistência interna";
+"Large (1 MB - 10 MB)" = "Grande (1 MB - 10 MB)";
+"Last Modification" = "Última Modificação";
+"Last month" = "No mês passado";
+"Last week" = "Na semana passada";
+"Last year" = "No ano passado";
+"Later" = "Depois";
+"Link Target" = "Linkar Objeto";
+"Linking %@..." = "Linkando %@...";
+"Linking Files..." = "Linkando Arquivos...";
+"Loading Contents..." = "Carregando conteúdos...";
+"Loading..." = "Carregando...";
+"Medium (100 KB - 1 MB)" = "Médio (100 KB - 1 MB)";
+"Mime-Type" = "Mime-Type";
+"Modification Date" = "Data de Modificação";
+"Move %d Files to Trash" = "%d Arquivos para a Lixeira";
+"Move File to Trash" = "Arquivo para a Lixeira";
+"Moving %@..." = "Movendo %@...";
+"Moving Files..." = "Movendo Arquivos...";
+"Moving of file %@ requested\n" = "Movimentação do arquivo %@ solicitada\n";
+"Multipart header empty" = "Cabeçalho Multipart vazio";
+"Name" = "Nome";
+"New Folder" = "Nova Pasta";
+"New" = "Novo(a)";
+"No file specified." = "Nenhum arquivo especificado.";
+"OK" = "OK";
+"Older" = "Antigo";
+"Open with..." = "Abrir com...";
+"Overwrite all" = "Sobrescrever todos";
+"Overwrite" = "Sobrescrever";
+"Owner" = "Proprietário";
+"Ownership" = "Propriedade";
+"PDF Viewer" = "Visualizador de PDF";
+"Page %d does not exist. Please choose value between %d and %d." = "A página %d não existe. Por favor escolha uma valor entre %d e %d.";
+"Password" = "Senha";
+"Paste" = "Colar";
+"Path" = "Caminho";
+"Playback Paused" = "Reprodução pausada";
+"Port Number" = "Número da Porta";
+"Preferences" = "Preferências";
+"Program Execution" = "Programa de Execução";
+"Properties of file %@ requested\n" = "Propriedades do arquivo %@ solicitada\n";
+"Property List Viewer" = "Visualizador da lista de propriedades";
+"Preparing Image..." = "Preparando Imagem...";
+"Property list %@ invalid: %@" = "Lista de propriedades %@ inválida: %@";
+"Read" = "Ler";
+"Receiving %@" = "Recebendo %@";
+"Register" = "Registrar";
+"Registered" = "Registrado";
+"Registering Web Service with Bonjour..." = "Registrando o Serviço Web com o Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Registrando o Serviço WebDAV com o Bonjour...";
+"Registration Email Address" = "Registrando o endereço de Email";
+"Registration Failed" = "Falha no registro";
+"Registration Process" = "Processo do Registro";
+"Registration Status" = "Estado do Registro";
+"Registration Successful" = "Registro efetuado com sucesso";
+"Registration" = "Registro";
+"Regular Expression" = "Expressão Regular";
+"Regular File" = "Arquivo Regular";
+"Rename" = "Renomear";
+"Resume" = "Retomar";
+"Safari Bookmarks" = "Marcadores do Safari";
+"Search Format" = "Tipos de Busca";
+"Search filenames" = "Busca por nome de arquivo";
+"Search" = "Busca";
+"Set on exit" = "Salvar ao sair";
+"Shutting down web server..." = "Desligando o Servidor Web...";
+"Simple" = "Simples";
+"Size" = "Tamanho";
+"Small (10 KB - 100 KB)" = "Pequeno (10 KB - 100 KB)";
+"Socket" = "Encaixe";
+"Song Titles" = "Título das Músicas";
+"Sort Criteria" = "Ordenar por";
+"Sort Order" = "Ordem de Classificação";
+"Sort by Date" = "Ordenar por Data";
+"Sort by Extension" = "Ordenar por Extensão";
+"Sort by Name" = "Ordenar por Nome";
+"Sort by Size" = "Ordenar por Tamanho";
+"Startup Directory" = "Diretório de inicialização";
+"Status" = "Estado";
+"Sticky" = "Fixar";
+"Stop" = "Parar";
+"Symbolic Link" = "Link Simbólico";
+"Tabulator Width" = "Largura do Tabulador";
+"Text Viewer" = "Visualizador de Texto";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "O executável 7z não está instalado. Por favor instale o 'p7zip' com o Cydia ou usando \ n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "O arquivo ZIP não é válido.";
+"The file %@ could not be copied." = "O arquivo %@ não pode ser copiado.";
+"The file %@ could not be deleted." = "O arquivo %@ não pode ser deletado.";
+"The file %@ could not be moved." = "O arquivo %@ não pode ser movido.";
+"The file %@ could not be written." = "O arquivo %@ não pode ser salvo.";
+"The file %@ does not exist." = "O arquivo %@ não existe.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "O arquivo %@ já existe neste diretório. Você gostaria de renomeá-lo ou sobrescrevê-lo?";
+"The files could not be added to ZIP file." = "Os arquivos não podem ser adicionados ao arquivo ZIP.";
+"The files could not be extracted." = "Os arquivos não podem ser extraídos.";
+"The files could not be removed." = "Os arquivos não podem ser removidos.";
+"The image could not be added to the camera roll (%@)." = "A imagem não pode ser adicionada ao Rolo da Câmera (%@).";
+"The image got successfully added to the camera roll." = "A imagem foi adicionada com êxito ao Rolo da Câmera.";
+"The link target %@ does not exist." = "O link de destino %@ não existe.";
+"The link target does not exist." = "O link de destino não existe.";
+"The name has not been set. Please specify one." = "Não foi estabelecido. Por favor, especifique um.";
+"The server port is still in use. Please use a different port.\n" = "A porta do servidor ainda está em uso. Por favor, use uma porta diferente.\n";
+"The specified startup directory does not exist." = "O diretório de inicialização especificado não existe.";
+"The tabulator width is too small or empty." = "A largura da tabulação é muito pequena ou está vazia.";
+"The text could not be found." = "O texto não pode ser encontrado.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "O tamanho da fonte do visualizador de texto deve estar entre 8.0 e 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "O lixo não pode ser completamente esvaziado. Por favor, verifique os arquivos restantes.";
+"The trash got successfully emptied." = "Lixeira esvaziada com sucesso.";
+"The video cannot be added to the camera roll." = "O vídeo não pode ser adicionado ao Rolo da Câmera.";
+"The video could not be added to the camera roll (%@)." = "O vídeo não pode ser adicionado ao Rolo da Câmera (%@).";
+"The video got successfully added to the camera roll." = "O vídeo foi adicionado com êxito ao Rolo da Câmera.";
+"The web server port number must be between 1 and 65535." = "A porta do servidor de Web deve ser entre 1 a 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "O executável zip e unzip não está instalado. Por favor instale usando \n'apt-get install zip unzip'.";
+"Theme Name" = "Temas";
+"Themes" = "Temas";
+"This functionality is only supported for registered users." = "Esta funcionalidade só está disponível para os usuários registrados.";
+"Thumbnails" = "Miniaturas";
+"Time" = "Hora";
+"Tiny (< 10 kB)" = "Minúsculo (< 10 kB)";
+"Title" = "Título";
+"Today" = "Hoje";
+"Transfer Request" = "Transferência solicitada";
+"Transmitting %@" = "Transmitindo %@";
+"Two months ago" = "Dois meses atrás";
+"Two years ago" = "Dois anos atrás";
+"Type" = "Tipo";
+"Unable to create %@." = "Impossível criar %@.";
+"Unarchiver" = "Descompactar";
+"Unknown" = "Desconhecido";
+"Unpacking Files..." = "Descompactando arquivos...";
+"Unregistered" = "Não Registrado";
+"Upload of file %@ requested\n" = "Upload do arquivo %@ solicitado\n";
+"UploadedFile" = "Arquivo Carregado";
+"Use Trash" = "Usar a Lixeira";
+"User Permissions" = "Permissões de usuário";
+"User" = "Usuário";
+"Username" = "Nome de usuário";
+"Video Player" = "Reprodutor de Vídeo";
+"Web Server" = "Servidor Web";
+"Web Viewer" = "Navegador Web";
+"Wildcard" = "Caracteres Especiais";
+"World Permissions" = "Permissões Globais";
+"World" = "Global";
+"Write" = "Escrever";
+"Yesterday" = "Ontem";
+"ZIP Viewer" = "Visualizador de ZIP";
+"\nFinished with Result Code: %d\n" = "\nFinalizado com o Código de Resultado: %d\n";
+"done.\n" = "feito.\n";
+"failed.\n" = "falhou.\n";
+"iFile License" = "Licença do iFile";
+"iFile Registration" = "Registro do iFile";
+"iFile got successfully registered." = "iFile registrado com sucesso.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile agora é shareware. Se você gosta e o usa regularmente, por favor, compre e registre-o. Isto foi adotado para continuar com o desenvolvimento do iFile.";
+"iFile registration failed." = "O registro do iFile falhou.";
+"iFile registration failed.\n(Reason: %@)" = "O registro do iFile falhou.\n(Motivo: %@)";
+"iPhone Attachments with iFile" = "Arquivos anexados no iPhone com o iFile";
+"in %@" = "no %@";
+"via iBlueNova" = "via iBlueNova";
+"via iFile" = "via iFile";
+"Add Shortcut" = "Adicionar Atalho";
+"Applications" = "Aplicativos";
+"Books" = "Livros";
+"Devices" = "Dispositivos";
+"Disk" = "Disco";
+"Documents" = "Documentos";
+"Flash Drive" = "Drive Flash";
+"Home" = "Home";
+"Images" = "Imagens";
+"Media Library" = "Biblioteca de Mídia";
+"Places" = "Locais";
+"Recordings" = "Gravações";
+"Shortcuts %@ could not be written: %@" = "Atalho %@ não pode ser criado: %@";
+"Shortcuts file %@ invalid: %@" = "Atalho do arquivo %@ inválido: %@";
+"Shortcuts" = "Atalhos";
+"Sidebar" = "Barra Lateral";
+"Trash" = "Lixeira";
+"Authentication Mode" = "Modo de Autenticação";
+"External Viewers" = "Visualizadores Externos";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Adicionar Item";
+"Edit Item" = "Editar Item";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Um item com o mesmo nome já existe. Delete o item existente primeiro.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Dados";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Número";
+"Property List" = "Lista de propriedades";
+"String" = "String";
+"Unkown Number Type" = "Tipo de arquivo desconhecido";
+"Unkown Type" = "Arquivo desconhecido";
+/* Top Level of Property List */
+"Top Level" = "Nível superior";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "O nome do item e o tipo não devem estar vazios.";
+"Item type must not be empty." = "O tipo de item não deve estar vazio.";
+"Position of item has not been set." = "Posição do item não definida.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Toque duas vezes para desmarcar";
+"Double tap to open" = "Toque duas vezes para abrir";
+"Double tap to select" = "Toque duas vezes para marcar";
+"deselected" = "desmarcado";
+"selected" = "marcado";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash Drive 1";
+"Flash Drive 2" = "Flash Drive 2";
+"Flash Drive 3" = "Flash Drive 3";
+"Flash Drive 4" = "Flash Drive 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Página %d de %d";
+"Printing failed due to error in domain %@ with error code %u." = "A impressão falhou devido a um erro no domínio %@ com código de erro %u.";
+"Printing of %@ completed successfully." = "Impressão do %@ completada com sucesso.";
+"Printing of file %@ completed successfully." = "Impressão do arquivo %@ completada com sucesso.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Limite da miniatura";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "A desmontagem %@ falhou.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Versão";
+"via Celeste" = "via Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "Sobre o iFile";
+"Contact Developer" = "Falar com o desenvolvedor";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Adicionar à biblioteca do iPod";
+"The song cannot be added to the iPod library." = "A música não pode ser adicionada na biblioteca do iPod.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Calculando...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Cor";
+"Default" = "Padrão";
+"Blue" = "Azul";
+"Brown" = "Marrom";
+"Custom" = "Customizar";
+"Gray" = "Cinza";
+"Green" = "Verde";
+"Light Gray" = "Cinza claro";
+"Night Blue" = "Azul escuro";
+"Orange" = "Laranja";
+"Pink" = "Rosa";
+"Red" = "Vermelho";
+"Yellow" = "Amarelo";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Desmarcar tudo";
+"Select all" = "Selecionar tudo";
+"Select" = "Selecionar";
+"Link" = "Atalho";
+"The file '%@' got successfully added to iPod library." = "O arquivo '%@' foi adicionado com sucesso na biblioteca do iPod.";
+"The file '%@' could not be added to the iPod library." = "O arquivo '%@' não pode ser adicionado na biblioteca do iPod.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d Arquivo";
+"%d Files" = "%d Arquivos";
+/* Title and options for opening a new tab */
+"Open..." = "Abrir...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Diretório Local";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Limpar o Cache do Dropbox";
+"Clearing Dropbox cache failed." = "A limpeza do Cache do Dropbox falhou.";
+"Download of file %@ failed." = "Download do arquivo %@ falhou.";
+"Downloading..." = "Fazendo Download...";
+"Link Dropbox" = "Vincular ao Dropbox";
+"No connection to Dropbox." = "Sem conexão com o Dropbox.";
+"Retrieving metadata for %@..." = "Recuperando metadados para %@...";
+"The contents of %@ could not get retrieved." = "O conteúdo do %@ não pode ser recuperado.";
+"Unlink Dropbox" = "Desvincular do Dropbox";
+"Upload of file %@ failed." = "Upload do arquivo %@ falhou.";
+"Uploading %@..." = "Fazendo Upload %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Puxe para baixo para atualizar...";
+"Release to refresh..." = "Solte para atualizar...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Armazenar caminhos";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Por favor insira um assunto ou pressione Cancelar.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Copiar Link Público";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Montar imagem de disco";
+"Mounting..." = "Montando...";
+"Disk image could not be mounted." = "Imagem de disco não pode ser montada.";
+"Disk image successfully mounted at %@." = "Imagem de disco montada com sucesso em %@.";
+"Successfully unmounted %@." = "Desmontada com sucesso %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Desmontar";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Imagem de Disco";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Exibir";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ livre";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Servidor";
+"Authentication Failed" = "Falha na Autenticação";
+"Cannot set secure FTP connection properties." = "Não é possível definir propriedades seguras de conexão FTP.";
+"Clear FTP Cache" = "Limpar o Cache do FTP";
+"Clearing FTP cache failed." = "Falha na limpeza do Cache do FTP.";
+"Connect" = "Conectar";
+"Connection Failed" = "Falha na conexão";
+"Connection Refused" = "Conexão recusada";
+"Connection to FTP server failed." = "Falha na conexão ao servidor FTP.";
+"Copying/Moving between remote file systems is not supported." = "Copiar/Mover entre arquivos remotos de sistema não é suportado.";
+"Could not open connection to %@." = "Não foi possível conectar com %@." ;
+"Could not read from network." = "Não foi possível ler a partir da rede.";
+"Could not write to network." = "Não foi possível gravar a rede.";
+"Deleting %@..." = "Apagando %@...";
+"Directory listing parse failed." = "Falha na análise da listagem do diretório.";
+"Enter password for user '%@'" = "Digite a senha para o usuário '%@'";
+"FTP Server" = "Servidor FTP";
+"FTP Servers" = "Servidores FTP";
+"FTPS Server" = "Servidor FTPS";
+"File read error." = "Erro na leitura do arquivo.";
+"File write error." = "Erro na gravação do arquivo.";
+"Login Failed" = "Falha no login";
+"Please check if server name is correct." = "Por favor cheque se o nome do servidor está correto.";
+"Please check if user name and password is correct." = "Por favor cheque se o nome de usuário e a senha estão corretos.";
+"Please enter a valid port number." = "Por favor entre com um número de porta válido.";
+"Port" = "Porta";
+"Remote Servers" = "Servidores Remotos";
+"Retrieving contents of %@..." = "Recuperando conteúdos de %@...";
+"The FTP protocol does not support server side copy operations." = "O protocolo FTP não suporta cópias do lado do servidor.";
+"The password must not be empty." = "A senha não pode estar vazia.";
+"The server name must not be empty." = "O nome do servidor não pode estar vazio.";
+"The user name must not be empty." = "O nome de usuário não pode estar vazio.";
+"URL is invalid:\n: %@" = "A URL é inválida:\n: %@";
+"Open" = "Abrir";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "Servidor WebDAV";
+"WebDAV Servers" = "Servidores WebDAV";
+"Secure WebDAV Server" = "Servidor Seguro WebDAV";
+"Cannot set secure WebDAV connection properties." = "Não foi possível definir as propriedades de conexão segura WebDAV.";
+"Clear WebDAV Cache" = "Limpar o cache WebDAV";
+"Clearing WebDAV cache failed." = "Falha na limpeza do cache WebDAV.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Limpar todas as senhas";
+"Manage Passwords" = "Gerenciar senhas";
+"Passwords" = "Senhas";
+/* Titles in Preferences Editor */
+"File Manager" = "Editor de arquivos";
+"File Viewers" = "Visualizador de arquivos";
+"iFile Web Server" = "Servidor Web iFile";
+"via AirBlue Sharing" = "Compartilhar via AirBlue";
+/* Other strings */
+"Bookmark" = "Favoritos";
+"The file '%@' got successfully added to iPod library." = "O arquivo '%@' foi adicionado com sucesso na biblioteca do iPod.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Limpar o Cache do FlashAir®";
+"Clearing Toshiba FlashAir® cache failed." = "A limpeza do cache do Toshiba FlashAir® falhou.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "O protocolo Toshiba FlashAir® suporta somente listagem do diretório e operações de download de arquivo.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Conta desvinculada";
+"Clear box.net Cache" = "Limpar o Cache do box.net";
+"Clearing box.net cache failed." = "A limpeza do cache do box.net falhou.";
+"Do you want to relink?" = "Você quer vincular novamente?";
+"Logged out" = "Desconectado";
+"Login box.net" = "Conectar box.net";
+"Logout box.net" = "Desconectar box.net";
+"No connection to box.net." = "Sem conexão com box.net.";
+"Relink" = "Vincular novamente";
+"You have logged out of your box.net account." = "Você saiu da sua conta box.net.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "A sessão Dropbox terminou";
+"Your dropbox account has been unlinked." = "Sua conta dropbox foi desvinculada.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Servidores seguros WebDAV";
+"Server Address" = "Endereço do servidor";
+"Login" = "Login";
+"Enter user and password:" = "Digite o nome de usuário e a senha:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ usado";
+/* message while updating file date on server */
+"Updating date of %@..." = "Atualizando data de %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Servidor Inválido";
+"Server does not support required WebDAV options." = "Servidor não suporta as opções requeridas WebDAV.";
+"Directory listing has wrong format." = "A listagem do diretório possui formato errado.";
+"Modification date update failed." = "A modificação da data de atualização falhou.";
+"Bad HTTP Request." = "Requisição HTTP inválida.";
+"Unauthorized Access." = "Acesso não autorizado.";
+"Access forbidden." = "Acesso proibido.";
+"Object not found on server." = "Objeto não encontrado no servidor.";
+"Access method not allowed." = "Método de acesso não permitido.";
+"Access conflict." = "Conflito de acesso.";
+"Internal Server Error." = "Erro interno no servidor.";
+"Functionality not implemented on server." = "Funcionalidade não implementada no servidor.";
+"Insufficient storage on server." = "Espaço de armazenamento insuficiente no servidor.";
+"HTTP error %d." = "Erro HTTP %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Aceitar certificado do site";
+"Accept" = "Aceitar";
+"Import" = "Importar";
+"Certificate Imported" = "Certificado importado";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "O certificado '%@' deste site é desconhecido ou inválido. Toque em aceitar para conectar mesmo assim.";
+"The certificate '%@' got successfully imported." = "O certificado '%@' foi importado com sucesso.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "O certificado deste site é desconhecido ou inválido. Toque em aceitar para conectar mesmo assim.";
+"The import of certificate '%@' failed." = "A importação do certificado '%@' falhou.";
+/* Hex Editor Strings */
+"Hex Editor" = "Editor Hex";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Arquivo alterado";
+"The file got changed. Do you want to save the changes?" = "O arquivo foi alterado. Você quer salvar as alterações?";
+"Yes" = "Sim";
+"No" = "Não";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Digite o índice byte decimal para exibir (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Digite o índice hexadecimal para exibir (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "O índice Byte %llX não existe. Por favor escolha um valor entre %llX e %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "O índice Byte %lld não existe. Por favor escolha um valor entre %lld e %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "O índice Byte '%@' não é válido. Por favor escolha um valor entre %llX e %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "O índice Byte '%@' não é válido. Por favor escolha um valor entre %lld e %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Compartilhado";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Pastas no topo";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "Editor SQLite3";
+/* title for listing of database tables */
+"Tables" = "Tabelas";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "Instrução SQL";
+"Failed to fetch SQL result" = "Falha ao buscar resultados SQL";
+"Failed to fetch table names" = "Falha ao buscar nomes de tabelas";
+"Failed to prepare SQL statement" = "Falha ao preparar instrução SQL";
+"Failed to prepare for fetching table names" = "Falha ao preparar para buscar nomes de tabelas";
+"Language" = "Idioma";

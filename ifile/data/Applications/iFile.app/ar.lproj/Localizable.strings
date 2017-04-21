@@ -1,0 +1,544 @@
+"%d of %d" = "%d من %d";
+"'%@' wants to send you some files." = "'%@' يريد إرسال بعض الملفات.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p> تم رفعه الملف '%@' بنجاح.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>المسار %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" رفع \">";
+"<p>Upload a file:<br />" = "<p>رفع ملف:<br />";
+"A symbolic link to file %@ could not be created." = "A symbolic link للملف %@ لا يمكن إنشاء.";
+"Accepting connections at http://%@ or http://%@.\n" = "http://%@ أو http://%@.\n قبول الاتصال من";
+"Access Permissions" = "تراخيص الوصول";
+"Add Bookmark" = "إضافة للمفضلة";
+"Add Folder" = "إضافة مجلد";
+"Add to Camera Roll" = "إضافة إلى ألبوم الكاميرا";
+"Address" = "العنوان";
+"An error occurred" = "حدث خطأ";
+"Application Names" = "اسم البرنامج";
+"Apply hierarchically" = "تطبيق الترتيب";
+"Applying permissions and ownership hierarchically..." = "جاري تطبيق ترتيب سلطة الرخص والملكية...";
+"Ascending" = "تصاعدياً";
+"Attributes" = "الخصائص";
+"Audio Player" = "مستعرض الصوت";
+"Audio output got changed." = "تم تغيير مخرج الصوت.";
+"Authentication" = "التحقق";
+"Block Device" = "حظر الجهاز";
+"Bonjour got enabled with name %@.\n" = "%@.\n مع الإسم Bonjour تم تفعيل";
+"Bookmark file %@ invalid: %@" = "الملف المفضل %@ غير صحيح: %@";
+"Bookmark folder name must not be empty." = "اسم مجلد المفضلة لا يمكن أن يكون فارغاً.";
+"Bookmark name and address must not be empty." = "اسم المفضلة والعنوان لا يمكن أن يكون فارغاً.";
+"Bookmarks %@ could not be written: %@" = "المفضلة %@ لا يمكن أن تكتب: %@";
+"Bookmarks Bar" = "شريط المفضلة";
+"Bookmarks Menu" = "قائمة المفضلة";
+"Bookmarks" = "المفضلة";
+"Buy License (Cydia Store)" = "شراء رخصة (متجر Cydia)";
+"Cancel" = "إلغاء";
+"Character Device" = "رمز الجهاز";
+"Close" = "إغلاق";
+"Compressing..." = "...جاري الضغط";
+"Connected" = "متصل";
+"Connection to '%@' failed." = " '%@' فشل الأتصال مع.";
+"Continue" = "أكمل";
+"Copy" = "نسخ";
+"Copy/Link" = "نسخ/ربط";
+"Copying %@..." = "%@...جاري النسخ";
+"Copying Files..." = "نسخ الملفات...";
+"Copying of file %@ requested\n" = "جاري نسخ الملف %@ \n";
+"Create Link" = "إنشاء إختصار";
+"Create ZIP File" = "إنشاء ملف مضغوط";
+"Create" = "إنشاء";
+"Creation of directory %@ requested\n" = "%@ تم طلب إنشاء الدليل\n";
+"Cut" = "قص";
+"Date" = "التاريخ";
+"Delete %d Files" = "حذف %d ملفات";
+"Delete File" = "حذف ملف";
+"Deleting Files..." = "حذف الملفات...";
+"Deletion of file %@ requested\n" = "%@ تم طلب حذف الملف\n";
+"Descending" = "تنازلياً";
+"Directory" = "الدليل";
+"Earlier this month" = "بداية هذا الشهر";
+"Earlier this week" = "بداية هذا الاسبوع";
+"Earlier this year" = "بداية هذه السنة";
+"Edit Bookmark" = "تحرير المفضلة";
+"Edit Folder" = "تحرير المجلد";
+"Email" = "البريد الإلكتروني";
+"Emailing Attachments with iFile" = "إرسال المرفقات بواسطة iFile";
+"Empty Trash" = "إفراغ سلة المهملات";
+"Enter new ZIP file name." = "أدخل مسمى للملف المضغوط";
+"Enter the page number to display\n(%d-%d)." = "أدخل رقم الصفحة لعرضها\n(%d-%d).";
+"Error occurred while receiving file." = "حدث خطأ حين إستقبال الملف.";
+"Error" = "خطأ";
+"Execute" = "تشغيل";
+"Executing Command: %@\n\n" = "أمر التنفيذ: %@\n\n";
+"Extract %d Files" = "فك ضغط %d ملف";
+"Extract All Files" = "فك جميع الملفات";
+"Extract File" = "فك ضغط ملف";
+"File %@ requested\n" = " %@ تم طلب الملف\n";
+"File Attributes" = "خصائص الملف";
+"File Browser" = "مستعرض الملفات";
+"File exists" = "الملف موجود";
+"File already exists with name %@." = "الملف موجود بالإسم %@.";
+"File attributes could not be changed or only partially." = "خصائص الملف لايمكن تغييرها ولو جزئياً.";
+"File could not be renamed." = "لا يمكن إعادة تسمية الملف.";
+"File successfully uploaded" = "تم رفع الملف بنجاح";
+"Files" = "الملفات";
+"Font Size" = "حجم الخط";
+"Gigantic (> 100 MB)" = "ضخم جداً (> 100 MB)";
+"Go to Trash" = "إذهب لسلة المهملات";
+"Go to page" = "إذهب للصفحة";
+"Group Permissions" = "رخص المجموعة";
+"Group" = "المجموعة";
+"Grouping" = "التجميع";
+"Header of file %@ requested\n" = "%@ تم طلب عنوان الملف\n";
+"Hidden Files" = "الملفات المخفية";
+"Hierarchy" = "القائمة";
+"Huge (10 MB - 100 MB)" = "كبير جداً (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "إذا كنت قد اشتريت iFile من متجر Cydia، كل ما ستحتاجه الآن هو تشغيل iFile للقيام بتسجيله. سوف تحصل على تنبيه تأكيدا على النجاح عملية التسجيل. \nالمستخدمون الذين حصلوا على التسجيل المجاني أو المدفوعة عن طريق PayPal مباشرة بدلا من استخدام متجر Cydia سيحتاجون للقيام بإدخال عنوان البريد الالكتروني في الأسفل. التسجيل سيتم عند الرجوع الى التفضيلات.";
+"Image Viewer" = "مستعرض الصور";
+"Initializing Web Server..." = "تشغيل خادم الإنترنت...";
+"Installer" = "المثبت";
+"Internal inconsistency" = "تعارض داخلي";
+"Large (1 MB - 10 MB)" = "كبير (1 MB - 10 MB)";
+"Last Modification" = "آخر تعديل";
+"Last month" = "الشهر الماضي";
+"Last week" = "الإسبوع الماضي";
+"Last year" = "السنة الماضية";
+"Later" = "لاحقاً";
+"Link Target" = "رابط الهدف";
+"Linking %@..." = "ربط %@...";
+"Linking Files..." = "ربط الملفات...";
+"Loading Contents..." = "تحميل المحتويات...";
+"Loading..." = "جاري التحميل...";
+"Medium (100 KB - 1 MB)" = "متوسط (100 KB - 1 MB)";
+"Mime-Type" = "النوع";
+"Modification Date" = "تاريخ التعديل";
+"Move %d Files to Trash" = "انقل الملفات %d الى سلة المهملات";
+"Move File to Trash" = "انقل الملف الى سلة المهملات";
+"Moving %@..." = "%@ ...جاري النقل";
+"Moving Files..." = "نقل الملفات...";
+"Moving of file %@ requested\n" = "%@ تم طلب نقل الملف\n";
+"Multipart header empty" = "فارغ Multipart العناون الرئيسي لل";
+"Name" = "الإسم";
+"New Folder" = "مجلد جديد";
+"New" = "جديد";
+"No file specified." = "لم يتم تحديد أي ملف.";
+"OK" = "موافق";
+"Older" = "قديم";
+"Open with..." = "...فتح بواسطة";
+"Overwrite all" = "إستبدال الكل";
+"Overwrite" = "إستبدال";
+"Owner" = "المالك";
+"Ownership" = "الملكية";
+"PDF Viewer" = "PDF مستعرض";
+"Page %d does not exist. Please choose value between %d and %d." = "الصغحة %d غير متوفرة. الرجاء إختيار قيمة بين %d و %d.";
+"Password" = "\U0643\U0644\U0645\U0629 \U0627\U0644\U0633\U0631";
+"Paste" = "لصق";
+"Path" = "المسار";
+"Playback Paused" = "متوقف مؤقتاً";
+"Port Number" = "رقم المنفذ";
+"Preferences" = "التفضيلات";
+"Program Execution" = "تنفيذ البرنامج";
+"Properties of file %@ requested\n" = "%@ تم طلب ملكيات الملف\n";
+"Property List Viewer" = "Property List مستعرض";
+"Preparing Image..." = "إعداد الصورة...";
+"Property list %@ invalid: %@" = "قامة الملكية %@ غير صحيحة: %@";
+"Read" = "قراءة";
+"Receiving %@" = "تم استلام %@";
+"Register" = "تسجيل";
+"Registered" = "مسجل";
+"Registering Web Service with Bonjour..." = "Bonjour جاري تسجيل خدمة الإنترنت مع";
+"Registering WebDAV Service with Bonjour..." = "جاري تسجيل WebDAV خدمة مع Bonjour...";
+"Registration Email Address" = "البريد الإلكتروني الخاص بالتسجيل";
+"Registration Failed" = "فشل التسجيل";
+"Registration Process" = "عملية التسجبل";
+"Registration Status" = "حالت التسجيل";
+"Registration Successful" = "نجح التسجيل";
+"Registration" = "التسجيل";
+"Regular Expression" = "الصيغة العادية";
+"Regular File" = "ملف عام";
+"Rename" = "إعادة تسمية";
+"Resume" = "إعادة التشغيل";
+"Safari Bookmarks" = "Safari مفضلة";
+"Search Format" = "نوع البحث";
+"Search filenames" = "بحث أسماءالملفات";
+"Search" = "بحث";
+"Set on exit" = "تحديد عند الخروج";
+"Shutting down web server..." = "إغلاق خادم الأنترنت...";
+"Simple" = "بسيط";
+"Size" = "الحجم";
+"Small (10 KB - 100 KB)" = "صغير (10 KB - 100 KB)";
+"Socket" = "تثبيت";
+"Song Titles" = "عنوان الإغنية";
+"Sort Criteria" = "معايير الترتيب";
+"Sort Order" = "نمط الترتيب";
+"Sort by Date" = "بواسطة التاريخ";
+"Sort by Extension" = "بواسطة الإمتداد";
+"Sort by Name" = "بواسطة الاسم";
+"Sort by Size" = "بواسطة الحجم";
+"Startup Directory" = "دليل البدء";
+"Status" = "الحالة";
+"Sticky" = "تثبيت";
+"Stop" = "إيقاف التشغيل";
+"Symbolic Link" = "إختصار";
+"Tabulator Width" = "عرض الجدول";
+"Text Viewer" = "مستعرض النصوص";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "The 7z executable غير مثبت. الرجاء تثبيت 'p7zip' من خلال Cydia أو استخدام \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "الملف المضغوط غير صحيح.";
+"The file %@ could not be copied." = "الملف %@ لا يمكن نسخه.";
+"The file %@ could not be deleted." = "الملف %@ لا يمكن حذفه.";
+"The file %@ could not be moved." = "الملف %@ لا يمكن تحريكه.";
+"The file %@ could not be written." = "الملف %@ لايمكن كتابته.";
+"The file %@ does not exist." = "الملف %@ غير متوفر.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "الملف%@ موجود في المجلد الحالي. هل تريد إعادة تسميته أم إستبداله?";
+"The files could not be added to ZIP file." = "الملفات لا يمكن إضافتها للملف المضغوط.";
+"The files could not be extracted." = "الملفات لا يمكن فك ضغطها.";
+"The files could not be removed." = "الملفات لا يمكن إعادة تسميتها.";
+"The image could not be added to the camera roll (%@)." = "لا يمكن إضافة الصورة إلى ألبوم الكاميرا (%@).";
+"The image got successfully added to the camera roll." = "تم إضافة الصورة بنجاح الى ألبوم الكاميرا.";
+"The link target %@ does not exist." = "الرابط المراد الوصول له %@ غير موجود.";
+"The link target does not exist." = "الرابط المراد الوصول له غير موجود.";
+"The name has not been set. Please specify one." = ".لم يتم تحديد الإسم. الرجاء تحديد الإسم";
+"The server port is still in use. Please use a different port.\n" = "منفذ الخادم لايزال طور الإستخدام. الرجاء إستخدام منفذ آخر.\n";
+"The specified startup directory does not exist." = "دليل البدء المحدد غير متوفر";
+"The tabulator width is too small or empty." = "عرض الجدول صغير أو فارغ.";
+"The text could not be found." = "لا يمكن إيجاد النص.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "حجم خط مستعرض النصوص يجب أن يكون بين 8.0 و 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "لم يتم افراغ المحذوفات بشكل كامل. الرجاء التحقق من الملفات المتبقية.";
+"The trash got successfully emptied." = "تم إفراغ سلة المهملات بنجاح.";
+"The video cannot be added to the camera roll." = "لا يمكن إضافة الفيديو إلى ألبوم الكاميرا.";
+"The video could not be added to the camera roll (%@)." = "الفيديو لا يمكن إضافته الى ألبوم الكاميرا (%@).";
+"The video got successfully added to the camera roll." = "تم إضافة ملف الفيديو بنجاح الى ألبوم الكاميرا";
+"The web server port number must be between 1 and 65535." = "رقم منفذ خادم الأنترنت يجب أن يكون بين 1 و 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "برنامج الضغط وفك الضغط غير مثبت.الرجاء تثبيته بواسطة \n'apt-get تثبيت zip unzip'.";
+"Theme Name" = "إسم المظهر";
+"Themes" = "المظهر";
+"This functionality is only supported for registered users." = "هذه الخاصية مدعومة فقط للمستخدمين المسجلين.";
+"Thumbnails" = "صورةرمزية";
+"Time" = "الوقت";
+"Tiny (< 10 kB)" = "صغير جداً (< 10 kB)";
+"Title" = "العنوان";
+"Today" = "اليوم";
+"Transfer Request" = "طلب النقل";
+"Transmitting %@" = "جاري الإرسال %@";
+"Two months ago" = "قبل شهرين";
+"Two years ago" = "قبل سنتين";
+"Type" = "النوع";
+"Unable to create %@." = "لا يمكن إنشاء %@.";
+"Unarchiver" = "أداة الفك";
+"Unknown" = "غير معروف";
+"Unpacking Files..." = "فك الملفات...";
+"Unregistered" = "غير مسجل";
+"Upload of file %@ requested\n" = "%@ تم طلب رفع الملف\n";
+"UploadedFile" = "ملف مرفوع";
+"Use Trash" = "استخدام سلة المهملات";
+"User Permissions" = "رخص المستخدم";
+"User" = "المستخدم";
+"Username" = "اسم المستخدم";
+"Video Player" = "مستعرض الفيديو";
+"Web Server" = "خادم الانترنت";
+"done.\n" = "تم.\n";
+"Web Viewer" = "مستعرض الإنترنت";
+"Wildcard" = "Wildcard";
+"World Permissions" = "رخص الجميع";
+"World" = "الجميع";
+"Write" = "الكتابة";
+"Yesterday" = "الأمس";
+"ZIP Viewer" = "مستعرض الملفات المضغوطة";
+"\nFinished with Result Code: %d\n" = "\nإنتهى، بنتيجة الكود: %d\n";
+"failed.\n" = "فشل.\n";
+"iFile License" = "iFile رخصة";
+"iFile Registration" = "iFile تسجيل";
+"iFile got successfully registered." = "تم تسجيل iFile بنجاح.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = " الآن ShareWare اي غير مجاني  بالكامل iFile. إذا كنت تحبه وتستخدمه بشكل منتظم، الرجاء شرائه وتسجيله. أشترط هذا الشيء لمتابعة تطوير iFile.";
+"iFile registration failed." = "iFile فشل تسجيل.";
+"iFile registration failed.\n(Reason: %@)" = "iFile فشل تسجيل.\n(السبب: %@)";
+"iPhone Attachments with iFile" = "مرفقات الآيفون مع iFile";
+"in %@" = "في %@";
+"via iBlueNova" = "بواسطة iBlueNova";
+"via iFile" = "بواسطة iFile";
+"Add Shortcut" = "إضافة إختصار";
+"Applications" = "التطبيقات";
+"Books" = "الكتب";
+"Devices" = "الأجهزه";
+"Disk" = "القرص";
+"Documents" = "المستندات";
+"Flash Drive" = "وحدة تخزين قابلة للنقل";
+"Home" = "البداية";
+"Images" = "الصور";
+"Media Library" = "مكتبة الميديا";
+"Places" = "المواقع";
+"Recordings" = "التسجيلات";
+"الإختصار %@ لا يمكن إنشائه: %@" = "الإختصار%@ لا يمكن إنشائه: %@";
+"إختصار الملف %@ غير صحيح: %@" = "إختصار الملف %@ غير صحيح: %@";
+"Shortcuts" = "اختصارات";
+"Sidebar" = "الشريط الجانبي";
+"Trash" = "سلة المهملات";
+"Authentication Mode" = "نمط التوثيق";
+"External Viewers" = "المستعرضات الخارجية";
+/* Added Strings for iFile 1.4.0 */
+"Add Item" = "إضافة عنصر";
+"Edit Item" = "تحرير عنصر";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "عنصر بنفس الإسم موجود مسبقاً. أحذف العنصر الموجود أولاً.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Number";
+"Property List" = "Property List";
+"String" = "String";
+"Unkown Number Type" = "Unkown Number Type";
+"Unkown Type" = "Unkown Type";
+/* Top Level of Property List */
+"Top Level" = "Top Level";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "إسم العنصر ونوعه لا يمكن أن يكونا خاليين.";
+"Item type must not be empty." = "نوع العنصر لا يمكن أن يكون خالياً.";
+"Position of item has not been set." = "لم يتم تحديد موقع العنصر.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "ضغط متتالي لإلغاء التحديد";
+"Double tap to open" = "ضغط متتالي للفتح";
+"Double tap to select" = "ضغط متتالي للتحديد";
+"deselected" = "غير محدد";
+"selected" = "محدد";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash Drive 1";
+"Flash Drive 2" = "Flash Drive 2";
+"Flash Drive 3" = "Flash Drive 3";
+"Flash Drive 4" = "Flash Drive 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "صفحة %d من %d";
+"Printing failed due to error in domain %@ with error code %u." = "الطباعة فشلت بسبب خطأ في النطاق %@ رمز الخطأ هو %u.";
+"Printing of %@ completed successfully." = "طباعة %@ تمت بنجاح.";
+"Printing of file %@ completed successfully." = "طباعة الملف %@ تمت بنجاح.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "حد الصورة المصغرة";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "فشل فصل %@ .";
+/* iFile Version Label used in iFile about page */
+"Version" = "الإصدار";
+"via Celeste" = "بواسطة Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "iFile حول";
+"Contact Developer" = "مراسلة المبرمج";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "إضافة إلى مكتبة الـ iPod";
+"The song cannot be added to the iPod library." = "لا يمكن إضافة ملف الموسيقى الى مكتبة الـ iPod.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "...جاري الحساب";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "اللون";
+"Default" = "إفتراضي";
+"Blue" = "أزرق";
+"Brown" = "بني";
+"Custom" = "تخصيص";
+"Gray" = "رصاصي";
+"Green" = "أخضر";
+"Light Gray" = "رصاصي فاتح";
+"Night Blue" = "أزرق ليلي";
+"Orange" = "برتقالي";
+"Pink" = "وردي";
+"Red" = "أحمر";
+"Yellow" = "أصفر";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "إلغاء تحديد الكل";
+"Select all" = "تحديد الكل";
+"Select" = "تحديد";
+"Link" = "رابط";
+"The file '%@' got successfully added to iPod library." = "تم إضافة الملف '%@' إلى مكتبة الـ iPod بنجاح.";
+"The file '%@' could not be added to the iPod library." = "لا يمكن إضافة الملف '%@' إلى مكتبة الـ iPod.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d ملف";
+"%d Files" = "%d ملفات";
+/* Title and options for opening a new tab */
+"Open..." = "فتح...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "دليل محلي";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Dropbox أزل الملفات المؤقت لـ";
+"Clearing Dropbox cache failed." = "Dropbox فشل إزالة الملفات المؤقت لـ";
+"Download of file %@ failed." = " %@ فشل تحميل الملف";
+"Downloading..." = "جاري التحميل...";
+"Link Dropbox" = "ربط Dropbox";
+"No connection to Dropbox." = "لا يوجد اتصال مع Dropbox.";
+"Retrieving metadata for %@..." = "استرداد metadata ل%@...";
+"The contents of %@ could not get retrieved." = "لم يتم إسترداد محتوى الـ %@ .";
+"Unlink Dropbox" = "إلغاء ربط Dropbox";
+"Upload of file %@ failed." = "فشل رفع ملف %@ .";
+"Uploading %@..." = "جاري الرفع %@...";
+/* File list refresh */
+"Pull down to refresh..." = "إسحب للتحديث...";
+"Release to refresh..." = "اترك للتحديث...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "المسارات المخزنة";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "الرجاء إدخال المشكلة أو إضغط إلغاء";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "نسخ الرابط العام";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "مثبت صورة القرص";
+"Mounting..." = "جاري التثبيت...";
+"Disk image could not be mounted." = "لم يتم تثبيت صورة القرص كمنصة.";
+"Disk image successfully mounted at %@." = "تم تثبيت صورة القرص بنجاح كمنصة في %@.";
+"Successfully unmounted %@." = "تم إلغاء تثبيت المنصة بنجاح %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "إلغاء الثنبيت كمنصة";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "صورة القرص";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "عرض";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ مجاني";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ الخادم";
+"Authentication Failed" = "فشلت عملية التحقق";
+"Cannot set secure FTP connection properties." = "لا يمكن تعيين خصائص اتصال FTP آمن.";
+"Clear FTP Cache" = "أزل ملفات FTP المؤقتة";
+"Clearing FTP cache failed." = "فشل إزالة ملفات FTP  المؤقتة.";
+"Connect" = "إتصال";
+"Connection Failed" = "فشل الإتصال";
+"Connection Refused" = "رفض الإتصال";
+"Connection to FTP server failed." = "فشل الإتصال بخادم الـ FTP.";
+"Copying/Moving between remote file systems is not supported." = " النسخ\النقل بين نظم ملفات البعيدة غير مدعوم.";
+"Could not open connection to %@." = "تعذر فتح إتصال مع %@." ;
+"Could not read from network." = "تعذر القراءة من الشبكة.";
+"Could not write to network." = "تعذر الكتابة للشبكة.";
+"Deleting %@..." = "جاري الحذف %@...";
+"Directory listing parse failed." = "فشل تحليل قائمة الدليل.";
+"Enter password for user '%@'" = "إدخل كلمة المرور للمتسخدم '%@'";
+"FTP Server" = "خادم FTP";
+"FTP Servers" = "خوادم FTP";
+"FTPS Server" = "خادم FTPS";
+"File read error." = "خطأ في قراءة الملف.";
+"File write error." = "خطأ في كتابة الملف.";
+"Login Failed" = "فشل تسجل الدخول";
+"Please check if server name is correct." = "الرجاء التحقق من صحة إسم الخادم.";
+"Please check if user name and password is correct." = "الرجاء التأكد من صحة إسم المستخدم وكلمة المرور.";
+"Please enter a valid port number." = "الرجاء إدخال رقم منفذ صحيح.";
+"Port" = "منفذ";
+"Remote Servers" = "الخوادم البعيدة";
+"Retrieving contents of %@..." = "استعادة محتوى الـ %@...";
+"The FTP protocol does not support server side copy operations." = "برتوكول الـ FTP  لا يدعم عمليات النسخ الجانبية للخادم.";
+"The password must not be empty." = "كلمة المرور يجب أن لا تكون فارغة.";
+"The server name must not be empty." = "إسم الخادم يجب أن لا يكون فارغاً.";
+"The user name must not be empty." = "إسم المستخدم يحب أن لا يكون فارغاً.";
+"URL is invalid:\n: %@" = "الرابط غير صحيح:\n: %@";
+"Open" = "فتح";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "خادم WebDAV";
+"WebDAV Servers" = "خوادم WebDAV";
+"Secure WebDAV Server" = "خادم WebDAV آمن";
+"Cannot set secure WebDAV connection properties." = "لايمكن تعيين خصائص إتصال WebDAV آمن.";
+"Clear WebDAV Cache" = "أزل ملفات WebDAV ألمؤقتة";
+"Clearing WebDAV cache failed." = "فشل إزالة ملفات WebDAV المؤقتة.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "مسح جميع كلمات المرور";
+"Manage Passwords" = "إدارة كلمات المرور";
+"Passwords" = "كلمات المرور";
+/* Titles in Preferences Editor */
+"File Manager" = "مدير الملف";
+"File Viewers" = "مستعرضات الملف";
+"iFile Web Server" = "خادم الويب لـ iFile";
+"via AirBlue Sharing" = "بواسطة AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "المفضلة";
+"The file '%@' got successfully added to iPod library." = "تم إضافة الملف '%@' بنجاح إلى مكتبة الـ iPod.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "توشيبا FlashAir®";
+"Clear FlashAir® Cache" = "إزالة الملفات المؤقتة لـ FlashAir®";
+"Clearing Toshiba FlashAir® cache failed." = "فشلت عملية إزالة الملفات المؤقتة لـ FlashAir®.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "بروتوكول توشيبا FlashAir® يدعم قوائم المجلدات وعمليات تحميل الملفات فقط.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "تم إلغاء ربط الحساب";
+"Clear box.net Cache" = "إزالة الملفات المؤقتة لـ box.net";
+"Clearing box.net cache failed." = "فشلت عملية إزالة الملفات المؤقتة لـ box.net.";
+"Do you want to relink?" = "هل تود إعادة الربط؟";
+"Logged out" = "تم تسجيل الخروج";
+"Login box.net" = "تسجيل دخول box.net";
+"Logout box.net" = "تسجيل خروج box.net";
+"No connection to box.net." = "لا يوجد إتصال مع box.net.";
+"Relink" = "إعادة الربط";
+"You have logged out of your box.net account." = "قمت بتسجيل الخروج من حساب box.net الخاص بك.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "تم إنهاء جلسة الإتصال بـ Dropbox";
+"Your dropbox account has been unlinked." = "تم إلغاء  ربط حساب Dropbox  الخاص بك.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "خوادم WebDAV آمنة";
+"Server Address" = "عنوان الخادم";
+"Login" = "تسجيل الدخول";
+"Enter user and password:" = "ادخل الإسم ولكمة المرور:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ مستخدمة";
+/* message while updating file date on server */
+"Updating date of %@..." = "تحديث تاريخ الـ %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "الخادم غير صالح";
+"Server does not support required WebDAV options." = "الخادم لا يدعم الخيارات المطلوبة الخاصة بـWebDAV.";
+"Directory listing has wrong format." = "قائمة الدليل المدرجة تحوي خطأ في التنسيق";
+"Modification date update failed." = "فشل تحديث تاريخ التعديل.";
+"Bad HTTP Request." = "طلب خاطيء لـ HTTP.";
+"Unauthorized Access." = "وصول غير مصرح به.";
+"Access forbidden." = "ممتوع الوصول.";
+"Object not found on server." = "الموضوع غير موجود في الخادم.";
+"Access method not allowed." = "نوع الوصول غير مسموح به.";
+"Access conflict." = "تعارض في الدخول.";
+"Internal Server Error." = "خطأ داخلي في الخادم.";
+"Functionality not implemented on server." = "خاصية غير مدمجة في الخادم";
+"Insufficient storage on server." = "التخزين لا يكفي في الخادم.";
+"HTTP error %d." = "%d خطأ HTTP";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "قبول شهادة الموقع";
+"Accept" = "قبول";
+"Import" = "استيراد";
+"Certificate Imported" = "تم إستيراد الشهادة";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "الشهادة '%@' الخاصة بهذا الموقع غير معروفة أو غير صالحة. اضغط قبول للإتصال إن أحببت.";
+"The certificate '%@' got successfully imported." = "تم إستيراد الشهادة '%@' بنجاح.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "الشهادة الخاصة بهذا الموقع غير معروفة أو غير صالحة. اضغط قبول للإتصال إن أحببت.";
+"The import of certificate '%@' failed." = "فشل تصدير الشهادة '%@'.";
+/* Hex Editor Strings */
+"Hex Editor" = "محرر Hex";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "تم تغيير الملف";
+"The file got changed. Do you want to save the changes?" = "حصل تغيير في الملف. هل تود حفظ التغييرات؟";
+"Yes" = "نعم";
+"No" = "لا";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "للعرض قم بإدخال فهرس البايت العشري (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "للعرض قم بإدخال فهرس لبات الـhexadecimal (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "فهرس البايت %llX غير موجود. الرجاء إختيار قيمة بين %llX و %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "فهرس البايت %lld غير موجود. الرجاء إختيار قيمة بين %lld و %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "فهرس البايت '%@' غير موجود. الرجاء إختيار قيمة بين %llX و %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "فهرس البايت '%@' غير صحيح. الرجاء إختيار قيمة بين %lld و %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "مشارك";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "المجلدات في الأعلى";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "محرر SQLite3";
+/* title for listing of database tables */
+"Tables" = "جداول";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "بيان SQL";
+"Failed to fetch SQL result" = "فشل استخراج نتائج الـ SQL";
+"Failed to fetch table names" = "فشل استخراج جدول الأسماء";
+"Failed to prepare SQL statement" = "فشل إعداد بيان الـ SQL";
+"Failed to prepare for fetching table names" = "فشل في إعداد استخراج جدول الأسماء";
+"Language" = "\U0627\U0644\U0644\U063a\U0629";

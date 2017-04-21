@@ -1,0 +1,545 @@
+﻿"%d of %d" = "%d of %d";
+"'%@' wants to send you some files." = "'%@' wants to send you some files.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Súbor '%@' bol úspešně nahraný do Vášho iPhonu/iPodu.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Soubory v %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Nahrať súbor \">";
+"<p>Upload a file:<br />" = "<p>Upload souboru:<br />";
+"A symbolic link to file %@ could not be created." = "Symbolické prepojenie k %@ nebolo vytvorené.";
+"Accepting connections at http://%@ or http://%@.\n" = "Teraz sa môžete pripojit z vášho PC\n napísaním jednej z týchto\n http://%@\n http://%@\n adries do Vášho webového prehliadača\n (FF,Google Chrome,IE,Opera)\n";
+"Access Permissions" = "Oprávnený pre prístup";
+"Add Bookmark" = "Pridať záložku";
+"Add Folder" = "Vytvoriť zložku";
+"Add to Camera Roll" = "Pridať do galérie";
+"Address" = "Addresa";
+"An error occurred" = "Nastala chyba";
+"Application Names" = "Názov aplikácie";
+"Apply hierarchically" = "Hierarchicky použiť";
+"Applying permissions and ownership hierarchically..." = "Hierarchicky použiť povolenia a práva prístupu...";
+"Ascending" = "Vzostupne";
+"Attributes" = "Vlastnosti";
+"Audio Player" = "Prehrávač hudby";
+"Audio output got changed." = "Zmenil sa audiovýstup.";
+"Authentication" = "Overenie";
+"Block Device" = "Zablokovať prístroj";
+"Bonjour got enabled with name %@.\n" = "Bonjour povolený s %@.\n";
+"Bookmark file %@ invalid: %@" = "Záložka pre dokument %@ neplatná: %@";
+"Bookmark folder name must not be empty." = "Súbor v záložkách nesmie byť prázdny.";
+"Bookmark name and address must not be empty." = "Názov záložky a adresa nesmú byť prázdne.";
+"Bookmarks %@ could not be written: %@" = "Záložky %@ nemôžu být zapísané: %@";
+"Bookmarks Bar" = "Riadok záložiek";
+"Bookmarks Menu" = "Ponuka záložiek";
+"Bookmarks" = "Záložky";
+"Buy License (Cydia Store)" = "Zakúpiť licenciu (Cydia obchod)";
+"Cancel" = "Zrušiť";
+"Character Device" = "Charakter prístroja";
+"Close" = "Zavrieť";
+"Compressing..." = "Komprimujem...";
+"Connected" = "Pripojené";
+"Connection to '%@' failed." = "Spojenie s '%@' zlyhalo.";
+"Continue" = "Pokračovať";
+"Copy" = "Kopírovať";
+"Copy/Link" = "Kópia/Prepojenie";
+"Copying %@..." = "Kopírujem súbor %@...";
+"Copying Files..." = "Kopírujem súbory...";
+"Copying of file %@ requested\n" = "Kopírovanie dokumentu %@ požadované\n";
+"Create Link" = "Vytvor prepojenie";
+"Create ZIP File" = "Vytvoriť súbor ZIP";
+"Create" = "Vytvoriť";
+"Creation of directory %@ requested\n" = "Vytvorenie adresára %@ požadované\n";
+"Cut" = "Vyňať";
+"Date" = "Dátum";
+"Delete %d Files" = "Odstrániť %d súbor/y";
+"Delete File" = "Zmazať súbor";
+"Deleting Files..." = "Mažem súbory...";
+"Deletion of file %@ requested\n" = "Deletion of file %@ requested\n";
+"Descending" = "Zostupne";
+"Directory" = "Adresár";
+"Earlier this month" = "Tohoto mesiaca";
+"Earlier this week" = "Tohoto týždňa";
+"Earlier this year" = "Tohoto roka";
+"Edit Bookmark" = "Upraviť záložku";
+"Edit Folder" = "Upraviť súbor";
+"Email" = "Email";
+"Emailing Attachments with iFile" = "Mailovať prílohy z iFile";
+"Empty Trash" = "Vyprázdniť kôš";
+"Enter new ZIP file name." = "Sem napíšte meno archívu.";
+"Enter the page number to display\n(%d-%d)." = "Napíšte číslo stránky, ktorá sa má zobraziť (%d-%d).";
+"Error occurred while receiving file." = "Pri prenose súborov sa vyskytla chyba.";
+"Error" = "Chyba";
+"Execute" = "Otvoriť(e)";
+"Executing Command: %@\n\n" = "Vykonávací príkaz: %@\n\n";
+"Extract %d Files" = "Rozbaľ %d súbor/y";
+"Extract All Files" = "Rozbaľ všetky súbory";
+"Extract File" = "Rozbaľ súbor";
+"File %@ requested\n" = "Prjímám požiadavku o %@ \n";
+"File Attributes" = "Vlastnosti súboru";
+"File Browser" = "Prehliadač súborov";
+"File Exists" = "Súbor už existuje";
+"File already exists with name %@." = "Súbor s menom %@. už existuje.";
+"File attributes could not be changed or only partially." = "Vlastnosti súboru nemôžu/môžu byť čiastočně zmenené..";
+"File could not be renamed." = "Súbor sa nedá premenovať.";
+"File successfully uploaded" = "Hotovo!";
+"Files" = "Počet súborov";
+"Font Size" = "Veľkosť písma";
+"Gigantic (> 100 MB)" = "Gigantický (> 100 MB)";
+"Go to Trash" = "Ísť na kôš";
+"Go to page" = "Ísť na stránku";
+"Group Permissions" = "Prístup skupiny";
+"Group" = "Skupina";
+"Grouping" = "Zoskupovť";
+"Header of file %@ requested\n" = "Hlavička dokumenta %@ požadovaná\n";
+"Hidden Files" = "Zobraziť skryté súbory";
+"Hierarchy" = "Hierarchia";
+"Huge (10 MB - 100 MB)" = "Obrovský (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Pri zakúpení iFilu cez Cydiu sa automaticky zaregistrujete spustením aplikácie. Po úspešnej registrácii obdržíte potvrdenie.\nUžívatelia, ktorí používajü voľnú registráciu alebo platenú verziu nie cez Cydiu ale cez PayPal, musia dole zadať svoju e-mailovú adresu. Registrácia prebehne pro vrátení sa na Nastavenia.";
+"Image Viewer" = "Prehliadč obrázkov";
+"Initializing Web Server..." = "Spúšťam webový server...";
+"Installer" = "Inšalátor";
+"Internal inconsistency" = "Vnútorná nerovnováha";
+"Large (1 MB - 10 MB)" = "Veľký (1 MB - 10 MB)";
+"Last Modification" = "Posledná zmena";
+"Last month" = "Minulý mesiac";
+"Last week" = "Minulý týždeň";
+"Last year" = "Minulý rok";
+"Later" = "Neskôr";
+"Link Target" = "Umiestnenie cieľa";
+"Linking %@..." = "Prepájam %@...";
+"Linking Files..." = "Prepájam súbory...";
+"Loading Contents..." = "Načítávam obsah...";
+"Loading..." = "Načítávam...";
+"Medium (100 KB - 1 MB)" = "Stredne (100 KB - 1 MB)";
+"Mime-Type" = "Možný typ";
+"Modification Date" = "Datum zmeny";
+"Move %d Files to Trash" = "%d dokumentov do koša";
+"Move File to Trash" = "dokument do koša";
+"Moving %@..." = "Presúvam %@...";
+"Moving Files..." = "Presúvam súbory...";
+"Moving of file %@ requested\n" = "Presúvam dokument %@ požadovaný\n";
+"Multipart header empty" = "Viaczložková hlavička prázdna";
+"Name" = "Názov";
+"New Folder" = "Nový súbor";
+"New" = "Nový";
+"No file specified." = "Nebol zadaný žiadný súbor.";
+"OK" = "OK";
+"Older" = "Starší";
+"Open with..." = "Otvoriť v...";
+"Overwrite all" = "Prepísať všetko";
+"Overwrite" = "Prepísať";
+"Owner" = "Vlastník";
+"Ownership" = "Oprávnenie";
+"PDF Viewer" = "Prehliadač PDF";
+"Page %d does not exist. Please choose value between %d and %d." = "Strana %d neexistuje. Prosím napíšte číslo medzi %d a %d.";
+"Password" = "Heslo";
+"Paste" = "Vložiť";
+"Path" = "Umiestnenie";
+"Playback Paused" = "Prehrávanie prerušené";
+"Port Number" = "Číslo Portu";
+"Preferences" = "Nastavenia";
+"Program Execution" = "Programový príkaz";
+"Properties of file %@ requested\n" = "Vlastnosti dokumentu %@ požadované\n";
+"Property List Viewer" = "Náhľad do zoznamu";
+"Preparing Image..." = "Nahrávam obrázok...";
+"Property list %@ invalid: %@" = "Vlastnícky zoznam %@ neplatný: %@";
+"Read" = "Čítať(r)";
+"Receiving %@" = "Prijímam %@";
+"Register" = "Registrovať";
+"Registered" = "Registrovaný";
+"Registering Web Service with Bonjour..." = "Registrujem webový server s Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Registrujem WebDAV service s Bonjour...";
+"Registration Email Address" = "Email použitý pri registrácii";
+"Registration Failed" = "Registrácia zlyhala";
+"Registration Process" = "Proces registrácie";
+"Registration Status" = "Stav registrácie";
+"Registration Successful" = "Registrácia bola úspešná";
+"Registration" = "Registrácia";
+"Regular Expression" = "Bežný výraz";
+"Regular File" = "Bežný súbor";
+"Rename" = "Zmeniť názov";
+"Resume" = "Zastaviť prehrávanie";
+"Safari Bookmarks" = "Záložky Safari";
+"Search Format" = "Hľadaj formát";
+"Search filenames" = "Hľadaj názvy";
+"Search" = "Vyhľadávanie";
+"Set on exit" = "Automaticky použiť posledné";
+"Shutting down web server..." = "Vypínam webový server...";
+"Simple" = "Jednoducho";
+"Size" = "Veľkosť";
+"Small (10 KB - 100 KB)" = "Malý (10 KB - 100 KB)";
+"Socket" = "Soket";
+"Song Titles" = "Názvy piesní";
+"Sort Criteria" = "Usporiadať podľa..";
+"Sort Order" = "Poradie triedenia";
+"Sort by Date" = "Dátumu zmeny";
+"Sort by Extension" = "Typu";
+"Sort by Name" = "Názvu";
+"Sort by Size" = "Veľkosti";
+"Startup Directory" = "Východzieho adresára";
+"Status" = "Stav";
+"Sticky" = "Nerozhodný (Sticky)";
+"Stop" = "Zastaviť prehrávanie";
+"Symbolic Link" = "Symbolický odkaz (link)";
+"Tabulator Width" = "Šírka tabulátoru";
+"Text Viewer" = "Prehliadač textov";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "7zip nie je nainštalovaný. Prosím nainštalujte 'p7zip' zo cydie alebo použite terminal: \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "ZIP súbor je neplatný.";
+"The file %@ could not be copied." = "Nemôžem zkopírovať súbor %@ .";
+"The file %@ could not be deleted." = "Nemôžem odstrániť súbor %@ .";
+"The file %@ could not be moved." = "Nemôžem premiestniť súbor %@ .";
+"The file %@ could not be written." = "Súbor %@ sa nedá zapísať.";
+"The file %@ does not exist." = "Súbor %@ neexistuje.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Súbor %@ už v tomto adresári je. Chcete ho nahradiť týmto súborem alebo zmeniť názov?";
+"The files could not be added to ZIP file." = "Súbory nemohli byť pridané ZIPu.";
+"The files could not be extracted." = "Súbory nemôžu byť rozbalené.";
+"The files could not be removed." = "Nemôžem odstrániť súbory.";
+"The image could not be added to the camera roll (%@)." = "Obrázok sa nedá pridať do galérie (%@).";
+"The image got successfully added to the camera roll." = "Obrázok bol úsešne pridaný do galérie.";
+"The link target %@ does not exist." = "Umiestnenie %@ na ktoré súbor odkazuje, neexistuje.";
+"The link target does not exist." = "Umiestnenie neexistuje.";
+"The name has not been set. Please specify one." = "Prosím zadajte názov súboru.";
+"The server port is still in use. Please use a different port.\n" = "Port servera sa používa. Zvoľte iný port.\n";
+"The specified startup directory does not exist." = "Umiestnenie pre východzí adresár neexistuje..";
+"The tabulator width is too small or empty." = "Šírka tabulátoru je príliš malá alebo prázdna.";
+"The text could not be found." = "Text sa nenašiel.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Veľkost textu prehliadača textov by mala byť medzi 8.0 a 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "Kôš nebol kompletne vyprázdnený. Skontrolujte zostávajúce dokumenty.";
+"The trash got successfully emptied." = "Kôš úspešne vyprázdnený.";
+"The video cannot be added to the camera roll." = "Video sa nedá uložiť do galérie.";
+"The video could not be added to the camera roll (%@)." = "Video sa nedalo uložiť do galérie (%@).";
+"The video got successfully added to the camera roll." = "Video bolo úsešne pridané do galérie.";
+"The web server port number must be between 1 and 65535." = "Napísali ste nesprávne číslo. Port pripojenia môže byť medzi 1 až 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "zip a unzip nie je nainštalovaný.  Prosím nainštalujte ich zo cydie alebo použite terminal: \n'apt-get install zip unzip'.";
+"Theme Name" = "Názov témy";
+"Themes" = "Výber tém";
+"This functionality is only supported for registered users." = "Táto funkcia je dostupná len pre registrovaných užívateľov.";
+"Thumbnails" = "Miniatúry";
+"Time" = "Čas";
+"Tiny (< 10 kB)" = "Malinký (< 10 kB)";
+"Title" = "Názov";
+"Today" = "Dnes";
+"Transfer Request" = "Požiadavka prenosu";
+"Transmitting %@" = "Prenášam %@";
+"Two months ago" = "Pred dvoma mesiacmi";
+"Two years ago" = "Pred dvoma rokmi";
+"Type" = "Typ";
+"Unable to create %@." = "Nemôžem vytvořit %@.";
+"Unarchiver" = "Odarchivovanie";
+"Unknown" = "Neznámý";
+"Unpacking Files..." = "Rozbaľujem súbory...";
+"Unregistered" = "Neregistrovaný";
+"Upload of file %@ requested\n" = "Prímám požiadavku o upload %@ \n";
+"UploadedFile" = "Nahraný súbor";
+"Use Trash" = "Použi kôš";
+"User Permissions" = "Prístup vlastníka";
+"User" = "Vlastník";
+"Username" = "Užívateľské menoi";
+"Video Player" = "Prehrávač vídeí";
+"Web Server" = "Webový server";
+"Web Viewer" = "Prehliadač webu";
+"Wildcard" = "Wildcard";
+"World Permissions" = "Prístup ostatních";
+"World" = "Ostatní";
+"Write" = "Zapisovať(w)";
+"Yesterday" = "Včera";
+"ZIP Viewer" = "Archivačné aplikáce (ZIP)";
+"\nFinished with Result Code: %d\n" = "\nUkončené s výsledným kódom: %d\n";
+"done.\n" = "hotovo.\n";
+"failed.\n" = "zlyhalo.\n";
+"iFile License" = "Licencia iFilu";
+"iFile Registration" = "Registrácia iFilu";
+"iFile got successfully registered." = "iFile bol úspešne registrovaný.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile je teraz ShareWare. Ak sa Vám páči a používáte ho často, prosím zakúpte si licenciu a registrujte ho. Je to dôležité pre pokračovanie iFile vývoja.";
+"iFile registration failed." = "Registrácia iFilu zlyhala.";
+"iFile registration failed.\n(Reason: %@)" = "Registrácia iFilu zlyhala.\n(Dôvod: %@)";
+"iPhone Attachments with iFile" = "Posielam prílohy z môjho iPhonu/iPodu.";
+"in %@" = "in %@";
+"via iBlueNova" = "cez iBlueNova";
+"via iFile" = "cez iFile";
+"Add Shortcut" = "Pridať prepojenie";
+"Applications" = "Programy";
+"Books" = "Knihy";
+"Devices" = "Zariadenia";
+"Disk" = "Disk";
+"Documents" = "Dokumenty";
+"Flash Drive" = "Flash mechanika";
+"Home" = "Domov";
+"Images" = "Obrázky";
+"Media Library" = "Mediálna knihovňa";
+"Places" = "Miesta";
+"Recordings" = "Nahrávky";
+"Shortcuts %@ could not be written: %@" = "Prepojenia %@ neboli zapísané: %@";
+"Shortcuts file %@ invalid: %@" = "Prepojenie na dokument %@ je neplatné: %@";
+"Shortcuts" = "Prepojenia";
+"Sidebar" = "Bočný panel";
+"Trash" = "Koš";
+"Authentication Mode" = "Druh autentifikácie";
+"External Viewers" = "Externé prehliadače";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Nový záznam";
+"Edit Item" = "Upraviť záznam";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Záznam s tým istým názvom už existuje. Najprv vymažte už existujúci záznam.";
+/* Item types in the Property List File Editor */
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Dátový";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Číselný";
+"Property List" = "Vlastnícky zoznam";
+"String" = "String";
+"Unkown Number Type" = "Neznámy typ čísla";
+"Unkown Type" = "Neznámy typ";
+/* Top Level of Property List */
+"Top Level" = "Najvyššia úroveň";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Názov a typ záznamu nesmú zostať prázdne.";
+"Item type must not be empty." = "Typ záznamu nesmie zostať prázdny.";
+"Position of item has not been set." = "Neurčili ste pozíciu záznamu.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Dvakrát ťapnuť pre zrušenie označenie";
+"Double tap to open" = "Dvakrát ťapnuť pre otvorenie";
+"Double tap to select" = "Dvakrát ťapnuť pre označenie";
+"deselected" = "neoznačené";
+"selected" = "označené";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash mechanika 1";
+"Flash Drive 2" = "Flash mechanika 2";
+"Flash Drive 3" = "Flash mechanika 3";
+"Flash Drive 4" = "Flash mechanika 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Strana %d z %d";
+"Printing failed due to error in domain %@ with error code %u." = "Tlač zlyhala kvôli chybe v doméne %@ s chybovým kódom %u.";
+"Printing of %@ completed successfully." = "Tlač %@ úspešne ukončená.";
+"Printing of file %@ completed successfully." = "Tlač súboru %@ úspešne ukončená.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Dátový limit";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Vysunutie %@ zlyhalo.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Verzia";
+"via Celeste" = "cez Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "O iFile";
+"Contact Developer" = "Kontakt vývojár";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Pridať do iPod knižnice";
+"The song cannot be added to the iPod library." = "Pieseň sa nedá pridať do iPod knižnice.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Prepočítavam...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Farba";
+"Default" = "Pôvodné";
+"Blue" = "Modrá";
+"Brown" = "Hnedá";
+"Custom" = "Vlastná";
+"Gray" = "Šedá";
+"Green" = "Zelená";
+"Light Gray" = "Svetlošedá";
+"Night Blue" = "Nočná modrá";
+"Orange" = "Oranžová";
+"Pink" = "Ružová";
+"Red" = "Červená";
+"Yellow" = "Žltá";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Zrušiť všetky";
+"Select all" = "Vybrať všetky";
+"Select" = "Vybrať";
+"Link" = "Prepojenie";
+"The file '%@' got successfully added to iPod library." = "Súbor '%@' bol úspešne pridaný do iPod knižnice.";
+"The file '%@' could not be added to the iPod library." = "Súbor '%@' nemohol byť pridaný do iPod knižnice.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d súbor";
+"%d Files" = "%d súborov";
+/* Title and options for opening a new tab */
+"Open..." = "Otvoriť...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Lokálny zoznam";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Vyprázdniť pamäť dropboxu";
+"Clearing Dropbox cache failed." = "Vyprázdnenie pamäte dropboxu zlyhalo.";
+"Download of file %@ failed." = "Stiahnutie súboru %@ zlyhalo.";
+"Downloading..." = "Sťahujem...";
+"Link Dropbox" = "Pripojiť k dropboxu";
+"No connection to Dropbox." = "Žiadne spojenie s dropboxom.";
+"Retrieving metadata for %@..." = "Prijímam metadáta pre %@...";
+"The contents of %@ could not get retrieved." = "Obsahy %@ neboli prijaté.";
+"Unlink Dropbox" = "Odpojiť od dropboxu";
+"Upload of file %@ failed." = "Posielanie súboru %@ zlyhalo.";
+"Uploading %@..." = "Posielam %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Obnoviť posunom dole...";
+"Release to refresh..." = "Obnoviť uvoľnením...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Uložiť adresy záložiek";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Prosím vyplňte alebo stlačte Zrušit.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Kopírovať verejné prepojenie";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Umiestniť diskový symbol";
+"Mounting..." = "Umiestňujem...";
+"Disk image could not be mounted." = "Diskový symbol nebol umiestnený.";
+"Disk image successfully mounted at %@." = "Diskový symbol úspešne umiestnený na %@.";
+"Successfully unmounted %@." = "Úspešne umiestnený %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Odstrániť";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Diskový symbol";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Zobraziť";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ voľné";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Server";
+"Authentication Failed" = "Overenie zlyhalo";
+"Cannot set secure FTP connection properties." = "FTP spojenie sa nepodarilo vytvoriť.";
+"Clear FTP Cache" = "Vyprázdniť FTP pamäť";
+"Clearing FTP cache failed." = "Vyprázdnenie FTP pamäte zlyhalo.";
+"Connect" = "Pripojiť";
+"Connection Failed" = "Spojenie zlyhalo";
+"Connection Refused" = "Pripojenie zamietnuté";
+"Connection to FTP server failed." = "Spojenie s FTP serverom zlyhalo.";
+"Copying/Moving between remote file systems is not supported." = "Kopírovanie/Presúvanie medzi vzdialenými aktívnymi zložkami nie je podporované.";
+"Could not open connection to %@." = "Nedá sa pripojiť k %@." ;
+"Could not read from network." = "Nedá sa prečítať zo siete.";
+"Could not write to network." = "Nedá sa zapísať do siete.";
+"Deleting %@..." = "Vymazávam %@...";
+"Directory listing parse failed." = "Záznam výpisu súborov zlyhal.";
+"Enter password for user '%@'" = "Vložiť heslo pre užívateľa '%@'";
+"FTP Server" = "FTP server";
+"FTP Servers" = "FTP servery";
+"FTPS Server" = "FTPS server";
+"File read error." = "Chyba čítania súboru.";
+"File write error." = "Chyba zapísania súboru.";
+"Login Failed" = "Neúspešné prihlasenie";
+"Please check if server name is correct." = "Skontrolujte správnosť názvu servera.";
+"Please check if user name and password is correct." = "Skontrolujte správnosť prihlasovacieho mena a hesla.";
+"Please enter a valid port number." = "Zadajte platné čislo portu.";
+"Port" = "Port";
+"Remote Servers" = "Vzdialené servery";
+"Retrieving contents of %@..." = "Obnovujem obsah %@...";
+"The FTP protocol does not support server side copy operations." = "Tento FTP protokol nepodporuje kopírovanie zo strany servera.";
+"The password must not be empty." = "Heslo nesmie byť prázdne.";
+"The server name must not be empty." = "Názov servera nesmie byť prázdny.";
+"The user name must not be empty." = "Prihlasovacie meno nesmie byť prázdne.";
+"URL is invalid:\n: %@" = "URL je neplatná:\n: %@";
+"Open" = "Otvoriť";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV server";
+"WebDAV Servers" = "WebDAV servery";
+"Secure WebDAV Server" = "Zabezpečný WebDAV server";
+"Cannot set secure WebDAV connection properties." = "Zabezpečené WebDAV spojenie sa nepodarilo vytvoriť.";
+"Clear WebDAV Cache" = "Vyprázdniť WebDAV pamäť";
+"Clearing WebDAV cache failed." = "Vyprázdnenie WebDAV pamäte zlyhalo.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Vymazať všetky heslá";
+"Manage Passwords" = "Spravovať heslá";
+"Passwords" = "Heslá";
+/* Titles in Preferences Editor */
+"File Manager" = "Spávca súborov";
+"File Viewers" = "Náhľady súborov";
+"iFile Web Server" = "iFile webový server";
+"via AirBlue Sharing" = "cez AirBlue zdieľanie";
+/* Other strings */
+"Bookmark" = "Záložka";
+"The file '%@' got successfully added to iPod library." = "Súbor '%@' bol úspešne pridaný do iPod knižnice.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Vyrovnať pamäť FlashAir®";
+"Clearing Toshiba FlashAir® cache failed." = "Vyrovnávanie pamäte Toshiba FlashAir® zlyhalo.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Protokol Toshiba FlashAir® podporuje len zoznam súborov a sťahovanie dokumentov.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Účet odpojený";
+"Clear box.net Cache" = "Vyrovnať pamäť box.net";
+"Clearing box.net cache failed." = "Vyrovnávanie pamäte box.net zlyhalo.";
+"Do you want to relink?" = "Chcete obnoviť prepojenie?";
+"Logged out" = "Odhlásený";
+"Login box.net" = "Prihlásenie do box.net";
+"Logout box.net" = "Odhlásenie z box.net";
+"No connection to box.net." = "Žiadne spojenie s box.net.";
+"Relink" = "Obnoviť prepojenie";
+"You have logged out of your box.net account." = "Odhlásili ste sa z vášho box.net účtu.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Spojenie s Dropboxom je ukončené";
+"Your dropbox account has been unlinked." = "Prepojenie s vášim dropbox účtom bolo zrušené.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Zabezpečené WebDAV servery";
+"Server Address" = "Addresa servera";
+"Login" = "Prihl. meno";
+"Enter user and password:" = "Zadajte meno a heslo:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ použitých";
+/* message while updating file date on server */
+"Updating date of %@..." = "Aktualizujem dátum %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Neplatný server";
+"Server does not support required WebDAV options." = "Server nepodporuje požadované WebDAV voľby.";
+"Directory listing has wrong format." = "Zobrazený adresár nemá správny formát.";
+"Modification date update failed." = "Aktualizácia dátumu zmien zlyhala.";
+"Bad HTTP Request." = "Nesprávna HTTP požiadavka.";
+"Unauthorized Access." = "Neautorizovaný prístup.";
+"Access forbidden." = "Prístup zakázaný.";
+"Object not found on server." = "Objekt sa nenachádza na serveri.";
+"Access method not allowed." = "Metóda prístupu nie je povolená.";
+"Access conflict." = "Konflikt v prístupe.";
+"Internal Server Error." = "Interná chyba servera.";
+"Functionality not implemented on server." = "Funkčnosť je na serveri nezrealizovaná.";
+"Insufficient storage on server." = "Nedostatočná kapacita úložiska na serveri.";
+"HTTP error %d." = "HTTP chyba %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Akceptovať certifikát webstránky";
+"Accept" = "Akceptovať";
+"Import" = "Importovať";
+"Certificate Imported" = "Certifikát importovaný";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Certifikát '%@' tejto webstránky je neznámy alebo neplatný. Ťapnutím aj tak akceptovať a pripojiť sa.";
+"The certificate '%@' got successfully imported." = "Certifikát '%@' sa úspešne importoval.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Certifikát tejto webstránky je neznámy alebo neplatný. Ťapnutím aj tak akceptovať a pripojiť sa.";
+"The import of certificate '%@' failed." = "Import certifikátu '%@' zlyhal.";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex editor";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Dokument zmenený";
+"The file got changed. Do you want to save the changes?" = "Dokument sa zmenil. Chcete zmeny uložiť?";
+"Yes" = "Áno";
+"No" = "Nie";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Zadajte decimalny byte index pre zobrazenie (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Zadajte hexadecimaly byte index pre zobrazenie (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Byte index %llX neexistuje. Prosím, zvoľte hodnotu medzi %llX a %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Byte index %lld neexistuje. Prosím, zvoľte hodnotu medzi %lld a %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Byte index '%@' je neplatný. Prosím, zvoľte hodnotu medzi %llX a %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Byte index '%@' je neplatný. Prosím, zvoľte hodnotu medzi %lld a %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Zdielané";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Súbory na vrchu";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 editor";
+/* title for listing of database tables */
+"Tables" = "Tabuľky";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL údaj";
+"Failed to fetch SQL result" = "Nepodarilo sa vybrať SQL výsledok";
+"Failed to fetch table names" = "Mená tabuľky nevybrané";
+"Failed to prepare SQL statement" = "Príprava SQL údaja zlyhala";
+"Failed to prepare for fetching table names" = "Príprava výberu mien tabuľky zlyhala";
+"Language" = Jazyk;

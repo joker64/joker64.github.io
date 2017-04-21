@@ -1,0 +1,545 @@
+"%d of %d" = "第 %d 首（共 %d 首）";
+"'%@' wants to send you some files." = "“%@”想传送一些文件给您。";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>成功上传文件 %@。</p>";
+"<h1>Files in %@</h1>\n" = "<h1>%@ 中的文件</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" 上传 \">";
+"<p>Upload a file:<br />" = "<p>上传文件：<br />";
+"A symbolic link to file %@ could not be created." = "无法创建指向 %@ 的符号链接。";
+"Accepting connections at http://%@ or http://%@.\n" = "请在浏览器中输入 http://%@ 或 http://%@ 以连接。\n";
+"Access Permissions" = "访问权限";
+"Add Bookmark" = "添加书签";
+"Add Folder" = "添加文件夹";
+"Add to Camera Roll" = "添加到相机胶卷";
+"Address" = "地址";
+"An error occurred" = "发生错误";
+"Application Names" = "应用程序名称";
+"Apply hierarchically" = "应用到所有层级";
+"Applying permissions and ownership hierarchically..." = "正在应用权限及所有者到所有层级…";
+"Ascending" = "升序";
+"Attributes" = "属性";
+"Audio Player" = "音频播放器";
+"Audio output got changed." = "音频输出方式改变。";
+"Authentication" = "验证";
+"Block Device" = "块设备";
+"Bonjour got enabled with name %@.\n" = "Bonjour 以名称 %@ 被启用。\n";
+"Bookmark file %@ invalid: %@" = "书签文件 %@ 无效：%@";
+"Bookmark folder name must not be empty." = "书签文件夹名称不能为空。";
+"Bookmark name and address must not be empty." = "书签名称和地址不能为空。";
+"Bookmarks %@ could not be written: %@" = "无法写入书签 %@：%@";
+"Bookmarks Bar" = "书签栏";
+"Bookmarks Menu" = "书签菜单";
+"Bookmarks" = "书签";
+"Buy License (Cydia Store)" = "购买授权（Cydia Store）";
+"Cancel" = "取消";
+"Character Device" = "字符设备";
+"Close" = "关闭";
+"Compressing..." = "正在压缩…";
+"Connected" = "已连接";
+"Connection to '%@' failed." = "无法连接到“%@”。";
+"Continue" = "继续";
+"Copy" = "复制";
+"Copy/Link" = "复制/链接";
+"Copying %@..." = "正在复制 %@…";
+"Copying Files..." = "正在复制文件…";
+"Copying of file %@ requested\n" = "请求复制 %@\n";
+"Create Link" = "创建链接";
+"Create ZIP File" = "创建 ZIP 压缩包";
+"Create" = "创建";
+"Creation of directory %@ requested\n" = "请求创建目录 %@\n";
+"Cut" = "剪切";
+"Date" = "日期";
+"Delete %d Files" = "删除 %d 个文件";
+"Delete File" = "删除文件";
+"Deleting Files..." = "正在删除文件…";
+"Deletion of file %@ requested\n" = "请求删除文件 %@\n";
+"Descending" = "降序";
+"Directory" = "目录";
+"Earlier this month" = "本月";
+"Earlier this week" = "本周";
+"Earlier this year" = "本年";
+"Edit Bookmark" = "编辑书签";
+"Edit Folder" = "编辑文件夹";
+"Email" = "电子邮件";
+"Emailing Attachments with iFile" = "使用 iFile 发送的电子邮件附件";
+"Empty Trash" = "清空回收站";
+"Enter new ZIP file name." = "输入新压缩包名称。";
+"Enter the page number to display\n(%d-%d)." = "输入要显示的页码\n（%d-%d）。";
+"Error occurred while receiving file." = "接收文件时发生错误。";
+"Error" = "错误";
+"Execute" = "执行";
+"Executing Command: %@\n\n" = "执行命令：%@\n\n";
+"Extract %d Files" = "解压缩 %d 个文件";
+"Extract All Files" = "解压缩全部文件";
+"Extract File" = "解压缩文件";
+"File %@ requested\n" = "请求文件 %@\n";
+"File Attributes" = "文件属性";
+"File Browser" = "文件浏览器";
+"File Exists" = "文件已存在";
+"File already exists with name %@." = "文件 %@ 已存在。";
+"File attributes could not be changed or only partially." = "文件全部或部分属性无法更改。";
+"File could not be renamed." = "无法重命名文件。";
+"File successfully uploaded" = "文件成功上传";
+"Files" = "文件";
+"Font Size" = "字体大小";
+"Gigantic (> 100 MB)" = "超大（> 100 MB）";
+"Go to Trash" = "打开回收站";
+"Go to page" = "跳转到页码";
+"Group Permissions" = "组权限";
+"Group" = "组";
+"Grouping" = "分类";
+"Header of file %@ requested\n" = "请求文件头 %@\n";
+"Hidden Files" = "显示隐藏文件";
+"Hierarchy" = "所有层级";
+"Huge (10 MB - 100 MB)" = "很大（10 MB - 100 MB）";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." =  "若您是从 Cydia Store 下载的 iFile，只须启动便可完成注册。您会收到注册成功的提示。\n\n若您得到免费注册号，或经 PayPal 付款，请在下面输入您的电邮地址，会于回到“设置”后自动注册。";
+"Image Viewer" = "图像浏览器";
+"Initializing Web Server..." = "正在初始化网页服务器…";
+"Installer" = "安装程序";
+"Internal inconsistency" = "内部冲突";
+"Large (1 MB - 10 MB)" = "大（1 MB - 10 MB）";
+"Last Modification" = "最后修改";
+"Last month" = "上月";
+"Last week" = "上周";
+"Last year" = "去年";
+"Later" = "稍后";
+"Link Target" = "链接目标";
+"Linking %@..." = "正在链接 %@…";
+"Linking Files..." = "正在链接文件…";
+"Loading Contents..." = "正在加载内容…";
+"Loading..." = "正在加载…";
+"Medium (100 KB - 1 MB)" = "中（100 KB - 1 MB）";
+"Mime-Type" = "MIME 类型";
+"Modification Date" = "修改日期";
+"Move %d Files to Trash" = "移动 %d 个文件到回收站";
+"Move File to Trash" = "移动文件到回收站";
+"Moving %@..." = "正在移动 %@…";
+"Moving Files..." = "正在移动文件…";
+"Moving of file %@ requested\n" = "请求移动文件 %@\n";
+"Multipart header empty" = "Multipart 文件头为空";
+"Name" = "名称";
+"New Folder" = "新建文件夹";
+"New" = "新建";
+"No file specified." = "未指定文件。";
+"OK" = "确定";
+"Older" = "更旧";
+"Open with..." = "打开方式…";
+"Overwrite all" = "全部覆盖";
+"Overwrite" = "覆盖";
+"Owner" = "所有者";
+"Ownership" = "所有权";
+"PDF Viewer" = "PDF 阅读器";
+"Page %d does not exist. Please choose value between %d and %d." = "页码 %d 不存在，请输入一个介于 %d 和 %d 之间的数值。";
+"Password" = "密码";
+"Paste" = "粘贴";
+"Path" = "路径";
+"Playback Paused" = "暂停";
+"Port Number" = "端口";
+"Preferences" = "设置";
+"Preparing Image..." = "正在准备图像…";
+"Program Execution" = "执行程序";
+"Properties of file %@ requested\n" = "请求文件 %@ 的属性\n";
+"Property List Viewer" = "属性表编辑器";
+"Property list %@ invalid: %@" = "属性表 %@ 无效：%@";
+"Read" = "读取";
+"Receiving %@" = "正在接收 %@";
+"Register" = "注册";
+"Registered" = "已注册";
+"Registering Web Service with Bonjour..." = "正在向 Bonjour 注册网页服务器…";
+"Registering WebDAV Service with Bonjour..." = "正在以 Bonjour 注册 WebDAV 服务…";
+"Registration Email Address" = "注册邮件地址";
+"Registration Failed" = "注册失败";
+"Registration Process" = "注册过程";
+"Registration Status" = "注册状态";
+"Registration Successful" = "注册成功";
+"Registration" = "注册";
+"Regular Expression" = "正则表达式";
+"Regular File" = "常规文件";
+"Rename" = "重命名";
+"Resume" = "继续";
+"Safari Bookmarks" = "Safari 书签";
+"Search Format" = "搜索方式";
+"Search filenames" = "搜索文件名";
+"Search" = "搜索";
+"Set on exit" = "最后访问";
+"Shutting down web server..." = "正在停止网页服务器…";
+"Simple" = "简单";
+"Size" = "大小";
+"Small (10 KB - 100 KB)" = "小（10 KB - 100 KB）";
+"Socket" = "接口";
+"Song Titles" = "歌曲名";
+"Sort Criteria" = "排列方式";
+"Sort Order" = "排序";
+"Sort by Date" = "日期";
+"Sort by Extension" = "类型";
+"Sort by Name" = "名称";
+"Sort by Size" = "大小";
+"Startup Directory" = "启动目录";
+"Status" = "状态";
+"Sticky" = "粘滞";
+"Stop" = "停止";
+"Symbolic Link" = "符号链接";
+"Tabulator Width" = "制表符宽度";
+"Text Viewer" = "文本编辑器";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "未安装 7z 可执行文件。请通过 Cydia 安装“p7zip”或使用以下命令安装：\n“apt-get install p7zip”";
+"The ZIP file is not valid." = "无效的压缩包。";
+"The file %@ could not be copied." = "无法复制文件 %@。";
+"The file %@ could not be deleted." = "无法删除文件 %@。";
+"The file %@ could not be moved." = "无法移动文件 %@。";
+"The file %@ could not be written." = "无法写入文件 %@。";
+"The file %@ does not exist." = "文件 %@ 不存在。";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "当前目录已存在文件 %@ 。您打算重命名还是覆盖它？";
+"The files could not be added to ZIP file." = "无法添加文件到压缩包。";
+"The files could not be extracted." = "无法解压缩文件。";
+"The files could not be removed." = "无法删除文件。";
+"The image could not be added to the camera roll (%@)." = "无法添加图像到相机胶卷（%@）。";
+"The image got successfully added to the camera roll." = "图像已保存到相机胶卷。";
+"The link target %@ does not exist." = "链接目标 %@ 不存在。";
+"The link target does not exist." = "链接目标不存在。";
+"The name has not been set. Please specify one." = "未设置名称。请指定一个名称。";
+"The server port is still in use. Please use a different port.\n" = "服务器端口已被占用。请选择其他端口。\n";
+"The specified startup directory does not exist." = "所指定的启动目录不存在。";
+"The tabulator width is too small or empty." = "制表符宽度过小或为空。";
+"The text could not be found." = "找不到相应文本。";
+"The text viewer font size should in the range of 8.0 and 18.0." = "文本编辑器的字体大小必须在 8.0 到 18.0 之间。";
+"The trash could not be completely emptied. Please check the remaining files." = "无法完全清空回收站。请检查余下的文件。";
+"The trash got successfully emptied." = "回收站已清空。";
+"The video cannot be added to the camera roll." = "无法添加视频到相机胶卷。";
+"The video could not be added to the camera roll (%@)." = "无法添加视频到相机胶卷（%@）。";
+"The video got successfully added to the camera roll." = "视频已保存到相机胶卷。";
+"The web server port number must be between 1 and 65535." = "网页服务器端口必须在 1 到 65535 之间。";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "未安装 zip 和 unzip 可执行文件。请通过 Cydia 安装“unzip”和“zip”或使用以下命令安装：\n“apt-get install zip unzip”";
+"Theme Name" = "主题名称";
+"Themes" = "主题";
+"This functionality is only supported for registered users." = "使用此功能前请先注册。";
+"Thumbnails" = "缩略图";
+"Time" = "时间";
+"Tiny (< 10 kB)" = "很小（< 10 kB）";
+"Title" = "标题";
+"Today" = "今日";
+"Transfer Request" = "传输请求";
+"Transmitting %@" = "正在传输 %@";
+"Two months ago" = "两月前";
+"Two years ago" = "两年前";
+"Type" = "类型";
+"Unable to create %@." = "无法创建 %@。";
+"Unarchiver" = "解压缩";
+"Unknown" = "未知";
+"Unpacking Files..." = "正在解压缩文件…";
+"Unregistered" = "未注册";
+"Upload of file %@ requested\n" = "请求上传文件 %@\n";
+"UploadedFile" = "已上传文件";
+"Use Trash" = "使用回收站";
+"User Permissions" = "用户权限";
+"User" = "用户";
+"Username" = "用户名";
+"Video Player" = "视频播放器";
+"Web Server" = "网页服务器";
+"Web Viewer" = "网页浏览器";
+"Wildcard" = "通配符";
+"World Permissions" = "全局权限";
+"World" = "全局";
+"Write" = "写入";
+"Yesterday" = "昨日";
+"ZIP Viewer" = "压缩包浏览器";
+"\nFinished with Result Code: %d\n" = "\n完成，返回值：%d\n";
+"done.\n" = "完成。\n";
+"failed.\n" = "失败。\n";
+"iFile License" = "iFile 授权证书";
+"iFile Registration" = "iFile 注册";
+"iFile got successfully registered." = "成功注册 iFile。";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile 是一个共享软件。如果你喜欢或经常使用它，请购买并注册，以支持我继续开发 iFile。";
+"iFile registration failed." = "无法注册 iFile。";
+"iFile registration failed.\n(Reason: %@)" = "无法注册 iFile。\n（原因：%@）";
+"iPhone Attachments with iFile" = "使用 iFile 添加的 iPhone 附件";
+"in %@" = "在 %@";
+"via iBlueNova" = "通过 iBlueNova";
+"via iFile" = "通过 iFile";
+"Applications" = "应用程序";
+"Books" = "书籍";
+"Devices" = "设备";
+"Disk" = "磁盘";  // assuming Disk means "the harddisk on the local device".
+"Documents" = "文档";
+"Flash Drive" = "闪存盘";
+"Home" = "主页";  // shouldn't it show the user's name? Both Finder and Windows Explorer do that.
+"Images" = "图片";
+"Media Library" = "媒体库";
+"Places" = "位置";   // ???
+"Recordings" = "录像";
+"Shortcuts" = "捷径";
+"Sidebar" = "侧边栏";
+"Trash" = "回收站";
+"Add Shortcut" = "添加捷径";
+"Shortcuts %@ could not be written: %@" = "无法写入捷径 %@：%@";
+"Shortcuts file %@ invalid: %@" = "无效的捷径 %@：%@";
+"Authentication Mode" = "验证模式";
+"External Viewers" = "外部查看器";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "添加项目";
+"Edit Item" = "编辑项目";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "同名的项目已存在。请先删除该项目。";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "数组";
+"Boolean" = "布尔型";
+"Data" = "数据";
+"Dictionary" = "字典";
+"Float" = "浮点";
+"Integer" = "整数";
+"Number" = "数字";
+"Property List" = "属性表";
+"String" = "字符串";
+"Unkown Number Type" = "未知数字类型";
+"Unkown Type" = "未知类型";
+/* Top Level of Property List */
+"Top Level" = "顶层";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "项目名称及类型不能为空。";
+"Item type must not be empty." = "项目类型不能为空。";
+"Position of item has not been set." = "未设定项目位置。";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "按两下取消选择";
+"Double tap to open" = "按两下打开";
+"Double tap to select" = "按两下选择";
+"deselected" = "已取消选择";
+"selected" = "已选择";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "闪存盘 1";
+"Flash Drive 2" = "闪存盘 2";
+"Flash Drive 3" = "闪存盘 3";
+"Flash Drive 4" = "闪存盘 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "第 %d 页（共 %d 页）";
+"Printing failed due to error in domain %@ with error code %u." = "打印失败：域名 %@ 发生错误，错误代码为 %u。";
+"Printing of %@ completed successfully." = "%@ 打印完成。";
+"Printing of file %@ completed successfully." = "文件 %@ 打印完成。";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "缩略图上限";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "%@ 卸载失败。";
+/* iFile Version Label used in iFile about page */
+"Version" = "版本";
+"via Celeste" = "通过 Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "关于 iFile";
+"Contact Developer" = "联系开发者";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "添加到 iPod 资源库";
+"The song cannot be added to the iPod library." = "无法添加该曲目到 iPod 资源库。";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "正在计算⋯";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "颜色";
+"Default" = "默认";
+"Blue" = "蓝色";
+"Brown" = "棕色";
+"Custom" = "自定义";
+"Gray" = "灰色";
+"Green" = "绿色";
+"Light Gray" = "浅灰";
+"Night Blue" = "深蓝";
+"Orange" = "橙色";
+"Pink" = "粉红";
+"Red" = "红色";
+"Yellow" = "黄色";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "取消选择";
+"Select all" = "全选";
+"Select" = "选择";
+"Link" = "链接";
+"The file '%@' got successfully added to iPod library." = "已成功添加“%@”到 iPod 资源库。";
+"The file '%@' could not be added to the iPod library." = "无法添加“%@”到 iPod 资源库。";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d 个文件/目录";
+"%d Files" = "%d 个文件/目录";
+/* Title and options for opening a new tab */
+"Open..." = "打开…";
+"Dropbox" = "Dropbox";
+"Local Directory" = "本地目录";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "清理 Dropbox 缓存";
+"Clearing Dropbox cache failed." = "无法清理 Dropbox 缓存。";
+"Download of file %@ failed." = "无法下载文件 %@。";
+"Downloading..." = "正在下载…";
+"Link Dropbox" = "绑定 Dropbox";
+"No connection to Dropbox." = "无法连接到 Dropbox。";
+"Retrieving metadata for %@..." = "正在获取 %@ 的元数据…";
+"The contents of %@ could not get retrieved." = "无法获取 %@ 的内容。";
+"Unlink Dropbox" = "解除绑定 Dropbox";
+"Upload of file %@ failed." = "无法上传文件 %@。";
+"Uploading %@..." = "正在上传 %@…";
+/* File list refresh */
+"Pull down to refresh..." = "下拉以刷新…";
+"Release to refresh..." = "松开以刷新…";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "保存最后访问路径";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "请输入问题内容或点击取消。";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "复制公开链接";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "磁盘镜像加载器";
+"Mounting..." = "正在加载…";
+"Disk image could not be mounted." = "无法加载磁盘镜像。";
+"Disk image successfully mounted at %@." = "成功加载磁盘镜像于 %@。";
+"Successfully unmounted %@." = "成功卸载 %@。";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "卸载";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "磁盘镜像";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "显示";
+/* Updates for release 1.6.1-2 */
+", %@ free" = "，%@ 可用空间";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ 服务器";
+"Authentication Failed" = "验证失败";
+"Cannot set secure FTP connection properties." = "无法设置加密 FTP 连接属性。";
+"Clear FTP Cache" = "清理 FTP 缓存";
+"Clearing FTP cache failed." = "清理 FTP 缓存失败。";
+"Connect" = "连接";
+"Connection Failed" = "连接失败";
+"Connection Refused" = "拒绝连接";
+"Connection to FTP server failed." = "连接 FTP 服务器失败。";
+"Copying/Moving between remote file systems is not supported." = "不支持在远程文件系统内的复制和移动操作。";
+"Could not open connection to %@." = "无法连接到 %@。" ;
+"Could not read from network." = "无法从网络获取数据。";
+"Could not write to network." = "无法传输数据到网络。";
+"Deleting %@..." = "正在删除 %@…";
+"Directory listing parse failed." = "目录列表解析失败。";
+"Enter password for user '%@'" = "输入用户‘%@’的密码";
+"FTP Server" = "FTP 服务器";
+"FTP Servers" = "FTP 服务器";
+"FTPS Server" = "FTPS 服务器";
+"File read error." = "文件读取错误。";
+"File write error." = "文件写入错误。";
+"Login Failed" = "登录失败";
+"Please check if server name is correct." = "请检查服务器名称是否正确。";
+"Please check if user name and password is correct." = "请检查用户名和密码是否正确。";
+"Please enter a valid port number." = "请输入有效的端口数字。";
+"Port" = "端口";
+"Remote Servers" = "远程服务器";
+"Retrieving contents of %@..." = "正在获取 %@ 的内容…";
+"The FTP protocol does not support server side copy operations." = "FTP 协议不支持在服务器上的复制操作。";
+"The password must not be empty." = "请输入密码。";
+"The server name must not be empty." = "请输入服务器名称。";
+"The user name must not be empty." = "请输入用户名。";
+"URL is invalid:\n: %@" = "URL 地址无效：\n：%@";
+"Open" = "打开";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV 服务器";
+"WebDAV Servers" = "WebDAV 服务器";
+"Secure WebDAV Server" = "加密 WebDAV 服务器";
+"Cannot set secure WebDAV connection properties." = "无法设置加密 WebDAV 连接属性。";
+"Clear WebDAV Cache" = "清理 WebDAV 缓存";
+"Clearing WebDAV cache failed." = "清理 WebDAV 缓存失败。";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "清理全部密码";
+"Manage Passwords" = "管理密码";
+"Passwords" = "密码";
+/* Titles in Preferences Editor */
+"File Manager" = "文件管理器";
+"File Viewers" = "文件浏览器";
+"iFile Web Server" = "iFile 网页服务器";
+"via AirBlue Sharing" = "通过 AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "书签";
+"The file '%@' got successfully added to iPod library." = "文件“%@”已成功添加到 iPod 资源库。";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "东芝 FlashAir®";
+"Clear FlashAir® Cache" = "清理 FlashAir® 缓存";
+"Clearing Toshiba FlashAir® cache failed." = "清理东芝 FlashAir® 缓存失败。";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "东芝 FlashAir® 协议仅支持目录列表及文件下载。";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "账号已解除绑定";
+"Clear box.net Cache" = "清理 box.net 缓存";
+"Clearing box.net cache failed." = "清理 box.net 缓存失败。";
+"Do you want to relink?" = "您确定要重新绑定？";
+"Logged out" = "已登出";
+"Login box.net" = "登入 box.net";
+"Logout box.net" = "登出 box.net";
+"No connection to box.net." = "无法连接到 box.net。";
+"Relink" = "重新绑定";
+"You have logged out of your box.net account." = "您已登出您的 box.net 账号。";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropbox 会话已结束";
+"Your dropbox account has been unlinked." = "您已解除 Dropbox 的绑定。";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "加密 WebDAV 服务器";
+"Server Address" = "服务器地址";
+"Login" = "登入";
+"Enter user and password:" = "请输入用户名和密码：";
+/* bytes used on remote file system */
+", %@ used" = "，已用 %@";
+/* message while updating file date on server */
+"Updating date of %@..." = "正在更新 %@ 的日期…";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "无效服务器";
+"Server does not support required WebDAV options." = "服务器不支持所需的 WebDAV 选项。";
+"Directory listing has wrong format." = "目录列表包含错误的格式。";
+"Modification date update failed." = "无法更新修改日期。";
+"Bad HTTP Request." = "坏的 HTTP 请求。";
+"Unauthorized Access." = "未验证的访问。";
+"Access forbidden." = "禁止访问。";
+"Object not found on server." = "服务器上未找到该项目。";
+"Access method not allowed." = "访问方式不被允许。";
+"Access conflict." = "访问冲突。";
+"Internal Server Error." = "服务器内部错误。";
+"Functionality not implemented on server." = "服务器不支持此功能。";
+"Insufficient storage on server." = "服务器存储空间不足。";
+"HTTP error %d." = "HTTP 错误 %d。";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "接受网站证书";
+"Accept" = "接受";
+"Import" = "导入";
+"Certificate Imported" = "证书已导入";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "该网站的证书‘%@’未知或无效。请点击接受以继续连接。";
+"The certificate '%@' got successfully imported." = "已成功导入证书‘%@’。";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "该网站的证书未知或无效。请点击接受以继续连接。";
+"The import of certificate '%@' failed." = "无法导入证书‘%@’。";
+/* Hex Editor Strings */
+"Hex Editor" = "十六进制编辑器";
+/* Search entry options of Hex Editor */
+"Hex" = "十六进制";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "文件已更改";
+"The file got changed. Do you want to save the changes?" = "文件已被更改，您确定要保存更改的内容吗？";
+"Yes" = "是";
+"No" = "否";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "请输入十进制格式的字节索引以显示（%d-%d）。";
+"Enter the hexadecimal byte index to display (%X-%X)." = "请输入十六进制格式的字节索引以显示（%X-%X）。";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "字节索引 %llX 不存在。请指定一个在 %llX 和 %llX 之间的数值。";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "字节索引 %llX 不存在。请指定一个在 %lld 和 %lld 之间的数值。";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "字节索引‘%@’无效。请指定一个在 %llX 和 %llX 之间的数值。";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "字节索引‘%@’无效。请指定一个在 %lld 和 %lld 之间的数值。";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "共享";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "文件夹在顶部";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 编辑器";
+/* title for listing of database tables */
+"Tables" = "数据表";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL 语法";
+"Failed to fetch SQL result" = "无法获取 SQL 返回结果";
+"Failed to fetch table names" = "无法获取数据表名";
+"Failed to prepare SQL statement" = "无法准备 SQL 语法";
+"Failed to prepare for fetching table names" = "无法准备获取数据表名";
+"Language" = "\U8bed\U8a00";
