@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>height</key>
+			<string>133</string>
+			<key>label</key>
+			<string></string>
+			<key>icon</key>
+			<string>banner.png</string>
+		</dict>
+		<dict>
+      		 <key>cell</key>
+      		 <string>PSButtonCell</string>
+      		 <key>action</key>
+      		 <string>enable</string>
+       		<key>label</key>
+       		<string>Enable</string>             
+		</dict>
+		<dict>
+      		 <key>cell</key>
+      		 <string>PSButtonCell</string>
+      		 <key>action</key>
+      		 <string>disable</string>
+       		<key>label</key>
+       		<string>Disable</string>             
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Credits</string>
+		</dict>
+		<dict>
+      		 <key>cell</key>
+      		 <string>PSButtonCell</string>
+      		 <key>action</key>
+      		 <string>credits</string>
+       		<key>label</key>
+       		<string>Credits</string>             
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>twitter</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>@Crazybloo_ios</string> 
+			<key>icon</key>
+			<string>twitter.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>youtube</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>CrazyBloo - Youtube</string>
+			<key>icon</key>
+			<string>youtube.png</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ControlPanel 10</string>
+</dict>
+</plist>
