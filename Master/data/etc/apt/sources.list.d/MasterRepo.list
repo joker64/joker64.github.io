@@ -1,0 +1,138 @@
+# /u/JonLuca on Reddit - 8/7/16 - 15:34:51
+#Check changelog and update history on github
+# Some of these may be inactive or dead - if so, feel free to message me on reddit and I'll rectify it.
+
+
+deb http://4khmeriphone.com/sp/ ./
+deb http://alakazard.yourepo.com/ ./
+deb https://anemone-fonts.us/ ./
+deb http://apt.dba-technologies.com/beta/ ./
+deb http://apt.golddavid.com/ ./
+deb http://apt.if0rce.com/ ./
+deb http://apt.mootjeuh.com/ ./
+deb https://apt.steverolfe.com/ ./
+deb https://arcetera.github.io/ ./
+deb http://beta-repo.sassoty.com/ ./
+deb https://beta.unlimapps.com/ ./
+deb http://chewitt.me/repo/ ./
+deb https://cokepokes.github.io/ ./
+deb https://coolbooter.com/ ./
+deb https://coolstar.org/publicrepo/ ./
+deb https://cydia.angelxwind.net/ ./
+deb http://cydia.clezz.com/  ./
+deb https://cydia.dtathemes.com/repo/ ./
+deb http://cydia.evilpengu.in/  ./
+deb https://cydia.hbang.ws/ ./
+deb https://cydia.ianburns.co/ ./
+deb https://cydia.ichitaso.com/ ./
+deb https://cydia.jakes.site/ ./
+deb http://cydia.jerryen.com/ ./
+deb https://cydia.joedj.net/ ./
+deb http://cydia.r333d.com/ ./
+deb http://cydia.rob311.com/repo/ ./
+deb http://cydia.taskinoz.com/ ./
+deb https://danieltaylor.tk/repo/  ./
+deb http://danyl.net/repo/ ./
+deb https://dylanduff.github.io/repo/ ./
+deb https://exile90software.com/cydia/beta/ ./
+deb https://extigy.github.io/repo/ ./
+deb https://filippobiga.com/repo/ ./
+deb http://ftp.sident.net/cydia-beta/ ./
+deb http://getdelta.co/ ./
+deb https://gmoran.me/repo/ ./
+deb http://hitoriblog.com/apt/ ./
+deb https://ib-soft.net/cydia/ ./
+deb http://insanj.com/repo/ ./
+deb https://j-gessner.de/repo/ ./
+deb https://jonlu.ca/repo/ ./
+deb https://justgetflux.com/cydia/ ./
+deb http://limneos.net/repo/ ./
+deb http://n00neimp0rtant.com/repo/ ./
+deb https://noeliel.com/repo/ ./
+deb https://poomsmart.github.io/repo/ ./
+deb https://reddestdream.github.io/ ./
+deb https://redzrex.github.io/ ./
+deb http://repo.aleksanderazizi.com/ ./
+deb http://repo.alexzielenski.com/ ./
+deb https://repo.atwiiks.com/ ./
+deb https://repo.avalon-studios.de/ ./
+deb https://repo.cpdigitaldarkroom.com/ ./
+deb http://repo.iphonews.ro/ ./
+deb http://repo.laughingquoll.net/ ./
+deb http://repo.natur-kultur.eu/ ./
+deb https://repo.nesolabs.de/ ./
+deb http://repo.peng-u-in.de/ ./
+deb http://repo.pnre.co/ ./
+deb http://repo.rpdev.info/ ./
+deb https://repo.spydar007.com/ ./
+deb http://repo.thireus.com/ ./
+deb http://repo.tm3dev.com/ ./
+deb http://repo.tsunderedev.moe/ ./
+deb https://repo.tylercasson.com/ ./
+deb https://repo.winneon.moe/ ./
+deb http://repo.yllier.net/ ./
+deb https://repo.ziph0n.com/ ./
+deb https://rpetri.ch/repo/ ./
+deb https://s0mecoder.github.io/repo/ ./
+deb https://s1ris.github.io/repo/ ./
+deb https://seatanners.github.io/repo/ ./
+deb https://skylerk99.github.io/ ./
+deb http://starwarsfan2099.x10host.com/repo/ ./
+deb http://tateu.net/repo/ ./
+deb http://test-cydia.bitesms.com/ ./
+deb https://virenmohindra.github.io/ ./
+deb https://www.williamlcobb.com/repo/ ./
+deb https://wynd07.appspot.com/r7/ ./
+deb https://cgm616.me/repo/ ./
+deb https://cj81499.github.io/ ./
+deb https://if0x.github.io/ ./
+deb https://lacertosusrepo.github.io/ ./
+deb https://repo.aditkamath.com/ ./
+deb https://repo.ioscreatix.com/ ./
+deb https://ryleyangus.com/repo/ ./
+deb https://tdmd.github.io/ ./
+
+#Temporarily not working in iOS 10.2
+#deb http://betarepo.com/fontme/ ./
+#deb http://cydia.grimore.org/ ./
+#deb https://cydia.hiraku.tw/ ./
+#deb https://greenydev.github.io/repo/ ./
+#deb http://load.sh/cydia/ ./
+#deb https://pw5a29.github.io/ ./
+#deb http://rcrepo.com/ ./
+#deb http://repo.bd452.com/ ./
+#deb https://yazeedot.github.io/ ./
+
+#Distribute broken packages. Can be added back when they are fixed. But at the moment it is dangerous
+#deb http://cydia.radare.org/ ./
+
+#Sources that have been commented out (#) are offline but might come
+#back one day - they mightve been popular a few years ago or had
+#important tweaks, but are now taken down.
+
+#deb http://andrew-abosh.com/repo/ ./
+#deb http://apt.sapien.me/ ./
+#deb https://citrusui.me/repo/ ./
+#deb http://cydia.itaysoft.com/ ./
+#deb http://cydia.qusic.me/ ./
+#deb http://cydia.sticktron.com/ ./
+#deb https://devbug.me/apt/ ./
+#deb https://exile90software.com/cydia/ ./
+#deb http://ios-webstack.tk/cydia/ ./
+#deb http://maple.pe.hu/ ./
+#deb http://parrotgeek.net/repo/ ./
+#deb http://repo.aehmlo.com/ ./
+#deb http://repo.andreaslarsen.dk/ ./
+#deb http://repo.compatic.us/ ./
+#deb http://repo.winneonsword.net/ ./
+#deb https://repocydia.com/ ./
+#deb http://weamdev.org/repo/ ./
+#deb https://typ0s2d10.appspot.com/repo/ ./
+
+#Not Working as of 12/23/2016
+
+#deb http://apt.pwncenter.com/ ./
+#deb http://elijahandandrew.com/repo/ ./
+#deb https://miroppb.com/repo/ ./
+#deb http://repo.fortysixandtwo.com/ ./
+#deb http://cydia.bolencki13.com/repo/ ./
