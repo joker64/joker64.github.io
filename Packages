@@ -1,14 +1,14 @@
-Package: com.jonluca.masterrepoeasyinstall
-Version: 1.8
+Package: eu.heinelt.ifile
+Version: 2.2.0-1
 Architecture: iphoneos-arm
 Maintainer: JOKER64 <lastman985@yahoo.com>
-Depends: winterboard
-Filename: /Master.deb
-Size: 2366
-MD5sum: f93c400817424947b731b2cee7cce473
-SHA1:  46d6c4808bc7728d938e91ab33dfb8323b13c7b6
-SHA256:f580a812f847df09d33d4e3234556b59e4ca00b8f06ebf655f35701174e30566
+Depends: file-cmds,zip,unzip,p7zip,bzip2,unrar,diskdev-cmds
+Filename: /Ifile.deb
+Size: 9751882
+MD5sum: 88766f339cc7b150e356331e4594db7b
+SHA1: 3ff2ab2d71d013510c2d7946165719757878a613
+SHA256: 9f8c38312d7676a88507dcac6196261185928c9b38666bab80ac50fcfb8c3c61
 Section: Tweaks
-Description:  Master
+Description: file manger
 Author: JOKER64 <lastman985@yahoo.com>
-Name:  Master
+Name: ifile
