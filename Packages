@@ -56,3 +56,33 @@ Section: Tweaks
 Description: Enables WhatsApp Massenger on ipad,ipod
 Author: JOKER64 <lastman985@yahoo.com>
 Name: WhatsPad
+
+Package: com.JOKER64.whatsappplus
+Version: 1.6r-75
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware(>=7.0),mobilesubstrate(>=0.9.5000),com.unlimapps.uasharedtools(>=2.1r-64)
+Filename: /whatsappplus.deb
+Size: 2157266
+MD5sum: dc730f30b745349eaecf2ce8dca558ac
+SHA1: 7468eb1c95cfb041a91251a7bb192a41b1e83ccf
+SHA256: 8da8dc880a6913f957cd47a03b9aec8d2649e87f15960bbdcb98789d3c231072
+Section: Tweaks
+Description: tweak for WhatsApp
+Author: JOKER64 <lastman985@yahoo.com>
+Name: WhatsApp++
+
+Package: com.JOKER64.appdelete
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware(>=90),mobilesubstrate,preferenceloader,ws.hbang.common(>=1.2),applist
+Filename: /appdelete.deb
+Size: 29932
+MD5sum: 31161347edfaa1d605a1d5d96e7ab799
+SHA1: 9725adeb261bcdd750fe28f0288ed8bde9f6b413
+SHA256: 92b66825efe3cea56d40ac5ba8855ef3c4b3e3b75021b443171598bef4ebad82
+Section: Tweaks
+Description: Remove delete box on specific apps
+Author: JOKER64 <lastman985@yahoo.com>
+Name: AppDelete
