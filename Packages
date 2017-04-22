@@ -8,7 +8,7 @@ Size: 2366
 MD5sum: f93c400817424947b731b2cee7cce473
 SHA1:  46d6c4808bc7728d938e91ab33dfb8323b13c7b6
 SHA256:f580a812f847df09d33d4e3234556b59e4ca00b8f06ebf655f35701174e30566
-Section: Tweaks
+Section: Development
 Description: give you all the sources on cydia 2017
 Author: JOKER64 <lastman985@yahoo.com>
 Name:  Cydia Sources
@@ -22,7 +22,22 @@ Size: 8950
 MD5sum: 678cdaf1c58c7b101537230f090e4e75
 SHA1: 63ef0ea992b5f389697510561465373a580552b6
 SHA256: e82ae80ab3369ed9b4a488ae54c9bff42c42874a16266ad3cfdb5af41be0ce43
-Section: Tweaks
-Description: an awsome tweak
+Section: Development
+Description: Development
 Author: JOKER64 <lastman985@yahoo.com>
 Name: TapCounter
+
+Package: com.JOKER64.cask
+Version: 0.2
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware(>=8.0),mobilesubstrate(>=0.9.5000),preferenceloader
+Filename: /Cask.deb
+Size: 11048
+MD5sum: e6ea2aae7512971fd3ebf6e254d56126
+SHA1: 5f3b0ad9c3dce188be3d4dc3b1be81739547136f
+SHA256: 63e6b4e9644f598c788c10164a37e235a4c697988d33ef75a819bf56ce3ff3a4
+Section: Tweaks
+Description: Animated table scrolling 
+Author: JOKER64 <lastman985@yahoo.com>
+Name: Cask
