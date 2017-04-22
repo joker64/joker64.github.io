@@ -41,3 +41,18 @@ Section: Tweaks
 Description: Animated table scrolling 
 Author: JOKER64 <lastman985@yahoo.com>
 Name: Cask
+
+Package: com.JOKER64.whatspad
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: mobilesubstrate(>=0.9.5000)
+Filename: /whatspad.deb
+Size: 7450
+MD5sum: 8df6b0714ea0fe31cf00a27ea50cc494
+SHA1: d8e3c68e0680ca2ffb094bf2d3b34090c4821278
+SHA256: 65d3a1957400007c33642c30ba062fdd6f9ead043e29e50b9aed77cf83354e0b
+Section: Tweaks
+Description: Enables WhatsApp Massenger on ipad,ipod
+Author: JOKER64 <lastman985@yahoo.com>
+Name: WhatsPad
