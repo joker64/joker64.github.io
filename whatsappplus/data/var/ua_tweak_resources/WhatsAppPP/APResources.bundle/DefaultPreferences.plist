@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UAEnableStealthMode</key>
+	<false/>
+	<key>UADisableReadReceipts</key>
+	<true/>
+	<key>UADisableDeliveryReceipts</key>
+	<false/>
+	<key>UADisableTypingReceipts</key>
+	<true/>
+	<key>UAFullProfilePic</key>
+	<true/>
+	<key>UASendUnlimitedMedia</key>
+	<true/>
+	<key>UATapToRecord</key>
+	<true/>
+	<key>UARMCameraButtonFromChatBar</key>
+	<true/>
+	<key>UACustomTextColorEnabled</key>
+	<false/>
+	<key>UAWAFirstRunNewVersion</key>
+	<true/>
+	<key>UACustomTextColor</key>
+	<string>0000FF</string>
+	<key>UACustomThemeEnabled</key>
+	<false/>
+	<key>UACustomThemePrimaryColor</key>
+	<string>0000FF</string>
+	<key>UACustomThemeSecondaryColor</key>
+	<string>FFFFFF</string>
+	<key>preventStoriesAutoAdvance_UA</key>
+	<true/>
+	<key>manuallyMarkStoriesAsRead_UA</key>
+	<true/>
+	<key>mediaSaveAlbumName_UA</key>
+	<string>WhatsApp Stories</string>
+	<key>defaultMediaDownloadLocation_UA</key>
+	<integer>0</integer>
+</dict>
+</plist>

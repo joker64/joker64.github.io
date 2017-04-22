@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = "ADSettings";
+		cell = PSLinkCell;
+		detail = "ADPreferenceController";
+		icon = "AppDelete.png";
+		isController = 1;
+		label = "AppDelete";
+	};
+}

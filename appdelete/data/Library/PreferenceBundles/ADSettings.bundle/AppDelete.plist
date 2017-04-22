@@ -1,0 +1,53 @@
+entry = {
+  icon = "AppDelete.png";
+  label = AppDelete;
+  cell = PSLinkCell;
+};
+title = AppDelete;
+items = (
+  {
+    bundle = AppList;
+    cell = PSLinkCell;
+    label = "Applications";
+    isController = 1;
+    ALSettingsPath = "/var/mobile/Library/Preferences/com.CC.AppDelete.plist";
+    ALSettingsKeyPrefix = "Delete-";
+    ALChangeNotification = "com.CC.AppDelete.prefs";
+    ALSettingsDefaultValue = 0;
+    ALSectionDescriptors = (
+      {
+        items = ();
+        "footer-title" = "AppDelete will allow you to control the removal of user applications. Removes close box on specific apps.";
+      },
+      {
+        title = "User Applications";
+        predicate = "isSystemApplication = FALSE AND isWebApplication = FALSE";
+        "cell-class-name" = "ALSwitchCell";
+        "icon-size" = 29;
+        "suppress-hidden-apps" = 1;
+      }
+    );
+  },
+  {
+    cell = PSGroupCell;
+  },
+  {
+    cellClass = HBTwitterCell;
+    height = 60;
+    big = true;
+    label = "ca13ra1";
+    user = ca13ra1;
+  },
+  {
+    cell = PSButtonCell;
+    cellClass = HBLinkTableCell;
+    label = "Donate ❤️";
+    alignment = 1;
+    url = http://cabralcole.blogspot.com/2016/07/donate.html;
+  },
+  {
+    cell = PSGroupCell;
+    footerAlignment = 1;
+    footerText = "© 2016 Cole Cabral";
+  }
+);
