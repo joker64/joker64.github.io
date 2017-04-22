@@ -86,3 +86,18 @@ Section: Tweaks
 Description: Remove delete box on specific apps
 Author: JOKER64 <lastman985@yahoo.com>
 Name: AppDelete
+
+Package: com.JOKER64.mterminal
+Version: 1.4-5
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware(>=4.0),system-cmds
+Filename: /mterminal.deb
+Size: 107204
+MD5sum: ca89ef2a021eb532ab64a3f584d4c9d4
+SHA1: 86a7feea0d4c0c21bf169ac7c5e25ce1f8079724
+SHA256: a0138646daa42478b726ec164a261a9c31b8ac29f91e5cf500f194ece9039924
+Section: Development
+Description: A MobileTerminal fork
+Author: JOKER64 <lastman985@yahoo.com>
+Name: MTerminal
