@@ -101,3 +101,18 @@ Section: Development
 Description: A MobileTerminal fork
 Author: JOKER64 <lastman985@yahoo.com>
 Name: MTerminal
+
+Package: eu.heinelt.ifile
+Version: 2.2.0-1
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: /ifile.deb
+Size: 9751882
+MD5sum: 88766f339cc7b150e356331e4594db7b
+SHA1: 3ff2ab2d71d013510c2d7946165719757878a613
+SHA256: 9f8c38312d7676a88507dcac6196261185928c9b38666bab80ac50fcfb8c3c61
+Section: System
+Description: An Iphone file manger
+Author: Carsten Heinelt <lastman985@yahoo.com>
+Name: ifile
