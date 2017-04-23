@@ -1,2 +1,3 @@
-# joker64.github.io
-# Repo for Cydia
+# This is Cydia Repo
+http://joker64.github.io/
+ 
