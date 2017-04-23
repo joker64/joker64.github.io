@@ -1,0 +1,544 @@
+"%d of %d" = "%d / %d";
+"'%@' wants to send you some files." = "'%@' size dosya göndermek istiyor";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>'%@' Dosyası Başarıyla Yüklendi</p>";
+"<h1>Files in %@</h1>\n" = "<h1>%@ Dizinindeki Dosyalar</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Yükle \">";
+"<p>Upload a file:<br />" = "<p>Dosya Yükle:<br />";
+"A symbolic link to file %@ could not be created." = "%@ dosyasına sembolik link oluşturulamadı";
+"Accepting connections at http://%@ or http://%@.\n" = "Şu adresle http://%@ veya şu adresle http://%@ bağlanabilirsiniz\n";
+"Access Permissions" = "Giriş İzinleri";
+"Add Bookmark" = "Yerimi Ekle";
+"Add Folder" = "Klasör Ekle";
+"Add to Camera Roll" = "Film Rulosuna Ekle";
+"Address" = "Adres";
+"An error occurred" = "Bir hata oluştu";
+"Application Names" = "Uygulama İsimleri";
+"Apply hierarchically" = "Alt dizinlerede uygula";
+"Applying permissions and ownership hierarchically..." = "İzinler ve Hiyerarşik düzen uygulanıyor...";
+"Ascending" = "Yükselen";
+"Attributes" = "Nitelikler";
+"Audio Player" = "Ses Oynatıcı";
+"Audio output got changed." = "Ses çıkışı değişti";
+"Authentication" = "Doğrulama";
+"Block Device" = "Blok Cihazı";
+"Bonjour got enabled with name %@.\n" = "Bonjour ' %@ ' ismiyle aktifleştirildi.\n";
+"Bookmark file %@ invalid: %@" = "%@ Yerimi Hatalı : %@";
+"Bookmark folder name must not be empty." = "Yerimi Klasörünün adı boş olmamalıdır.";
+"Bookmark name and address must not be empty." = "Yerimi adı ve adresi boş olmamalıdır.";
+"Bookmarks %@ could not be written: %@" = "%@ Yerimi Yazılamadı : %@";
+"Bookmarks Bar" = "Yerimi Çubuğu";
+"Bookmarks Menu" = "Yerimi Menüsü";
+"Bookmarks" = "Yerimleri";
+"Buy License (Cydia Store)" = "Lisans Al (Cydia Store)";
+"Cancel" = "İptal";
+"Character Device" = "Karakter Cihazı";
+"Close" = "Yoksay";
+"Compressing..." = "Sıkıştırılıyor...";
+"Connected" = "Bağlandı";
+"Connection to '%@' failed." = "'%@' ile bağlantı başarısız";
+"Continue" = "Devam Et";
+"Copy" = "Kopyala";
+"Copy/Link" = "Kopyala/Yönlendir";
+"Copying %@..." = "Kopyalanıyor %@...";
+"Copying Files..." = "Dosyalar Kopyalanıyor...";
+"Copying of file %@ requested\n" = "%@ dosyasının kopyalanması istendi\n";
+"Create Link" = "Link Oluştur";
+"Create ZIP File" = "ZIP Dosyası Oluştur";
+"Create" = "Oluştur";
+"Creation of directory %@ requested\n" = "%@ dizininin oluşturulması istendi\n";
+"Cut" = "Kes";
+"Date" = "Tarih";
+"Delete %d Files" = "%d Dosyayıda Sil";
+"Delete File" = "Dosyayı Sil";
+"Deleting Files..." = "Dosyalar Siliniyor...";
+"Deletion of file %@ requested\n" = "%@ dosyasının silinmesi istendi\n";
+"Descending" = "Alçalan";
+"Directory" = "Bu Dizin";
+"Earlier this month" = "Bu ayın başlarında";
+"Earlier this week" = "Bu haftanın başlarında";
+"Earlier this year" = "Bu yılın başlarında";
+"Edit Bookmark" = "Yerimini Düzenle";
+"Edit Folder" = "Klasörü Düzenle";
+"Email" = "Email";
+"Emailing Attachments with iFile" = "iFile ile dosya gönderimi";
+"Empty Trash" = "Çöp Sepetini Boşalt";
+"Enter new ZIP file name." = "ZIP Dosyası Adı Girin";
+"Enter the page number to display\n(%d-%d)." = "Bir sayfa numarası giriniz\n(%d-%d)";
+"Error occurred while receiving file." = "Dosya alınırken hata oluştu.";
+"Error" = "Hata";
+"Execute" = "Çalıştırma";
+"Executing Command: %@\n\n" = "Şu Komut Çalıştırılıyor: %@\n\n";
+"Extract %d Files" = "%d Dosyayıda Çıkart";
+"Extract All Files" = "Tüm Dosyaları Çıkart";
+"Extract File" = "Dosyayı Çıkart";
+"File %@ requested\n" = "%@ dosyası istendi\n";
+"File Attributes" = "Dosya Nitelikleri";
+"File Browser" = "Dosya Gezgini";
+"File Exists" = "Dosya Mevcut";
+"File already exists with name %@." = "%@ adında bir dosya zaten mevcut";
+"File attributes could not be changed or only partially." = "Dosya nitelikleri tamamı yada birkısmı değiştirilemedi.";
+"File could not be renamed." = "Dosya yeniden adlandırılamadı.";
+"File successfully uploaded" = "Dosya başarıyla yüklendi";
+"Files" = "Dosya";
+"Font Size" = "Font Büyüklüğü";
+"Gigantic (> 100 MB)" = "Devasa (> 100 MB)";
+"Go to Trash" = "Çöp Sepetine Git";
+"Go to page" = "Sayfaya Git";
+"Group Permissions" = "Grup İzinleri";
+"Group" = "Gruplar";
+"Grouping" = "Gruplama";
+"Header of file %@ requested\n" = "%@ dosyasının başlığı istendi\n";
+"Hidden Files" = "Gizli Dosyaları Göster";
+"Hierarchy" = "Alt Dizinler Dahil";
+"Huge (10 MB - 100 MB)" = "Çok Büyük (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "iFile'ı Cydia Store'dan aldıysanız, Lisansınızı almak için sadece iFlie'ı çalıştırmanız yeterli. Başarılı bir Lisans alımından sonra bir onay alıcaksınız.\nLisansını Cydia Store yerine direkt olarak PayPal ile veya bedavaya alanlar email adreslerini aşşağıya yazmalıdırlar. Lisans alımı ayarlara dönerken gerçekleşir.";
+"Image Viewer" = "Resim Gösterici";
+"Initializing Web Server..." = "Web Sunucusu Hazırlanıyor...";
+"Installer" = "Yükleyici";
+"Internal inconsistency" = "Dahili Tutarsızlık";
+"Large (1 MB - 10 MB)" = "Büyük (1 MB - 10 MB)";
+"Last Modification" = "Son Düzenleme";
+"Last month" = "Geçen Ay";
+"Last week" = "Geçen Hafta";
+"Last year" = "Geçen Yıl";
+"Later" = "Sonra";
+"Link Target" = "Hedefe Yönelt";
+"Linking %@..." = "%@ yönlendiriliyor...";
+"Linking Files..." = "Dosyalar yönlendiriliyor...";
+"Loading Contents..." = "İçerik Yükleniyor...";
+"Loading..." = "Yükleniyor...";
+"Medium (100 KB - 1 MB)" = "Orta (100 KB - 1 MB)";
+"Mime-Type" = "MIME-Tipi";
+"Modification Date" = "Modifikasyon Tarihi";
+"Move %d Files to Trash" = "%d Dosyayıda Çöpe Gönder";
+"Move File to Trash" = "Dosyayı Çöpe Gönder";
+"Moving %@..." = "%@ Taşınıyor...";
+"Moving Files..." = "Dosyalar Taşınıyor...";
+"Moving of file %@ requested\n" = "%@ dosyasının taşınması istendi\n";
+"Multipart header empty" = "Çoklu Başlık Boş";
+"Name" = "Ad";
+"New Folder" = "Yeni Klasör";
+"New" = "Yeni Oluştur";
+"No file specified." = "Dosya Belirtilmemiş.";
+"OK" = "Tamam";
+"Older" = "Daha Eski";
+"Open with..." = "Birlikte Aç";
+"Overwrite all" = "Tümünü Üstüne Yaz";
+"Overwrite" = "Üstüne Yaz";
+"Owner" = "Sahip";
+"Ownership" = "Sahiplik Ayarları";
+"PDF Viewer" = "PDF Okuyucu";
+"Page %d does not exist. Please choose value between %d and %d." = "%d numaralı sayfa mevcut değil. Lütfen %d ile %d arasında bir değer girin.";
+"Password" = "Parola";
+"Paste" = "Yapıştır";
+"Path" = "Yol";
+"Playback Paused" = "Oynatma Duraksatıldı";
+"Port Number" = "Port Numarası";
+"Preferences" = "Ayarlar";
+"Program Execution" = "Program Çalıştırma";
+"Properties of file %@ requested\n" = "%@ dosyasının özellikleri istendi\n";
+"Property List Viewer" = "Property List Görüntüleyici";
+"Preparing Image..." = "Resim Hazırlanıyor...";
+"Property list %@ invalid: %@" = "plist %@ hatalı : %@";
+"Read" = "Okuma";
+"Receiving %@" = "%@ alınıyor";
+"Register" = "Lisans Al";
+"Registered" = "Lisanslı";
+"Registering Web Service with Bonjour..." = "Bonjour ile Web servisine giriliyor\n(Bu biraz zaman alabilir)...";
+"Registering WebDAV Service with Bonjour..." = "Bonjour ile WebDAV servisine giriliyor\n(Bu biraz zaman alabilir)...";
+"Registration Email Address" = "Lisans Mail Adresi";
+"Registration Failed" = "Lisans Alma Başarısız";
+"Registration Process" = "Lisans Alma";
+"Registration Status" = "Lisans Durumu";
+"Registration Successful" = "Lisans Alma Başarılı";
+"Registration" = "Lisan Durumu";
+"Regular Expression" = "Bilinen Dosya Türleri";
+"Regular File" = "Normal Dosya";
+"Rename" = "Yeniden Adlandır";
+"Resume" = "Oynatmaya Devam Et";
+"Safari Bookmarks" = "Safari Yerimleri";
+"Search Format" = "Arama Biçimi";
+"Search filenames" = "Dosya adı araması";
+"Search" = "Ara";
+"Set on exit" = "Kaldığım Yeri Hatırla";
+"Shutting down web server..." = "Web sunucusu kapatılıyor...";
+"Simple" = "Basit";
+"Size" = "Boyut";
+"Small (10 KB - 100 KB)" = "Küçük (10 KB - 100 KB)";
+"Socket" = "Soket";
+"Song Titles" = "Şarkı Başlıkları";
+"Sort Criteria" = "Sıralama Kriteri";
+"Sort Order" = "Sıalama Şekli";
+"Sort by Date" = "Tarihe Göre";
+"Sort by Extension" = "Türe Göre";
+"Sort by Name" = "Ada Göre";
+"Sort by Size" = "Boyuta Göre";
+"Startup Directory" = "Başlangıç dizini";
+"Status" = "Durum";
+"Sticky" = "Yapışkan";
+"Stop" = "Oynatmayı Durdur";
+"Symbolic Link" = "Sembolik Link";
+"Tabulator Width" = "Tablo Genişliği";
+"Text Viewer" = "Metin Editörü";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "7z modülü yüklenmemiş. Lütfen Cydia yada Icy den 'p7zip' paketin, yükleyin \n(apt-get install p7zip)";
+"The ZIP file is not valid." = "Geçerli arşiv dosyası değil";
+"The file %@ could not be copied." = "%@ Dosyası Kopyalanamadı";
+"The file %@ could not be deleted." = "%@ Dosyası Silinemedi";
+"The file %@ could not be moved." = "%@ Dosyası Taşınamadı";
+"The file %@ could not be written." = "%@ Dosyası Yazılamadı";
+"The file %@ does not exist." = "%@ dosyası mevcut değil";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Bu dizinde %@ dosyası zaten mevcut. Bu dosyayı ne yapmak istiyorsunuz ?";
+"The files could not be added to ZIP file." = "Dosyalar Arşiv Dosyasına Eklenemedi";
+"The files could not be extracted." = "Dosyalar Arşiv Dosyasından Çıkartılamadı";
+"The files could not be removed." = "Dosyalar Taşınamadı";
+"The image could not be added to the camera roll (%@)." = "Resim Film Rulosuna eklenemedi (%@).";
+"The image got successfully added to the camera roll." = "Resim başarıyla Film Rulosu'na eklendi";
+"The link target %@ does not exist." = "%@ Link hedefi Mevcut Değil";
+"The link target does not exist." = "Link hedefi Mevcut Değil";
+"The name has not been set. Please specify one." = "İsim ayarlanmamış. Lütfen bir isim belirtin.";
+"The server port is still in use. Please use a different port.\n" = "Sunucu portu kullanımda. Lütfen farklı bir port kullanın.\n";
+"The specified startup directory does not exist." = "Belirtilen başlangıç dizini mevcut değil";
+"The tabulator width is too small or empty." = "Çizelge genişliği çok küçük yada hiç yok";
+"The text could not be found." = "Metin Bulunamadı";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Metin editörü font büyüklüğü 8.0 ile 18.0 arasında olmalı";
+"The trash could not be completely emptied. Please check the remaining files." = "Çöp Sepeti tamamen boşaltılamadı. Lütfen geride kalan dosyaları kontrol edin.";
+"The trash got successfully emptied." = "Çöp Sepeti başarıyla boşaltıldı.";
+"The video cannot be added to the camera roll." = "Video Film Rulosuna eklenemedi.";
+"The video could not be added to the camera roll (%@)." = "Video Film Rulosuna eklenemedi (%@).";
+"The video got successfully added to the camera roll." = "Video başarıyla Film Rulosu'na eklendi";
+"The web server port number must be between 1 and 65535." = "Web Sunucusu port numarası 1 ile 65535 arasında olmalı";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "Sıkıştırma ve Çıkarma modülü yüklenmemiş. Lütfen Cydia yada Icy den aşşağıdaki paketi yükleyin \n'apt-get install zip unzip'.";
+"Theme Name" = "Tema adı";
+"Themes" = "Temalar";
+"This functionality is only supported for registered users." = "Bu özellişi sadece lisanslı kullanıcılar kullanabilir.";
+"Thumbnails" = "Resim Önizlemeleri";
+"Time" = "Zaman";
+"Tiny (< 10 kB)" = "Çok Küçük (< 10 kB)";
+"Title" = "Başlık";
+"Today" = "Bugün";
+"Transfer Request" = "Transfer İsteği";
+"Transmitting %@" = "%@ gönderiliyor";
+"Two months ago" = "İki ay önce";
+"Two years ago" = "İki yıl önce";
+"Type" = "Tip";
+"Unable to create %@." = "%@ oluşturulamadı";
+"Unarchiver" = "Arşivden Çıkarıcı";
+"Unknown" = "Bilinmeyen";
+"Unpacking Files..." = "Dosyalar Çıkartılıyor...";
+"Unregistered" = "Lisanssız";
+"Upload of file %@ requested\n" = "%@ dosyasının yüklenmesi istendi\n";
+"UploadedFile" = "Yüklenen Dosya";
+"Use Trash" = "Çöp Sepeti Kullan";
+"User Permissions" = "Kullanıcı İzinleri";
+"User" = "Kullanıcı";
+"Username" = "Kullanıcı Adı";
+"Video Player" = "Video Oynatıcı";
+"Web Server" = "Web Sunucusu";
+"Web Viewer" = "Web Tarayıcı";
+"Wildcard" = "Özel Sembol";
+"World Permissions" = "World İzinleri";
+"World" = "World";
+"Write" = "Yazma";
+"Yesterday" = "Dün";
+"ZIP Viewer" = "Arşiv Düzenleyici";
+"\nFinished with Result Code: %d\n" = "\nŞu sonuç kodu ile bitti: %d\n";
+"done.\n" = "Tamam.\n";
+"failed.\n" = "Başarısız.\n";
+"iFile License" = "iFile Lisansı";
+"iFile Registration" = "iFile Lisans Alımı";
+"iFile got successfully registered." = "iFile lisansı başarıyla alındı";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile artık ShareWare. Eğer bu programı seviyorsanız ve hergün kullanıyorsanız lütfen lisans alın. Buna iFile programını geliştirmek için ihtiyaç duydum.";
+"iFile registration failed." = "iFile lisansı alnamadı";
+"iFile registration failed.\n(Reason: %@)" = "iFile lisansı alnamadı\n(Çünkü: %@)";
+"iPhone Attachments with iFile" = "iFile ile iPhone'umdan gönderildi";
+"in %@" = "Aslında: %@";
+"via iBlueNova" = "iBlueNova ile";
+"via iFile" = "iFile ile";
+ "Add Shortcut" = "Kısayol Olarak Ekle";
+ "Applications" = "Uygulamalar";
+ "Books" = "Kitaplar";
+ "Devices" = "Cihazlar";
+ "Disk" = "Disk";
+ "Documents" = "Belgeler";
+ "Flash Drive" = "Flash Disk";
+ "Home" = "Ana Sayfa";
+ "Images" = "Resimler";
+ "Media Library" = "Medya Kitaplığı";
+ "Places" = "Yerler";
+ "Recordings" = "Kayıtlar";
+ "Shortcuts %@ could not be written: %@" = "%@ kısayolu yazılamadı: %@";
+ "Shortcuts file %@ invalid: %@" = "%@ kısayol dosyası geçersiz: %@";
+ "Shortcuts" = "Kısayollar";
+ "Sidebar" = "Kenar Çubuğu";
+ "Trash" = "Çöp";
+"Authentication Mode" = "Doğrulama Metodu";
+"External Viewers" = "Harici Göstericiler";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Öge Ekle";
+"Edit Item" = "Öge Düzenle";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Ayni isimli bir öge zaten mevcut. Lütfen önce mevcut ögeyi silin.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Veri";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Numara";
+"Property List" = "Property List";
+"String" = "String";
+"Unkown Number Type" = "Bilinmeyen Numara Tipi";
+"Unkown Type" = "Bilinmeyen Tip";
+/* Top Level of Property List */
+"Top Level" = "En Üst Seviye";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Öge adi ve cinsi bos olmamali";
+"Item type must not be empty." = "Öge adi bos olmamali.";
+"Position of item has not been set." = "Ögenin konumu ayarlanmadi.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Seçimin iptali için çift dokunun";
+"Double tap to open" = "Açmak için çift dokunun";
+"Double tap to select" = "Seçmek için çift dokunun";
+"deselected" = "Seçim iptal edildi";
+"selected" = "Seçildi";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash Disk 1";
+"Flash Drive 2" = "Flash Disk 2";
+"Flash Drive 3" = "Flash Disk 3";
+"Flash Drive 4" = "Flash Disk 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Sayfa %d / %d";
+"Printing failed due to error in domain %@ with error code %u." = "%@ alicisindan kaynaklanan bir hata yüzünden (Hata Kodu: %u) yazdirma basarisiz oldu.";
+"Printing of %@ completed successfully." = "%@ yazimi tamamlandi.";
+"Printing of file %@ completed successfully." = "%@ belgesinin yazimi tamamlandi.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Önizleme Limiti";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "%@  ile baglati kesilemedi.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Versiyon";
+"via Celeste" = "Celeste ile";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "iFile Hakkında";
+"Contact Developer" = "Geliştiriciye Danış";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "iPod Kitaplığına Ekle";
+"The song cannot be added to the iPod library." = "Bu şarkı iPod kitaplığına eklenemedi.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Hesaplanıyor...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Renk";
+"Default" = "Varsayılan";
+"Blue" = "Mavi";
+"Brown" = "Kahverengi";
+"Custom" = "Özel";
+"Gray" = "Gri";
+"Green" = "Yeşil";
+"Light Gray" = "Açık Gri";
+"Night Blue" = "Gece Mavisi";
+"Orange" = "Turuncu";
+"Pink" = "Pembe";
+"Red" = "Kırmızı";
+"Yellow" = "Sarı";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Seçimleri Kaldır";
+"Select all" = "Tümünü Seç";
+"Select" = "Seç";
+"Link" = "Yönlendir";
+"The file '%@' got successfully added to iPod library." = "'%@' dosyası başarıyla iPod kitaplığına eklendi.";
+"The file '%@' could not be added to the iPod library." = "'%@' dosyası iPod kitaplığına eklenemedi.";
+/* Number of files at bottom of file list */
+"%d File" = "%d Dosya";
+"%d Files" = "%d Dosya";
+/* Title and options for opening a new tab */
+"Open..." = "Aç...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Yerel Dizin";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Dropbox Önbelleğini Temizle";
+"Clearing Dropbox cache failed." = "Dropbox Önbelleğini Temizleme Başarisiz Oldu.";
+"Download of file %@ failed." = " %@ Dosyasının İndirilmesi Başarısız Oldu.";
+"Downloading..." = "İndiriliyor...";
+"Link Dropbox" = "Dropbox Bağla";
+"No connection to Dropbox." = "Dropbox Bağlantısı Yok.";
+"Retrieving metadata for %@..." = "%@ Dosyası için Veri İsteniyor...";
+"The contents of %@ could not get retrieved." = "%@ için İçerik İndirilrilemedi.";
+"Unlink Dropbox" = "Dropbox Bağlantısıni Kes";
+"Upload of file %@ failed." = " %@ Dosyasının Yüklenmesi Başarısız.";
+"Uploading %@..." = "%@ Yükleniyor...";
+/* File list refresh */
+"Pull down to refresh..." = "Güncelleme için Çek...";
+"Release to refresh..." = "Güncelleme için Bırak...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Çıkışta Yeri Kaydet";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Lütfen bir problem bildirin veya İptal'e basın.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Açık Linki Kopyala";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Disk İmajı Çıkartıcı";
+"Mounting..." = "Çıkartılıyor...";
+"Disk image could not be mounted." = "Disk imajı çıkartılamadı.";
+"Disk image successfully mounted at %@." = "Disk imajı başarıyla %@ dizinine çıkartıldı.";
+"Successfully unmounted %@." = "%@ başarıyla cıkartıldı.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Çıkart";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Disk İmajı";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Görüntüle";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ boş";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Sunucu";
+"Authentication Failed" = "Doğrulama Başarısız";
+"Cannot set secure FTP connection properties." = "Güvenli FTP bağlantı özellikleri kurulamadı.";
+"Clear FTP Cache" = "FTP Önbelleğini Temizle";
+"Clearing FTP cache failed." = "FTP Önbelleğini Temizlenemedi.";
+"Connect" = "Bağlan";
+"Connection Failed" = "Bağlantı Başarısız Oldu";
+"Connection Refused" = "Bağlantı Reddedildi";
+"Connection to FTP server failed." = "FTP sunucusuna bağlanılamadı.";
+"Copying/Moving between remote file systems is not supported." = "Uzak dosyasistemi ile Kopyalama/Taşıma desteklenmemektedir.";
+"Could not open connection to %@." = "%@ lie bağlantı açılamadı." ;
+"Could not read from network." = "Ağdan okunamadı.";
+"Could not write to network." = "Ağa yazılamadı.";
+"Deleting %@..." = "%@ Siliniyor...";
+"Directory listing parse failed." = "Dizin listeleme ayrıştırması yapılamadı.";
+"Enter password for user '%@'" = "'%@' kullanıcısı için parola girin";
+"FTP Server" = "FTP Sunucusu";
+"FTP Servers" = "FTP Sunucuları";
+"FTPS Server" = "FTPS Sunucusu";
+"File read error." = "Dosya okuma hatası.";
+"File write error." = "Dosya yazma hatası.";
+"Login Failed" = "Oturum Açılamadı";
+"Please check if server name is correct." = "Lütfen sunucu isminin doğru olduğunu kontrol edin.";
+"Please check if user name and password is correct." = "Lütfen kullanıcı adı ve parolanın doğru olduğunu kontrol edin.";
+"Please enter a valid port number." = "Lütfen geçerli bir port numarası giriniz.";
+"Port" = "Port";
+"Remote Servers" = "Uzak Sunucular";
+"Retrieving contents of %@..." = "%@ kaynağından içerik alınıyor...";
+"The FTP protocol does not support server side copy operations." = "FTP protokolü sunucu tarafından kopyalama işlemlerini desteklememektedir.";
+"The password must not be empty." = "Parola kısmı boş olmamalıdır.";
+"The server name must not be empty." = "Sunucu ismi kısmı boş olmamalıdır.";
+"The user name must not be empty." = "Kuulanıcı adı kısmı boş olmamalıdır.";
+"URL is invalid:\n: %@" = "URL geçersiz:\n: %@";
+"Open" = "Aç";
+"ftp.server.com" = "ftp.sunucu.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV Sunusu";
+"WebDAV Servers" = "WebDAV Sunucuları";
+"Secure WebDAV Server" = "Güvenli WebDAV Sunucusu";
+"Cannot set secure WebDAV connection properties." = "Güvenli WebDAV bağlantı özellikleri kurulamadı.";
+"Clear WebDAV Cache" = "WebDAV Önbelleğini Temizle";
+"Clearing WebDAV cache failed." = "WebDAV Önbelleği Temizlenemedi.";
+"www.server.com" = "www.sunucu.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Bütün Parolaları Temizle";
+"Manage Passwords" = "Parolaları Yönet";
+"Passwords" = "Parolalar";
+/* Titles in Preferences Editor */
+"File Manager" = "Dosya Yöneticisi";
+"File Viewers" = "Dosya Göstericileri";
+"iFile Web Server" = "iFile Web Sunucusu";
+"via AirBlue Sharing" = "AirBlue Sharing ile";
+/* Other strings */
+"Bookmark" = "Yer imi";
+"The file '%@' got successfully added to iPod library." = "'%@' dosyası başarıyla iPod kitaplığına eklendi.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "FlashAir® Önbelleğini Temizle";
+"Clearing Toshiba FlashAir® cache failed." = "Toshiba FlashAir® önbelleği temizlenemedi.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Toshiba FlashAir® protokolü sadece dizin görüntülemeye ve dosya indirme işlemlerine izin verir.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Hesap Bağlantısı Kesildi";
+"Clear box.net Cache" = "box.net Önbelleğini Temizle";
+"Clearing box.net cache failed." = "box.net önbelleği temizlenemedi.";
+"Do you want to relink?" = "Yeniden Bağlanmak İstermisiniz?";
+"Logged out" = "Çıkış Yapıldı";
+"Login box.net" = "box.net Hesabına Giriş Yap";
+"Logout box.net" = "box.net Hesabından Çıkış Yap";
+"No connection to box.net." = "box.net bağlantısı bulunamadı.";
+"Relink" = "Yeniden Bağla";
+"You have logged out of your box.net account." = "box.net hesabınızdan çıkış yaptınız.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropbox Oturumu Sona Erdi";
+"Your dropbox account has been unlinked." = "Dropbox Hesabınızın Bağlantısı Kesildi.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Güvenli WebDAV Sunucuları";
+"Server Address" = "Sunucu Adresi";
+"Login" = "Giriş Yap";
+"Enter user and password:" = "Kullanıcı adı ve parola girin:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ kullanıldı";
+/* message while updating file date on server */
+"Updating date of %@..." = "%@ dosyasının tarihi güncelleniyor...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Geçersiz Sunucu";
+"Server does not support required WebDAV options." = "Sunucu gerekli WebDAV ayarlarını desteklemiyor.";
+"Directory listing has wrong format." = "Dizin listelemesi hatalı formatta.";
+"Modification date update failed." = "Değiştirme tarihi güncellemesi yapılamadı.";
+"Bad HTTP Request." = "Kötü HTTP İstaği.";
+"Unauthorized Access." = "Yetkisiz Giriş.";
+"Access forbidden." = "Giriş Engellendi.";
+"Object not found on server." = "Obje sunucuda bulunamadı.";
+"Access method not allowed." = "Bu giriş yöntemine izin verilmiyor.";
+"Access conflict." = "Giriş Çatışması.";
+"Internal Server Error." = "Dahili Sunucu Hatası.";
+"Functionality not implemented on server." = "Fonksyon sunucuya uygulanmadı.";
+"Insufficient storage on server." = "Sunucudaki boş alan yetersiz.";
+"HTTP error %d." = "HTTP hatası: (%d).";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Web sitesi sertifikasını kabul et";
+"Accept" = "Kabul Et";
+"Import" = "İçe Aktar";
+"Certificate Imported" = "Sertifika işe aktarıldı";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Bu web sitesindeki '%@' sertifikası bilinmiyor yada geçersiz. Yinede devam etmek için 'Kabul Et' e basın.";
+"The certificate '%@' got successfully imported." = "'%@' sertifikası başarıyla içe aktarıldı.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Bu web sitesindeki sertifika bilinmiyor yada geçersiz. Yinede devam etmek için 'Kabul Et' e basın.";
+"The import of certificate '%@' failed." = "'%@' sertifikası içe aktarılamadı.";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex Editörü";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Dosya Değiştirildi";
+"The file got changed. Do you want to save the changes?" = "Bu dosya değiştirildi. Bu değişiklikleri kaydetmek istermisiniz?";
+"Yes" = "Evet";
+"No" = "Hayır";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Görüntülemek istediğiniz ondalık bayt indeksini giriniz (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Görüntülemek istediğiniz onaltılık bayt dizini girin (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "%llX byte indeksi mevcut değil. Lütfen %llX ile %llX arasında bir değer seçin.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "%lld byte indeksi mevcut değil. Lütfen %lld ile %lld arasında bir değer seçin.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "'%@' byte indeksi geçerli değil. Lütfen %llX ile %llX arasında bir değer seçin.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "'%@' byte indeksi geçerli değil. Lütfen %lld ile %lld arasında bir değer seçin.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Paylaşılan";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Klasörler Tepede";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 Editörü";
+/* title for listing of database tables */
+"Tables" = "Tablolar";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL açıklaması";
+"Failed to fetch SQL result" = "SQL sonucu alınamadı";
+"Failed to fetch table names" = "Tablo isimleri alınamadı";
+"Failed to prepare SQL statement" = "SQL açıklaması hazırlanammadı";
+"Failed to prepare for fetching table names" = "Tablo isimlerinin alınmasına hazırlanılamadı";
+"Language" = "Dil";

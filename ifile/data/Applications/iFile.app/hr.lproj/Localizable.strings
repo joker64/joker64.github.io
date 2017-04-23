@@ -1,0 +1,545 @@
+"%d of %d" = "%d od %d";
+"'%@' wants to send you some files." = "'%@' želi poslati neke datoteke.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Datoteka '%@' je uspješno učitana.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Datoteke u %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Učitavanje \">";
+"<p>Upload a file:<br />" = "<p>Učitavanje datoteke:<br />";
+"A symbolic link to file %@ could not be created." = "Simbolična putanja do datoteke %@ se ne može stvoriti.";
+"Accepting connections at http://%@ or http://%@.\n" = "Prihvaćanje veze na http://%@ ili http://%@.\n";
+"Access Permissions" = "Dozvole pristupa";
+"Add Bookmark" = "Dodaj oznaku";
+"Add Folder" = "Dodaj mapu";
+"Add to Camera Roll" = "Dodaj u album fotografija";
+"Address" = "Adresa";
+"An error occurred" = "Pojavila se greška";
+"Application Names" = "Nazivi aplikacija";
+"Apply hierarchically" = "Primijeni hijerarhijski";
+"Applying permissions and ownership hierarchically..." = "Primijeni dozvole i vlasništva hijerarhijski...";
+"Ascending" = "Uzlazno";
+"Attributes" = "Svojstva";
+"Audio Player" = "Audio svirač";
+"Audio output got changed." = "Audio izlaz je promijenjen.";
+"Authentication" = "Provjera";
+"Block Device" = "Blokiraj uređaj";
+"Bonjour got enabled with name %@.\n" = "Naziv poslužitelja: %@.\n";
+"Bookmark file %@ invalid: %@" = "Oznaka datoteke %@ je nevažeća: %@";
+"Bookmark folder name must not be empty." = "Unesite naziv mape za oznake.";
+"Bookmark name and address must not be empty." = "Unesite naziv oznake i adresu.";
+"Bookmarks %@ could not be written: %@" = "Oznake %@ ne mogu biti upisane: %@";
+"Bookmarks Bar" = "Traka oznaka";
+"Bookmarks Menu" = "Izbornik oznaka";
+"Bookmarks" = "Oznake";
+"Buy License (Cydia Store)" = "Kupnja licence (Cydia Store)";
+"Cancel" = "Prekid";
+"Character Device" = "Znakovi uređaja";
+"Close" = "Zatvori";
+"Compressing..." = "Komprimiram...";
+"Connected" = "Povezano";
+"Connection to '%@' failed." = "Povezivanje prema '%@' nije uspjelo.";
+"Continue" = "Nastavi";
+"Copy" = "Kopiraj";
+"Copy/Link" = "Kopiraj/Link";
+"Copying %@..." = "Kopiranje %@...";
+"Copying Files..." = "Kopiranje datoteka...";
+"Copying of file %@ requested\n" = "Zatraženo kopiranje datoteke %@\n";
+"Create Link" = "Napravi link";
+"Create ZIP File" = "Napravi ZIP arhivu";
+"Create" = "Dodaj";
+"Creation of directory %@ requested\n" = "Zatraženo stvaranje direktorija %@\n";
+"Cut" = "Izreži";
+"Date" = "Datum";
+"Delete %d Files" = "Obriši %d datoteke/a";
+"Delete File" = "Obriši datoteku";
+"Deleting Files..." = "Brisanje datoteka...";
+"Deletion of file %@ requested\n" = "Zatraženo brisanje datoteke%@\n";
+"Descending" = "Silazno";
+"Directory" = "Direktorij";
+"Earlier this month" = "Prije ovog mjeseca";
+"Earlier this week" = "Prije ovog tjedna";
+"Earlier this year" = "Prije ove godine";
+"Edit Bookmark" = "Uredi oznaku";
+"Edit Folder" = "Uredi mapu";
+"Email" = "E-mail";
+"Emailing Attachments with iFile" = "Slanje privitaka e-mailom iz iFile";
+"Empty Trash" = "Isprazni smeće";
+"Enter new ZIP file name." = "Unesi naziv ZIP datoteke.";
+"Enter the page number to display\n(%d-%d)." = "Unesite broj stranice koju želite prikazati (%d-%d).";
+"Error occurred while receiving file." = "Greška kod primanja datoteke.";
+"Error" = "Greška";
+"Execute" = "Provesti";
+"Executing Command: %@\n\n" = "Provesti naredbu: %@\n\n";
+"Extract %d Files" = "Raspakirati %d datoteke";
+"Extract All Files" = "Raspakirati sve datoteke";
+"Extract File" = "Raspakirati datoteku";
+"File %@ requested\n" = "Tražena datoteka %@ \n";
+"File Attributes" = "Svojstva datoteke";
+"File Browser" = "Preglednik datoteka";
+"File Exists" = "Datoteka već postoji";
+"File already exists with name %@." = "Datoteka sa istim nazivom %@. već postoji.";
+"File attributes could not be changed or only partially." = "Svojstva datoteke ne mogu biti promijenjena, niti djelomično..";
+"File could not be renamed." = "Datoteku nije moguće preimenovati.";
+"File successfully uploaded" = "Datoteka je uspješno poslana";
+"Files" = "Broj datoteka";
+"Font Size" = "Veličina fonta";
+"Gigantic (> 100 MB)" = "Ogromna (> 100 MB)";
+"Go to Trash" = "Idi u smeće";
+"Go to page" = "Idi na stranicu";
+"Group Permissions" = "Dozvole grupe";
+"Group" = "Grupa";
+"Grouping" = "Grupiranje";
+"Header of file %@ requested\n" = "Zatraženo zaglavlje datoteke %@\n";
+"Hidden Files" = "Skrivene datoteke";
+"Hierarchy" = "Hijerarhijski";
+"Huge (10 MB - 100 MB)" = "Golemo (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Ako ste kupili iFile preko Cydia Store, morate ga pokrenuti da biste se mogli registrirati. Dobiti ćete potvrdu obavijesti o uspješnoj registraciji.\nKorisnici koji dobivaju besplatnu registraciju ili plaćaju putem PayPal-a direktno, umjesto preko Cydia Store morati unijeti adresu E-pošte. Registracija se događa kad se izađe iz Postavki.";
+"Image Viewer" = "Preglednik slika";
+"Initializing Web Server..." = "Inicijalizacija Web poslužitelja...";
+"Installer" = "Instaliraj";
+"Internal inconsistency" = "Interna proturiječnost";
+"Large (1 MB - 10 MB)" = "Veliko (1 MB - 10 MB)";
+"Last Modification" = "Zadnja promjena";
+"Last month" = "Protekli month";
+"Last week" = "Protekli tjedan";
+"Last year" = "Protekla godina";
+"Later" = "Kasnije";
+"Link Target" = "Ciljna poveznica";
+"Linking %@..." = "Povezivanje %@...";
+"Linking Files..." = "Povezivanje datoteka...";
+"Loading Contents..." = "Učitavanje sadržaja...";
+"Loading..." = "Učitavanje...";
+"Medium (100 KB - 1 MB)" = "Srednje (100 KB - 1 MB)";
+"Mime-Type" = "Vrsta";
+"Modification Date" = "Datum izmjene";
+"Move %d Files to Trash" = "Obriši %d datoteke/a";
+"Move File to Trash" = "Obriši datoteku";
+"Moving %@..." = "Micanje %@...";
+"Moving Files..." = "Micanje datoteka...";
+"Moving of file %@ requested\n" = "Zatraženo micanje datoteke %@\n";
+"Multipart header empty" = "Multipart zaglavlje je prazno";
+"Name" = "Naziv";
+"New Folder" = "Nova mapa";
+"New" = "Novo";
+"No file specified." = "Datoteka nije odabrana.";
+"OK" = "U redu";
+"Older" = "Starije";
+"Open with..." = "Otvori pomoću...";
+"Overwrite all" = "Prepiši sve";
+"Overwrite" = "Prepiši";
+"Owner" = "Vlasnik";
+"Ownership" = "Vlasništvo";
+"PDF Viewer" = "PDF preglednik";
+"Page %d does not exist. Please choose value between %d and %d." = "Stranica %d ne postoji. Molimo odaberite broj između %d i %d.";
+"Password" = "Lozinka";
+"Paste" = "Zalijepi";
+"Path" = "Putanja";
+"Playback Paused" = "Reprodukcija pauzirana";
+"Port Number" = "Port";
+"Preferences" = "Postavke";
+"Preparing Image..." = "Pripremam sliku...";
+"Program Execution" = "Otvaranje programa";
+"Properties of file %@ requested\n" = "Zatražena svojstva programa %@\n";
+"Property List Viewer" = "Property List preglednik";
+"Property list %@ invalid: %@" = "Property list %@ nevažeći: %@";
+"Read" = "Čitanje";
+"Receiving %@" = "Primanje %@";
+"Register" = "Registrirati";
+"Registered" = "Registriran";
+"Registering Web Service with Bonjour..." = "Registriram Web poslužitelj sa Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Registriram WebDAV servis sa Bonjour...";
+"Registration Email Address" = "E-mail za registraciju";
+"Registration Failed" = "Registracija neuspješna";
+"Registration Process" = "Proces registracije";
+"Registration Status" = "Status registracije";
+"Registration Successful" = "Registracija je bila uspješna";
+"Registration" = "Registracija";
+"Regular Expression" = "Redovan izraz";
+"Regular File" = "Datoteka";
+"Rename" = "Promijeni";
+"Resume" = "Nastavak";
+"Safari Bookmarks" = "Safari oznake";
+"Search Format" = "Pretraži format";
+"Search filenames" = "Pretraži imena datoteka";
+"Search" = "Traži";
+"Set on exit" = "Zadaj kod izlaza";
+"Shutting down web server..." = "Isključujem Web poslužitelj...";
+"Simple" = "Jednostavno";
+"Size" = "Veličina";
+"Small (10 KB - 100 KB)" = "Maleno (10 KB - 100 KB)";
+"Socket" = "Socket";
+"Song Titles" = "Nazivi pjesama";
+"Sort Criteria" = "Kriterij sortiranja";
+"Sort Order" = "Sortiranje";
+"Sort by Date" = "Po datumu";
+"Sort by Extension" = "Po vrsti";
+"Sort by Name" = "Po nazivu";
+"Sort by Size" = "Po veličini";
+"Startup Directory" = "Početni direktorij";
+"Status" = "Status";
+"Sticky" = "Ljepljiv";
+"Stop" = "Stop";
+"Symbolic Link" = "Simboličan link";
+"Tabulator Width" = "Širina tabulatora";
+"Text Viewer" = "Tekstualni preglednik";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "7zip nije instaliran. Molimo instalirajte 'p7zip' iz Cydie ili preko terminala: \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "ZIP arhiva nije važeća.";
+"The file %@ could not be copied." = "Datoteka %@ se ne može kopirati.";
+"The file %@ could not be deleted." = "Datoteka %@ se ne može obrisati.";
+"The file %@ could not be moved." = "Datoteka %@ se ne može micati.";
+"The file %@ could not be written." = "Datoteka %@ se ne može upisati.";
+"The file %@ does not exist." = "Datoteka %@ ne postoji.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Datoteka %@ se već nalazi u mapi. Želite li ju prepisati ili promijeniti naziv?";
+"The files could not be added to ZIP file." = "Datoteke nisu mogle biti dodane u ZIP arhivu.";
+"The files could not be extracted." = "Datoteke nisu mogle biti ektrahirane.";
+"The files could not be removed." = "Datoteke nije moguće ukloniti.";
+"The image could not be added to the camera roll (%@)." = "Slika nije mogla biti dodana u album (%@).";
+"The image got successfully added to the camera roll." = "Slika je uspješno dodana u album.";
+"The link target %@ does not exist." = "Poveznica cilja %@ ne postoji.";
+"The link target does not exist." = "Poveznica cilja ne postoji.";
+"The name has not been set. Please specify one." = "Naziv nije postavljen. Molimo odredite ga";
+"The server port is still in use. Please use a different port.\n" = "Port poslužitelja je u upotrebi. Molimo odaberite drugi port.\n";
+"The specified startup directory does not exist." = "Navedeni početni direktorij ne postoji.";
+"The tabulator width is too small or empty." = "Širina tabulatora je premala ili prazna.";
+"The text could not be found." = "Tekst nije pronađen.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Veličina fonta u tekstualnom pregledniku bi trebala biti između 8.0 i 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "Smeće ne može biti u potpunosti ispražnjeno. Provjerite preostale datoteke.";
+"The trash got successfully emptied." = "Smeće je u potpunosti ispražnjeno.";
+"The video cannot be added to the camera roll." = "Video nije moguće dodati u album.";
+"The video could not be added to the camera roll (%@)." = "Video nije moguće dodati u album (%@).";
+"The video got successfully added to the camera roll." = "Video je uspješno dodan u video album.";
+"The web server port number must be between 1 and 65535." = "Broj porta web poslužitelja bi trebao biti između 1 i 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "ZIP i UnZIP nije instaliran. Molimo instalirajte pomoću \n'apt-get install zip unzip'.";
+"Theme Name" = "Tema";
+"Themes" = "Teme";
+"This functionality is only supported for registered users." = "Ova fukcionalnost je podržana samo za registrirane korisnike.";
+"Thumbnails" = "Prikaz sličica";
+"Time" = "Vrijeme";
+"Tiny (< 10 kB)" = "Sitno (< 10 kB)";
+"Title" = "Naziv";
+"Today" = "Danas";
+"Transfer Request" = "Zatražen prijenos";
+"Transmitting %@" = "Prijenos %@";
+"Two months ago" = "Prije dva mjeseca";
+"Two years ago" = "Prije dvije godine";
+"Type" = "Vrsta";
+"Unable to create %@." = "Nemogućnost stvaranja %@.";
+"Unarchiver" = "Raspakiraj";
+"Unknown" = "Nepoznato";
+"Unpacking Files..." = "Raspakiravanje datoteka...";
+"Unregistered" = "Neregistriran";
+"Upload of file %@ requested\n" = "Zatraženo slanje datoteke %@ \n";
+"UploadedFile" = "Poslana datoteka";
+"Use Trash" = "Upotreba smeća";
+"User Permissions" = "Korisnička prava";
+"User" = "Korisnik";
+"Username" = "Ime korisnika";
+"Video Player" = "Video svirač";
+"Web Server" = "Web poslužitelj";
+"Web Viewer" = "HTML preglednik";
+"Wildcard" = "Zamjenski znak";
+"World Permissions" = "Prava ostalih";
+"World" = "Ostali";
+"Write" = "Pisanje";
+"Yesterday" = "Jučer";
+"ZIP Viewer" = "ZIP preglednik";
+"\nFinished with Result Code: %d\n" = "\nZavršeno sa zaključnim kodom: %d\n";
+"done.\n" = "gotovo.\n";
+"failed.\n" = "neuspjelo.\n";
+"iFile License" = "Licenca iFile";
+"iFile Registration" = "Registracija iFile";
+"iFile got successfully registered." = "iFile je uspješno registriran.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile je sada ShareWare. Ako vam se dopada i upotrebljavate ga često, molimo kupite licencu i regisrirajte ga. To je potrebno za daljnji razvoj iFile.";
+"iFile registration failed." = "Registracija iFile neuspješna.";
+"iFile registration failed.\n(Reason: %@)" = "Registracija iFile neuspješna.\n(Razlog: %@)";
+"iPhone Attachments with iFile" = "Šaljem privitke pomoću iFile.";
+"in %@" = "u %@";
+"via iBlueNova" = "preko iBlueNova";
+"via iFile" = "preko iFile";
+"Add Shortcut" = "Dodaj prečac";
+"Applications" = "Aplikacije";
+"Books" = "Knjige";
+"Devices" = "Uređaji";
+"Disk" = "Disk";
+"Documents" = "Dokumenti";
+"Flash Drive" = "Flash pogon";
+"Home" = "Početna";
+"Images" = "Slike";
+"Media Library" = "Biblioteka medija";
+"Places" = "Mjesta";
+"Recordings" = "Snimanja";
+"Shortcuts %@ could not be written: %@" = "Prečaci %@ nisu mogli biti stvoreni: %@";
+"Shortcuts file %@ invalid: %@" = "Prečaci datoteke %@ nevažeći: %@";
+"Shortcuts" = "Prečaci";
+"Sidebar" = "Bočna traka";
+"Trash" = "Smeće";
+"Authentication Mode" = "Môd ovjere";
+"External Viewers" = "Vanjski preglednici";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Dodaj stavku";
+"Edit Item" = "Uredi stavku";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Stavka s istim imenom već postoji. Obrišite prvo postojeću stavku.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Broj";
+"Property List" = "Property lista";
+"String" = "String";
+"Unkown Number Type" = "Nepoznata vrsta broja";
+"Unkown Type" = "Nepoznata vrsta";
+/* Top Level of Property List */
+"Top Level" = "Top Level";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Naziv i vrsta stavke nesmije biti prazno.";
+"Item type must not be empty." = "Vrsta stavke nesmije biti prazna.";
+"Position of item has not been set." = "Položaj stavke nije postavljen.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Dvoklik za poništiti";
+"Double tap to open" = "Dvoklik za otvoriti";
+"Double tap to select" = "Dvoklik za odabrati";
+"deselected" = "neoznačeno";
+"selected" = "označeno";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash pogon 1";
+"Flash Drive 2" = "Flash pogon 2";
+"Flash Drive 3" = "Flash pogon 3";
+"Flash Drive 4" = "Flash pogon 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Strana %d od %d";
+"Printing failed due to error in domain %@ with error code %u." = "Ispis nije uspio zbog greške u domeni %@ sa kôdom greške %u.";
+"Printing of %@ completed successfully." = "Ispis %@ uspješno završen.";
+"Printing of file %@ completed successfully." = "Ispis datoteke %@ uspješno završen.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Limit sličice";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Demontiranje %@ neuspjelo.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Verzija";
+"via Celeste" = "preko Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "O iFile";
+"Contact Developer" = "Kontaktiraj autora";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Dodaj u iPod biblioteku";
+"The song cannot be added to the iPod library." = "Pjesma nemože biti dodana u iPod biblioteku.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Računanje...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Boja";
+"Default" = "Zadano";
+"Blue" = "Plava";
+"Brown" = "Smeđa";
+"Custom" = "Korisnička";
+"Gray" = "Siva";
+"Green" = "Zelena";
+"Light Gray" = "Svjetlosiva";
+"Night Blue" = "Tamnoplava";
+"Orange" = "Narančasta";
+"Pink" = "Lila";
+"Red" = "Crvena";
+"Yellow" = "Žuta";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Poništi";
+"Select all" = "Odaberi sve";
+"Select" = "Odaberi";
+"Link" = "Link";
+"The file '%@' got successfully added to iPod library." = "Datoteka '%@' je uspješno dodana u iPod biblioteku.";
+"The file '%@' could not be added to the iPod library." = "Datoteka '%@' se nemože dodati u iPod biblioteku.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d datoteka";
+"%d Files" = "%d datoteka";
+/* Title and options for opening a new tab */
+"Open..." = "Otvori...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Lokalna mapa";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Očisti Dropbox cache";
+"Clearing Dropbox cache failed." = "Čišćenje Dropbox cache nije uspjelo.";
+"Download of file %@ failed." = "Preuzimanje datoteke %@ nije uspjelo.";
+"Downloading..." = "Preuzimanje...";
+"Link Dropbox" = "Poveži Dropbox";
+"No connection to Dropbox." = "Nema veze prema Dropbox-u.";
+"Retrieving metadata for %@..." = "Preuzimanje metapodataka za %@...";
+"The contents of %@ could not get retrieved." = "Sadržaj %@ nije mogao biti preuzet.";
+"Unlink Dropbox" = "Otkači Dropbox";
+"Upload of file %@ failed." = "Učitavanje datoteke %@ nije uspjelo.";
+"Uploading %@..." = "Učitavanje %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Povucite prema dolje za osvježiti...";
+"Release to refresh..." = "Ispustite za osvježiti...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Pohrana putanja";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Molimo navedite problem ili kliknite na Prekid.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Kopiraj javni link";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Mounter slike diska";
+"Mounting..." = "Montiranje...";
+"Disk image could not be mounted." = "Slika diska nije mogla biti montirana.";
+"Disk image successfully mounted at %@." = "Slika diska je uspješno montirana na %@.";
+"Successfully unmounted %@." = "Uspješno demontirano %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Demontiranje";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Slika diska";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Prikaz";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ slobodno";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Poslužitelj";
+"Authentication Failed" = "Provjera autentičnosti nije uspjela";
+"Cannot set secure FTP connection properties." = "Ne možete postaviti svojstva sigurnog FTP spajanja.";
+"Clear FTP Cache" = "Očisti FTP Cache";
+"Clearing FTP cache failed." = "Čišćenje FTP cache nije uspjelo.";
+"Connect" = "Spajanje";
+"Connection Failed" = "Povezivanje nije uspjelo";
+"Connection Refused" = "Povezivanje odbijeno";
+"Connection to FTP server failed." = "Povezivanje na FTP poslužitelj nije uspjelo.";
+"Copying/Moving between remote file systems is not supported." = "Kopiranje/Premještanje između udaljenih datotečnih sustava nije podržano.";
+"Could not open connection to %@." = "Ne mogu otvoriti vezu prema %@." ;
+"Could not read from network." = "Ne mogu čitati iz mreže.";
+"Could not write to network." = "Ne mogu pisati u mrežu.";
+"Deleting %@..." = "Brisanje %@...";
+"Directory listing parse failed." = "Rasčlanjenje popisa direktorija nije uspjelo.";
+"Enter password for user '%@'" = "Unesite lozinku za korisnika '%@'";
+"FTP Server" = "FTP poslužitelj";
+"FTP Servers" = "FTP poslužitelji";
+"FTPS Server" = "FTPS poslužitelj";
+"File read error." = "Greška kod čitanja datoteke.";
+"File write error." = "Greška kod pisanja datoteke.";
+"Login Failed" = "Prijava nije uspjela";
+"Please check if server name is correct." = "Molimo provjerite je li naziv poslužitelja je ispravan.";
+"Please check if user name and password is correct." = "Molimo provjerite jesu li korisničko ime i lozinka točni.";
+"Please enter a valid port number." = "Molimo unesite valjani broj porta.";
+"Port" = "Port";
+"Remote Servers" = "Udaljeni poslužitelji";
+"Retrieving contents of %@..." = "Dohvaćanje sadržaja %@...";
+"The FTP protocol does not support server side copy operations." = "FTP protokol ne podržava poslužiteljske strane operacije kopiranja.";
+"The password must not be empty." = "Lozinka ne smije ostati prazna.";
+"The server name must not be empty." = "Naziv poslužitelja ne smije ostati prazan.";
+"The user name must not be empty." = "Korisničko ime ne smije ostati prazno.";
+"URL is invalid:\n: %@" = "URL nije važeći:\n: %@";
+"Open" = "Open";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV klijent */
+"WebDAV Server" = "WebDAV poslužitelj";
+"WebDAV Servers" = "WebDAV poslužitelji";
+"Secure WebDAV Server" = "Sigurni WebDAV poslužitelji";
+"Cannot set secure WebDAV connection properties." = "Ne možete postaviti svojstva sigurnog WebDAV spajanja.";
+"Clear WebDAV Cache" = "Očisti WebDAV cache";
+"Clearing WebDAV cache failed." = "Čišćenje WebDAV cache nije uspjelo.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Očisti sve lozinke";
+"Manage Passwords" = "Upravljanje lozinkama";
+"Passwords" = "Lozinke";
+/* Titles in Preferences Editor */
+"File Manager" = "Upravitelj datoteka";
+"File Viewers" = "Preglednik datoteka";
+"iFile Web Server" = "iFile Web poslužitelj";
+"via AirBlue Sharing" = "preko AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "Oznaka";
+"The file '%@' got successfully added to iPod library." = "Datoteka '%@' je uspješno dodana u iPod biblioteku.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Očisti FlashAir® cache";
+"Clearing Toshiba FlashAir® cache failed." = "Neuspjelo čišćenje Toshiba FlashAir® cache.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Toshiba FlashAir®protokol  podržava samo  kataloški  popis i  operacijupreuzimanja datoteka.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Račun je otkačen";
+"Clear box.net Cache" = "Očisti box.net cache";
+"Clearing box.net cache failed." = "Neuspjelo čišćenje box.net cache.";
+"Do you want to relink?" = "Želite li prebaciti?";
+"Logged out" = "Odjavljen";
+"Login box.net" = "Prijava na box.net";
+"Logout box.net" = "Odjava sa box.net";
+"No connection to box.net." = "Nema veze prema box.net.";
+"Relink" = "Prebacivanje";
+"You have logged out of your box.net account." = "Odjavili ste se sa Vašeg box.net računa.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropbox sesija je završena";
+"Your dropbox account has been unlinked." = "Vaš dropbox račun je otkačen.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Sigurni WebDAV poslužitelji";
+"Server Address" = "Adresa poslužitelja";
+"Login" = "Prijava";
+"Enter user and password:" = "Unesi korisnika i lozinku:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ zauzeto";
+/* message while updating file date on server */
+"Updating date of %@..." = "Ažuriranje datuma %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Nevažeći poslužitelj";
+"Server does not support required WebDAV options." = "Poslužitelj nepodržava potrebne WebDAV opcije.";
+"Directory listing has wrong format." = "Popis direktorija ima pogrešan format.";
+"Modification date update failed." = "Ažuriranje izmjene datuma nije uspjelo.";
+"Bad HTTP Request." = "Nevažeći HTTP zahtjev.";
+"Unauthorized Access." = " Neovlašteni pristup.";
+"Access forbidden." = " Pristup zabranjen.";
+"Object not found on server." = " Objekt nije pronađen na poslužitelju.";
+"Access method not allowed." = "Načini pristupa nisu odobreni.";
+"Access conflict." = "Sukob pristupa.";
+"Internal Server Error." = " Interna pogreška poslužitelja.";
+"Functionality not implemented on server." = " Funkcionalnost se ne provodi na poslužitelju.";
+"Insufficient storage on server." = " Nedovoljno za pohranu na poslužitelju.";
+"HTTP error %d." = "HTTP greška %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Prihvati certifikat stranice";
+"Accept" = "Prihvati";
+"Import" = "Uvezi";
+"Certificate Imported" = "Certifikat je uvezen";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Certifikat '%@' za ovu stranicu je nepoznat ili nevažeći. Tapom prihvati spajanje.";
+"The certificate '%@' got successfully imported." = "Certifikat '%@' je uspješno uvezen.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Certifikat za ovu stranicu je nepoznat ili nevažeći. Tapom prihvati spajanje.";
+"The import of certificate '%@' failed." = "Uvoz certifikata '%@' nije uspio.";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex Editor";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Datoteka je promijenjena";
+"The file got changed. Do you want to save the changes?" = " Datoteka je promijenjena. Želite li spremiti promjene?";
+"Yes" = "Da";
+"No" = "Ne";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = " Unesite decimalni byte indeks za prikaz (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = " Unesite heksadecimalni byte indeks za prikaz (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Byte indeks %llX ne postoji. Molimo odaberite vrijednost između %llX i %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Byte indeks %lld ne postoji. Molimo odaberite vrijednost između %lld i %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Byte indeks '%@' ne postoji. Molimo odaberite vrijednost između %llX i %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Byte indeks '%@' ne postoji. Molimo odaberite vrijednost između %lld i %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Dijeljeno";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Mape na vrhu";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 Editor";
+/* title for listing of database tables */
+"Tables" = " Tablice";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL obračun";
+"Failed to fetch SQL result" = "Neuspjelo dohvaćanje SQL rezultata";
+"Failed to fetch table names" = "Neuspjelo dohvaćanje tablice naziva";
+"Failed to prepare SQL statement" = "Neuspjela priprema SQL obračuna";
+"Failed to prepare for fetching table names" = "Neuspjela priprema za dohvaćanje tablice naziva";
+"Language" = "Jezik";

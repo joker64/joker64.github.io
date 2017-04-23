@@ -1,0 +1,126 @@
+body {
+margin: 0;
+padding: 0;
+margin-left:0px;
+background-color: white;
+-webkit-text-size-adjust:none;
+top: 45px;
+width: 100%;
+min-height: 400px;
+}
+
+h1 {
+margin-left: 30px;
+margin-top: 15px;
+font-size: 16px;
+font-family: Helvetica;
+font-weight: bold;
+color: rgb(30,30,50);
+}
+
+p {
+font-size: 14px;
+font-family: Helvetica;
+font-weight: normal;
+margin-left: 30px;
+}
+
+br {
+margin-bottom: 10px;
+}
+
+input {
+font-family: Helvetica;
+font-weight: normal;
+}
+
+a {
+display: block;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+color: black;
+}
+
+a:hover {
+display: block;
+padding: 0px;
+margin: 0px;
+text-decoration: underline;
+color: black;
+}
+
+.even {
+background: white;
+}
+
+.odd {
+background: rgb(236, 243, 254); 
+}
+
+.fileicon {
+border-right: none;
+padding-left: 10px;
+width: 18px;
+}
+
+.filename {
+min-width: 250px;
+padding-left: 0px;
+text-align: left;
+}
+
+.filesize {
+text-align: right;
+padding-right: 15px;
+width: 100px;
+}
+
+.filedate {
+text-align: left;
+padding-right: 5px;
+padding-left: 15px;
+width: 180px;
+}
+
+table {
+border-collapse: collapse;
+border:none;
+width: 100%;
+border-bottom: thin rgb(190, 190, 190) solid;
+}
+
+td {
+margin: 0px;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 2px;
+padding-bottom: 2px;
+border:none;
+font-family: Helvetica;
+font-size: 12px;
+color: rgb(30,30,50);
+}
+
+th.filedate, th.filesize {
+border-left: thin rgb(190, 190, 190) solid;
+}
+
+th {
+margin: 0px;
+padding: 0px;
+border:none;
+font-family: Helvetica;
+font-size: 12px;
+font-weight: normal;
+color: black;
+border: thin rgb(190, 190, 190) solid;
+border-left: none;
+border-right: none;
+background-image: url(/headingbg.png); 
+background-repeat: repeat-x;
+height: 17px;
+}
+
+form {
+}

@@ -1,0 +1,546 @@
+"%d of %d" = "%d of %d";
+"'%@' wants to send you some files." = "'%@' haluaa lähettää sinulle tiedostoja.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Tiedosto '%@' lähetetty onnistuneesti.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Tiedostot kansiossa %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Lähetä \">";
+"<p>Upload a file:<br />" = "<p>Lähetä tiedosto:<br />";
+"A symbolic link to file %@ could not be created." = "Linkkiä tiedostoon %@ ei voitu luoda.";
+"Accepting connections at http://%@ or http://%@.\n" = "Hyväksytään yhteyksiä http://%@ tai http://%@.\n";
+"Access Permissions" = "Access Permissions";
+"Add Bookmark" = "Lisää kirjanmerkki";
+"Add Folder" = "Lisää kansio";
+"Add to Camera Roll" = "Vie kuva-kansioon";
+"Address" = "Osoite";
+"An error occurred" = "Virhe";
+"Application Names" = "Ohjelmien nimet";
+"Apply hierarchically" = "Apply hierarchically";
+"Applying permissions and ownership hierarchically..." = "Applying permissions and ownership hierarchically...";
+"Ascending" = "Nouseva";
+"Attributes" = "Attribuutit";
+"Audio Player" = "Audio Player";
+"Audio output got changed." = "Äänen ulostulo vaihdettu.";
+"Authentication" = "Rajoitukset";
+"Block Device" = "Estä Laite";
+"Bonjour got enabled with name %@.\n" = "Bonjour sallittu nimellä %@.\n";
+"Bookmark file %@ invalid: %@" = "Kirjanmerkki-tiedosto %@ viallinen: %@";
+"Bookmark folder name must not be empty." = "Kansion nimi ei voi olla tyhjä.";
+"Bookmark name and address must not be empty." = "Nimi ja osoite eivät voi olla tyhjiä.";
+"Bookmarks %@ could not be written: %@" = "Kirjanmerkkejä %@ ei voitu kirjoittaa: %@";
+"Bookmarks Bar" = "Kirjanmerkki-palkki";
+"Bookmarks Menu" = "Kirjanmerkki-valikko";
+"Bookmarks" = "Kirjanmerkit";
+"Buy License (Cydia Store)" = "Osta lisenssi (Cydia Store)";
+"Cancel" = "Peruuta";
+"Character Device" = "Kirjain-laite";
+"Close" = "Sulje";
+"Compressing..." = "Pakataan...";
+"Connected" = "Yhdistetty";
+"Connection to '%@' failed." = "Yhdistäminen '%@' epäonnistui.";
+"Continue" = "Jatka";
+"Copy" = "Kopioi";
+"Copy/Link" = "Kopioi/Linkitä";
+"Copying %@..." = "Kopioidaan %@...";
+"Copying Files..." = "Kopioidaan tiedostoja...";
+"Copying of file %@ requested\n" = "Tiedostoa %@ kopioidaan\n";
+"Create Link" = "Luo linkki";
+"Create ZIP File" = "Luo ZIP-arkisto";
+"Create" = "Luo";
+"Creation of directory %@ requested\n" = "Kansiota %@ luodaan\n";
+"Cut" = "Leikkaa";
+"Date" = "Ajankohta";
+"Delete %d Files" = "Poista %d tiedostoa";
+"Delete File" = "Poista tiedosto";
+"Deleting Files..." = "Poistetaan tiedostoja...";
+"Deletion of file %@ requested\n" = "Tiedostoa %@ poistetaan\n";
+"Descending" = "Laskeva";
+"Directory" = "Kansio";
+"Earlier this month" = "Aikaisemmin tässä kuussa";
+"Earlier this week" = "Aikaisemmin tällä viikolla";
+"Earlier this year" = "Aikaisemmin tänä vuonna";
+"Edit Bookmark" = "Muokkaa kirjanmerkkiä";
+"Edit Folder" = "Muokkaa kansiota";
+"Email" = "Sähköposti";
+"Emailing Attachments with iFile" = "Lähetetään liitteitä sähköpostilla (iFile)";
+"Empty Trash" = "Tyhjennä roskakori";
+"Enter new ZIP file name." = "Syötä ZIP-arkiston uusi nimi.";
+"Enter the page number to display\n(%d-%d)." = "Syötä sivun nimi\n(%d-%d).";
+"Error occurred while receiving file." = "Tiedoston vastaanottamisessa tapahtui virhe.";
+"Error" = "Virhe";
+"Execute" = "Toimeenpane";
+"Executing Command: %@\n\n" = "Toimeenpannaan komentoa: %@\n\n";
+"Extract %d Files" = "Pura %d tiedostoa";
+"Extract All Files" = "Pura kaikki tiedostot";
+"Extract File" = "Pura tiedosto";
+"File %@ requested\n" = "File %@ requested\n";
+"File Attributes" = "Tiedoston attribuutit";
+"File Browser" = "Selain";
+"File Exists" = "Tiedosto on olemassa";
+"File already exists with name %@." = "Tiedosto on jo olemassa nimellä %@.";
+"File attributes could not be changed or only partially." = "Tiedoston attribuutteja ei voitu muuttaa (ainakaan kokonaan).";
+"File could not be renamed." = "Tiedostoa ei voitu nimetä.";
+"File successfully uploaded" = "Tiedosto lähtetetty onnistuneesti";
+"Files" = "Tiedostot";
+"Font Size" = "Tekstin koko";
+"Gigantic (> 100 MB)" = "Suuri (> 100 MB)";
+"Go to Trash" = "Mene sijaintiin Roskakori";
+"Go to page" = "Mene sivulle";
+"Group Permissions" = "Ryhmän oikeudet";
+"Group" = "Ryhmä";
+"Grouping" = "Ryhmitys";
+"Header of file %@ requested\n" = "Header of file %@ requested\n";
+"Hidden Files" = "Piilotetut tiedostot";
+"Hierarchy" = "Hierarkia";
+"Huge (10 MB - 100 MB)" = "Suuri (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Jos ostit iFilen Cydia Storesta, rekisteöityäksesi sinun täytyy vain käynnistää iFile. Saa ilmoituksen onnistumisesta.\nKäyttäjät jotka ovat saaneet ilmaisen rekisteröitymisen tai ovat rekisteröityneet PayPalilla joutuvat kirjoittamaan sähköpostinsa. Rekisteröityminen tapahtuu palatessa asetuksiin.";
+"Image Viewer" = "Kuvaselain";
+"Initializing Web Server..." = "Asetetaan Web-palvelinta...";
+"Installer" = "Installer";
+"Internal inconsistency" = "Sisäinen epäjohdonmukaisuus";
+"Large (1 MB - 10 MB)" = "Suuri (1 MB - 10 MB)";
+"Last Modification" = "Viimeinen muokkaus";
+"Last month" = "Viime kuussa";
+"Last week" = "Viime viikolla";
+"Last year" = "Viime vuonna";
+"Later" = "Myöhemmin";
+"Link Target" = "Linkin kohde";
+"Linking %@..." = "Luodaan linkkiä %@...";
+"Linking Files..." = "Linkitetään tiedostoja...";
+"Loading Contents..." = "Ladataan sisältöä...";
+"Loading..." = "Ladataan...";
+"Medium (100 KB - 1 MB)" = "Normaali (100 KB - 1 MB)";
+"Mime-Type" = "Tiedosto-tyyppi";
+"Modification Date" = "Muokkauspäivämäärä";
+"Move %d Files to Trash" = "Siirrä %d tiedostoa roskakoriin";
+"Move File to Trash" = "Siirrä tiedosto roskakoriin";
+"Moving %@..." = "Siirretään %@...";
+"Moving Files..." = "Siirretään tiedostoja...";
+"Moving of file %@ requested\n" = "Siirretään tiedostoa %@\n";
+"Multipart header empty" = "Multipart header empty";
+"Name" = "Nimi";
+"New Folder" = "Uusi kansio";
+"New" = "Uusi";
+"No file specified." = "Ei tiedostoa valittu.";
+"OK" = "OK";
+"Older" = "Vanhempi";
+"Open with..." = "Avaa...";
+"Overwrite all" = "Korvaa kaikki";
+"Overwrite" = "Korvaa";
+"Owner" = "Omistaja";
+"Ownership" = "Omistajuus";
+"PDF Viewer" = "PDF Viewer";
+"Page %d does not exist. Please choose value between %d and %d." = "Sivua %d ei ole. Ole hyvä ja valitse sivu väliltä %d-%d.";
+"Password" = "Salasana";
+"Paste" = "Liitä";
+"Path" = "Polku";
+"Playback Paused" = "Toisto keskeytetty";
+"Port Number" = "Portti";
+"Preferences" = "Asetukset";
+"Program Execution" = "Ohjelman käynnistys";
+"Properties of file %@ requested\n" = "Tiedoston %@ ominaisuudet pyydetty\n";
+"Property List Viewer" = "Property List Viewer";
+"Preparing Image..." = "Valmistellaan kuvaa...";
+"Property list %@ invalid: %@" = "Property list %@ viallinen: %@";
+"Read" = "Lue";
+"Receiving %@" = "Vastaanotetaan %@";
+"Register" = "Rekisteröidy";
+"Registered" = "Rekisteröity";
+"Registering Web Service with Bonjour..." = "Rekisteröidään web-palvelua (Bonjour)...";
+"Registering WebDAV Service with Bonjour..." = "Rekisteröidään WebDAV-palvelua (Bonjour)...";
+"Registration Email Address" = "Sähköposti";
+"Registration Failed" = "Rekisteröityminen epäonnistui";
+"Registration Process" = "Rekisteröitymisen edistyminen";
+"Registration Status" = "Rekisteröitymisen tila";
+"Registration Successful" = "Rekisteröityminen onnistui";
+"Registration" = "Rekisteröityminen";
+"Regular Expression" = "Säännöllinen lauseke";
+"Regular File" = "Normaali tiedosto";
+"Rename" = "Nimeä uudelleen";
+"Resume" = "Palaa";
+"Safari Bookmarks" = "Safari Kirjanmerkit";
+"Search Format" = "Haun Formaatti";
+"Search filenames" = "Hae tiedostonimiä";
+"Search" = "Haku";
+"Set on exit" = "Aseta poistuttaessa";
+"Shutting down web server..." = "Katkaistaan Web-palvelinta...";
+"Simple" = "Yksinkertainen";
+"Size" = "Koko";
+"Small (10 KB - 100 KB)" = "Pieni (10 KB - 100 KB)";
+"Socket" = "Socket";
+"Song Titles" = "Kappaleiden nimet";
+"Sort Criteria" = "Lajittelun kriteeri";
+"Sort Order" = "Lajittelun järjestys";
+"Sort by Date" = "Lajittele päivämäärän perusteella";
+"Sort by Extension" = "Lajittele päätteen perusteella";
+"Sort by Name" = "Lajittele nimen perusteella";
+"Sort by Size" = "Lajittele koon perusteella";
+"Startup Directory" = "Aloitus-hakemisto";
+"Status" = "Tila";
+"Sticky" = "Sticky";
+"Stop" = "Pysäytä";
+"Symbolic Link" = "Linkki";
+"Tabulator Width" = "Sarkaimen leveys";
+"Text Viewer" = "Text Viewer";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "7z-pakettia ei ole asennettu. Asenna 'p7zip' Cydiasta tai käyttämällä \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "ZIP-arkisto on viallinen.";
+"The file %@ could not be copied." = "Tiedostoa %@ ei voitu kopioida.";
+"The file %@ could not be deleted." = "Tiedostoa %@ ei voitu poistaa.";
+"The file %@ could not be moved." = "Tiedostoa %@ ei voitu siirtää.";
+"The file %@ could not be written." = "Tiedostoa %@ ei voitu kirjoittaa.";
+"The file %@ does not exist." = "Tiedostoa %@ ei löydy.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Tiedosto %@ esiintyy jo tässä kansiossa. Haluatko nimetä tai korvata sen?";
+"The files could not be added to ZIP file." = "Tiedostoja ei voitu lisätä ZIP-arkistoon.";
+"The files could not be extracted." = "Tiedostoja ei voitu purkaa.";
+"The files could not be removed." = "Tiedostoja ei voitu poistaa.";
+"The image could not be added to the camera roll (%@)." = "Kuvaa ei voitu lisätä kuva-kansioon (%@).";
+"The image got successfully added to the camera roll." = "Kuva lisättiin kuva-kansioon onnistuneesti.";
+"The link target %@ does not exist." = "Linkin kohdetta %@ ei löydy.";
+"The link target does not exist." = "Linkin kohdetta ei ole.";
+"The name has not been set. Please specify one." = "Nimeä ei ole annettu. Ole hyvä ja anna.";
+"The server port is still in use. Please use a different port.\n" = "Palvelimen portti on vielä käytössä. Ole hyvä ja valitse toinen portti.\n";
+"The specified startup directory does not exist." = "Määriteltyä aloitus-polkua ei löydy.";
+"The tabulator width is too small or empty." = "Sarkaimen leveys on liian pieni tai tyhjä.";
+"The text could not be found." = "Tekstiä ei löydetty.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Tekstin koon pitää olla väliltä 8.0-18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "Roskakoria ei voitu tyhjentää kokonaan. Ole hyvä ja tarkista jäljelle jääneet tiedostot.";
+"The trash got successfully emptied." = "Roskakori tyhjennettiin onnistuneesti.";
+"The video cannot be added to the camera roll." = "Videota ei voida lisätä video-kansioon.";
+"The video could not be added to the camera roll (%@)." = "Videota ei voitu lisätä video-kansioon (%@).";
+"The video got successfully added to the camera roll." = "Video lisättiin video-kansioon onnistuneesti.";
+"The web server port number must be between 1 and 65535." = "Palvelimen portin pitää olla väliltä 1-65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "ZIP-arkitojen paketteja ei ole asennettu. Ole hyvä ja asenna käyttäen \n'apt-get install zip unzip'.";
+"Theme Name" = "Teeman nimi";
+"Themes" = "Teemat";
+"This functionality is only supported for registered users." = "Tämä toiminto on vain rekisteröityneille käyttäjille.";
+"Thumbnails" = "Thumbnailit";
+"Time" = "Aika";
+"Tiny (< 10 kB)" = "Pieni (< 10 kB)";
+"Title" = "Otsikko";
+"Today" = "Tänään";
+"Transfer Request" = "Transfer Request";
+"Transmitting %@" = "Välitetään %@";
+"Two months ago" = "Kaksi kuukautta sitten";
+"Two years ago" = "Kaksi vuotta sitten";
+"Type" = "Tyyppi";
+"Unable to create %@." = "Ei voity luoda %@.";
+"Unarchiver" = "Arkistoija";
+"Unknown" = "Tuntematon";
+"Unpacking Files..." = "Puretaan tiedostoja...";
+"Unregistered" = "Rekisteröitymätön";
+"Upload of file %@ requested\n" = "Lähetetään tiedostoa %@ \n";
+"UploadedFile" = "LähetettyTiedosto";
+"Use Trash" = "Käytä roskakoria";
+"User Permissions" = "Käyttäjän oikeudet";
+"User" = "Käyttäjä";
+"Username" = "Käyttäjänimi";
+"Video Player" = "Video Player";
+"Web Server" = "Web-palvelin";
+"Web Viewer" = "Web-katselin";
+"Wildcard" = "Wildcard";
+"World Permissions" = "Muiden oikeudet";
+"World" = "Maailma";
+"Write" = "Kirjoittaa";
+"Yesterday" = "Eilen";
+"ZIP Viewer" = "ZIP Viewer";
+"\nFinished with Result Code: %d\n" = "\nValmis. Tulos: %d\n";
+"done.\n" = "tehty.\n";
+"failed.\n" = "epäonnistui.\n";
+"iFile License" = "iFile Lisenssi";
+"iFile Registration" = "iFile Rekisteröityminen";
+"iFile got successfully registered." = "iFile rekisteröity onnistuneesti.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile on nyt shareware. Jos pidät siitä ja käytät sitä säännöllisesti, pyydän sinua rekisteröimään sen. Vaadin tätä jatkaakseni iFile:n kehitystä.";
+"iFile registration failed." = "iFile:n rekisteröityminen epäonnistui.";
+"iFile registration failed.\n(Reason: %@)" = "iFile:n rekisteröityminen epäonnistui.\n(Syy: %@)";
+"iPhone Attachments with iFile" = "iPhone liitteet (iFile)";
+"in %@" = "sisällä %@";
+"via iBlueNova" = "via iBlueNova";
+"via iFile" = "via iFile";
+"Add Shortcut" = "Lisää pikakuvake";
+"Applications" = "Ohjelmat";
+"Books" = "Kirjat";
+"Devices" = "Laitteet";
+"Disk" = "Levy";
+"Documents" = "Dokumentit";
+"Flash Drive" = "Flash Drive";
+"Home" = "Koti";
+"Images" = "Kuvat";
+"Media Library" = "Media-kirjasto";
+"Places" = "Paikat";
+"Recordings" = "Nauhoitukset";
+"Shortcuts %@ could not be written: %@" = "Pikakuvaketta %@ ei voitu luoda: %@";
+"Shortcuts file %@ invalid: %@" = "Pikakuvakkeen tiedosto %@ virheellinen: %@";
+"Shortcuts" = "Pikakuvakkeet";
+"Sidebar" = "Sivupalkki";
+"Trash" = "Roskakori";
+"Authentication Mode" = "Hallinta";
+"External Viewers" = "Ulkoiset katselimet";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Lisää tietue";
+"Edit Item" = "Muokkaa tietuetta";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Samanniminen tietue on jo olemassa. Poista olemassa oleva tietue ensin.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Number";
+"Property List" = "Property List";
+"String" = "String";
+"Unkown Number Type" = "Tuntematon numerotyyppi";
+"Unkown Type" = "Tuntematon tyyppi";
+/* Top Level of Property List */
+"Top Level" = "Ylin taso";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Tietueen nimi ja tyyppi eivät voi olla tyhjiä.";
+"Item type must not be empty." = "Tietueen tyyppi ei voi olla tyhjä.";
+"Position of item has not been set." = "Tietueen sijaintia ei ole asetettu.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Kaksoisnäpäytä poistaaksesi valinta";
+"Double tap to open" = "Kaksoisnäpäytä avataksesi";
+"Double tap to select" = "Kaksoisnäpäytä valitaksesi";
+"deselected" = "ei-valittu";
+"selected" = "valittu";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Flash Levy 1";
+"Flash Drive 2" = "Flash Levy 2";
+"Flash Drive 3" = "Flash Levy 3";
+"Flash Drive 4" = "Flash Levy 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Sivu %d / %d";
+"Printing failed due to error in domain %@ with error code %u." = "Tulostus epäonnistui johtuen virheestä luokassa %@ virhekoodilla %u.";
+"Printing of %@ completed successfully." = "%@ tulostaminen onnistui.";
+"Printing of file %@ completed successfully." = "Tiedoston %@ tulostaminen onnistui.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Pikkukuvien yläraja";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Laitteen %@ irroitus epäonnistui.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Versio";
+"via Celeste" = "via Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "Tietoa";
+"Contact Developer" = "Ota yhteyttä";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Lisää kirjastoon";
+"The song cannot be added to the iPod library." = "EI voida lisätä kirjastoon.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Luodaan...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Väri";
+"Default" = "Oletus";
+"Blue" = "Sininen";
+"Brown" = "Ruskea";
+"Custom" = "Manuaalinen";
+"Gray" = "Harmaa";
+"Green" = "Vihreä";
+"Light Gray" = "Vaalean harmaa";
+"Night Blue" = "Vaalean sininen";
+"Orange" = "Oranssi";
+"Pink" = "Pinkki";
+"Red" = "Punainen";
+"Yellow" = "Keltainen";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Poista valinta kaikista";
+"Select all" = "Valitse kaikki";
+"Select" = "Valitse";
+"Link" = "Linkki";
+"The file '%@' got successfully added to iPod library." = "Tiedosto '%@' lisättiin kirjastoon onnistuneesti.";
+"The file '%@' could not be added to the iPod library." = "Tiedostoa '%@' ei lisätty kirjastoon.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d tiedosto";
+"%d Files" = "%d tiedostoa";
+/* Title and options for opening a new tab */
+"Open..." = "Avaa...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Local Directory";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Tyhjennä Dropbox-välimuisti";
+"Clearing Dropbox cache failed." = "Dropbox-välimuistin tyhjennys epäonnistui.";
+"Download of file %@ failed." = "Tiedoston %@ lataaminen epäonnistui.";
+"Downloading..." = "Lataa...";
+"Link Dropbox" = "Yhdistä Dropbox";
+"No connection to Dropbox." = "Ei yhteyttä Dropboxiin.";
+"Retrieving metadata for %@..." = "Vastaanotetaan tietoa %@...";
+"The contents of %@ could not get retrieved." = "Kohteen %@ sisältöä ei voitu vastaanottaa.";
+"Unlink Dropbox" = "Katkaise Dropbox";
+"Upload of file %@ failed." = "Tiedoston %@ lähetys epäonnistui.";
+"Uploading %@..." = "Lähetetään %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Vedä alas päivittääksesi...";
+"Release to refresh..." = "Vapauta päivittääksesi...";
+/* Option in preferences to store paths on exit for all tabs or to
+leave them as stored last time */
+"Store Paths" = "Säilytä polut";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Ole hyvä ja syötä ongelma tai peruuta.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Kopioi julkinen linkki";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Levykuvan asentaja";
+"Mounting..." = "Asennetaan...";
+"Disk image could not be mounted." = "Levykuvaa ei voitu asentaa.";
+"Disk image successfully mounted at %@." = "Levykuva asennettiin onnistuneesti: %@.";
+"Successfully unmounted %@." = "%@ poistettiin onnistuneesti.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Poista";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Levykuva";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Näytä";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ vapaana";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Palvelin";
+"Authentication Failed" = "Autentikointi epäonnistui";
+"Cannot set secure FTP connection properties." = "Suojatun FTP-yhteyden tietojen määritys epäonnistui.";
+"Clear FTP Cache" = "Tyhjennä FTP-välimuisti";
+"Clearing FTP cache failed." = "FTP-välimuistin tyhjentäminen epäonnistui.";
+"Connect" = "Yhdistä";
+"Connection Failed" = "Yhteys epäonnistui";
+"Connection Refused" = "Yhdistäminen keskeytyi";
+"Connection to FTP server failed." = "Yhteys FTP-palvelimeen epäonnistui.";
+"Copying/Moving between remote file systems is not supported." = "Kopiointi/Siirtäminen erillisten tiedostojärjestelmien välillä ei ole tuettu.";
+"Could not open connection to %@." = "Ei voitu avata yhteyttä %@." ;
+"Could not read from network." = "Ei voitu luke a verkosta.";
+"Could not write to network." = "Ei voitu kirjoittaa verkkoon.";
+"Deleting %@..." = "Poistetaan %@...";
+"Directory listing parse failed." = "Kansion sisällön parsiminen epäonnistui.";
+"Enter password for user '%@'" = "Anna salasana käyttäjälle '%@'";
+"FTP Server" = "FTP-palvelin";
+"FTP Servers" = "FTP-palvelimet";
+"FTPS Server" = "FTPS-palvelin";
+"File read error." = "Tiedoston lukuvirhe.";
+"File write error." = "Tiedoston kirjoitusvirhe.";
+"Login Failed" = "Kirjautuminen epäonnistui";
+"Please check if server name is correct." = "Tarkista palvelimen nimi.";
+"Please check if user name and password is correct." = "Tarkista käyttäjätunnus ja salasana.";
+"Please enter a valid port number." = "Syötä kelpuullinen portti.";
+"Port" = "Portti";
+"Remote Servers" = "Etäpalvelimet";
+"Retrieving contents of %@..." = "Vastaanotetaan sisältöä sijainnista: %@...";
+"The FTP protocol does not support server side copy operations." = "FTP-protokolla ei tue palvelimella tapahtuvia kopiointeja.";
+"The password must not be empty." = "Salasana ei saa olla tyhjä.";
+"The server name must not be empty." = "Palvelinnimi ei saa olla tyhjä.";
+"The user name must not be empty." = "Käyttäjätunnus ei saa olla tyhjä.";
+"URL is invalid:\n: %@" = "URL ei kelpaa:\n: %@";
+"Open" = "Avaa";
+"ftp.server.com" = "ftp.example.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV-palvelin";
+"WebDAV Servers" = "WebDAV-palvelimet";
+"Secure WebDAV Server" = "Salattu WebDAV-palvelin";
+"Cannot set secure WebDAV connection properties." = "Ei voitu asettaa suojatun WebDAV-yhteyden tietoja.";
+"Clear WebDAV Cache" = "Tyhjennä WebDAV-välimuisti";
+"Clearing WebDAV cache failed." = "WebDAV-välimuistin tyhjennys epäonnistui.";
+"www.server.com" = "www.example.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Tyhjennä salasanat";
+"Manage Passwords" = "Hallitse salasanoja";
+"Passwords" = "Salasanat";
+/* Titles in Preferences Editor */
+"File Manager" = "Tiedostojen hallinta";
+"File Viewers" = "Tiedostojen katselimet";
+"iFile Web Server" = "iFile Web-palvelin";
+"via AirBlue Sharing" = "via AirBlue-jako";
+/* Other strings */
+"Bookmark" = "Kirjanmerkki";
+"The file '%@' got successfully added to iPod library." = "Tiedosto '%@' lisättiin onnistuneesti iPod-kirjastoon.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Tyhjennä FlashAir®:in välimuisti ";
+"Clearing Toshiba FlashAir® cache failed." = "Toshiba FlashAir®:in välimuistia ei voitu tyhjentää.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Toshiba FlashAir® tukee ainoastaan tiedostorakenteita.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Tili poistettu käytöstä";
+"Clear box.net Cache" = "Tyhjennä box.net-välimuisti";
+"Clearing box.net cache failed." = "box.net-välimuistin tyhjentäminen epäonnistui.";
+"Do you want to relink?" = "Haluatko yhdistää uudelleen?";
+"Logged out" = "Kirjauduttiin ulos";
+"Login box.net" = "Kirjaudu box.net";
+"Logout box.net" = "Kirjaudu ulos box.net";
+"No connection to box.net." = "Ei yhteyttä box.net:iin.";
+"Relink" = "Yhdistä uudelleen";
+"You have logged out of your box.net account." = "Olet uloskirjautunut box.net-käyttäjältäsi.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropbox-istunto päättyi";
+"Your dropbox account has been unlinked." = "Dropbox-käyttäjäsi on poistettu käytöstä.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Turvalliset WebDAV palvelimet:";
+"Server Address" = "Palvelimen osoite";
+"Login" = "Kirjautuminen";
+"Enter user and password:" = "Kirjoita käyttäjänimi ja salasana:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ käytetty";
+/* message while updating file date on server */
+"Updating date of %@..." = "Päivitetään %@:n päivämäärää...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Kelpaamaton palvelin";
+"Server does not support required WebDAV options." = "Palvelin ei tue vaadittuja WebDAV asetuksia.";
+"Directory listing has wrong format." = "Hakemisto-kirjaukset ovat väärässä muodossa.";
+"Modification date update failed." = "Muutosten ajoituksen päivitys epäonnistui.";
+"Bad HTTP Request." = "Huono HTTP pyyntö.";
+"Unauthorized Access." = "Luvaton pääsy.";
+"Access forbidden." = "Pääsy kielletty.";
+"Object not found on server." = "Kohdetta ei löydy palvelimelta.";
+"Access method not allowed." = "Pääsytapaa ei sallita.";
+"Access conflict." = "Pääsykonflikti.";
+"Internal Server Error." = "Palvelimen sisäinen virhe.";
+"Functionality not implemented on server." = "Palvelin ei tue kyseistä toimintoa.";
+"Insufficient storage on server." = "Palvelimen tallennustila ei riitä.";
+"HTTP error %d." = "HTTP virhe %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Hyväksy nettisivun sertifikaatti";
+"Accept" = "Hyväksy";
+"Import" = "Tuo";
+"Certificate Imported" = "Sertifikaatti tuotu.";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Sertifikaatti '%@' tälle nettisivulle on tuntematon tai väärä. Paina hyväksy yhdistääksesi kuitenkin.";
+"The certificate '%@' got successfully imported." = "Sertifikaatti '%@' tuotiin onnistuneesti.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Sertifikaatti tälle sivulle on tuntematon tai väärä. Paina hyväksy yhdistääksesi kuitenkin.";
+"The import of certificate '%@' failed." = "Sertifikaatin '%@' tuonti epäonnistui.";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex-muokkaaja";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Tiedosto muutettu";
+"The file got changed. Do you want to save the changes?" = "Tiedostoa muutettiin. Haluatko tallentaa muutokset?";
+"Yes" = "Kyllä";
+"No" = "Ei";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Kirjoita desimaali-bitti indeksi näyttääksesi(%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Kirjoita heksadesimaali-bitti näyttääksesi (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Bitti-indeksiä %llX ei ole olemassa. Olkaa hyvä ja valitkaa arvo väliltä %llX ja %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Bitti-indeksiä %lld ei ole olemassa. Olkaa hyvä ja valitkaa arvo väliltä %lld ja %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Bitti-indeksi '%@' ei ole toimiva. Olkaa hyvä ja valitkaa arvo väliltä %llX and %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Bitti-indeksi '%@' ei ole toimiva. Olkaa hyvä ja valitkaa arvo väliltä %lld and %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Jaettu";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Kansiot päällä";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 muokkaaja";
+/* title for listing of database tables */
+"Tables" = "Pöydät";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL lausunto";
+"Failed to fetch SQL result" = "SQL-tuloksen hakeminen epäonnistui ";
+"Failed to fetch table names" = "Pöytänimien haku epäonnistui";
+"Failed to prepare SQL statement" = "SQL-lausunnon valmistelu epäonnistui";
+"Failed to prepare for fetching table names" = "Pöytänimien hakemisen valmistelu epäonnistui";
+"Language" = "Kieli";

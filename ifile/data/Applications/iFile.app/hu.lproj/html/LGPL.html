@@ -1,0 +1,839 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="keywords"
+ content="GNU, GPL, FDL, LGPL, GPLv3, LGPLv3, FSF, FSF.hu, licenc, magyar, ford&iacute;t&aacute;s" />
+  <title>gnu.hu</title>
+  <link href="lgpl_elemei/gnuhu-screen.css" media="screen"
+ rel="stylesheet" type="text/css" />
+  <link href="lgpl_elemei/gnuhu-print.htm" media="print"
+ rel="stylesheet" type="text/css" />
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);"
+ alink="#000099" link="#000099" vlink="#990099">
+<div style="color: rgb(0, 0, 0);" id="content">
+<h1 style="color: rgb(0, 0, 0);"> GNU Lesser General Public License
+(LGPL)
+</h1>
+<p style="color: rgb(0, 0, 0);"> 2.1-es v&aacute;ltozat, 1999.
+febru&aacute;r
+</p>
+<p style="color: rgb(0, 0, 0);"> Copyright (C) 2000,2001,2002 Free
+Software Foundation, Inc. 51 Franklin St, Fifth Floor, Boston, MA
+02110-1301 USA
+</p>
+<p style="color: rgb(0, 0, 0);"> A jelen licencdokumentumot
+b&aacute;rki szabadon lem&aacute;solhatja &eacute;s a pontos
+m&aacute;solatait terjesztheti, de a m&oacute;dos&iacute;t&aacute;sa
+tilos.
+</p>
+<p style="color: rgb(0, 0, 0);"> [Ez az LGPL első kiadott
+v&aacute;ltozata. A GNU Library Public License v2 &uacute;jabb
+v&aacute;ltozat&aacute;nak sz&aacute;m&iacute;t, innen a 2.1-es
+verzi&oacute;sz&aacute;m.]
+</p>
+<h2><span style="color: rgb(0, 0, 0);"> Elősz&oacute;</span>
+</h2>
+<p> A legt&ouml;bb szoftver licencei azzal a sz&aacute;nd&eacute;kkal
+k&eacute;sz&uuml;ltek, hogy min&eacute;l kevesebb lehetős&eacute;get
+adjanak a szoftver megv&aacute;ltoztat&aacute;s&aacute;ra &eacute;s
+terjeszt&eacute;s&eacute;re. Ezzel szemben a GNU GPL
+licenccsal&aacute;d c&eacute;lja, hogy garant&aacute;lja a szabad
+szoftver m&aacute;sol&aacute;s&aacute;nak &eacute;s
+terjeszt&eacute;s&eacute;nek szabads&aacute;g&aacute;t, ez&aacute;ltal
+biztos&iacute;tva a szoftver szabad
+felhaszn&aacute;lhat&oacute;s&aacute;g&aacute;t minden
+felhaszn&aacute;l&oacute; sz&aacute;m&aacute;ra.
+</p>
+<p> Ez a licenc, a Lesser General Public License (LGPL) vonatkozik a
+Free Software Foundation speci&aacute;lisan kialak&iacute;tott
+szoftvercsomagjaira - jellemzően programk&ouml;nyvt&aacute;rakra -,
+illetve minden olyan szoftvercsomagra, amelynek szerzője &uacute;gy
+d&ouml;nt, hogy ezt haszn&aacute;lja a szerzői jog
+megjel&ouml;l&eacute;sekor. &Ouml;n is haszn&aacute;lhatja, de azt
+javasoljuk, az al&aacute;bbi magyar&aacute;zatok alapj&aacute;n
+elősz&ouml;r gondolja &aacute;t, hogy ez a licenc, vagy a
+szok&aacute;sos GPL (GNU General Public License) sz&aacute;m&iacute;t-e
+jobb k&ouml;vetendő strat&eacute;gi&aacute;nak.
+</p>
+<p> A szabad szoftver megjel&ouml;l&eacute;s nem jelenti azt, hogy a
+szoftvernek nem lehet &aacute;ra. A GPL licencek c&eacute;lja, hogy
+garant&aacute;lja a szabad szoftver m&aacute;solatainak szabad
+terjeszt&eacute;s&eacute;t (&eacute;s e
+szolg&aacute;ltat&aacute;s&eacute;rt ak&aacute;r d&iacute;j
+felsz&aacute;m&iacute;t&aacute;s&aacute;t), a forr&aacute;sk&oacute;d
+el&eacute;rhetős&eacute;g&eacute;t, hogy b&aacute;rki szabadon
+m&oacute;dos&iacute;thassa a szoftvert, vagy felhaszn&aacute;lhassa a
+r&eacute;szeit &uacute;j szabad programokban; &eacute;s hogy
+m&aacute;sok megismerhess&eacute;k ezt a lehetős&eacute;get.
+</p>
+<p> A szerző jogainak v&eacute;delm&eacute;ben
+korl&aacute;toz&aacute;sokat kell hozni, amelyek megtiltj&aacute;k,
+hogy b&aacute;rki megtagadhassa ezeket a jogokat
+m&aacute;sokt&oacute;l, vagy b&aacute;rki m&aacute;st ezekről
+val&oacute; lemond&aacute;sra k&eacute;nyszer&iacute;tsen. Ezek a
+megszor&iacute;t&aacute;sok bizonyos felelőss&eacute;geket jelentenek
+azok sz&aacute;m&aacute;ra, akik a szoftver m&aacute;solatait
+terjesztik vagy m&oacute;dos&iacute;tj&aacute;k.
+</p>
+<p> Ha valaki p&eacute;ld&aacute;ul egy ilyen
+programk&ouml;nyvt&aacute;r m&aacute;solatait terjeszti, ak&aacute;r
+ingyen vagy bizonyos &ouml;sszeg fej&eacute;ben, a vonatkoz&oacute;
+minden jogot tov&aacute;bb kell adnia a fogad&oacute; feleknek.
+Biztos&iacute;tani kell tov&aacute;bb&aacute;, hogy megkapj&aacute;k
+vagy legal&aacute;bbis megkaphass&aacute;k a forr&aacute;sk&oacute;dot
+is, &eacute;s a jelen dokumentumban szereplő licencfelt&eacute;teleket
+is el kell juttatni, hogy tiszt&aacute;ban legyenek a jogaikkal.
+</p>
+<p> A jogok v&eacute;delme k&eacute;t l&eacute;p&eacute;sből
+&aacute;ll:
+</p>
+<p style="margin-left: 40px;"> (1) a programk&ouml;nyvt&aacute;r
+szerzői jogainak v&eacute;delm&eacute;ből &eacute;s
+</p>
+<p style="margin-left: 40px;"> (2) a jelen licenc
+biztos&iacute;t&aacute;s&aacute;b&oacute;l, amely jogalapot
+biztos&iacute;t a programk&ouml;nyvt&aacute;r
+m&aacute;sol&aacute;s&aacute;ra, terjeszt&eacute;s&eacute;re
+&eacute;s/vagy m&oacute;dos&iacute;t&aacute;s&aacute;ra.
+</p>
+<p> Az egyes terjesztők v&eacute;delm&eacute;ben
+vil&aacute;goss&aacute; akarjuk tenni: a jelen szabad
+programk&ouml;nyvt&aacute;rra nincs j&oacute;t&aacute;ll&aacute;s. Ha a
+programk&ouml;nyvt&aacute;rat m&oacute;dos&iacute;tott&aacute;k
+&eacute;s tov&aacute;bbadt&aacute;k, akkor mindenkinek, aki a
+m&oacute;dos&iacute;tott v&aacute;ltozatot kapja, tudnia kell, hogy az
+nem az eredeti, &iacute;gy a m&aacute;sok &aacute;ltal okozott
+hib&aacute;knak nem lehet hat&aacute;sa az eredeti szerző
+h&iacute;rnev&eacute;re.
+</p>
+<p> V&eacute;g&uuml;l, a szabad szoftver l&eacute;t&eacute;t
+&aacute;lland&oacute;an fenyegetik a szoftverszabadalmak. El
+szeretn&eacute;nk ker&uuml;lni annak vesz&eacute;ly&eacute;t, hogy a
+szabad program terjesztői szabadalmat jegyezhessenek be r&aacute;,
+ez&aacute;ltal saj&aacute;t szellemi tulajdont k&eacute;pezőv&eacute;
+tegy&eacute;k a programot. Ennek &eacute;rdek&eacute;ben ragaszkodunk
+hozz&aacute;, hogy a programk&ouml;nyvt&aacute;r egy
+v&aacute;ltozat&aacute;val kapcsolatban megszerzett b&aacute;rmely
+szabadalmi enged&eacute;lynek &ouml;sszhangban kell lennie a jelen
+licencben taglalt teljesen szabad haszn&aacute;lattal.
+</p>
+<p> A legt&ouml;bb GNU szoftverre, bele&eacute;rtve egyes
+programk&ouml;nyvt&aacute;rakat is, a norm&aacute;l GNU General Public
+License (GPL) felt&eacute;telei vonatkoznak. Ez a licenc, a GNU Lesser
+General Public License (LGPL), meghat&aacute;rozott
+programk&ouml;nyvt&aacute;rakra vonatkozik, &eacute;s
+el&eacute;gg&eacute; elt&eacute;r a norm&aacute;l GNU General Public
+License-től. Ezt a licencet az&eacute;rt alkalmazzuk bizonyos
+programk&ouml;nyvt&aacute;rakhoz, hogy enged&eacute;lyezhess&uuml;k a
+be&eacute;p&iacute;t&eacute;s&uuml;ket nem szabad programokba is.
+</p>
+<p> Amikor egy programot &ouml;sszeszerkesztenek egy
+programk&ouml;nyvt&aacute;rral, f&uuml;ggetlen&uuml;l att&oacute;l,
+hogy statikusan vagy egy megosztott programk&ouml;nyvt&aacute;r
+haszn&aacute;lat&aacute;val, a kettő kombin&aacute;ci&oacute;ja jogilag
+k&ouml;z&ouml;s munk&aacute;nak, az eredeti programk&ouml;nyvt&aacute;r
+lesz&aacute;rmazottj&aacute;nak sz&aacute;m&iacute;t. A norm&aacute;l
+GNU General Public License (GPL) felt&eacute;telek ez&eacute;rt csak
+akkor engedi az ilyen &ouml;sszeszerkeszt&eacute;st, ha a teljes
+kombin&aacute;ci&oacute; is megfelel a szabads&aacute;g
+felt&eacute;teleinek. A GNU Lesser General Public License (LGPL)
+azonban kev&eacute;sb&eacute; szigor&uacute;an rendelkezik m&aacute;s
+k&oacute;dnak a programk&ouml;nyvt&aacute;rral
+&ouml;sszeszerkeszt&eacute;s&eacute;ről.
+</p>
+<p> Az&eacute;rt Lesser General Public License-nek h&iacute;vjuk ezt a
+licencet, mert kevesebbet tesz a felhaszn&aacute;l&oacute;
+szabads&aacute;g&aacute;nak v&eacute;delme &eacute;rdek&eacute;ben,
+mint a norm&aacute;l GNU General Public License (GPL). Szint&eacute;n
+kevesebb előnyt ny&uacute;jt a t&ouml;bbi szabadszoftver-fejlesztőnek a
+versenyt&aacute;rs, nem szabad programokkal szemben. Az ilyen
+előny&ouml;k miatt haszn&aacute;ljuk magunk is a norm&aacute;l GNU
+General Public License-t (GPL) sz&aacute;mos
+programk&ouml;nyvt&aacute;rhoz. N&eacute;h&aacute;ny speci&aacute;lis
+esetben azonban a GNU Lesser General Public License (LGPL)
+haszn&aacute;lata előny&ouml;sebb.
+</p>
+<p> Ritk&aacute;n ugyan, de p&eacute;ld&aacute;ul előfordulhat, hogy
+ig&eacute;ny van egy meghat&aacute;rozott
+programk&ouml;nyvt&aacute;rnak a lehető legsz&eacute;lesebb k&ouml;rben
+t&ouml;rt&eacute;nő elterjeszt&eacute;s&eacute;re, hogy az
+v&aacute;lhasson a de facto szabv&aacute;nny&aacute;. Ehhez
+enged&eacute;lyezni kell, hogy a nem szabad programok is
+haszn&aacute;lhass&aacute;k a programk&ouml;nyvt&aacute;rat. Gyakoribb
+eset az, hogy egy szabad programk&ouml;nyvt&aacute;r ugyanazt a
+feladatot l&aacute;tja el, mint a sz&eacute;les k&ouml;rben
+haszn&aacute;lt nem szabad programk&ouml;nyvt&aacute;rak. Ebben az
+esetben igen kev&eacute;s előny sz&aacute;rmazik a
+programk&ouml;nyvt&aacute;r kiz&aacute;r&oacute;lag szabad
+szoftverekben felhaszn&aacute;l&aacute;sra val&oacute;
+korl&aacute;toz&aacute;s&aacute;nak, teh&aacute;t ilyenkor is az LGPL
+felt&eacute;teleit haszn&aacute;ljuk.
+</p>
+<p> Megint m&aacute;s esetekben egy adott programk&ouml;nyvt&aacute;r
+nem szabad programokban felhaszn&aacute;l&aacute;s&aacute;nak
+enged&eacute;lyez&eacute;se azt jelenti, hogy t&ouml;bb ember
+haszn&aacute;lhat szabad szoftvert. P&eacute;ld&aacute;ul a GNU C
+Programk&ouml;nyvt&aacute;r felhaszn&aacute;l&aacute;sa nem szabad
+programokban azt jelenti, hogy sokkal t&ouml;bb ember
+haszn&aacute;lhatja a teljes GNU oper&aacute;ci&oacute;s rendszert,
+illetve annak v&aacute;ltozat&aacute;t, a GNU/Linux
+oper&aacute;ci&oacute;s rendszert.
+</p>
+<p> B&aacute;r az LGPL kev&eacute;sb&eacute; v&eacute;di a
+felhaszn&aacute;l&oacute;k szabads&aacute;g&aacute;t, azt azonban
+garant&aacute;lja, hogy a Programk&ouml;nyvt&aacute;rral
+&ouml;sszeszerkesztett program felhaszn&aacute;l&oacute;ja jogosult
+legyen a program haszn&aacute;lat&aacute;ra a
+Programk&ouml;nyvt&aacute;r m&oacute;dos&iacute;tott
+v&aacute;ltozat&aacute;val is.
+</p>
+<p> A m&aacute;sol&aacute;sra, terjeszt&eacute;sre &eacute;s
+m&oacute;dos&iacute;t&aacute;sra vonatkoz&oacute; pontos
+szab&aacute;lyok &eacute;s felt&eacute;telek az al&aacute;bbiakban
+olvashat&oacute;k. Nagyon fontos megk&uuml;l&ouml;nb&ouml;ztetni a
+&bdquo;programk&ouml;nyvt&aacute;ron alapul&oacute; munka&rdquo;
+&eacute;s a &bdquo;programk&ouml;nyvt&aacute;rat
+felhaszn&aacute;l&oacute; munka&rdquo; fogalmakat. Az előbbi a
+programk&ouml;nyvt&aacute;rb&oacute;l sz&aacute;rmaz&oacute;
+k&oacute;dot tartalmaz, m&iacute;g az ut&oacute;bbi a
+fut&aacute;s&aacute;hoz ig&eacute;nyli a programk&ouml;nyvt&aacute;rat.
+</p>
+<p>
+</p>
+<h2><span style="color: rgb(0, 0, 0);"> A M&Aacute;SOL&Aacute;SRA,
+TERJESZT&Eacute;SRE &Eacute;S M&Oacute;DOS&Iacute;T&Aacute;SRA
+VONATKOZ&Oacute; FELT&Eacute;TELEK &Eacute;S KIK&Ouml;T&Eacute;SEK</span>
+</h2>
+<p> <b>0.</b> Ez a licenc minden olyan programk&ouml;nyvt&aacute;rra
+vagy egy&eacute;b programra vonatkozik, amelyhez a szerzői jog
+tulajdonosa vagy egy&eacute;b jogosult f&eacute;l azt a
+megjegyz&eacute;st fűzte, hogy az a jelen LGPL-ben (m&aacute;s
+n&eacute;ven a "jelen Licencben") foglaltak alapj&aacute;n
+terjeszthető. Minden enged&eacute;lyez&eacute;s c&iacute;mzettje
+&Ouml;n.
+</p>
+<p> "Programk&ouml;nyvt&aacute;r" alatt f&uuml;ggv&eacute;nyek
+&eacute;s/vagy adatok olyan gyűjtem&eacute;ny&eacute;t
+&eacute;rtj&uuml;k, amely &uacute;gy lett elk&eacute;sz&iacute;tve,
+hogy k&eacute;nyelmesen &ouml;sszeszerkeszthető legyen
+alkalmaz&aacute;sprogramokkal (amelyek a f&uuml;ggv&eacute;nyek
+&eacute;s az adatok egy r&eacute;sz&eacute;t haszn&aacute;lj&aacute;k),
+v&eacute;grehajthat&oacute; f&aacute;jlok
+elk&eacute;sz&iacute;t&eacute;s&eacute;hez.
+</p>
+<p> Az al&aacute;bbiakban a Programk&ouml;nyvt&aacute;r
+kifejez&eacute;s b&aacute;rmely ilyen programk&ouml;nyvt&aacute;rra
+vagy munk&aacute;ra vonatkozik, a "Programk&ouml;nyvt&aacute;ron
+alapul&oacute; munka" pedig mag&aacute;t a
+Programk&ouml;nyvt&aacute;rat vagy egy szerzői joggal v&eacute;dett
+munk&aacute;t jelenti: vagyis olyan munk&aacute;t, amely tartalmazza a
+Programk&ouml;nyvt&aacute;rat vagy annak egy r&eacute;szlet&eacute;t,
+m&oacute;dos&iacute;tva vagy m&oacute;dos&iacute;t&aacute;s
+n&eacute;lk&uuml;l &eacute;s/vagy m&aacute;s nyelvre ford&iacute;tva.
+(Az al&aacute;bbiakban a ford&iacute;t&aacute;s minden egy&eacute;b
+megk&ouml;t&eacute;s n&eacute;lk&uuml;l beletartozik a
+m&oacute;dos&iacute;t&aacute;s fogalm&aacute;ba.)
+</p>
+<p> Egy munka "Forr&aacute;sk&oacute;dja" a munk&aacute;nak az a
+form&aacute;tuma, amelyben a m&oacute;dos&iacute;t&aacute;sok
+elv&eacute;gz&eacute;se a legegyszerűbben kivitelezhető. Egy
+programk&ouml;nyvt&aacute;r eset&eacute;ben a teljes
+forr&aacute;sk&oacute;d az &aacute;ltala tartalmazott &ouml;sszes modul
+forr&aacute;sk&oacute;dj&aacute;t jelenti, valamint minden hozz&aacute;
+tartoz&oacute; illesztődefin&iacute;ci&oacute;s f&aacute;jlt, valamint
+a programk&ouml;nyvt&aacute;r ford&iacute;t&aacute;s&aacute;t &eacute;s
+telep&iacute;t&eacute;s&eacute;t szab&aacute;lyoz&oacute;
+parancsf&aacute;jlokat.
+</p>
+<p> A jelen Licenc a m&aacute;sol&aacute;son, terjeszt&eacute;sen
+&eacute;s m&oacute;dos&iacute;t&aacute;son k&iacute;v&uuml;l m&aacute;s
+tev&eacute;kenys&eacute;gre nem vonatkozik, azok a
+hat&aacute;ly&aacute;n k&iacute;v&uuml;l esnek. A
+Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; program
+futtat&aacute;sa nincs korl&aacute;tozva, illetve a program
+kimenet&eacute;re is csak abban az esetben vonatkozik ez a
+szab&aacute;lyoz&aacute;s, ha az tartalmazza a
+"Programk&ouml;nyvt&aacute;ron alapul&oacute; munka" egy
+r&eacute;szlet&eacute;t (f&uuml;ggetlen&uuml;l att&oacute;l, hogy a
+Programk&ouml;nyvt&aacute;rat haszn&aacute;lt&aacute;k-e egy
+eszk&ouml;zben a meg&iacute;r&aacute;s&aacute;hoz). Az, hogy ez igaz-e,
+a Programk&ouml;nyvt&aacute;r, illetve a Programk&ouml;nyvt&aacute;rat
+haszn&aacute;l&oacute; program műk&ouml;d&eacute;s&eacute;től
+f&uuml;gg.
+</p>
+<p> <b>1.</b> A Programk&ouml;nyvt&aacute;r forr&aacute;sk&oacute;dja
+m&oacute;dos&iacute;t&aacute;s n&eacute;lk&uuml;l
+m&aacute;solhat&oacute; &eacute;s b&aacute;rmely adathordoz&oacute;n
+terjeszthető, felt&eacute;ve, hogy minden egyes p&eacute;ld&aacute;nyon
+pontosan szerepel a megfelelő szerzői jogi megjegyz&eacute;s, illetve a
+garanciav&aacute;llal&aacute;s elutas&iacute;t&aacute;sa;
+&eacute;rintetlen&uuml;l kell hagyni minden erre a
+szab&aacute;lyoz&aacute;sra &eacute;s a garancia teljes
+hi&aacute;ny&aacute;ra utal&oacute; sz&ouml;veget &eacute;s a jelen
+licencdokumentumot is el kell juttatni mindazokhoz, akik a
+Programk&ouml;nyvt&aacute;rat kapj&aacute;k.
+</p>
+<p> Felsz&aacute;m&iacute;that&oacute; d&iacute;j a m&aacute;solat
+fizikai tov&aacute;bb&iacute;t&aacute;sa fej&eacute;ben, illetve
+ellenszolg&aacute;ltat&aacute;s fej&eacute;ben garanci&aacute;lis
+t&aacute;mogat&aacute;s is biztos&iacute;that&oacute;.
+</p>
+<p> <b>2.</b> A Programk&ouml;nyvt&aacute;r m&aacute;solatai vagy azok
+egy r&eacute;sze m&oacute;dos&iacute;that&oacute;, amely &iacute;gy a
+Programk&ouml;nyvt&aacute;ron alapul&oacute; munk&aacute;t alkot. A
+m&oacute;dos&iacute;t&aacute;s ezut&aacute;n az 1. szakaszban adott
+felt&eacute;telek szerint tov&aacute;bb terjeszthető, ha az
+al&aacute;bbi felt&eacute;telek is teljes&uuml;lnek:
+</p>
+<dl>
+  <dd>a) A m&oacute;dos&iacute;tott munk&aacute;nak mag&aacute;nak is
+programk&ouml;nyvt&aacute;rnak kell lennie. </dd>
+</dl>
+<dl>
+  <dd>b) A m&oacute;dos&iacute;tott f&aacute;jlokat el kell
+l&aacute;tni olyan megjegyz&eacute;ssel, amely felt&uuml;nteti a
+m&oacute;dos&iacute;t&aacute;st v&eacute;gző nev&eacute;t &eacute;s a
+m&oacute;dos&iacute;t&aacute;sok d&aacute;tum&aacute;t. </dd>
+</dl>
+<dl>
+  <dd>c) A teljes munk&aacute;t olyan szab&aacute;lyokkal kell kiadni
+vagy terjeszteni, hogy annak haszn&aacute;lati joga harmadik
+szem&eacute;ly r&eacute;sz&eacute;re licencd&iacute;jmentesen
+hozz&aacute;f&eacute;rhető legyen, a jelen Licencnek megfelelően.</dd>
+</dl>
+<dl>
+  <dd>d) Ha a m&oacute;dos&iacute;tott Programk&ouml;nyvt&aacute;r egy
+r&eacute;sze egy olyan f&uuml;ggv&eacute;nyre vagy
+adatt&aacute;bl&aacute;ra hivatkozik, amelyet egy, az adott
+r&eacute;szt haszn&aacute;l&oacute; alkalmaz&aacute;sprogram
+biztos&iacute;t, &eacute;s nem egy &aacute;tadott argumentumr&oacute;l
+van sz&oacute; annak megh&iacute;v&aacute;sakor, akkor mindent el kell
+k&ouml;vetni annak &eacute;rdek&eacute;ben, hogy amennyiben az
+alkalmaz&aacute;s nem biztos&iacute;tja a sz&uuml;ks&eacute;ges
+f&uuml;ggv&eacute;nyt vagy adatt&aacute;bl&aacute;t, az adott
+r&eacute;sz akkor is műk&ouml;dők&eacute;pes maradjon, &eacute;s
+v&eacute;grehajtsa, amit csak a műk&ouml;d&eacute;s&eacute;ből
+ad&oacute;d&oacute;an elv&eacute;gezhet.</dd>
+</dl>
+<p style="margin-left: 40px;"> (Ha p&eacute;ld&aacute;ul egy
+programk&ouml;nyvt&aacute;r egy f&uuml;ggv&eacute;nye
+n&eacute;gyzetgy&ouml;k&ouml;t sz&aacute;m&iacute;t, akkor annak a
+c&eacute;lja teljesen j&oacute;l defini&aacute;lt, az
+alkalmaz&aacute;st&oacute;l f&uuml;ggetlen&uuml;l. Vagyis a 2d alpont
+azt k&ouml;veteli meg, hogy a f&uuml;ggv&eacute;ny
+sz&aacute;m&aacute;ra az alkalmaz&aacute;s &aacute;ltal
+biztos&iacute;tott f&uuml;ggv&eacute;ny vagy adatt&aacute;bla
+opcion&aacute;lis legyen: ha az alkalmaz&aacute;s nem biztos&iacute;t
+ilyet, a n&eacute;gyzetgy&ouml;k f&uuml;ggv&eacute;nynek akkor is
+n&eacute;gyzetgy&ouml;k&ouml;ket kell tudnia sz&aacute;m&iacute;tani.)
+</p>
+<p> Ezek a felt&eacute;telek a m&oacute;dos&iacute;tott munk&aacute;ra,
+mint eg&eacute;szre vonatkoznak. Ha a munka azonos&iacute;that&oacute;
+r&eacute;szei nem a Programk&ouml;nyvt&aacute;ron alapulnak &eacute;s
+f&uuml;ggetlen munk&aacute;kk&eacute;nt elk&uuml;l&ouml;n&uuml;lten
+azonos&iacute;that&oacute;k, akkor ez a szab&aacute;lyoz&aacute;s nem
+vonatkozik ezekre a r&eacute;szekre, amennyiben azok k&uuml;l&ouml;n
+munkak&eacute;nt ker&uuml;lnek terjeszt&eacute;sre. Viszont, ha ugyanez
+a r&eacute;sz az eg&eacute;sz r&eacute;szek&eacute;nt ker&uuml;l
+terjeszt&eacute;sre, amely a "Programk&ouml;nyvt&aacute;ron
+alapul&oacute; munka", akkor az eg&eacute;sz munka terjeszt&eacute;se
+csak a jelen dokumentum alapj&aacute;n lehets&eacute;ges, amely ebben
+az esetben a jogokat minden egyes felhaszn&aacute;l&oacute;
+sz&aacute;m&aacute;ra kiterjeszti a munka eg&eacute;sz&eacute;re
+tekintet n&eacute;lk&uuml;l arra, hogy melyik r&eacute;szt ki
+&iacute;rta.
+</p>
+<p> E sz&ouml;vegr&eacute;sznek teh&aacute;t nem az a c&eacute;lja,
+hogy m&aacute;sok jogait elvegye vagy korl&aacute;tozza a
+kiz&aacute;r&oacute;lag saj&aacute;t maga &aacute;ltal &iacute;rt
+munk&aacute;kra; a c&eacute;l az, hogy a jogok gyakorl&aacute;sa
+szab&aacute;lyozva legyen a Programk&ouml;nyvt&aacute;ron
+alapul&oacute; illetve a gyűjtem&eacute;nyes munk&aacute;k
+terjeszt&eacute;se eset&eacute;ben.
+</p>
+<p> Ezenk&iacute;v&uuml;l m&aacute;s munk&aacute;knak, amelyek nem a
+Programk&ouml;nyvt&aacute;ron alapulnak, a
+Programk&ouml;nyvt&aacute;rral (vagy a Programk&ouml;nyvt&aacute;ron
+alapul&oacute; munk&aacute;val) k&ouml;z&ouml;s adathordoz&oacute;n
+vagy adatt&aacute;rol&oacute;n szerepeltet&eacute;se nem jelenti a
+jelen szab&aacute;lyok &eacute;rv&eacute;nyess&eacute;g&eacute;t azokra
+is.
+</p>
+<p> <b>3.</b> &Ouml;n v&aacute;laszthatja azt, hogy a
+Programk&ouml;nyvt&aacute;r egy adott p&eacute;ld&aacute;ny&aacute;ra
+vonatkoz&oacute;an a norm&aacute;l GNU General Public License
+haszn&aacute;lat&aacute;t k&ouml;ti ki &eacute;s nem a jelen Licencet.
+Ehhez meg kell v&aacute;ltoztatni az erre a licencre hivatkoz&oacute;
+&ouml;sszes figyelmeztet&eacute;st, &uacute;gy, hogy azok a jelen
+licenc helyett a norm&aacute;l GNU General Public License (GPL) 2.
+verzi&oacute;j&aacute;ra hivatkozzanak. (Ha a norm&aacute;l GNU General
+Public License-ből a 2. verzi&oacute;n&aacute;l frissebb jelenne meg,
+akkor azt a verzi&oacute;t is elő&iacute;rhatja, ha akarja).
+Egy&eacute;b v&aacute;ltoztat&aacute;st ne tegyen a
+figyelmeztet&eacute;sekben.
+</p>
+<p> Miut&aacute;n a m&oacute;dos&iacute;t&aacute;s
+megt&ouml;rt&eacute;nt, az visszaford&iacute;thatatlan az adott
+p&eacute;ld&aacute;nyra vonatkoz&oacute;an, vagyis a GNU General Public
+License fog vonatkozni annak &ouml;sszes tov&aacute;bbi
+m&aacute;solat&aacute;ra &eacute;s az abb&oacute;l a
+p&eacute;ld&aacute;nyb&oacute;l sz&aacute;rmaztatott &ouml;sszes
+munk&aacute;ra.
+</p>
+<p> Ez a lehetős&eacute;g akkor hasznos, ha a
+Programk&ouml;nyvt&aacute;r k&oacute;dj&aacute;nak egy
+r&eacute;sz&eacute;t egy olyan programba akarja illeszteni, amelyik nem
+programk&ouml;nyvt&aacute;r.
+</p>
+<p> <b>4.</b> A Programk&ouml;nyvt&aacute;r (vagy a
+programk&ouml;nyvt&aacute;ron alapul&oacute; munka a 2. szakasznak
+megfelelően) m&aacute;solhat&oacute; &eacute;s terjeszthető
+t&aacute;rgyk&oacute;d&uacute; vagy v&eacute;grehajthat&oacute;
+k&oacute;d&uacute; form&aacute;j&aacute;ban az 1. &eacute;s 2.
+szakaszban foglaltak szerint, felt&eacute;ve, hogy a teljes, g&eacute;p
+&aacute;ltal &eacute;rtelmezhető forr&aacute;sk&oacute;d
+k&iacute;s&eacute;ri az anyagot, amelynek terjeszt&eacute;se az 1.
+&eacute;s 2. szakaszban foglaltak szerint t&ouml;rt&eacute;nik,
+jellemzően szoftverterjeszt&eacute;sre haszn&aacute;lt
+adathordoz&oacute;n.
+</p>
+<p> Ha a t&aacute;rgyk&oacute;d terjeszt&eacute;se azt jelenti, hogy
+lehetős&eacute;g van lem&aacute;solni egy meghat&aacute;rozott helyről,
+akkor ez teljes&iacute;ti a forr&aacute;sk&oacute;d
+terjeszt&eacute;s&eacute;re vonatkoz&oacute;
+k&ouml;telezetts&eacute;get, b&aacute;r a harmadik felek nem
+k&ouml;telesek a forr&aacute;sk&oacute;dot a t&aacute;rgyk&oacute;ddal
+egy&uuml;tt lem&aacute;solni.
+</p>
+<p> <b>5.</b> Az olyan Programk&ouml;nyvt&aacute;rat, amely nem
+tartalmazza a Programk&ouml;nyvt&aacute;r semmilyen
+r&eacute;sz&eacute;nek lesz&aacute;rmazottj&aacute;t, de &uacute;gy
+k&eacute;sz&uuml;lt, hogy a Programk&ouml;nyvt&aacute;rral
+egy&uuml;ttműk&ouml;dj&ouml;n, hozz&aacute;ford&iacute;t&aacute;s vagy
+hozz&aacute;szerkeszt&eacute;s &uacute;tj&aacute;n, <strike>a</strike>
+"Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munk&aacute;nak"
+nevezz&uuml;k. Az ilyen munk&aacute;k elszigetelten nem
+sz&aacute;m&iacute;tanak a Programk&ouml;nyvt&aacute;r
+sz&aacute;rmaztatott munk&aacute;j&aacute;nak, &iacute;gy a jelen
+Licenc hat&aacute;ly&aacute;n k&iacute;v&uuml;l esnek.
+</p>
+<p> Egy, a "Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munka"
+&eacute;s a Programk&ouml;nyvt&aacute;r &ouml;sszeszerkeszt&eacute;se
+azonban egy olyan v&eacute;grehajthat&oacute; f&aacute;jlt
+eredm&eacute;nyez, amelyik a Programk&ouml;nyvt&aacute;r
+sz&aacute;rmaztatott munk&aacute;ja (hiszen tartalmazza a
+Programk&ouml;nyvt&aacute;r r&eacute;szeit), nem pedig a
+"Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munka". A
+v&eacute;grehajthat&oacute; f&aacute;jlra teh&aacute;t vonatkozik a
+jelen Licenc. A 6. szakasz taglalja az ilyen
+v&eacute;grehajthat&oacute; f&aacute;jlok terjeszt&eacute;s&eacute;nek
+felt&eacute;teleit.
+</p>
+<p> Ha egy "Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munka"
+egy olyan fejl&eacute;cf&aacute;jl anyag&aacute;t haszn&aacute;lja,
+amelyik a Programk&ouml;nyvt&aacute;r r&eacute;sze, akkor a munka
+t&aacute;rgyk&oacute;dja lehet a Programk&ouml;nyvt&aacute;r
+sz&aacute;rmaztatott munk&aacute;ja, akkor is, ha maga a
+forr&aacute;sk&oacute;d nem az. Az, hogy ez igaz-e,
+k&uuml;l&ouml;n&ouml;sen fontos, ha az adott munka
+&ouml;sszeszerkeszthető a Programk&ouml;nyvt&aacute;r
+n&eacute;lk&uuml;l is, vagy ha a munka maga is egy
+programk&ouml;nyvt&aacute;r. Azt, hogy ez mikor igaz, a
+t&ouml;rv&eacute;ny nem szab&aacute;lyozza pontosan.
+</p>
+<p> Ha egy ilyen objektumf&aacute;jl csak numerikus
+param&eacute;tereket, adatstrukt&uacute;ra-elrendez&eacute;seket,
+-hozz&aacute;f&eacute;r&eacute;seket, kisebb makr&oacute;kat &eacute;s
+kisebb be&aacute;gyazott f&uuml;ggv&eacute;nyeket (nem t&ouml;bb, mint
+t&iacute;z sornyit) haszn&aacute;l, akkor az objektumf&aacute;jl
+haszn&aacute;lata nem korl&aacute;tozott, f&uuml;ggetlen&uuml;l
+att&oacute;l, hogy sz&aacute;rmaztatott munka-e vagy sem. (A
+t&aacute;rgyk&oacute;dot &eacute;s a Programk&ouml;nyvt&aacute;r
+r&eacute;szeit tartalmaz&oacute; v&eacute;grehajthat&oacute;
+f&aacute;jlok tov&aacute;bbra is a 6. szakasz hat&aacute;lya al&aacute;
+tartoznak.)
+</p>
+<p> Ellenkező esetben, ha a munka a Programk&ouml;nyvt&aacute;r
+sz&aacute;rmaztatott munk&aacute;ja, akkor a t&aacute;rgyk&oacute;dja
+terjeszthető a 6. szakasz felt&eacute;teleinek megfelelően. A
+munk&aacute;t tartalmaz&oacute; v&eacute;grehajthat&oacute;
+f&aacute;jlok szint&eacute;n a 6. szakasz hat&aacute;lya al&aacute;
+esnek, akkor is, ha nincsenek k&ouml;zvetlen&uuml;l a
+Programk&ouml;nyvt&aacute;rral &ouml;sszeszerkesztve.
+</p>
+<p> <b>6.</b> A fenti szakaszok kiv&eacute;telek&eacute;nt egy, a
+"Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munka"
+egyes&iacute;thető vagy &ouml;sszeszerkeszthető a
+Programk&ouml;nyvt&aacute;rral, hogy l&eacute;trej&ouml;jj&ouml;n egy
+olyan munka, amely tartalmazza a Programk&ouml;nyvt&aacute;r
+r&eacute;szeit, &eacute;s az ilyen munka terjeszthető az &Ouml;n
+&aacute;ltal v&aacute;lasztott felt&eacute;telek szerint is,
+felt&eacute;ve, hogy ezek a felt&eacute;telek megengedik a munka szabad
+m&oacute;dos&iacute;t&aacute;s&aacute;t a v&aacute;s&aacute;rl&oacute;
+saj&aacute;t haszn&aacute;lat&aacute;ra &eacute;s az ilyen
+m&oacute;dos&iacute;t&aacute;sok hibakeres&eacute;s&eacute;re
+szolg&aacute;l&oacute; visszafejt&eacute;st.
+</p>
+<p> A munka minden egyes p&eacute;ld&aacute;ny&aacute;n megfelelően
+jelezni kell, hogy a Programk&ouml;nyvt&aacute;r haszn&aacute;lja,
+&eacute;s hogy a haszn&aacute;latot a jelen Licenc szab&aacute;lyozza.
+Mell&eacute;kelni kell a jelen Licenc egy
+p&eacute;ld&aacute;ny&aacute;t. Ha a munka v&eacute;grehajt&aacute;s
+k&ouml;zben szerzői jogi megjegyz&eacute;seket jelen&iacute;t meg,
+akkor ezek k&ouml;zt szerepelnie kell a Programk&ouml;nyvt&aacute;r
+szerzői jogi megjegyz&eacute;s&eacute;nek is, valamint egy
+hivatkoz&aacute;snak, amely a felhaszn&aacute;l&oacute;t a jelen Licenc
+egy p&eacute;ld&aacute;ny&aacute;hoz ir&aacute;ny&iacute;tja.
+Tov&aacute;bb&aacute; az al&aacute;bbiak egyik&eacute;t
+biztos&iacute;tani kell:
+</p>
+<dl>
+  <dd>a) A munka mell&eacute; mell&eacute;kelni kell a
+Programk&ouml;nyvt&aacute;r teljes, g&eacute;ppel olvashat&oacute;
+forr&aacute;sk&oacute;dj&aacute;t, jelezve, hogy a (fenti 1. &eacute;s
+2. szakaszoknak megfelelően terjesztett) munk&aacute;ban milyen
+m&oacute;dos&iacute;t&aacute;sok t&ouml;rt&eacute;ntek; valamint, ha a
+munka egy, a Programk&ouml;nyvt&aacute;rral &ouml;sszeszerkesztett
+v&eacute;grehajthat&oacute; f&aacute;jl, a teljes
+"Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munka"
+g&eacute;ppel olvashat&oacute; k&oacute;dj&aacute;t, ahhoz hogy
+t&aacute;rgyk&oacute;dk&eacute;nt &eacute;s/vagy
+forr&aacute;sk&oacute;dk&eacute;nt a felhaszn&aacute;l&oacute;
+m&oacute;dos&iacute;thassa a Programk&ouml;nyvt&aacute;rat &eacute;s
+ut&aacute;na &aacute;tszerkeszthesse azt egy olyan
+m&oacute;dos&iacute;tott v&eacute;grehajthat&oacute; f&aacute;jl
+elő&aacute;ll&iacute;t&aacute;s&aacute;hoz, amely tartalmazza a
+Programk&ouml;nyvt&aacute;rat. (Term&eacute;szetesen előfordulhat, hogy
+a Programk&ouml;nyvt&aacute;r defin&iacute;ci&oacute;s
+f&aacute;jljainak tartalm&aacute;t megv&aacute;ltoztat&oacute;
+felhaszn&aacute;l&oacute; nem felt&eacute;tlen&uuml;l lesz k&eacute;pes
+&uacute;jraford&iacute;tani az alkalmaz&aacute;st a
+m&oacute;dos&iacute;tott defin&iacute;ci&oacute;kkal.)</dd>
+</dl>
+<dl>
+  <dd>b) Egy megfelelő megosztott
+Programk&ouml;nyvt&aacute;r-mechanizmus haszn&aacute;lata a
+Programk&ouml;nyvt&aacute;rral val&oacute;
+&ouml;sszeszerkeszt&eacute;shez. Megfelelő mechanizmus az olyan, amely</dd>
+</dl>
+<div style="margin-left: 80px;"> (1) fut&aacute;si időben a
+programk&ouml;nyvt&aacute;r egy, m&aacute;r a felhaszn&aacute;l&oacute;
+sz&aacute;m&iacute;t&oacute;g&eacute;prendszer&eacute;n
+megtal&aacute;lhat&oacute; p&eacute;ld&aacute;ny&aacute;t
+haszn&aacute;lja, nem pedig bem&aacute;solja a
+programk&ouml;nyvt&aacute;r egyes f&uuml;ggv&eacute;nyeit a
+v&eacute;grehajthat&oacute; f&aacute;jlba, tov&aacute;bb&aacute;<br />
+<br />
+(2) megfelelően műk&ouml;dik a programk&ouml;nyvt&aacute;r
+m&oacute;dos&iacute;tott v&aacute;ltozat&aacute;val is, ha a
+felhaszn&aacute;l&oacute; egy olyat telep&iacute;t, felt&eacute;ve,
+hogy a m&oacute;dos&iacute;tott verzi&oacute; interf&eacute;sze
+kompatibilis azzal a verzi&oacute;val, amelyikkel a munka
+k&eacute;sz&uuml;lt.
+</div>
+<dl>
+  <dd>c) A munk&aacute;hoz egy legal&aacute;bb h&aacute;rom &eacute;vig
+&eacute;rv&eacute;nyes &iacute;r&aacute;sos aj&aacute;nlat
+mell&eacute;kel&eacute;se, hogy ugyanazon felhaszn&aacute;l&oacute;
+sz&aacute;m&aacute;ra a 6.a alszakaszban meghat&aacute;rozott anyagokat
+biztos&iacute;tja, nem nagyobb d&iacute;j&eacute;rt, mint a jelen&nbsp;
+terjeszt&eacute;s d&iacute;ja. </dd>
+</dl>
+<dl>
+  <dd>d) Ha a munka terjeszt&eacute;se egy adott helyről
+t&ouml;rt&eacute;nő m&aacute;sol&aacute;s
+enged&eacute;lyez&eacute;s&eacute;t jelenti, akkor
+egyen&eacute;rt&eacute;kű&nbsp;hozz&aacute;f&eacute;r&eacute;s
+biztos&iacute;t&aacute;sa sz&uuml;ks&eacute;ges a fent
+meghat&aacute;rozott anyagok ugyanonnan
+lem&aacute;sol&aacute;s&aacute;hoz. </dd>
+</dl>
+<dl>
+  <dd>e) Annak ellenőrz&eacute;se, hogy a felhaszn&aacute;l&oacute;
+m&aacute;r megkapta ezen anyagok egy p&eacute;ld&aacute;ny&aacute;t,
+vagy hogy m&aacute;r el lett k&uuml;ldve a felhaszn&aacute;l&oacute;nak
+egy p&eacute;ld&aacute;ny. </dd>
+</dl>
+<p> V&eacute;grehajthat&oacute; f&aacute;jl eset&eacute;ben a
+"Programk&ouml;nyvt&aacute;rat haszn&aacute;l&oacute; munka"
+elv&aacute;rt form&aacute;j&aacute;nak tartalmaznia kell minden adatot
+&eacute;s seg&eacute;dprogramot, amelyre sz&uuml;ks&eacute;g van a
+belől&uuml;k sz&aacute;rmaz&oacute; v&eacute;grehajthat&oacute;
+f&aacute;jl elő&aacute;ll&iacute;t&aacute;s&aacute;hoz.
+Speci&aacute;lis kiv&eacute;telk&eacute;nt a terjesztett anyagoknak nem
+kell semmi olyat tartalmaznia, amelyek norm&aacute;l esetben azon
+oper&aacute;ci&oacute;s rendszer fő r&eacute;szeivel
+(ford&iacute;t&oacute;, kernel stb.) egy&uuml;tt ker&uuml;lnek
+terjeszt&eacute;sre (ak&aacute;r forr&aacute;sk&oacute;dk&eacute;nt,
+ak&aacute;r bin&aacute;ris form&aacute;ban), amelyen a
+v&eacute;grehajthat&oacute; f&aacute;jl futni fog, kiv&eacute;ve, ha a
+komponens maga a v&eacute;grehajthat&oacute; f&aacute;jllal egy&uuml;tt
+&eacute;rkezik.
+</p>
+<p> Előfordulhat, hogy ez a k&ouml;vetelm&eacute;ny ellentmond
+m&aacute;s szellemi tulajdont k&eacute;pező
+programk&ouml;nyvt&aacute;rak licenckorl&aacute;toz&aacute;sainak,
+amelyek norm&aacute;l esetben nem j&aacute;rnak az
+oper&aacute;ci&oacute;s rendszer mell&eacute;. Az ilyen
+ellentmond&aacute;s azt jelenti, hogy nem haszn&aacute;lhatja azokat
+&eacute;s a Programk&ouml;nyvt&aacute;rat egy&uuml;tt egy terjeszteni
+k&iacute;v&aacute;nt v&eacute;grehajthat&oacute; f&aacute;jlban.
+</p>
+<p> <b>7.</b> &Ouml;n elhelyezheti a programk&ouml;nyvt&aacute;r egyes
+r&eacute;szeit, amelyek a Programk&ouml;nyvt&aacute;ron alapul&oacute;
+munk&aacute;nak sz&aacute;m&iacute;tanak, egym&aacute;s mellett
+egyetlen programk&ouml;nyvt&aacute;rban m&aacute;s
+programk&ouml;nyvt&aacute;rak r&eacute;szeivel egy&uuml;tt, amelyekre
+nem vonatkozik a jelen Licenc, &eacute;s az ilyen egyes&iacute;tett
+programk&ouml;nyvt&aacute;rat is terjesztheti, felt&eacute;ve, hogy a
+Programk&ouml;nyvt&aacute;ron alapul&oacute; munka &eacute;s a
+m&aacute;sik programk&ouml;nyvt&aacute;r r&eacute;szeinek
+k&uuml;l&ouml;n-k&uuml;l&ouml;n terjeszt&eacute;se
+egy&eacute;bk&eacute;nt enged&eacute;lyezett &eacute;s az al&aacute;bbi
+k&eacute;t dolog valamelyik&eacute;t biztos&iacute;tja:
+</p>
+<dl>
+  <dd>a) Az egyes&iacute;tett programk&ouml;nyvt&aacute;r mell&eacute;
+mell&eacute;keli a Programk&ouml;nyvt&aacute;ron alapul&oacute;
+ugyanazon munk&aacute;t, amely nincs egyes&iacute;tve semmilyen
+m&aacute;s programk&ouml;nyvt&aacute;r r&eacute;szeivel. Ezt a fenti
+r&eacute;szek felt&eacute;teleinek megfelelően kell terjeszteni. </dd>
+</dl>
+<dl>
+  <dd>b) Megfelelő figyelmeztet&eacute;st alkalmaz az egyes&iacute;tett
+programk&ouml;nyvt&aacute;r mell&eacute; a t&eacute;nyről, hogy ez
+r&eacute;szben a Programk&ouml;nyvt&aacute;ron alapul&oacute; munka,
+&eacute;s elmagyar&aacute;zza, hogy hol tal&aacute;lhat&oacute;
+ugyanazon munka nem egyes&iacute;tett form&aacute;ban. </dd>
+</dl>
+<p> <b>8.</b> A Programk&ouml;nyvt&aacute;rat csak a jelen Licencben
+le&iacute;rtaknak megfelelően szabad lem&aacute;solni, terjeszteni,
+m&oacute;dos&iacute;tani &eacute;s allicencbe adni. Az egy&eacute;b
+m&oacute;don val&oacute; m&aacute;sol&aacute;s,
+m&oacute;dos&iacute;t&aacute;s, terjeszt&eacute;s &eacute;s allicencbe
+ad&aacute;s &eacute;rv&eacute;nytelen, &eacute;s azonnal
+&eacute;rv&eacute;nytelen&iacute;ti a dokumentumban biztos&iacute;tott
+jogosults&aacute;gokat. Mindazon&aacute;ltal azok, akik a Licencet
+megszegőtől kaptak p&eacute;ld&aacute;nyokat vagy jogokat,
+tov&aacute;bb gyakorolhatj&aacute;k a Licenc &aacute;ltal
+meghat&aacute;rozott jogaikat mindaddig, am&iacute;g teljes
+m&eacute;rt&eacute;kben megfelelnek a Licenc felt&eacute;teleinek.
+</p>
+<p> <b>9.</b> Nem k&ouml;telező elfogadnia ezt a
+szab&aacute;lyoz&aacute;st, hiszen nem &iacute;rta al&aacute;. Ezen
+k&iacute;v&uuml;l viszont semmi m&aacute;s nem ad jogokat a
+Programk&ouml;nyvt&aacute;r vagy a sz&aacute;rmaztatott munk&aacute;k
+terjeszt&eacute;s&eacute;re &eacute;s
+m&oacute;dos&iacute;t&aacute;s&aacute;ra. Ezeket a cselekedeteket a
+t&ouml;rv&eacute;ny b&uuml;nteti, ha nem a jelen szerzői jogi
+szab&aacute;lyoz&aacute;s keretei k&ouml;z&ouml;tt
+t&ouml;rt&eacute;nnek. Mindezek miatt a Programk&ouml;nyvt&aacute;r
+(vagy a Programk&ouml;nyvt&aacute;ron alapul&oacute; munka)
+terjeszt&eacute;se vagy m&oacute;dos&iacute;t&aacute;sa a jelen
+dokumentum szab&aacute;lyainak, &eacute;s azon bel&uuml;l a
+Programk&ouml;nyvt&aacute;r vagy a munka
+m&oacute;dos&iacute;t&aacute;s&aacute;ra,
+m&aacute;sol&aacute;s&aacute;ra vagy terjeszt&eacute;s&eacute;re
+vonatkoz&oacute; &ouml;sszes felt&eacute;tel&eacute;nek
+elfogad&aacute;s&aacute;t jelenti.
+</p>
+<p> <b>10.</b> Minden alkalommal, amikor a Programk&ouml;nyvt&aacute;r
+(vagy az azon alapul&oacute; munka) tov&aacute;bbad&aacute;sa
+t&ouml;rt&eacute;nik, a Programk&ouml;nyvt&aacute;rat megkap&oacute;
+szem&eacute;ly automatikusan hozz&aacute;jut az eredeti
+licenctulajdonost&oacute;l sz&aacute;rmaz&oacute; licenchez, amely a
+jelen szab&aacute;lyok szerint biztos&iacute;tja a jogot a
+Programk&ouml;nyvt&aacute;r m&aacute;sol&aacute;s&aacute;ra,
+terjeszt&eacute;s&eacute;re, szerkeszt&eacute;shez
+felhaszn&aacute;l&aacute;sra &eacute;s
+m&oacute;dos&iacute;t&aacute;s&aacute;ra. Nem lehet semmilyen
+m&oacute;don tov&aacute;bb korl&aacute;tozni a fogad&oacute;
+f&eacute;lnek az itt megadott jogait. A Programk&ouml;nyvt&aacute;r
+tov&aacute;bbad&oacute;ja nem felelős harmadik szem&eacute;lyekkel
+betartatni a jelen szab&aacute;lyokat.
+</p>
+<p> <b>11.</b> Ha b&iacute;r&oacute;s&aacute;gi hat&aacute;rozat,
+szabadaloms&eacute;rt&eacute;s v&eacute;lelme, vagy egy&eacute;b (nem
+kiz&aacute;r&oacute;lag szabadalmakkal kapcsolatos) okb&oacute;l olyan
+felt&eacute;teleknek kell megfelelnie (ak&aacute;r
+b&iacute;r&oacute;s&aacute;gi hat&aacute;rozat, ak&aacute;r
+meg&aacute;llapod&aacute;s, ak&aacute;r b&aacute;rmi m&aacute;s
+eredm&eacute;nyek&eacute;pp), amelyek ellent&eacute;tesek a jelen
+felt&eacute;telekkel, az nem menti fel a terjesztőt a jelen
+felt&eacute;telek figyelembev&eacute;tele al&oacute;l. Ha a
+terjeszt&eacute;s nem lehets&eacute;ges a jelen Licenc &eacute;s az
+egy&eacute;b felt&eacute;telek k&ouml;telezetts&eacute;geinek
+egy&uuml;ttes betart&aacute;s&aacute;val, akkor tilos a
+Programk&ouml;nyvt&aacute;r terjeszt&eacute;se. Ha
+p&eacute;ld&aacute;ul egy licencszabadalom nem engedi meg egy
+programk&ouml;nyvt&aacute;r jogd&iacute;j n&eacute;lk&uuml;li
+tov&aacute;bbterjeszt&eacute;s&eacute;t azok sz&aacute;m&aacute;ra,
+akik k&ouml;zvetve vagy k&ouml;zvetlen&uuml;l megkapj&aacute;k, akkor
+az egyetlen m&oacute;dja, hogy eleget tegyen valaki mindk&eacute;t
+felt&eacute;telnek, az, hogy el&aacute;ll a programk&ouml;nyvt&aacute;r
+terjeszt&eacute;s&eacute;től.
+</p>
+<p> Ha ennek a szakasznak b&aacute;rmely r&eacute;sze
+&eacute;rv&eacute;nytelen, vagy nem &eacute;rv&eacute;nyes&iacute;thető
+valamely k&ouml;r&uuml;lm&eacute;ny folyt&aacute;n, akkor a szakasz
+fennmarad&oacute; r&eacute;sz&eacute;t kell alkalmazni, egy&eacute;b
+esetekben pedig a szakasz eg&eacute;sze alkalmazand&oacute;.
+</p>
+<p> Ennek a szakasznak nem az a c&eacute;lja, hogy a szabadalmak vagy
+egy&eacute;b hasonl&oacute; jogok megs&eacute;rt&eacute;s&eacute;re
+&ouml;szt&ouml;n&ouml;zz&ouml;n b&aacute;rkit is; mind&ouml;ssze meg
+szeretn&eacute; v&eacute;deni a szabad szoftver terjeszt&eacute;si
+rendszer&eacute;nek egys&eacute;g&eacute;t, amelyet a szabad
+k&ouml;zread&aacute;st szab&aacute;lyoz&oacute;
+felt&eacute;telrendszerek teremtenek meg. Sok ember
+nagym&eacute;rt&eacute;kben j&aacute;rult hozz&aacute; az e rendszer
+keret&eacute;ben terjesztett, k&uuml;l&ouml;nf&eacute;le szoftverekhez,
+&eacute;s sz&aacute;m&iacute;t a rendszer k&ouml;vetkezetes
+alkalmaz&aacute;s&aacute;ra; azt a szerző/adom&aacute;nyoz&oacute;
+d&ouml;nti el, hogy a szoftver&eacute;t m&aacute;s rendszer szerint is
+k&ouml;zz&eacute; k&iacute;v&aacute;nja-e tenni, &eacute;s a licencet
+kap&oacute;k ezt nem befoly&aacute;solhatj&aacute;k.
+</p>
+<p> E szakasz c&eacute;lja, hogy pontosan tiszt&aacute;zza azt, ami
+elgondol&aacute;sunk szerint a jelen licenc t&ouml;bbi
+r&eacute;sz&eacute;nek a k&ouml;vetkezm&eacute;nye.
+</p>
+<p> <b>12.</b> Ha a Programk&ouml;nyvt&aacute;r terjeszt&eacute;se
+&eacute;s/vagy haszn&aacute;lata egyes orsz&aacute;gokban nem
+lehets&eacute;ges ak&aacute;r szabadalmak, ak&aacute;r szerzői jogokkal
+v&eacute;dett fel&uuml;letek miatt, akkor a Programk&ouml;nyvt&aacute;r
+szerzői jogainak eredeti tulajdonosa, aki a
+Programk&ouml;nyvt&aacute;rat ezen szab&aacute;lyoz&aacute;s
+alapj&aacute;n adja k&ouml;zre, egy explicit f&ouml;ldrajzi
+megk&ouml;t&eacute;st adhat a terjeszt&eacute;sre, &eacute;s egyes
+orsz&aacute;gokat kiz&aacute;rhat. Ebben az esetben &uacute;gy
+tekintendő, hogy a jelen licenc ezt a megk&ouml;t&eacute;st is
+tartalmazza, ugyan&uacute;gy, mintha az a sz&ouml;veg&eacute;ben lenne
+le&iacute;rva.
+</p>
+<p> <b>13.</b> A Free Software Foundation időről időre kiadja a GNU
+Lesser General Public License (LGPL) fel&uuml;lvizsg&aacute;lt
+&eacute;s/vagy &uacute;jabb v&aacute;ltozatait. Ezek az &uacute;jabb
+dokumentumok az előzőek szellem&eacute;ben k&eacute;sz&uuml;lnek, de
+r&eacute;szletekben k&uuml;l&ouml;nb&ouml;zhetnek, hogy &uacute;j
+probl&eacute;m&aacute;kat vagy agg&aacute;lyokat is kezeljenek.
+</p>
+<p> A dokumentum minden v&aacute;ltozata egy
+megk&uuml;l&ouml;nb&ouml;ztető verzi&oacute;sz&aacute;mmal
+ell&aacute;tva jelenik meg. Ha a programk&ouml;nyvt&aacute;r szerzői
+jogi megjegyz&eacute;s&eacute;ben egy bizonyos vagy ann&aacute;l
+&uacute;jabb verzi&oacute; van megjel&ouml;lve, akkor lehetős&eacute;g
+van ak&aacute;r a megjel&ouml;lt, vagy a Free Software Foundation
+&aacute;ltal kiadott k&eacute;sőbbi verzi&oacute;ban le&iacute;rt
+felt&eacute;telek k&ouml;vet&eacute;s&eacute;re. Ha nincs ilyen
+megjel&ouml;lt verzi&oacute;, akkor lehetős&eacute;g van a Free
+Software Foundation &aacute;ltal valaha kibocs&aacute;tott
+b&aacute;rmelyik verzi&oacute; alkalmaz&aacute;s&aacute;ra.
+</p>
+<p> <b>14.</b> A Programk&ouml;nyvt&aacute;rat m&aacute;s szabad
+szoftverbe, amelynek szerzői jogi szab&aacute;lyoz&aacute;sa
+k&uuml;l&ouml;nb&ouml;zik, csak akkor &eacute;p&iacute;theti be, ha a
+szerzőtől erre enged&eacute;lyt szerzett. Abban az esetben, ha a
+programk&ouml;nyvt&aacute;r szerzői jogainak tulajdonosa a Free
+Software Foundation, akkor a Free Software Foundation
+c&iacute;m&eacute;re kell &iacute;rni; n&eacute;ha kiv&eacute;telt
+tesz&uuml;nk. A d&ouml;nt&eacute;s a k&ouml;vetkező k&eacute;t
+c&eacute;l szem előtt tart&aacute;s&aacute;val fog
+t&ouml;rt&eacute;nni: megmaradjon a szabad szoftveren alapul&oacute;
+munk&aacute;k szabad &aacute;llapota, valamint seg&iacute;tse elő a
+szoftver &uacute;jrafelhaszn&aacute;l&aacute;s&aacute;t &eacute;s
+megoszt&aacute;s&aacute;t.
+</p>
+<h2 style="color: rgb(0, 0, 0);"> <b>GARANCIAV&Aacute;LLAL&Aacute;S
+HI&Aacute;NYA</b>
+</h2>
+<p>
+</p>
+<p> <b>15.</b> MIVEL A JELEN PROGRAMK&Ouml;NYVT&Aacute;R
+HASZN&Aacute;LATI JOGA D&Iacute;JMENTES, AZ ALKALMAZHAT&Oacute;
+JOGSZAB&Aacute;LYOK &Aacute;LTAL BIZTOS&Iacute;TOTT MAXIM&Aacute;LIS
+M&Eacute;RT&Eacute;KBEN VISSZAUTAS&Iacute;TJUK A
+PROGRAMK&Ouml;NYVT&Aacute;RHOZ A GARANCIA
+BIZTOS&Iacute;T&Aacute;S&Aacute;T. AMENNYIBEN A SZERZŐI JOGOK
+TULAJDONOSAI &Iacute;R&Aacute;SBAN M&Aacute;SK&Eacute;NT NEM
+NYILATKOZNAK, A PROGRAMK&Ouml;NYVT&Aacute;R A "JELEN
+&Aacute;LLAPOT&Aacute;BAN" KER&Uuml;L KIAD&Aacute;SRA,
+MINDENF&Eacute;LE GARANCIAV&Aacute;LLAL&Aacute;S N&Eacute;LK&Uuml;L,
+LEGYEN AZ KIFEJEZETT VAGY BELE&Eacute;RTETT, BELE&Eacute;RTVE, DE NEM
+KIZ&Aacute;R&Oacute;LAGOSAN A FORGALOMBAHOZHAT&Oacute;S&Aacute;GRA VAGY
+ALKALMAZHAT&Oacute;S&Aacute;GRA VONATKOZ&Oacute; GARANCI&Aacute;KAT. A
+PROGRAMK&Ouml;NYVT&Aacute;R MINŐS&Eacute;G&Eacute;BŐL &Eacute;S
+MŰK&Ouml;D&Eacute;S&Eacute;BŐL FAKAD&Oacute; &Ouml;SSZES
+KOCK&Aacute;ZAT A FELHASZN&Aacute;L&Oacute;T TERHELI. HA A
+PROGRAMK&Ouml;NYVT&Aacute;R HIB&Aacute;SAN MŰK&Ouml;DIK, A
+FELHASZN&Aacute;L&Oacute;NAK MAG&Aacute;NAK KELL V&Aacute;LLALNIA A
+JAV&Iacute;T&Aacute;SHOZ SZ&Uuml;KS&Eacute;GES MINDEN
+K&Ouml;LTS&Eacute;GET.
+</p>
+<p> <b>16.</b> AMENNYIBEN A HAT&Aacute;LYOS JOGSZAB&Aacute;LYOK VAGY A
+SZERZŐI JOGOK TULAJDONOSAI &Iacute;R&Aacute;SOS
+MEG&Aacute;LLAPOD&Aacute;SBAN M&Aacute;SK&Eacute;NT NEM RENDELKEZNEK,
+SEM A PROGRAMK&Ouml;NYVT&Aacute;R SZERZŐJE, SEM M&Aacute;SOK, AKIK
+M&Oacute;DOS&Iacute;TOTT&Aacute;K &Eacute;S/VAGY TERJESZTETT&Eacute;K A
+PROGRAMK&Ouml;NYVT&Aacute;RAT A FENTIEKNEK MEGFELELŐEN, NEM TEHETŐK
+FELELŐSS&Eacute; A K&Aacute;ROK&Eacute;RT, BELE&Eacute;RTVE MINDEN
+V&Eacute;LETLEN, VAGY K&Ouml;VETKEZM&Eacute;NYES K&Aacute;RT, AMELY A
+PROGRAMK&Ouml;NYVT&Aacute;R HASZN&Aacute;LAT&Aacute;B&Oacute;L VAGY A
+HASZN&Aacute;LAT MEGAKAD&Aacute;LYOZ&Aacute;S&Aacute;B&Oacute;L
+SZ&Aacute;RMAZIK (BELE&Eacute;RTVE, DE NEM KIZ&Aacute;R&Oacute;LAGOSAN
+AZ ADATVESZT&Eacute;ST &Eacute;S A HELYTELEN ADATFELDOLGOZ&Aacute;ST,
+VALAMINT A M&Aacute;S PROGRAMK&Ouml;NYVT&Aacute;RAKKAL VAL&Oacute;
+HIB&Aacute;S EGY&Uuml;TTMŰK&Ouml;D&Eacute;ST), M&Eacute;G AKKOR SEM, HA
+EZEN FELEK TUDAT&Aacute;BAN VOLTAK, HOGY ILYEN K&Aacute;ROK
+KELETKEZHETNEK.
+</p>
+<p> <b>FELT&Eacute;TELEK &Eacute;S SZAB&Aacute;LYOK V&Eacute;GE</b>
+</p>
+<div class="editsection" style="float: right; margin-left: 5px;"> <br />
+</div>
+<a
+ name="Hogyan_alkalmazhat.C3.B3k_ezek_a_szab.C3.A1lyok_egy_.C3.BAj_programra" />
+<h2><span style="color: rgb(0, 0, 0);"> Hogyan alkalmazhat&oacute;k
+ezek a szab&aacute;lyok egy &uacute;j programra?</span>
+</h2>
+<p> Ha valaki egy &uacute;j f&uuml;ggv&eacute;nyt&aacute;rat
+k&eacute;sz&iacute;t &eacute;s szeretn&eacute;, hogy az b&aacute;rki
+sz&aacute;m&aacute;ra el&eacute;rhető legyen, akkor a legjobb
+m&oacute;dszer, hogy azt szabad szoftverr&eacute; teszi, megengedve
+mindenkinek a szabad m&aacute;sol&aacute;st &eacute;s
+m&oacute;dos&iacute;t&aacute;st a jelen felt&eacute;teleknek
+megfelelően. Ehhez enged&eacute;lyezni kell a
+tov&aacute;bbterjeszt&eacute;st a jelen felt&eacute;teleknek
+megfelelően (vagy a norm&aacute;l GPL-nek megfelelően).
+</p>
+<p> Ehhez a k&ouml;vetkező megjegyz&eacute;st kell csatolni a
+programhoz. A legbiztosabb ezt minden egyes forr&aacute;sf&aacute;jl
+elej&eacute;re be&iacute;rni, &iacute;gy k&ouml;z&ouml;lve
+leghat&aacute;sosabban a garancia
+visszautas&iacute;t&aacute;s&aacute;t; ezenk&iacute;v&uuml;l minden
+f&aacute;jl kell, hogy tartalmazzon egy copyright sort &eacute;s egy
+mutat&oacute;t arra a helyre, ahol a teljes sz&ouml;veg
+tal&aacute;lhat&oacute;. [A gyakorlatban ezt angolul kell megtenni. A
+magyar ford&iacute;t&aacute;st mell&eacute;kelj&uuml;k.]
+</p>
+<pre><var> one line to give the library's name and an idea of what it does.</var><br /> Copyright (C) <var>year</var>  <var>name of author</var><br /><br /> This library is free software; you can redistribute it and/or<br /> modify it under the terms of the GNU Lesser General Public<br /> License as published by the Free Software Foundation; either<br /> version 2.1 of the License, or (at your option) any later version.<br /><br /> This library is distributed in the hope that it will be useful,<br /> but WITHOUT ANY WARRANTY; without even the implied warranty of<br /> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU<br /> Lesser General Public License for more details.<br /><br /> You should have received a copy of the GNU Lesser General Public<br /> License along with this library; if not, write to the Free Software<br /> Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA<br /><br /><br /><br /> <i>Egy sor, amely megadja a programk&ouml;nyvt&aacute;r nev&eacute;t &eacute;s funkci&oacute;j&aacute;t</i><br /> Copyright (C) &eacute;v; szerző neve;<br /> <br /> Ez a programk&ouml;nyvt&aacute;r szabad szoftver; terjeszthető illetve m&oacute;dos&iacute;that&oacute; a <br /> Free Software Foundation &aacute;ltal kiadott GNU Lesser General Public License <br /> dokumentumban le&iacute;rtak, ak&aacute;r a licenc 2.1-es, ak&aacute;r (tetszőleges) k&eacute;sőbbi <br /> v&aacute;ltozata szerint.<br /> <br /> Ez a programk&ouml;nyvt&aacute;r abban a rem&eacute;nyben ker&uuml;l k&ouml;zread&aacute;sra, hogy hasznos lesz, <br /> de minden egy&eacute;b GARANCIA N&Eacute;LK&Uuml;L, az ELADHAT&Oacute;S&Aacute;GRA vagy VALAMELY C&Eacute;LRA VAL&Oacute; <br /> ALKALMAZHAT&Oacute;S&Aacute;GRA val&oacute; sz&aacute;rmaztatott garanci&aacute;t is bele&eacute;rtve. Tov&aacute;bbi <br /> r&eacute;szleteket a GNU Lesser General Public License tartalmaz.<br /> <br /> A felhaszn&aacute;l&oacute;nak a programmal egy&uuml;tt meg kell kapnia a GNU Lesser <br /> General Public License egy p&eacute;ld&aacute;ny&aacute;t; ha m&eacute;gsem kapta meg, akkor<br /> ezt a Free Software Foundationnak k&uuml;ld&ouml;tt lev&eacute;lben jelezze <br /> (c&iacute;m: Free Software Foundation Inc., 59 Temple Place, Suite 330, <br /> Boston, MA 02111-1307, USA.)<br /></pre>
+<p> A programhoz csatolni kell azt is, hogy mik&eacute;nt lehet
+kapcsolatba l&eacute;pni a szerzővel, elektronikus vagy
+hagyom&aacute;nyos lev&eacute;l k&uuml;ld&eacute;s&eacute;vel.
+</p>
+<p> Ha sz&uuml;ks&eacute;ges, meg kell szerezni a
+munk&aacute;ltat&oacute;t&oacute;l (ha a szerző
+programoz&oacute;k&eacute;nt dolgozik) vagy az iskol&aacute;t&oacute;l
+a program szerzői jogair&oacute;l val&oacute; lemond&aacute;s
+igazol&aacute;s&aacute;t. Erre itt egy p&eacute;lda; v&aacute;ltoztassa
+meg a neveket:
+</p>
+<pre> Yoyodyne, Inc., hereby disclaims all copyright interest in<br /> the library `Frob' (a library for tweaking knobs) written<br /> by James Random Hacker.<br /><br /><var> signature of Ty Coon</var>, 1 April 1990<br /> Ty Coon, President of Vice</pre>
+<p>
+</p>
+<pre><br /><br /> A Fikt&iacute;v Bt. ezennel lemond minden szerzői jogi &eacute;rdekelts&eacute;g&eacute;ről <br /> a &bdquo;Frob&rdquo; programk&ouml;nyvt&aacute;rral kapcsolatban, amelyet H. Ekker J&aacute;nos &iacute;rt.<br /> <br /> Al&aacute;&iacute;r&aacute;s: Tira Mih&aacute;ly, 1990. &aacute;prilis 1. Tira Mih&aacute;ly &uuml;gyvezető</pre>
+</div>
+</body>
+</html>

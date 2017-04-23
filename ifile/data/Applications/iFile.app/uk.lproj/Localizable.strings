@@ -1,0 +1,545 @@
+"%d of %d" = "%d з %d";
+"'%@' wants to send you some files." = "'%@' хоче передати кілька файлів.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Файл '%@' успішно передано.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Файлів в %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" Передати \">";
+"<p>Upload a file:<br />" = "<p>Передати файл:<br />";
+"A symbolic link to file %@ could not be created." = "Символічне посилання для файлу %@ не створюється.";
+"Accepting connections at http://%@ or http://%@.\n" = "Вхідні підключення як http://%@ чи http://%@.\n";
+"Access Permissions" = "Права доступу";
+"Add Bookmark" = "Нова закладка";
+"Add Folder" = "Нова папка";
+"Add to Camera Roll" = "Додати до Фотоплівки";
+"Address" = "Адреса";
+"An error occurred" = "Сталася помилка";
+"Application Names" = "Назви програм";
+"Apply hierarchically" = "Змінити ієрархічно";
+"Applying permissions and ownership hierarchically..." = "Ієрархічне змінення прав доступу…";
+"Ascending" = "А—Я";
+"Attributes" = "Атрибути";
+"Audio Player" = "Аудіопрогравач";
+"Audio output got changed." = "Змінився спосіб виведення звуку.";
+"Authentication" = "Авторизація";
+"Block Device" = "Блоковий пристрій";
+"Bonjour got enabled with name %@.\n" = "Задіяно Bonjour з ім'ям %@.\n";
+"Bookmark file %@ invalid: %@" = "Закладка %@ невірна: %@";
+"Bookmark folder name must not be empty." = "Папка закладки не може бути пустою.";
+"Bookmark name and address must not be empty." = "Назва і адреса закладки не можуть бути пустими.";
+"Bookmarks %@ could not be written: %@" = "Закладки %@ не записуються: %@";
+"Bookmarks Bar" = "Панель Закладок";
+"Bookmarks Menu" = "Меню Закладок";
+"Bookmarks" = "Закладки";
+"Buy License (Cydia Store)" = "Купити ліцензію (Cydia Store)";
+"Cancel" = "Відміна";
+"Character Device" = "Пристрій посимвольного вводу";
+"Close" = "Закрити";
+"Compressing..." = "Пакування...";
+"Connected" = "З'єднано";
+"Connection to '%@' failed." = "З'єднання з '%@' не вдалось.";
+"Continue" = "Продовжити";
+"Copy" = "Копіювати";
+"Copy/Link" = "Копіювати/Пов'язати";
+"Copying %@..." = "Копіювання %@...";
+"Copying Files..." = "Копіюю файли...";
+"Copying of file %@ requested\n" = "Запит на копію файла %@ отримано\n";
+"Create Link" = "Створити посилання";
+"Create ZIP File" = "Створити ZIP-архів";
+"Create" = "Створити";
+"Creation of directory %@ requested\n" = "Запит на створення папки %@ отримано\n";
+"Cut" = "Вирізати";
+"Date" = "Дата";
+"Delete %d Files" = "Видалити %d файлів";
+"Delete File" = "Видалити файл";
+"Deleting Files..." = "Видалення файлів...";
+"Deletion of file %@ requested\n" = "Запит на видалення файла %@ отримано\n";
+"Descending" = "Я—А";
+"Directory" = "Папка";
+"Earlier this month" = "раніше цього місяця";
+"Earlier this week" = "раніше цього тижня";
+"Earlier this year" = "раніше цього року";
+"Edit Bookmark" = "Редагувати закладку";
+"Edit Folder" = "Редагувати папку";
+"Email" = "Електронна пошта";
+"Emailing Attachments with iFile" = "Відправляю прикріплених файлів з iFile";
+"Empty Trash" = "Очистити Корзину";
+"Enter new ZIP file name." = "Введіть ім'я нового ZIP-архіву.";
+"Enter the page number to display\n(%d-%d)." = "Введіть номер сторінки для перегляду (%d-%d).";
+"Error occurred while receiving file." = "Сталася помилка при одержанні файла.";
+"Error" = "Помилка";
+"Execute" = "Виконати";
+"Executing Command: %@\n\n" = "Виконую команди: %@\n\n";
+"Extract %d Files" = "Розпакувати %d файлів";
+"Extract All Files" = "Розпакувати всі файли";
+"Extract File" = "Розпакувати файл";
+"File %@ requested\n" = "Файл %@ потрібен\n";
+"File Attributes" = "Атрибути";
+"File Browser" = "Менеджер Файлів";
+"File Exists" = "Файл вже існує";
+"File already exists with name %@." = "Файл вже існує з назвою %@.";
+"File attributes could not be changed or only partially." = "Файлові атрибути не можуть бути змінені або частково.";
+"File could not be renamed." = "Переіменування файлу неможливе.";
+"File successfully uploaded" = "Файл успішно передано";
+"Files" = "Файли";
+"Font Size" = "Розмір шрифту";
+"Gigantic (> 100 MB)" = "Гігантський (>100Мб)";
+"Go to Trash" = "Перейти в Корзину";
+"Go to page" = "Перейти на сторінку";
+"Group Permissions" = "Дозволи групи";
+"Group" = "Група";
+"Grouping" = "Гуртування";
+"Header of file %@ requested\n" = "Запит на заголовок файла %@ отримано\n";
+"Hidden Files" = "Приховані файли";
+"Hierarchy" = "Ієрархія";
+"Huge (10 MB - 100 MB)" = "Величезний (10Мб—100Мб)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Якщо ви придбали iFile в Cydia Store, просто почніть користуватись програмою, і вона стане зареєстрованою. Ви отримаєте належне повідомлення в діалоговому вікні.\nКористувачі, які отримали ліцензії безкоштовно або сплатили за неї безпосередньо через PayPal, мають зазначити свою адресу електронної поштової скриньки нижче. Реєстрація завершиться після повернення у вікно Налаштувань.";
+"Image Viewer" = "Переглядач Зображень";
+"Initializing Web Server..." = "Запуск веб-сервера...";
+"Installer" = "Інсталятор";
+"Internal inconsistency" = "Внутрішня несумісність";
+"Large (1 MB - 10 MB)" = "Великий (1Мб—10Мб)";
+"Last Modification" = "Останні зміни";
+"Last month" = "минулого місяця";
+"Last week" = "минулого тижня";
+"Last year" = "минулого року";
+"Later" = "Пізніше";
+"Link Target" = "Посилається на";
+"Linking %@..." = "Пов'язування %@...";
+"Linking Files..." = "Пов'язування файлів...";
+"Loading Contents..." = "Завантажую зміст...";
+"Loading..." = "Завантаження...";
+"Medium (100 KB - 1 MB)" = "Середній (100Кб—1Мб)";
+"Mime-Type" = "MIME-тип";
+"Modification Date" = "Дата змін";
+"Move %d Files to Trash" = "Викинути %d файл(ів)";
+"Move File to Trash" = "Викинути в Корзину";
+"Moving %@..." = "Переміщення %@...";
+"Moving Files..." = "Переміщую файли...";
+"Moving of file %@ requested\n" = "Запит на переміщення файла %@ отримано\n";
+"Multipart header empty" = "Багатокомпонентний Заголовок пустий";
+"Name" = "Назва";
+"New Folder" = "Нова папка";
+"New" = "Новий";
+"No file specified." = "Не зазначено файлів.";
+"OK" = "OK";
+"Older" = "давніше";
+"Open with..." = "Відкрити чим...";
+"Overwrite all" = "Переписати всі";
+"Overwrite" = "Переписати";
+"Owner" = "Власник";
+"Ownership" = "Власність";
+"PDF Viewer" = "Переглядач PDF";
+"Page %d does not exist. Please choose value between %d and %d." = "Сторінка %d не існує. Будь ласка, введіть номер від %d до %d.";
+"Password" = "\U041f\U0430\U0440\U043e\U043b\U044c";
+"Paste" = "Вставити";
+"Path" = "Путь";
+"Playback Paused" = "Програвання призупинено";
+"Port Number" = "Номер порту";
+"Preferences" = "Налаштування";
+"Program Execution" = "Виконання програми";
+"Properties of file %@ requested\n" = "Запит властивостей файла %@ отримано\n";
+"Property List Viewer" = "Переглядач PLIST";
+"Preparing Image..." = "Готую ім'я...";
+"Property list %@ invalid: %@" = "Файл переліку властивостей %@ невірний: %@";
+"Read" = "Прочитати";
+"Receiving %@" = "Отримую %@";
+"Register" = "Зареєструвати";
+"Registered" = "Зареєстровано";
+"Registering Web Service with Bonjour..." = "Реєструю веб-сервіси через Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Реєструю службу WebDAV разом з Bonjour...";
+"Registration Email Address" = "Реєстраційна адреса електронної пошти";
+"Registration Failed" = "Реєстрація не вдалась";
+"Registration Process" = "Процес Реєстрації";
+"Registration Status" = "Стан Реєстрації";
+"Registration Successful" = "Реєстрацію завершено";
+"Registration" = "Реєстрація";
+"Regular Expression" = "Простий вираз";
+"Regular File" = "Звичайний файл";
+"Rename" = "Перейменувати";
+"Resume" = "Поновити";
+"Safari Bookmarks" = "Закладки Safari";
+"Search Format" = "Формат пошуку";
+"Search filenames" = "Шукати назви файлів";
+"Search" = "Пошук";
+"Set on exit" = "Пам'ятати останню";
+"Shutting down web server..." = "Вимикаю веб-сервер...";
+"Simple" = "Простий";
+"Size" = "Розмір";
+"Small (10 KB - 100 KB)" = "Малий (10Кб—100Кб)";
+"Socket" = "Шлюз";
+"Song Titles" = "Назви пісень";
+"Sort Criteria" = "Сортувати";
+"Sort Order" = "Порядок";
+"Sort by Date" = "за Датою";
+"Sort by Extension" = "за Типом";
+"Sort by Name" = "за Назвою";
+"Sort by Size" = "за Розміром";
+"Startup Directory" = "Початкова папка";
+"Status" = "Стан";
+"Sticky" = "Кешувати";
+"Stop" = "Зупинити";
+"Symbolic Link" = "Символічне посилання";
+"Tabulator Width" = "Ширина табулятора";
+"Text Viewer" = "Перегладяч Тексту";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "Компонент 7z відсутній. Будь ласка, встановіть 'p7zip' через Cydia або використувуючи команду \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "ZIP-архів пошкоджений.";
+"The file %@ could not be copied." = "Файл %@ не може бути скопійований.";
+"The file %@ could not be deleted." = "Файл %@ не може бути видалений.";
+"The file %@ could not be moved." = "Файл %@ не може бути переміщений.";
+"The file %@ could not be written." = "Файл %@ не може бути записаний.";
+"The file %@ does not exist." = "Файл %@ не існує.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "Файл %@ тут вже існує. Ви хочете його переписати?";
+"The files could not be added to ZIP file." = "Файли не можуть бути долучені до ZIP-архіву.";
+"The files could not be extracted." = "Файли не можуть бути розпаковані.";
+"The files could not be removed." = "Файли не можуть бути прибрані.";
+"The image could not be added to the camera roll (%@)." = "Зображення не вдається додати до Фотоплівки (%@).";
+"The image got successfully added to the camera roll." = "Зображення успішно додано до Фотоплівки.";
+"The link target %@ does not exist." = "Файл посилання %@ не існує.";
+"The link target does not exist." = "Посилання не існує.";
+"The name has not been set. Please specify one." = "Не зазначено назви. Будь ласка, зазначте її.";
+"The server port is still in use. Please use a different port.\n" = "Порт сервера ще використовується.Будь ласка, скористайтесь іншим портом.\n";
+"The specified startup directory does not exist." = "Зазначена початкова папка не існує.";
+"The tabulator width is too small or empty." = "Довжина табулятора замала чи пуста.";
+"The text could not be found." = "Не знайдено тексту.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "Розмір шрифту в Переглядачі Тексту має бути в діапазоні від 8.0 до 18.0.";
+"The trash could not be completely emptied. Please check the remaining files." = "Не вдається остаточно очистити Корзину. Будь ласка, перевірте решту файлів власноруч.";
+"The trash got successfully emptied." = "Корзину успішно очищено.";
+"The video cannot be added to the camera roll." = "Відео не вдається додати до Фотоплівки.";
+"The video could not be added to the camera roll (%@)." = "Відео не вдається додати до Фотоплівки (%@).";
+"The video got successfully added to the camera roll." = "Відео успішно додано до Фотоплівки.";
+"The web server port number must be between 1 and 65535." = "Номер порту веб-сервера  має бути від 1 да 65535.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "Компоненти zip і unzip відсутні. Будь ласка, встановіть використовуючи команду \n'apt-get install zip unzip'.";
+"Theme Name" = "Назва теми";
+"Themes" = "Теми";
+"This functionality is only supported for registered users." = "Ці функції доступні лише зареєстрованим користувачам.";
+"Thumbnails" = "Міні-картинки";
+"Time" = "Час";
+"Tiny (< 10 kB)" = "Крихітний (<10Кб)";
+"Title" = "Назва";
+"Today" = "Сьогодні";
+"Transfer Request" = "Запит на передачу";
+"Transmitting %@" = "передаю %@";
+"Two months ago" = "два місяці тому";
+"Two years ago" = "два роки тому";
+"Type" = "Тип";
+"Unable to create %@." = "Не взмозі створити %@.";
+"Unarchiver" = "Розпакування";
+"Unknown" = "Невідомий";
+"Unpacking Files..." = "Розпаковую файли...";
+"Unregistered" = "Незареєстровано";
+"Upload of file %@ requested\n" = "Передачу файла %@ замовлено\n";
+"UploadedFile" = "Переданий файл";
+"Use Trash" = "Викидати в Корзину";
+"User Permissions" = "Права доступу";
+"User" = "Користувач";
+"Username" = "Ім'я користувача";
+"Video Player" = "Відеопрогравач";
+"Web Server" = "Веб-сервер";
+"Web Viewer" = "Веб-Переглядач";
+"Wildcard" = "Маска";
+"World Permissions" = "Світові дозволи";
+"World" = "Світ";
+"Write" = "Записати";
+"Yesterday" = "Вчора";
+"ZIP Viewer" = "ZIP-Архіватор";
+"\nFinished with Result Code: %d\n" = "\nЗавершено з кодом: %d\n";
+"done.\n" = "завершено.\n";
+"failed.\n" = "помилка.\n";
+"iFile License" = "Ліцензія iFile";
+"iFile Registration" = "Реєстрація iFile";
+"iFile got successfully registered." = "Реєстрацію iFile успішно завершено.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile змінює ліцензію на ShareWare. Якщо вам подобається програма і ви бажаєте використовувати її постійно, будь ласка, придбайте та зареєструйте її. Це потрібно для подальшого розвитку iFile.";
+"iFile registration failed." = "Реєстрація iFile не вдалась.";
+"iFile registration failed.\n(Reason: %@)" = "Реєстрація iFile не вдалась.\n(Причина: %@)";
+"iPhone Attachments with iFile" = "Файли з iPhone прикріплені за допомогою iFile";
+"in %@" = "в %@";
+"via iBlueNova" = "через iBlueNova";
+"via iFile" = "через iFile";
+"Add Shortcut" = "Створити посилання";
+"Applications" = "Програми";
+"Books" = "Книги";
+"Devices" = "Накопичувачі";
+"Disk" = "Диск";
+"Documents" = "Документи";
+"Flash Drive" = "Флеш-диск";
+"Home" = "Додому";
+"Images" = "Зображення";
+"Media Library" = "Медіатека";
+"Places" = "Місця";
+"Recordings" = "Аудіозаписи";
+"Shortcuts %@ could not be written: %@" = "Посилання %@ неможливо створити: %@";
+"Shortcuts file %@ invalid: %@" = "Посилання %@ вказує на неіснуючий файл: %@";
+"Shortcuts" = "Посилання";
+"Sidebar" = "Бічна панель";
+"Trash" = "Корзина";
+"Authentication Mode" = "Спосіб авторизації";
+"External Viewers" = "Зовнішні програми";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Додати властивість";
+"Edit Item" = "Редагувати властивість";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Властивість з подібною назвою вже існує. Видаліть її спочатку.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Дані";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Число";
+"Property List" = "Список властивостей";
+"String" = "String";
+"Unkown Number Type" = "Невідомий тип числа";
+"Unkown Type" = "Невідомий тип";
+/* Top Level of Property List */
+"Top Level" = "Перший рівень";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Назва властивості та його тип не можуть бути порожніми.";
+"Item type must not be empty." = "Тип властивості не може бути порожнім.";
+"Position of item has not been set." = "Розташування властивості не встановлено.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Торкніться двічі для відміни выбору";
+"Double tap to open" = "Торкніться двічі щоб вікрити";
+"Double tap to select" = "Торкніться двічі щоб вибрати";
+"deselected" = "невибраний";
+"selected" = "вибраний";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Накопичувач 1";
+"Flash Drive 2" = "Накопичувач 2";
+"Flash Drive 3" = "Накопичувач 3";
+"Flash Drive 4" = "Накопичувач 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Сторінка %d з %d";
+"Printing failed due to error in domain %@ with error code %u." = "Друк не завершено через помилку домена %@ з кодом %u.";
+"Printing of %@ completed successfully." = "Друк %@ завершено успішно.";
+"Printing of file %@ completed successfully." = "Друк файла %@ завершено успішно.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Лімит кількості міні-копій";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Від'єднати %@ не вдалось.";
+/* iFile Version Label used in iFile about page */
+"Version" = "Версія";
+"via Celeste" = "через Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "Про iFile";
+"Contact Developer" = "Зв'язок з розробником";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Додати в медіатеку iPod";
+"The song cannot be added to the iPod library." = "Неможливо додати пісню в медіатеку iPod.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Підрахунок...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Колір";
+"Default" = "За мовчанням";
+"Blue" = "Блакитний";
+"Brown" = "Коричневий";
+"Custom" = "Свій";
+"Gray" = "Сірий";
+"Green" = "Зелений";
+"Light Gray" = "Світло-сірий";
+"Night Blue" = "Синій";
+"Orange" = "Жовто-гарячий";
+"Pink" = "Рожевий";
+"Red" = "Червоний";
+"Yellow" = "Жовтий";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Зняти виділення";
+"Select all" = "Вибрати все";
+"Select" = "Вибрати";
+"Link" = "Посилання";
+"The file '%@' got successfully added to iPod library." = "Файл '%@' успішно додано в медіатеку iPod.";
+"The file '%@' could not be added to the iPod library." = "Файл '%@' неможливо додати в медіатеку iPod.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d файл";
+"%d Files" = "%d файлів";
+/* Title and options for opening a new tab */
+"Open..." = "Відкрити...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Локальна папка";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Очистити кеш Dropbox";
+"Clearing Dropbox cache failed." = "Очищення кешу Dropbox не вдалось.";
+"Download of file %@ failed." = "Завантаження файла %@ не вдалось.";
+"Downloading..." = "Завантаження...";
+"Link Dropbox" = "Поєднати з Dropbox";
+"No connection to Dropbox." = "Неможливо підключитись до Dropbox.";
+"Retrieving metadata for %@..." = "Отримання метаданих для %@...";
+"The contents of %@ could not get retrieved." = "Вміст %@ неможливо отримати.";
+"Unlink Dropbox" = "Убрать связь с Dropbox";
+"Upload of file %@ failed." = "Завантаження файла %@ на сервер не вдалось.";
+"Uploading %@..." = "Завантаження %@ на сервер...";
+/* File list refresh */
+"Pull down to refresh..." = "Потягніть вниз для оновлення...";
+"Release to refresh..." = "Відпустіть для оновлення...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Зберігати шляхи";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Будь ласка, опишіть неполадку або натисніть кнопку Відміна.";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Копіювати публічне посилання";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "Монтаж образів дисків";
+"Mounting..." = "Монтую...";
+"Disk image could not be mounted." = "Образ диска неможливо змонтувати.";
+"Disk image successfully mounted at %@." = "Образ диска успішно змонтовано як %@.";
+"Successfully unmounted %@." = "Успішно вийнято %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Вийняти";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Образ диска";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Показати";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ вільно";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"% @ Server" = "% @ Сервер";
+"Authentication Failed" = "Авторизація не вдалася";
+"Cannot set secure FTP connection properties." = "Неможливо встановити властивості захищеного FTP-з'єднання.";
+"Clear FTP Cache" = "Очистити FTP-кеш";
+"Clearing FTP cache failed." = "Очищення FTP-кешу не вдалося.";
+"Connect" = "Підключитися";
+"Connection Failed" = "Підключення не вдалося";
+"Connection Refused" = "В підключенні відмовлено";
+"Connection to FTP server failed." = "Підключення до FTP-серверу не вдалося.";
+"Copying / Moving between remote file systems is not supported." = "Копіювання / переміщення між віддаленими файловими системами не підтримується.";
+"Could not open connection to% @." = "Неможливо встановити підключення до% @." ;
+"Could not read from network." = "Неможливо отримати дані з мережі.";
+"Could not write to network." = "Неможливо записати дані в мережу.";
+"Deleting% @ ..." = "Видалення% @ ...";
+"Directory listing parse failed." = "Обробка списку файлів не вдалася.";
+"Enter password for user '% @'" = "Введіть пароль користувача '% @'";
+"FTP Server" = "FTP-сервер";
+"FTP Servers" = "FTP-сервери";
+"FTPS Server" = "FTPS-сервер";
+"File read error." = "Помилка читання файлу.";
+"File write error." = "Помилка запису файлу.";
+"Login Failed" = "Вхід не вдався";
+"Please check if server name is correct." = "Будь ласка перевірте правильність імені сервера.";
+"Please check if user name and password is correct." = "Будь ласка перевірте правильність імені користувача і пароля.";
+"Please enter a valid port number." = "Будь ласка введіть номер доступного порту.";
+"Port" = "Порт";
+"Remote Servers" = "Віддалені сервери";
+"Retrieving contents of% @ ..." = "Отримання вмісту% @ ...";
+"The FTP protocol does not support server side copy operations." = "Протокол FTP не підтримує операції копіювання на стороні сервера.";
+"The password must not be empty." = "Пароль не повинен бути порожнім.";
+"The server name must not be empty." = "Ім'я сервера не повинно бути порожнім.";
+"The user name must not be empty." = "Ім'я користувача не повинно бути порожнім.";
+"URL is invalid: \ n:% @" = "Адреса URL недійсна: \ n:% @";
+"Open" = "Відкрити";
+"Ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV-сервер";
+"WebDAV Servers" = "WebDAV-сервери";
+"Secure WebDAV Server" = "Захищений WebDAV-сервер";
+"Cannot set secure WebDAV connection properties." = "Неможливо встановити властивості захищеного WebDAV-з'єднання.";
+"Clear WebDAV Cache" = "Очистити WebDAV-кеш";
+"Clearing WebDAV cache failed." = "Очищення WebDAV-кешу не вдалося.";
+"Www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Стерти всі паролі";
+"Manage Passwords" = "Менеджер паролів";
+"Passwords" = "Паролі";
+/* Titles in Preferences Editor */
+"File Manager" = "Менеджер файлів";
+"File Viewers" = "Переглядачі файлів";
+"IFile Web Server" = "Веб-сервер iFile";
+"Via AirBlue Sharing" = "за допомоги AirBlue Sharing";
+/* Other strings */
+"Bookmark" = "Закладка";
+"The file '% @' got successfully added to iPod library." = "Файл '% @' успішно додано у медіатеку iPod.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Очистити кеш FlashAir®";
+"Clearing Toshiba FlashAir® cache failed." = "Очищення кешу Toshiba FlashAir® не вдалось.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Протокол Toshiba FlashAir® підтримує перегляд списку файлів та операції звантаження.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Прив'язка облікового запису видалена";
+"Clear box.net Cache" = "Очистити кеш box.net";
+"Clearing box.net cache failed." = "Очищення кешу box.net не вдалось.";
+"Do you want to relink?" = "Ви бажаєте заново прив'язати обліковий запис?";
+"Logged out" = "Вихід з системи завершено";
+"Login box.net" = "Вхід у box.net";
+"Logout box.net" = "Вихід из box.net";
+"No connection to box.net." = "Неможливо з'єднатися з box.net.";
+"Relink" = "Прив'язати заново";
+"You have logged out of your box.net account." = "Ви вийшли з облікового запису box.net.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Сесію Dropbox завершено";
+"Your dropbox account has been unlinked." = "Прив'язка вашого облікового запису Dropbox видалена.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Захищені сервери WebDAV";
+"Server Address" = "Адреса серверу";
+"Login" = "Вхід";
+"Enter user and password:" = "Введіть ім'я користувача і пароль:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ використано";
+/* message while updating file date on server */
+"Updating date of %@..." = "Оновлення дати %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Неправильний сервер";
+"Server does not support required WebDAV options." = "Сервер не підтримує необхідні опції WebDAV.";
+"Directory listing has wrong format." = "Список папок має неправильный формат.";
+"Modification date update failed." = "Оновлення дати не вдалось.";
+"Bad HTTP Request." = "Поганий запит HTTP.";
+"Unauthorized Access." = "Неавторизований доступ.";
+"Access forbidden." = "Доступ заборонено.";
+"Object not found on server." = "Об'єкт не знайдено на сервері.";
+"Access method not allowed." = "Метод доступу не дозволений.";
+"Access conflict." = "Конфлікт доступу.";
+"Internal Server Error." = "Внутрішня помилка серверу.";
+"Functionality not implemented on server." = "Функціональність ще не підтримується сервером.";
+"Insufficient storage on server." = "На сервері недостатньо місця.";
+"HTTP error %d." = "Помилка HTTP %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Прийняти сертифікат веб-серверу";
+"Accept" = "Прийняти";
+"Import" = "Імпорт";
+"Certificate Imported" = "Сертификат імпортовано";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Сертифікат '%@' для цього веб-сайту невідомий або недійсний. Натисніть Прийняти щоб підключитися в будь-якому разі.";
+"The certificate '%@' got successfully imported." = "Сертифікат '%@' успішно імпортовано.";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Сертифікат для цього веб-сайту невідомий або недійсний. Натисніть Прийняти щоб підключитися в будь-якому разі.";
+"The import of certificate '%@' failed." = "Імпорт сертификату '%@' не вдався.";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex-редактор";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Файл змінено";
+"The file got changed. Do you want to save the changes?" = "Файл було змінено. Ви бажаєте зберегти зміни?";
+"Yes" = "Так";
+"No" = "Ні";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Введіть десятковий індекс байту для відображения (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Введіть шістнадцятковий індекс байту для відображения  (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Індекс байту %llX не існує. Будь ласка, оберіть значення між %llX й %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Індекс байту %lld не існує. Будь ласка, оберіть значення між %lld й %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Індекс байту '%@' недійсний. Будь ласка, оберіть значення між %llX й %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Індекс байту '%@' недійсний. Будь ласка, оберіть значення між %lld й %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Спільне";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Папки вгорі";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "Редактор SQLite3";
+/* title for listing of database tables */
+"Tables" = "Таблиці";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "Вираз SQL";
+"Failed to fetch SQL result" = "Не вдалось обробити результат SQL";
+"Failed to fetch table names" = "Не вдалось отримати назви таблиць";
+"Failed to prepare SQL statement" = "Не вдалось підготувати вираз SQL";
+"Failed to prepare for fetching table names" = "Не вдалось підготуватись до отримання назв таблиць";
+"Language" = "\U041c\U043e\U0432\U0430";

@@ -1,0 +1,545 @@
+"%d of %d" = "%d の %d";
+"'%@' wants to send you some files." = "'%@'はいくつかのファイルを転送するよう求めています。";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>ファイル '%@' は正常にアップロードされました。</p>";
+"<h1>Files in %@</h1>\n" = "<h1>ファイル: %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" value=\" アップロード \">";
+"<p>Upload a file:<br />" = "<p>ファイルをアップロード:<br />";
+"A symbolic link to file %@ could not be created." = "%@ のシンボリックリンクを作成できませんでした。";
+"Accepting connections at http://%@ or http://%@.\n" = "http://%@ または http://%@ での接続が有効になりました。\n";
+"Access Permissions" = "アクセス権";
+"Add Bookmark" = "ブックマークに追加";
+"Add Folder" = "フォルダを追加";
+"Add to Camera Roll" = "カメラロールに追加";
+"Address" = "アドレス";
+"An error occurred" = "エラーが発生しました";
+"Application Names" = "アプリケーション名";
+"Apply hierarchically" = "内包している項目に適用";
+"Applying permissions and ownership hierarchically..." = "内包している項目にアクセス権と所有権を適用";
+"Ascending" = "昇順";
+"Attributes" = "属性";
+"Audio Player" = "オーディオプレイヤー";
+"Audio output got changed." = "オーディオの出力先が変更されました。";
+"Authentication" = "認証";
+"Block Device" = "デバイスをブロック";
+"Bonjour got enabled with name %@.\n" = "%@という名前でBonjourが有効になりました。\n";
+"Bookmark file %@ invalid: %@" = "ブックマークファイル %@ は無効です: %@";
+"Bookmark folder name must not be empty." = "ブックマークフォルダの名前を空にしてはいけません。";
+"Bookmark name and address must not be empty." = "ブックマーク名やアドレスを空にしてはいけません。";
+"Bookmarks %@ could not be written: %@" = "ブックマーク %@ は書き込めません: %@";
+"Bookmarks Bar" = "ブックマークバー";
+"Bookmarks Menu" = "ブックマークメニュー";
+"Bookmarks" = "ブックマーク";
+"Buy License (Cydia Store)" = "ライセンスを購入 (Cydia Store)";
+"Cancel" = "キャンセル";
+"Character Device" = "キャラクターデバイス";
+"Close" = "閉じる";
+"Compressing..." = "圧縮中...";
+"Connected" = "接続されました";
+"Connection to '%@' failed." = "'%@'への接続に失敗しました";
+"Continue" = "続ける";
+"Copy" = "コピー";
+"Copy/Link" = "コピー/リンク";
+"Copying %@..." = "%@ をコピー中...";
+"Copying Files..." = "ファイルをコピー中...";
+"Copying of file %@ requested\n" = "%@ をコピーしています\n";
+"Create Link" = "リンクを作成";
+"Create ZIP File" = "ZIPファイルを作成";
+"Create" = "作成";
+"Creation of directory %@ requested\n" = "フォルダ %@ を作成中\n";
+"Cut" = "カット";
+"Date" = "日付";
+"Delete %d Files" = "%dつのファイルを削除";
+"Delete File" = "ファイルを削除";
+"Deleting Files..." = "ファイルを削除中...";
+"Deletion of file %@ requested\n" = "%@ を削除しています\n";
+"Descending" = "降順";
+"Directory" = "フォルダ";
+"Earlier this month" = "今月より前";
+"Earlier this week" = "今週より前";
+"Earlier this year" = "今年より前";
+"Edit Bookmark" = "ブックマークの編集";
+"Edit Folder" = "フォルダの編集";
+"Email" = "Eメール";
+"Emailing Attachments with iFile" = "iFileからの添付ファイル";
+"Empty Trash" = "ゴミ箱を空にする";
+"Enter new ZIP file name." = "ZIPファイルの名前を入力して下さい。";
+"Enter the page number to display\n(%d-%d)." = "ページ番号を入力して下さい\n(%d-%d)";
+"Error occurred while receiving file." = "ファイル受信中にエラーが発生しました。";
+"Error" = "エラー";
+"Execute" = "実行";
+"Executing Command: %@\n\n" = "実行中のコマンド: %@\n\n";
+"Extract %d Files" = "%dつのファイルを解凍";
+"Extract All Files" = "すべてのファイルを解凍";
+"Extract File" = "ファイルを解凍";
+"File %@ requested\n" = "ファイル %@ が要求されました\n";
+"File Attributes" = "ファイル属性";
+"File Browser" = "ファイルブラウザ";
+"File Exists" = "ファイルの存在";
+"File already exists with name %@." = "%@という名前のファイルはすでにあります。";
+"File attributes could not be changed or only partially." = "ファイル属性を変更出来ませんでした。";
+"File could not be renamed." = "リネーム出来ませんでした。";
+"File successfully uploaded" = "ファイルのアップロードに成功しました";
+"Files" = "ファイル数";
+"Font Size" = "フォントサイズ";
+"Gigantic (> 100 MB)" = "とてつもなく大きい (> 100 MB)";
+"Go to Trash" = "ゴミ箱へ移動";
+"Go to page" = "ページ移動";
+"Group Permissions" = "グループ権限";
+"Group" = "グループ";
+"Grouping" = "グループ化";
+"Header of file %@ requested\n" = "%@ のヘッダ\n";
+"Hidden Files" = "隠しファイルの表示";
+"Hierarchy" = "階層";
+"Huge (10 MB - 100 MB)" = "とても大きい (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Cydia StoreでiFileを購入した場合、iFileを起動するだけでメッセージの表示と共に登録は完了します。\nPayPalなどを使って支払った場合は、Eメールアドレスを入力します。設定に戻った際に登録は完了します。";
+"Image Viewer" = "画像ビューアー";
+"Initializing Web Server..." = "Webサーバーを起動中...";
+"Installer" = "インストール";
+"Internal inconsistency" = "内部での不一致がありました";
+"Large (1 MB - 10 MB)" = "より大きい (1 MB - 10 MB)";
+"Last Modification" = "変更日";
+"Last month" = "先月";
+"Last week" = "先週";
+"Last year" = "昨年";
+"Later" = "あとで";
+"Link Target" = "リンクターゲット";
+"Linking %@..." = "%@ のリンク作成中...";
+"Linking Files..." = "リンク作成中...";
+"Loading Contents..." = "項目をロード中...";
+"Loading..." = "ロード中...";
+"Medium (100 KB - 1 MB)" = "中 (100 KB - 1 MB)";
+"Mime-Type" = "Mime-Type";
+"Modification Date" = "変更日";
+"Move %d Files to Trash" = "%d ファイルをゴミ箱に移動";
+"Move File to Trash" = "ゴミ箱に移動";
+"Moving %@..." = "%@ を移動中...";
+"Moving Files..." = "ファイルを移動中...";
+"Moving of file %@ requested\n" = "%@ を移動中\n";
+"Multipart header empty" = "Multipartヘッダが空です";
+"Name" = "名前";
+"New Folder" = "新しいフォルダ";
+"New" = "新規";
+"No file specified." = "ファイルが指定されていません。";
+"OK" = "OK";
+"Older" = "より古い";
+"Open with..." = "開く...";
+"Overwrite all" = "すべて上書き";
+"Overwrite" = "上書き";
+"Owner" = "オーナー";
+"Ownership" = "所有権";
+"PDF Viewer" = "PDFビューアー";
+"Page %d does not exist. Please choose value between %d and %d." = "%dページは見つかりません。%dから%dの間で選択してください。";
+"Password" = "パスワード";
+"Paste" = "ペースト";
+"Path" = "パス";
+"Playback Paused" = "再生一時停止";
+"Port Number" = "ポート番号";
+"Preferences" = "設定";
+"Program Execution" = "実行";
+"Properties of file %@ requested\n" = "%@ のプロパティ\n";
+"Property List Viewer" = "プロパティリストビューアー";
+"Preparing Image..." = "処理中...";
+"Property list %@ invalid: %@" = "プロパティリスト%@は無効です: %@";
+"Read" = "読み";
+"Receiving %@" = "%@ を受信中";
+"Register" = "登録";
+"Registered" = "登録済";
+"Registering Web Service with Bonjour..." = "BonjourにWebサービスを登録中...";
+"Registering WebDAV Service with Bonjour..." = "WebDAVサービスを登録中(Bonjourを使用)";
+"Registration Email Address" = "Eメールアドレスを登録";
+"Registration Failed" = "登録に失敗しました";
+"Registration Process" = "登録手順";
+"Registration Status" = "登録状況";
+"Registration Successful" = "登録が完了しました";
+"Registration" = "登録";
+"Regular Expression" = "正規表現";
+"Regular File" = "通常のファイル";
+"Rename" = "名前変更";
+"Resume" = "再生再開";
+"Safari Bookmarks" = "Safariブックマーク";
+"Search Format" = "検索方法";
+"Search filenames" = "ファイル名検索";
+"Search" = "検索";
+"Set on exit" = "終了時のフォルダを記憶";
+"Shutting down web server..." = "Webサーバーを終了中...";
+"Simple" = "シンプル";
+"Size" = "サイズ";
+"Small (10 KB - 100 KB)" = "小 (10 KB - 100 KB)";
+"Socket" = "ソケット";
+"Song Titles" = "曲名";
+"Sort Criteria" = "ソート基準";
+"Sort Order" = "ソート順";
+"Sort by Date" = "日付";
+"Sort by Extension" = "拡張子";
+"Sort by Name" = "名前";
+"Sort by Size" = "サイズ";
+"Startup Directory" = "起動時に表示するフォルダ";
+"Status" = "状況";
+"Sticky" = "スティッキー";
+"Stop" = "再生停止";
+"Symbolic Link" = "シンボリックリンク";
+"Tabulator Width" = "タブ幅";
+"Text Viewer" = "テキストビューアー";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "7zがインストールされていません。Cydiaから'p7zip'をインストールするか、\n'apt-get install p7zip'を実行してください。";
+"The ZIP file is not valid." = "有効なZIPファイルではありません。";
+"The file %@ could not be copied." = "%@ はコピー出来ませんでした。";
+"The file %@ could not be deleted." = "%@ は削除出来ませんでした。";
+"The file %@ could not be moved." = "%@ は移動出来ませんでした。";
+"The file %@ could not be written." = "%@ は書き込めません。";
+"The file %@ does not exist." = "ファイル %@ がありません。";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it?" = "%@ という名前のファイルがすでにあります。名前を変更しますか?それとも上書きしますか?";
+"The files could not be added to ZIP file." = "ファイルをZIPに追加出来ませんでした。";
+"The files could not be extracted." = "ファイルを解凍出来ませんでした。";
+"The files could not be removed." = "ファイルを取り除くことができませんでした。";
+"The image could not be added to the camera roll (%@)." = "画像をカメラロールに追加できませんでした (%@)。";
+"The image got successfully added to the camera roll." = "写真はカメラロールに追加されました。";
+"The link target %@ does not exist." = "リンク先 %@ がありません。";
+"The link target does not exist." = "リンク先がありません。";
+"The name has not been set. Please specify one." = "名前を設定してください。";
+"The server port is still in use. Please use a different port.\n" = "ポートは使用中です。別のポートを使用してください。\n";
+"The specified startup directory does not exist." = "指定された開始時のフォルダがありません。";
+"The tabulator width is too small or empty." = "タブ幅が小さ過ぎるか空です。";
+"The text could not be found." = "見つかりませんでした。";
+"The text viewer font size should in the range of 8.0 and 18.0." = "テキストビューアーのフォントサイズは8.0から18.0の間にしてください。";
+"The trash could not be completely emptied. Please check the remaining files." = "ゴミ箱を空にできません。残っているファイルを確認してください。";
+"The trash got successfully emptied." = "ゴミ箱を空にしました。";
+"The video cannot be added to the camera roll." = "ビデオをカメラロールに追加できませんでした。";
+"The video could not be added to the camera roll (%@)." = "ビデオをカメラロールに追加できませんでした (%@)。";
+"The video got successfully added to the camera roll." = "ビデオはカメラロールに追加されました。";
+"The web server port number must be between 1 and 65535." = "Webサーバーのポート番号は1から65535の間にしてください。";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "zipおよびunzipがインストールされていません。\n'apt-get install zip unzip'を実行してください。";
+"Theme Name" = "テーマ";
+"Themes" = "テーマ";
+"This functionality is only supported for registered users." = "この機能は、登録ユーザーのみサポートされます。";
+"Thumbnails" = "サムネイル";
+"Time" = "時間";
+"Tiny (< 10 kB)" = "より小さい (< 10 kB)";
+"Title" = "タイトル";
+"Today" = "今日";
+"Transfer Request" = "転送要求";
+"Transmitting %@" = "%@ を送信中";
+"Two months ago" = "2ヶ月前";
+"Two years ago" = "2年前";
+"Type" = "タイプ";
+"Unable to create %@." = "%@を作成できません。";
+"Unarchiver" = "解凍";
+"Unknown" = "不明";
+"Unpacking Files..." = "パッケージを展開中...";
+"Unregistered" = "未登録";
+"Upload of file %@ requested\n" = "%@ をアップロード\n";
+"UploadedFile" = "アップロードされたファイル";
+"Use Trash" = "ゴミ箱を使用";
+"User Permissions" = "ユーザー権限";
+"User" = "ユーザー";
+"Username" = "ユーザー名";
+"Video Player" = "ビデオプレイヤー";
+"Web Server" = "Webサーバー";
+"Web Viewer" = "Webビューアー";
+"Wildcard" = "ワイルドカード";
+"World Permissions" = "その他の権限";
+"World" = "その他";
+"Write" = "書き";
+"Yesterday" = "昨日";
+"ZIP Viewer" = "ZIPビューアー";
+"\nFinished with Result Code: %d\n" = "\nリザルトコード: %d\n";
+"done.\n" = "完了\n";
+"failed.\n" = "失敗\n";
+"iFile License" = "iFileのライセンス";
+"iFile Registration" = "iFileの登録";
+"iFile got successfully registered." = "iFileの登録が完了しました。";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFileはシェアウェアです。このアプリを気に入って下さり、継続して利用されるなら、iFileの今後の開発のためにもぜひ購入して登録してください。";
+"iFile registration failed." = "iFileの登録に失敗しました。";
+"iFile registration failed.\n(Reason: %@)" = "iFileの登録に失敗しました。\n(理由: %@)";
+"iPhone Attachments with iFile" = "iFileによってiPhoneから送信された添付ファイル";
+"in %@" = "%@ 中";
+"via iBlueNova" = "iBlueNova経由";
+"via iFile" = "iFile経由";
+"Add Shortcut" = "ショートカットを追加";
+"Applications" = "アプリケーション";
+"Books" = "ブック";
+"Devices" = "デバイス";
+"Disk" = "ディスク";
+"Documents" = "書類";
+"Flash Drive" = "フラッシュメモリ";
+"Home" = "ホーム";
+"Images" = "イメージ";
+"Media Library" = "メディアライブラリ";
+"Places" = "場所";
+"Recordings" = "記録";
+"Shortcuts %@ could not be written: %@" = "ショートカット %@ は書き込めませんでした: %@";
+"Shortcuts file %@ invalid: %@" = "ショートカットファイル %@ は無効です: %@";
+"Shortcuts" = "ショートカット";
+"Sidebar" = "サイドバー";
+"Trash" = "ゴミ箱";
+"Authentication Mode" = "認証モード";
+"External Viewers" = "外部ビューアー";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "項目追加";
+"Edit Item" = "項目編集";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "同じ項目が既にあります。先に削除して下さい。";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Number";
+"Property List" = "プロパティリスト";
+"String" = "String";
+"Unkown Number Type" = "不明な Number タイプ";
+"Unkown Type" = "不明なType";
+/* Top Level of Property List */
+"Top Level" = "トップレベル";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "項目名とタイプを空欄にはできません。";
+"Item type must not be empty." = "タイプを空欄にはできません。";
+"Position of item has not been set." = "項目の位置が設定されていません。";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "ダブルタップで選択解除";
+"Double tap to open" = "ダブルタップで開く";
+"Double tap to select" = "ダブルタップで選択";
+"deselected" = "選択解除";
+"selected" = "選択";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "フラッシュドライブ1";
+"Flash Drive 2" = "フラッシュドライブ2";
+"Flash Drive 3" = "フラッシュドライブ3";
+"Flash Drive 4" = "フラッシュドライブ4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "ページ %d / %d";
+"Printing failed due to error in domain %@ with error code %u." = "印刷はドメイン%@のエラーにより失敗しました。エラーコード %u";
+"Printing of %@ completed successfully." = "%@ の印刷は無事終了しました。";
+"Printing of file %@ completed successfully." = "ファイル %@ の印刷は無事終了しました。";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "サムネイルの限界";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "%@ のアンマウント失敗";
+/* iFile Version Label used in iFile about page */
+"Version" = "バージョン";
+"via Celeste" = "Celeste経由";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "iFileについて";
+"Contact Developer" = "作者へ連絡";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "iPodライブラリに追加";
+"The song cannot be added to the iPod library." = "この曲はiPodライブラリに追加できません";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "計算中...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "カラー";
+"Default" = "デフォルト";
+"Blue" = "ブルー";
+"Brown" = "ブラウン";
+"Custom" = "カスタム";
+"Gray" = "グレー";
+"Green" = "グリーン";
+"Light Gray" = "ライトグレー";
+"Night Blue" = "ナイトブルー";
+"Orange" = "オレンジ";
+"Pink" = "ピンク";
+"Red" = "レッド";
+"Yellow" = "イエロー";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "すべて選択解除";
+"Select all" = "すべてを選択";
+"Select" = "選択";
+"Link" = "リンク";
+"The file '%@' got successfully added to iPod library." = "'%@'をiPodライブラリに追加しました";
+"The file '%@' could not be added to the iPod library." = "'%@'はiPodライブラリに追加できませんでした";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d ファイル";
+"%d Files" = "%d ファイル";
+/* Title and options for opening a new tab */
+"Open..." = "開く...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "ローカルフォルダ";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Dropboxのキャッシュをクリア";
+"Clearing Dropbox cache failed." = "Dropboxのキャッシュをクリアできませんでした";
+"Download of file %@ failed." = "%@ のダウンロードに失敗しました";
+"Downloading..." = "ダウンロード中...";
+"Link Dropbox" = "Dropboxにリンク";
+"No connection to Dropbox." = "Dropboxに接続していません";
+"Retrieving metadata for %@..." = "%@のメタデータを取得...";
+"The contents of %@ could not get retrieved." = "%@ の内容を取得できませんでした";
+"Unlink Dropbox" = "Dropboxのリンク解除";
+"Upload of file %@ failed." = "%@ のアップロードに失敗しました";
+"Uploading %@..." = "アップロード中 %@...";
+/* File list refresh */
+"Pull down to refresh..." = "引っぱって更新...";
+"Release to refresh..." = "指をはなして更新...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "パスを記憶";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "問題を送信するかキャンセルを押して下さい。";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "公開リンクをコピー";
+/* Messages for disk image mounter */
+"Disk Image Mounter" = "ディスクイメージマウンタ";
+"Mounting..." = "マウント中...";
+"Disk image could not be mounted." = "ディスクイメージをマウントできませんでした。";
+"Disk image successfully mounted at %@." = "%@ をマウントしました。";
+"Successfully unmounted %@." = "%@ をマウント解除しました。";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "マウント解除";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "ディスクイメージ";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "表示";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ 空き";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ サーバー";
+"Authentication Failed" = "認証に失敗しました。";
+"Cannot set secure FTP connection properties." = "セキュアなFTP接続プロパティを設定できません。";
+"Clear FTP Cache" = "FTPキャッシュをクリア";
+"Clearing FTP cache failed." = "FTPキャッシュのクリアに失敗しました。";
+"Connect" = "接続";
+"Connection Failed" = "接続失敗";
+"Connection Refused" = "接続が拒否されました";
+"Connection to FTP server failed." = "FTPサーバーの接続に失敗しました。";
+"Copying/Moving between remote file systems is not supported." = "リモートファイルシステム間のコピー/移動はサポートされていません。";
+"Could not open connection to %@." = "%@へ接続できませんでした。" ;
+"Could not read from network." = "ネットワークから読み込みできませんでした。";
+"Could not write to network." = "ネットワークへ書き込みできませんでした。";
+"Deleting %@..." = "%@を削除中...";
+"Directory listing parse failed." = "ディレクトリリストの解析に失敗しました。";
+"Enter password for user '%@'" = "ユーザー'%@'のパスワードを入力してください。";
+"FTP Server" = "FTPサーバー";
+"FTP Servers" = "FTPサーバー";
+"FTPS Server" = "FTPSサーバー";
+"File read error." = "読み込みエラー";
+"File write error." = "書き込みエラー";
+"Login Failed" = "ログイン失敗";
+"Please check if server name is correct." = "サーバー名が正しいかどうか確認してください。";
+"Please check if user name and password is correct." = "ユーザー名とパスワードが正しいかどうかを確認してください。";
+"Please enter a valid port number." = "有効なポート番号を入力してください。";
+"Port" = "ポート";
+"Remote Servers" = "リモートサーバー";
+"Retrieving contents of %@..." = "%@ の内容を読み込んでいます...";
+"The FTP protocol does not support server side copy operations." = "FTPプロトコルは、サーバー側のコピー操作をサポートしていません。";
+"The password must not be empty." = "パスワードを入力してください。";
+"The server name must not be empty." = "サーバー名を入力してください。";
+"The user name must not be empty." = "ユーザー名を入力してください。";
+"URL is invalid:\n: %@" = "無効なURL:\n: %@";
+"Open" = "開く";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAVサーバー";
+"WebDAV Servers" = "WebDAVサーバー";
+"Secure WebDAV Server" = "セキュアWebDAVサーバー";
+"Cannot set secure WebDAV connection properties." = "セキュアなWebDAV接続プロパティを設定できません。";
+"Clear WebDAV Cache" = "WebDAVキャッシュのクリア";
+"Clearing WebDAV cache failed." = "WebDAVキャッシュのクリアに失敗しました。";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "全てのパスワードをクリア";
+"Manage Passwords" = "パスワード管理";
+"Passwords" = "パスワード";
+/* Titles in Preferences Editor */
+"File Manager" = "ファイルマネージャー";
+"File Viewers" = "ファイルビューアー";
+"iFile Web Server" = "iFile Webサーバー";
+"via AirBlue Sharing" = "AirBlue共有";
+/* Other strings */
+"Bookmark" = "ブックマーク";
+"The file '%@' got successfully added to iPod library." = "'%@' をiPodライブラリに追加しました。";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "キャッシュをクリア";
+"Clearing Toshiba FlashAir cache failed." = "キャッシュのクリアに失敗しました。";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Toshiba FlashAir® はフォルダのリスト表示とダウンロードのみサポートします。";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "アカウント未登録";
+"Clear box.net Cache" = "キャッシュのクリア";
+"Clearing box.net cache failed." = "キャッシュのクリアに失敗しました。";
+"Do you want to relink?" = "再登録しますか?";
+"Logged out" = "ログアウト";
+"Login box.net" = "box.netにログイン";
+"Logout box.net" = "box.netからログアウト";
+"No connection to box.net." = "box.netに接続していません。";
+"Relink" = "再登録";
+"You have logged out of your box.net account." = "box.netアカウントからログアウトしました。";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropboxとのセッションを終了しました。";
+"Your dropbox account has been unlinked." = "Dropboxアカウントの登録を解除しました。";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "セキュア WebDAV サーバー";
+"Server Address" = "サーバーアドレス";
+"Login" = "ログイン";
+"Enter user and password:" = "ユーザー名とパスワードを入力:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ 使用";
+/* message while updating file date on server */
+"Updating date of %@..." = "%@の日付を更新中...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "無効なサーバー";
+"Server does not support required WebDAV options." = "サーバーはWebDAVオプションに対応していません。";
+"Directory listing has wrong format." = "フォルダリストは正しくないフォーマットです。";
+"Modification date update failed." = "修正日の更新に失敗しました。";
+"Bad HTTP Request." = "Bad HTTP Request.";
+"Unauthorized Access." = "アクセス権限がありません。";
+"Access forbidden." = "アクセスが禁止されています。";
+"Object not found on server." = "対象が見つかりません。";
+"Access method not allowed." = "そのアクセス方法は許可されていません。";
+"Access conflict." = "アクセスが重複しています。";
+"Internal Server Error." = "内部サーバーエラー";
+"Functionality not implemented on server." = "その機能はサーバーに実装されていません。";
+"Insufficient storage on server." = "サーバーの容量不足です。";
+"HTTP error %d." = "HTTP エラー %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "ウェブサイトの証明書を受け入れる";
+"Accept" = "受け入れる";
+"Import" = "インポート";
+"Certificate Imported" = "証明書をインポートしました";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "このウェブサイトの証明書 '%@' は不明または無効です。それでも接続する場合は[受け入れる]をタップしてください。";
+"The certificate '%@' got successfully imported." = "証明書 '%@' は清上にインポートされました。";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "このウェブサイトの証明書は不明または無効です。それでも接続する場合は[受け入れる]をタップしてください。";
+"The import of certificate '%@' failed." = "証明書 '%@' のインポートに失敗しました。";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex エラー";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "変更されたファイル";
+"The file got changed. Do you want to save the changes?" = "ファイルが変更されました。変更を保存しますか？";
+"Yes" = "はい";
+"No" = "いいえ";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "表示する10進数のバイトインデックスを入力してください (%d-%d)。";
+"Enter the hexadecimal byte index to display (%X-%X)." = "表示する16進数のバイトインデックスを入力してください (%d-%d)。";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "バイトインデックス %llX は存在しません。%llX から %llX の間で入力してください。";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "バイトインデックス %lld は存在しません。%lld から %lld の間で入力してください。";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "バイトインデックス '%@' は不正です。%llX から %llX の間で入力してください。";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "バイトインデックス '%@' は不正です。%lld から %lld の間で入力してください。";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "共有";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "フォルダを先頭に配置する";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 エディタ";
+/* title for listing of database tables */
+"Tables" = "テーブル";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL ステートメント";
+"Failed to fetch SQL result" = "SQLの結果の取得に失敗しました";
+"Failed to fetch table names" = "テーブル名の取得に失敗しました";
+"Failed to prepare SQL statement" = "SQLステートメントの準備に失敗しました";
+"Failed to prepare for fetching table names" = "テーブル名取得の準備に失敗しました";
+"Language" = "\U8a00\U8a9e";

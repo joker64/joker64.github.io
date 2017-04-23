@@ -1,0 +1,545 @@
+﻿"%d of %d" = "%d van %d";
+"'%@' wants to send you some files." = "'%@' wil bestanden verzenden.";
+"<h1>%@</h1><p>The file '%@' got successfully uploaded.</p>" = "<h1>%@</h1><p>Het bestand '%@' is succesvol geupload.</p>";
+"<h1>Files in %@</h1>\n" = "<h1>Bestanden in %@</h1>\n";
+"<input type=\"submit\" value=\" Upload \">" = "<input type=\"submit\" waarde=\" Upload \">";
+"<p>Upload a file:<br />" = "<p>Upload een bestand:<br />";
+"A symbolic link to file %@ could not be created." = "Een symbolische link naar het bestand %@ kon niet worden gemaakt.";
+"Accepting connections at http://%@ or http://%@.\n" = "Staat connecties toe op http://%@ of http://%@.\n";
+"Access Permissions" = "Permissies";
+"Add Bookmark" = "Voeg bladwijzer toe";
+"Add Folder" = "Voeg map toe";
+"Add to Camera Roll" = "Voeg toe aan Filmrol";
+"Address" = "Adres";
+"An error occurred" = "Er heeft zich een fout voorgedaan";
+"Application Names" = "Applicatienamen";
+"Apply hierarchically" = "Pas hiërarchisch toe";
+"Applying permissions and ownership hierarchically..." = "Past permissies en eigenaarschap hiërarchisch toe...";
+"Ascending" = "Oplopend";
+"Attributes" = "Eigenschappen";
+"Audio Player" = "Audio PLayer";
+"Audio output got changed." = "Audio output is veranderd.";
+"Authentication" = "Authentificatie";
+"Block Device" = "Blokkeer toestel";
+"Bonjour got enabled with name %@.\n" = "Bonjour is gemachtigd met de naam %@.\n";
+"Bookmark file %@ invalid: %@" = "Bladwijzer bestand %@ ongeldig: %@";
+"Bookmark folder name must not be empty." = "Bladwijzer mapnaam moet ingevuld zijn.";
+"Bookmark name and address must not be empty." = "Bladwijzer naam en adres moeten ingevuld zijn.";
+"Bookmarks %@ could not be written: %@" = "Bladwijzers %@ konden niet worden geschreven: %@";
+"Bookmarks Bar" = "Bladwijzer Balk";
+"Bookmarks Menu" = "Bladwijzer Menu";
+"Bookmarks" = "Bladwijzers";
+"Buy License (Cydia Store)" = "Koop Licentie (Cydia Store)";
+"Cancel" = "Annuleer";
+"Character Device" = "Karakter Toestel";
+"Close" = "Sluiten";
+"Compressing..." = "Compresseert...";
+"Connected" = "Verbonden";
+"Connection to '%@' failed." = "Connectie met '%@' mislukt.";
+"Continue" = "Doorgaan";
+"Copy" = "Kopieer";
+"Copy/Link" = "Kopieer/Link";
+"Copying %@..." = "Kopieert %@...";
+"Copying Files..." = "Kopieert Bestanden...";
+"Copying of file %@ requested\n" = "Kopieren van bestand %@ aangevraagd\n";
+"Create Link" = "Creëer Link";
+"Create ZIP File" = "Maak ZIP bestand";
+"Create" = "Creëer";
+"Creation of directory %@ requested\n" = "Maken van directory %@ aangevraagd\n";
+"Cut" = "Knippen";
+"Date" = "Datum";
+"Delete %d Files" = "Verwijder %d Bestanden";
+"Delete File" = "Verwijder Bestand";
+"Deleting Files..." = "Verwijderd Bestanden...";
+"Deletion of file %@ requested\n" = "Verwijderen van bestand %@ aangevraagd\n";
+"Descending" = "Aflopend";
+"Directory" = "Directory";
+"Earlier this month" = "Eerder deze maand";
+"Earlier this week" = "Eerder deze week";
+"Earlier this year" = "Eerder dit jaar";
+"Edit Bookmark" = "Wijzig Bladwijzer";
+"Edit Folder" = "Wijzig Map";
+"Email" = "E-mail";
+"Emailing Attachments with iFile" = "E-mailt bijlagen met iFile";
+"Empty Trash" = "Prullenbak Leegmaken";
+"Enter new ZIP file name." = "Vul een nieuwe ZIP-bestandsnaam in";
+"Enter the page number to display\n(%d-%d)." = "Vul het weer te geven paginanummer in (%d-%d).";
+"Error occurred while receiving file." = "Er heeft zich een fout voorgedaan bij het ontvangen van het bestand";
+"Error" = "Fout";
+"Execute" = "Voer uit";
+"Executing Command: %@\n\n" = "Voert commando: %@ uit\n\n";
+"Extract %d Files" = "Pak %d bestanden uit";
+"Extract All Files" = "Pak Alle Bestanden Uit";
+"Extract File" = "Pak Bestand Uit";
+"File %@ requested\n" = "Bestand %@ aangevraagd\n";
+"File Attributes" = "Bestand Eigenschappen";
+"File Browser" = "File Browser";
+"File Exists" = "Bestand Bestaat";
+"File already exists with name %@." = "Bestand met de naam %@ bestaat al.";
+"File attributes could not be changed or only partially." = "Bestandseigenschappen konden niet worden veranderd of alleen gedeeltelijk.";
+"File could not be renamed." = "Bestand kon niet worden hernoemt.";
+"File successfully uploaded" = "Bestand succesvol geüpload";
+"Files" = "Bestanden";
+"Font Size" = "Lettertype Grootte";
+"Gigantic (> 100 MB)" = "Gigantisch (> 100 MB)";
+"Go to Trash" = "Ga naar Prullenbak";
+"Go to page" = "Ga naar pagina";
+"Group Permissions" = "Groep Permissies";
+"Group" = "Groep";
+"Grouping" = "Groeperen";
+"Header of file %@ requested\n" = "Header van bestand %@ aangevraagd\n";
+"Hidden Files" = "Verborgen Bestanden";
+"Hierarchy" = "Hiërarchie";
+"Huge (10 MB - 100 MB)" = "Enorm (10 MB - 100 MB)";
+"If you bought iFile in Cydia Store, you just need to start iFile to get it registered. You will get a confirmation alert on success.\nUsers who got free registrations or paid via PayPal directly instead of using Cydia Store need to enter their email address below. Registration happens when returning to Preferences." = "Als u iFile in de Cydia Sotre heeft gekocht, dient u iFile alleen maar op te starten om iFile te registeren. U zult een bericht krijgen dat iFile is geregistreerd. \nGebruikers die een gratis registratie kregen of betaald hebben via PayPal in plaats van een betaling via de Cydia Store, zullen hun email adres hieronder moeten invullen. Registratie zal plaats vinden bij het terugkeren naar de Instellingen.";
+"Image Viewer" = "Image Viewer";
+"Initializing Web Server..." = "Initialiseren Web Server...";
+"Installer" = "Installer";
+"Internal inconsistency" = "Interne inconsistentie";
+"Large (1 MB - 10 MB)" = "Groot (1 MB - 10 MB)";
+"Last Modification" = "Laatste Modificatie";
+"Last month" = "Afgelopen maand";
+"Last week" = "Afgelopen week";
+"Last year" = "Afgelopen jaar";
+"Later" = "Later";
+"Link Target" = "Link Target";
+"Linking %@..." = "Linkt %@...";
+"Linking Files..." = "Linkt Bestanden...";
+"Loading Contents..." = "Laadt Inhoud...";
+"Loading..." = "Laden...";
+"Medium (100 KB - 1 MB)" = "Middelmatig (100 KB - 1 MB)";
+"Mime-Type" = "Mime-Type";
+"Modification Date" = "Modificatie Datum";
+"Move %d Files to Trash" = "%d Bestanden naar Prullenbak";
+"Move File to Trash" = "Bestand naar Prullenbak";
+"Moving %@..." = "Verplaatst %@...";
+"Moving Files..." = "Verplaatsen van Bestanden...";
+"Moving of file %@ requested\n" = "Verplaatsen van bestand %@ aangevraagd\n";
+"Multipart header empty" = "Multipart header leeg";
+"Name" = "Naam";
+"New Folder" = "Nieuwe map";
+"New" = "Nieuw";
+"No file specified." = "Geen bestand aangewezen.";
+"OK" = "OK";
+"Older" = "Ouder";
+"Open with..." = "Openen met...";
+"Overwrite all" = "Overschrijf allemaal";
+"Overwrite" = "Overschrijf";
+"Owner" = "Eigenaar";
+"Ownership" = "Eigenaarschap";
+"PDF Viewer" = "PDF Viewer";
+"Page %d does not exist. Please choose value between %d and %d." = "Pagina %d bestaat niet. Kies een waarde tussen %d en %d.";
+"Password" = "Wachtwoord";
+"Paste" = "Plakken";
+"Path" = "Pad";
+"Playback Paused" = "Afspelen gepauzeerd";
+"Port Number" = "Poort Nummer";
+"Preferences" = "Instellingen";
+"Program Execution" = "Uitvoeren van programma";
+"Properties of file %@ requested\n" = "Eigenschappen van bestand %@ aangevraagd\n";
+"Property List Viewer" = "Property List Viewer";
+"Preparing Image..." = "Afbeelding klaarmaken...";
+"Property list %@ invalid: %@" = "Eigenschappen lijst %@ ongeldig: %@";
+"Read" = "Lees";
+"Receiving %@" = "Ontvangt %@";
+"Register" = "Registreer";
+"Registered" = "Geregistreerd";
+"Registering Web Service with Bonjour..." = "Registreren van Web Service met Bonjour...";
+"Registering WebDAV Service with Bonjour..." = "Registreren van WebDAV Service met Bonjour...";
+"Registration Email Address" = "Registratie Email Adres";
+"Registration Failed" = "Registratie Mislukt";
+"Registration Process" = "Registratie Proces";
+"Registration Status" = "Registratie Status";
+"Registration Successful" = "Registratie Succesvol";
+"Registration" = "Registratie";
+"Regular Expression" = "Reguliere Expressie";
+"Regular File" = "Gewoon Bestand";
+"Rename" = "Hernoem";
+"Resume" = "Hervat";
+"Safari Bookmarks" = "Safari Bladwijzers";
+"Search Format" = "Zoekformaat";
+"Search filenames" = "Zoek bestandsnamen";
+"Search" = "Zoek";
+"Set on exit" = "Zet bij Sluiten";
+"Shutting down web server..." = "Afsluiten van web server...";
+"Simple" = "Simpel";
+"Size" = "Grootte";
+"Small (10 KB - 100 KB)" = "Klein (10 KB - 100 KB)";
+"Socket" = "Socket";
+"Song Titles" = "Nummertitels";
+"Sort Criteria" = "Sorteer";
+"Sort Order" = "Sorteer Volgorde";
+"Sort by Date" = "op Datum";
+"Sort by Extension" = "op Extensie";
+"Sort by Name" = "op Naam";
+"Sort by Size" = "op Grootte";
+"Startup Directory" = "Opstart Directory";
+"Status" = "Status";
+"Sticky" = "Stickie";
+"Stop" = "Stop";
+"Symbolic Link" = "Symbolische Link";
+"Tabulator Width" = "Tabulator Breedte";
+"Text Viewer" = "Tekst Viewer";
+"The 7z executable is not installed. Please install 'p7zip' with Cydia or using \n'apt-get install p7zip'." = "De 7z executable is niet geïnstalleerd. Installeer 'p7zip' vanuit Cydia of gebruik \n'apt-get install p7zip'.";
+"The ZIP file is not valid." = "Het ZIP bestand is niet geldig";
+"The file %@ could not be copied." = "Het bestand %@ kon niet worden gekopieerd.";
+"The file %@ could not be deleted." = "Het bestand %@ kon niet worden verwijderd.";
+"The file %@ could not be moved." = "Het bestand %@ kon niet worden verplaatst.";
+"The file %@ could not be written." = "Het bestand %@ kon niet worden geschreven.";
+"The file %@ does not exist." = "Het bestand %@ bestaat niet.";
+"The file %@ exists already in current directory. Do you want to rename or overwrite it" = "Het bestand %@ bestaat al in deze directory. Bestand hernoemen of overschrijven?";
+"The files could not be added to ZIP file." = "De bestanden konden niet toegevoegd worden aan het ZIP bestand.";
+"The files could not be extracted." = "De bestanden konden niet worden uitgepakt.";
+"The files could not be removed." = "De bestanden konden niet worden verwijderd.";
+"The image could not be added to the camera roll (%@)." = "De afbeelding kon niet worden toegevoegd aan Filmrol (%@).";
+"The image got successfully added to the camera roll." = "De afbeelding is toegevoegd aan de Filmrol.";
+"The link target %@ does not exist." = "Linktarget %@ bestaat niet.";
+"The link target does not exist." = "Linktarget bestaat niet.";
+"The name has not been set. Please specify one." = "Er is nog geen naam gegeven. Specificeer een naam.";
+"The server port is still in use. Please use a different port.\n" = "The server port is still in use. Please use a different port.\n";
+"The specified startup directory does not exist." = "De gespecificeerde opstart directory bestaat niet.";
+"The tabulator width is too small or empty." = "De tabulator breedte is te klein of leeg.";
+"The text could not be found." = "De tekst kon niet worden gevonden.";
+"The text viewer font size should in the range of 8.0 and 18.0." = "De lettertype grootte in Tekst Viewer zou tussen de 8.0 en 18.0 moeten zijn.";
+"The trash could not be completely emptied. Please check the remaining files." = "De Prullenbak kon niet volledig worden geleegd. Controleer de overgebleven bestanden.";
+"The trash got successfully emptied." = "De Prullenbak is succesvol geleegd.";
+"The video cannot be added to the camera roll." = "De video kan niet worden toegevoegd aan de filmrol.";
+"The video could not be added to the camera roll (%@)." = "De video kon niet worden toegevoegd aan de filmrol (%@).";
+"The video got successfully added to the camera roll." = "De video is toegevoegd aan de Filmrol.";
+"The web server port number must be between 1 and 65535." = "Het poortnummer van de web server moet tussen 1 en 65535 zijn.";
+"The zip and unzip executable is not installed. Please install using \n'apt-get install zip unzip'." = "De zip en unzip executable is niet geinstalleerd. Installeer deze door \n'apt-get install zip unzip'.";
+"Theme Name" = "Thema Naam";
+"Themes" = "Thema's";
+"This functionality is only supported for registered users." = "Deze functie wordt alleen ondersteund voor geregistreerde gebruikers.";
+"Thumbnails" = "Miniatuurafbeelding";
+"Time" = "Tijd";
+"Tiny (< 10 kB)" = "Uiterst klein (< 10 kB)";
+"Title" = "Titel";
+"Today" = "Vandaag";
+"Transfer Request" = "Overdracht aangevraagd";
+"Transmitting %@" = "Overdracht %@";
+"Two months ago" = "Twee maanden geleden";
+"Two years ago" = "Twee jaar geleden";
+"Type" = "Type";
+"Unable to create %@." = "Niet mogelijk om %@ te creëren.";
+"Unarchiver" = "Uitpakken";
+"Unknown" = "Onbekend";
+"Unpacking Files..." = "Bestanden uitpakken...";
+"Unregistered" = "Ongeregistreerd";
+"Upload of file %@ requested\n" = "Upload van het bestand %@ aangevraagd\n";
+"UploadedFile" = "Bestand geüpload";
+"Use Trash" = "Gebruik Prullenbak";
+"User Permissions" = "Gebruiker Permissies";
+"User" = "Gebruiker";
+"Username" = "Gebruikersnaam";
+"Video Player" = "Video Player";
+"Web Server" = "Web Server";
+"Web Viewer" = "Web Viewer";
+"Wildcard" = "Wildcard";
+"World Permissions" = "Wereld Permissies";
+"World" = "Wereld";
+"Write" = "Schrijf";
+"Yesterday" = "Gisteren";
+"ZIP Viewer" = "ZIP Viewer";
+"\nFinished with Result Code: %d\n" = "\n Geëindigd  met Resultaat Code: %d\n";
+"done.\n" = "Klaar.\n";
+"failed.\n" = "Mislukt.\n";
+"iFile License" = "iFile Licentie";
+"iFile Registration" = "iFile registratie";
+"iFile got successfully registered." = "iFile is succesvol geregistreerd.";
+"iFile is now ShareWare. If you like it and use it regularly, please buy and register it. I require this to continue iFile's development." = "iFile is nu ShareWare. Als u het een goed programma vindt en het vaak gebruikt, overweeg het om het te kopen en te registreren. Dit is nodig voor het verder ontwikkelen van iFile.";
+"iFile registration failed." = "iFile registratie mislukt.";
+"iFile registration failed.\n(Reason: %@)" = "iFile registratie mislukt.\n(Reden: %@)";
+"iPhone Attachments with iFile" = "iPhone bijlagen met iFile";
+ "in %@" = "in %@";
+"via iBlueNova" = "via iBlueNova";
+"via iFile" = "via iFile";
+"Add Shortcut" = "Toevoegen Snelkoppeling";
+"Applications" = "Applicaties";
+"Books" = "Boeken";
+"Devices" = "Apparaten";
+"Disk" = "Schijf";
+"Documents" = "Documenten";
+"Flash Drive" = "Geheugen Schijf";
+"Home" = "Thuis";
+"Images" = "Afbeeldingen";
+"Media Library" = "Media Bibliotheek";
+"Places" = "Plaatsen";
+"Recordings" = "Opnamens";
+"Shortcuts %@ could not be written: %@" = "Snelkoppeling %@ kon niet worden geschreven: %@";
+"Shortcuts file %@ invalid: %@" = "Snelkoppeling bestand %@ ongeldig: %@";
+"Shortcuts" = "Snelkoppeling";
+"Sidebar" = "Zijmenu";
+"Trash" = "Prullenbak";
+"Authentication Mode" = "Authenticatie Modus";
+"External Viewers" = "Externe Viewers";
+/* Added Strings for iFile 1.4.0 */
+/* Add/Edit an item in the Property List File Editor */
+"Add Item" = "Item Toevoegen";
+"Edit Item" = "Item Wijzigen";
+/* A new item in the Property List File Editor already exists */
+"An item with the same name already exists. Delete the existing item first." = "Een item met dezelfde naam bestaat al. Verwijder het bestaande item.";
+/* Item types in the Property List File Editor - may only need partial translation*/
+"Array" = "Array";
+"Boolean" = "Boolean";
+"Data" = "Data";
+"Dictionary" = "Dictionary";
+"Float" = "Float";
+"Integer" = "Integer";
+"Number" = "Number";
+"Property List" = "Eigenschappen Lijst";
+"String" = "String";
+"Unkown Number Type" = "Onbekend type nummer";
+"Unkown Type" = "Onbekend Type";
+/* Top Level of Property List */
+"Top Level" = "Bovenste Niveau";
+/* Error messages in Property List Editor */
+"Item name and type must not be empty." = "Item naam en type mag niet leeg zijn.";
+"Item type must not be empty." = "Item type mag niet leeg zijn.";
+"Position of item has not been set." = "De positie van het item is niet ingesteld.";
+/* Accessability Description for table cells of files */
+"Double tap to deselect" = "Dubbel tappen om te deselecteren";
+"Double tap to open" = "Dubbel tappen om te openen";
+"Double tap to select" = "Dubbel tappen om te selecteren";
+"deselected" = "gedeselecteerd";
+"selected" = "geselecteerd";
+/* Labels for flash drives on iPad shortcut bar (left hand side) */
+"Flash Drive 1" = "Verwisselbare schijf 1";
+"Flash Drive 2" = "Verwisselbare schijf 2";
+"Flash Drive 3" = "Verwisselbare schijf 3";
+"Flash Drive 4" = "Verwisselbare schijf 4";
+/* Messages for file, PDF, and HTML page printing */
+"Page %d of %d" = "Bladzijde %d van de %d";
+"Printing failed due to error in domain %@ with error code %u." = "Het afdrukken is mislukt door een error in domein %@ met foutcode %u.";
+"Printing of %@ completed successfully." = "Afdrukken van %@ is gelukt.";
+"Printing of file %@ completed successfully." = "Afdrukken van het bestand %@ volledig gelukt.";
+/* Label in Preferences for maximum size of images that should still be thumbnailed */
+"Thumbnail Limit" = "Miniatuurafbeelding Grootte";
+/* Message in case unmounting of a flash drive connected via Camera Connection Kit failed */
+"Unmounting %@ failed." = "Opstellen van %@ is mislukt";
+/* iFile Version Label used in iFile about page */
+"Version" = "Versie";
+"via Celeste" = "via Celeste";
+"Basic" = "Basic";
+"Digest" = "Digest";
+/* Updates for release 1.5.0-1 */
+/* Button text in Preferences Editor */
+"About iFile" = "Over iFile";
+"Contact Developer" = "Contacteer ontwikkelaar";
+/* Button in Attributes Editor to import a song/video into iPod Library and associated message */
+"Add to iPod Library" = "Voeg toe aan iPod bibliotheek";
+"The song cannot be added to the iPod library." = "Het nummer kan niet worden toegevoegd aan de iPod bibliotheek.";
+/* MD5 sum calculation in Attributes Editor: Label and value during calculation */
+"MD5" = "MD5";
+"Calculating..." = "Berekenen...";
+/* GUI Color Names and Label in Preferences*/
+"Color" = "Kleur";
+"Default" = "Standaard";
+"Blue" = "Blauw";
+"Brown" = "Bruin";
+"Custom" = "Aangepast";
+"Gray" = "Grijs";
+"Green" = "Groen";
+"Light Gray" = "Licht grijs";
+"Night Blue" = "Nachtblauw";
+"Orange" = "Oranje";
+"Pink" = "Roze";
+"Red" = "Rood";
+"Yellow" = "Geel";
+/* Pop-up menu titles in file browser table */
+"Deselect all" = "Deselecteer alles";
+"Select all" = "Selecteer alles";
+"Select" = "Selecteer";
+"Link" = "Link";
+"The file '%@' got successfully added to iPod library." = "Het bestand '%@' is toegevoegd aan de iPod bibliotheek.";
+"The file '%@' could not be added to the iPod library." = "Het bestand '%@' kon niet worden toegevoegd aan de iPod bibliotheek.";
+/* Updates for release 1.6.0-1 */
+/* Number of files at bottom of file list */
+"%d File" = "%d Bestand";
+"%d Files" = "%d Bestanden";
+/* Title and options for opening a new tab */
+"Open..." = "Open...";
+"Dropbox" = "Dropbox";
+"Local Directory" = "Lokale directory";
+/* All Dropbox related strings */
+"Clear Dropbox Cache" = "Wis Dropbox cache";
+"Clearing Dropbox cache failed." = "Wissen van Dropbox cache mislukt.";
+"Download of file %@ failed." = "Downloaden van bestand %@ mislukt.";
+"Downloading..." = "Downloaden...";
+"Link Dropbox" = "Link Dropbox";
+"No connection to Dropbox." = "Geen connectie naar Dropbox.";
+"Retrieving metadata for %@..." = "Terugvinden van metadata voor %@...";
+"The contents of %@ could not get retrieved." = "De inhoud van %@ kon niet worden teruggevonden";
+"Unlink Dropbox" = "Unlink Dropbox";
+"Upload of file %@ failed." = "Upload van bestand %@ mislukt.";
+"Uploading %@..." = "Uploaden %@...";
+/* File list refresh */
+"Pull down to refresh..." = "Trek naar beneden om te verversen...";
+"Release to refresh..." = "Laat los om te verversen...";
+/* Option in preferences to store paths on exit for all tabs or to leave them as stored last time */
+"Store Paths" = "Sla paden op";
+/* Updates for release 1.6.1-1 */
+/* Alert in case of empty support email */
+"Please enter an issue or press Cancel." = "Beschrijf uw problem of druk op Annuleren";
+/* Copy URL to a public Dropbox file to clipboard */
+"Copy Public Link" = "Kopieer publieke link";
+/* Messages for disk image mounter (I'd rather go for the english name because it's clearer, but if you want to stick to the Apple translation, change it to "Schijfkopie Plaatser" */
+"Disk Image Mounter" = "Disk Image Mounter";
+"Mounting..." = "Activeren...";
+"Disk image could not be mounted." = "Schijfkopie kon niet worden geplaatst.";
+"Disk image successfully mounted at %@." = "Schijfkopie is succesvol geplaatst in %@.";
+"Successfully unmounted %@." = "Succesvol geplaatst %@.";
+/* Button in Attributes Editor of a mount point to unmount the disk image */
+"Unmount" = "Ontkoppelen";
+/* Label for a mounted disk image in iPad's side bar */
+"Disk Image" = "Schijfkopie";
+/* Button to display a mounted disk image, i.e. to change directory to the disk image */
+"Display" = "Weergeven";
+/* Updates for release 1.6.1-2 */
+", %@ free" = ", %@ vrij";
+/* Updates for release 1.7.0-1 */
+/* Strings for FTP Client */
+"%@ Server" = "%@ Server";
+"Authentication Failed" = "Authenticatie mislukt";
+"Cannot set secure FTP connection properties." = "Kan geen beveiligde eigenschappen van de FTP connectie instellen.";
+"Clear FTP Cache" = "Wis FTP cache";
+"Clearing FTP cache failed." = "Wissen van FTP cache mislukt.";
+"Connect" = "Connecteer";
+"Connection Failed" = "Connectie mislukt";
+"Connection Refused" = "Connectie geweigerd";
+"Connection to FTP server failed." = "Connectie naar de FTP server mislukt.";
+"Copying/Moving between remote file systems is not supported." = "Kopiëren/Verplaatsen tussen remote file systems wordt niet ondersteund.";
+"Could not open connection to %@." = "Kon geen connectie maken met %@." ;
+"Could not read from network." = "Kon niet lezen van het netwerk.";
+"Could not write to network." = "Kon niet schrijven naar het netwerk.";
+"Deleting %@..." = "Verwijderen van %@...";
+"Directory listing parse failed." = "Directory listing parse mislukt.";
+"Enter password for user '%@'" = "Voer het wachtwoord in voor gebruiker '%@'";
+"FTP Server" = "FTP Server";
+"FTP Servers" = "FTP Servers";
+"FTPS Server" = "FTPS Server";
+"File read error." = "Leesfout in bestand.";
+"File write error." = "Schrijffout in bestand.";
+"Login Failed" = "Inloggen mislukt";
+"Please check if server name is correct." = "Controleer of de servernaam correct is.";
+"Please check if user name and password is correct." = "Controleer of gebruikersnaam en wachtwoord correct zijn.";
+"Please enter a valid port number." = "Vul een geldig poortnummer in.";
+"Port" = "Poort";
+"Remote Servers" = "Remote Servers";
+"Retrieving contents of %@..." = "Ontvangen van inhoud van %@...";
+"The FTP protocol does not support server side copy operations." = "Het FTP protocol ondersteunt geen server-side kopieer operaties.";
+"The password must not be empty." = "Het wachtwoord mag niet leeg zijn.";
+"The server name must not be empty." = "De servernaam mag niet leeg zijn.";
+"The user name must not be empty." = "De gebruikersnaam mag niet leeg zijn.";
+"URL is invalid:\n: %@" = "URL is ongeldig:\n: %@";
+"Open" = "Open";
+"ftp.server.com" = "ftp.server.com"; /* place holder in form to enter server name */
+/* Strings for Future WebDAV Client */
+"WebDAV Server" = "WebDAV Server";
+"WebDAV Servers" = "WebDAV Servers";
+"Secure WebDAV Server" = "Beveiligde WebDAV Server";
+"Cannot set secure WebDAV connection properties." = "Kan been beveiligde eigenschappen van de WebDAV connectie instellen.";
+"Clear WebDAV Cache" = "Wis WebDAV cache";
+"Clearing WebDAV cache failed." = "Wissen van WebDAV cache mislukt.";
+"www.server.com" = "www.server.com"; /* place holder in form to enter server name */
+/* Remote Server Password Manager */
+"Clear All Passwords" = "Verwijder alle wachtwoorden";
+"Manage Passwords" = "Beheer wachtwoorden";
+"Passwords" = "Wachtwoorden";
+/* Titles in Preferences Editor */
+"File Manager" = "File Manager";
+"File Viewers" = "File Viewers";
+"iFile Web Server" = "iFile Web Server";
+"via AirBlue Sharing" = "via AirBlue delen";
+/* Other strings */
+"Bookmark" = "Bladwijzer";
+"The file '%@' got successfully added to iPod library." = "Het bestand '%@' is toegevoegd aan de iPod bibliotheek.";
+/* Updates for iFile 1.8.0-1 */
+/* Toshiba FlashAir® WebServer Support */
+"Toshiba FlashAir®" = "Toshiba FlashAir®";
+"Clear FlashAir® Cache" = "Wis FlashAir® cache";
+"Clearing Toshiba FlashAir® cache failed." = "Wissen van Toshiba FlashAir® cache mislukt.";
+"The Toshiba FlashAir® protocol supports only directory listing and file download operations." = "Het Toshiba FlashAir® protocol ondersteunt alleen het weergeven van mappen en het downloaden van bestanden.";
+/* box.net Support */
+"box.net" = "box.net";
+"Account Unlinked" = "Account ontkoppeld";
+"Clear box.net Cache" = "Wis box.net cache";
+"Clearing box.net cache failed." = "Wissen van box.net cache mislukt.";
+"Do you want to relink?" = "Wilt u opnieuw koppelen?";
+"Logged out" = "Uitgelogd";
+"Login box.net" = "Log in box.net";
+"Logout box.net" = "Log uit box.net";
+"No connection to box.net." = "Geen connectie naar box.net.";
+"Relink" = "Koppel opnieuw";
+"You have logged out of your box.net account." = "U heeft zich afgemeld van uw box.net account.";
+/* Additional Dropbox-related Strings */
+"Dropbox Session Ended" = "Dropbox sessie beëindigd";
+"Your dropbox account has been unlinked." = "Uw Dropbox account is ontkoppeld.";
+/* Updates for iFile 1.9.0-1 */
+/* WebDAV Client Strings */
+"Secure WebDAV Servers" = "Beveiligde WebDAV servers";
+"Server Address" = "Server adres";
+"Login" = "Login";
+"Enter user and password:" = "Vul gebruikersnaam en wachtwoord in:";
+/* bytes used on remote file system */
+", %@ used" = ", %@ gebruikt";
+/* message while updating file date on server */
+"Updating date of %@..." = "Updaten van datum %@...";
+/* HTTP/WebDAV Error Messages */
+"Invalid Server" = "Ongeldige server";
+"Server does not support required WebDAV options." = "Server ondersteunt niet de vereiste WebDAV opties";
+"Directory listing has wrong format." = "Mappen weergave heeft het verkeerde formaat.";
+"Modification date update failed." = "Updaten van aanpassingsdatum mislukt.";
+"Bad HTTP Request." = "Ongeldige HTTP request.";
+"Unauthorized Access." = "Geen bevoegde toegang.";
+"Access forbidden." = "Toegang verboden.";
+"Object not found on server." = "Object niet gevonden op de server.";
+"Access method not allowed." = "Toegangsmethode niet toegestaan.";
+"Access conflict." = "Toegangsconflict.";
+"Internal Server Error." = "Interne server fout.";
+"Functionality not implemented on server." = "Functionaliteit niet geïmplementeerd op de server.";
+"Insufficient storage on server." = "Onbevoegde toegang op de server.";
+"HTTP error %d." = "HTTP fout %d.";
+/* Certificate Handling of WebDAV Server */
+"Accept Website Certificate" = "Accepteer website certificaat";
+"Accept" = "Accepteer";
+"Import" = "Importeer";
+"Certificate Imported" = "Certificaat geïmporteerd";
+"The certificate '%@' for this website is unknown or invalid. Tap accept to connect anyway." = "Het certificaat '%@' voor deze website is onbekend of ongeldig. Klik accepteer om toch te connecteren.";
+"The certificate '%@' got successfully imported." = "Het certificaat '%@' is succesvol geïmporteerd";
+"The certificate for this website is unknown or invalid. Tap accept to connect anyway." = "Het certificaat voor deze website is onbekend of ongeldig. Klik accepteer om toch te connecteren.";
+"The import of certificate '%@' failed." = "Het importeren van certificaat '%@' is mislukt.";
+/* Hex Editor Strings */
+"Hex Editor" = "Hex Editor";
+/* Search entry options of Hex Editor */
+"Hex" = "Hex";
+"ASCII" = "ASCII";
+/* Hex Editor Save Form */
+"File Changed" = "Bestand gewijzigd";
+"The file got changed. Do you want to save the changes?" = "Het bestand is gewijzigd. Wilt u de wijzigingen opslaan?";
+"Yes" = "Ja";
+"No" = "Nee";
+/* Strings for "go to byte index" in Hex Editor */
+"Enter the decimal byte index to display (%d-%d)." = "Vul de decimale byte index in om weer te geven (%d-%d).";
+"Enter the hexadecimal byte index to display (%X-%X)." = "Vul de hexadecimale byte index in om weer te geven (%X-%X).";
+"Byte index %llX does not exist. Please choose value between %llX and %llX." = "Byte index %llX bestaat niet. Kies een waarde tussen %llX en %llX.";
+"Byte index %lld does not exist. Please choose value between %lld and %lld." = "Byte index %lld bestaat niet. Kies een waarde tussen %lld en %lld.";
+"Byte index '%@' is not valid. Please choose value between %llX and %llX." = "Byte index '%@' is niet geldig. Kies een waarde tussen %llX en %llX.";
+"Byte index '%@' is not valid. Please choose value between %lld and %lld." = "Byte index '%@' is niet geldig. Kies een waarde tussen %lld en %lld.";
+/* Bonjour Browser Title */
+"Bonjour" = "Bonjour";
+/* String for remote file systems in Side Bar on iPad */
+"Shared" = "Gedeeld";
+/* Preferences option for showing folders on top of file listing */
+"Folders On Top" = "Mappen bovenop";
+/* SQLite Database Editor */
+"SQLite3 Editor" = "SQLite3 Editor";
+/* title for listing of database tables */
+"Tables" = "Tabellen";
+/* placeholder string for user entered SQL statement */
+"SQL statement" = "SQL statement";
+"Failed to fetch SQL result" = "Verkrijgen SQL resultaat mislukt";
+"Failed to fetch table names" = "Verkrijgen van tabelnamen mislukt";
+"Failed to prepare SQL statement" = "Voorbereiden van het SQL statement is mislukt";
+"Failed to prepare for fetching table names" = "Voorbereiden van het verkrijgen van de tabelnamen mislukt";
+"Language" = "Taal";

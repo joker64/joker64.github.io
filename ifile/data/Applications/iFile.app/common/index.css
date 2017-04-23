@@ -1,0 +1,287 @@
+@media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi){ 
+body {
+margin: 0;
+padding: 0;
+margin-left:0px;
+background-color: rgb(197,204,211);
+background-image: url(background@2x.png); 
+background-repeat: repeat;
+-webkit-text-size-adjust:none;
+top: 45px;
+width: 100%;
+min-height: 400px;
+}
+
+}
+body {
+
+margin: 0;
+padding: 0;
+margin-left:0px;
+background-color: rgb(197,204,211);
+background-image: url(background.png); 
+background-repeat: repeat;
+-webkit-text-size-adjust:none;
+top: 45px;
+width: 100%;
+min-height: 400px;
+}
+
+body[orient="profile"] {
+min-height: 400px;
+width: 100%;
+}
+
+body[orient="landscape"] {
+min-height: 251px;
+width: 100%;
+}
+
+#content {
+margin: 0;
+padding: 0;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 8px;
+background-color: transparent;
+-webkit-text-size-adjust:none;
+}
+
+.toolbar h1 {
+margin:0;
+padding-top:10px;	   
+padding-right:10px;	  
+padding-bottom:10px;	
+padding-left:10px;
+font-size:21px;
+font-family: Helvetica;
+font-weight:bold;
+text-shadow: rgba(0, 0, 0, 0.4) 0px -1px 0;
+color: white;
+}
+
+h1 {
+margin:0;
+padding-top:10px;	   
+padding-right:10px;	  
+padding-bottom:10px;	
+padding-left:10px;
+font-size:17px;
+font-family: Helvetica;
+font-weight:bold;
+color: rgb(76,86,108);
+}
+
+.table {
+padding: 0;	   
+margin-top:0;
+margin-bottom:17px;
+font-size:17px;
+font-family: Helvetica;
+font-weight:bold;
+color:black;
+width: 100%;
+background-color: white;
+border-width: 1px;
+border-style:solid ;
+border-color:rgb(180,180,180);
+-webkit-border-radius: 8px;
+}
+
+.tableitem {
+list-style-type: none;
+border-top-width:1px;
+border-top-style:solid;
+border-top-color:rgb(180,180,180);
+padding-top:10px;	   
+padding-right:10px;	  
+padding-bottom:14px;
+padding-left:10px;	
+}
+
+li:first-child {
+border-top:0;
+}
+
+a {
+text-decoration: none;
+color:blue;
+}
+
+a.intern {
+display: block;
+padding-top: 8px;
+padding-right: 8px;
+padding-bottom: 8px;
+padding-left: 8px;
+margin-top: -8px;
+margin-right: -8px;
+margin-bottom: -12px;
+margin-left: -8px;	 
+text-decoration: none;
+color:black;
+}
+
+a.extern {
+display: block;
+padding-top: 8px;
+padding-right: 8px;
+padding-bottom: 8px;
+padding-left: 8px;
+margin-top: -8px;
+margin-right: -8px;
+margin-bottom: -12px;
+margin-left: -8px;	 
+text-decoration: none;
+color: darkred;
+}
+
+img {
+margin-top: -10px;
+margin-right: 10px;
+margin-bottom: -10px;
+margin-left: -8px;	 
+}
+
+h2 {
+margin-top: 3px;
+font-size: 15px;
+font-family: Helvetica;
+font-weight: bold;
+}
+
+h3 {
+margin-top: 3px;
+font-size: 14px;
+font-family: Helvetica;
+font-weight: bold;
+}
+
+h4 {
+margin-top: 6px;
+font-size: 13px;
+font-family: Helvetica;
+font-weight: bold;
+}
+
+p {
+font-size: 13px;
+font-family: Helvetica;
+font-weight: normal;
+text-align: justify;
+}
+
+.list {
+font-size: 13px;
+font-family: Helvetica;
+font-weight: normal;
+padding-left: 20px;
+}
+
+.image {
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 10px;
+margin-right: 10px;
+width: 260px;
+text-align: center;
+-webkit-box-shadow:5px 5px 5px #888;
+}
+
+.inlineimage {
+margin-top: 0px;
+margin-bottom: -1px;
+margin-left: 1px;
+margin-right: 3px;
+-webkit-box-shadow:3px 3px 3px #888;
+}
+
+.footnote {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.showArrow {  
+margin-right:10px;	 
+padding-right:16px;
+background-image: url(chevron.png); 
+background-repeat: no-repeat;
+background-position: right; 
+}
+
+.secondary	{
+font-weight:normal;
+float:right;
+margin-right:10px;	  
+}
+
+.secondaryWArrow {
+display:block;
+font-weight:normal; 
+float:right;
+color: #324F85;
+}
+
+.secondaryWLink {
+font-weight:normal;	 
+float:right;	   
+margin-right:10px;	  
+color: #324F85;
+}
+
+.button {
+position: absolute;
+overflow: hidden;
+top: 8px;
+right: 6px;
+margin: 0;
+border-width: 0 5px;
+padding: 0 3px;
+width: auto;
+height: 30px;
+line-height: 30px;
+font-family: inherit;
+font-size: 12px;
+font-weight: bold;
+color: #FFFFFF;
+text-shadow: rgba(0, 0, 0, 0.6) 0px -1px 0;
+text-overflow: ellipsis;
+text-decoration: none;
+white-space: nowrap;
+background: none;
+-webkit-border-image: url(toolbutton.png) 0 5 0 5;
+}
+
+.toolbar {
+background-image: url(toolbar.png);
+background-repeat: repeat-x;
+text-align: center;
+width: 100%;
+height: 43px;
+}
+
+#backbutton {
+left: 6px;
+right: auto;
+padding: 0;
+max-width: 55px;
+border-width: 0 8px 0 14px;
+-webkit-border-image: url(backbutton.png) 0 8 0 14;
+}
+
+div#content table tr td[width="75"]
+{
+	width:60px;
+}
+
+div#content table tr td[width="75"] img[src="../../common/Icon.png"]
+{
+	margin:0;
+}
+
+form[action="https://www.paypal.com/cgi-bin/webscr"]
+{
+	margin-top:-10px;
+}
