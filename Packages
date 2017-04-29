@@ -127,7 +127,7 @@ Size: 52,644
 MD5sum: 8326685d53c34ad70141a6756659a827
 SHA1: 1f23be7f93e6accfd5721ecbc4da27dc207da271
 SHA256: efdcd4ef0a1e0bdc98c7f3f5d37e8fd8590016a305a3863992132a51f328d769
-Section: System
+Section: Tweaks
 Description: Shy little dock wants to hide down there.
 Author: JOKER64  <lastman985@yahoo.com>
 Name: shydock
