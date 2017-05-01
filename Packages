@@ -27,7 +27,7 @@ Description: Development
 Author: JOKER64 <lastman985@yahoo.com>
 Name: TapCounter
 
-Package: com.JOKER64.cask
+Package: com.rpetrich.cask
 Version: 0.2
 Architecture: iphoneos-arm
 Maintainer: JOKER64 <lastman985@yahoo.com>
@@ -42,7 +42,7 @@ Description: Animated table scrolling
 Author: JOKER64 <lastman985@yahoo.com>
 Name: Cask
 
-Package: com.JOKER64.whatspad
+Package:  com.lheap.whatspad
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: JOKER64 <lastman985@yahoo.com>
@@ -87,7 +87,7 @@ Description: Remove delete box on specific apps
 Author: JOKER64 <lastman985@yahoo.com>
 Name: AppDelete
 
-Package: com.JOKER64.mterminal
+Package: com.officialscheduler.mterminal
 Version: 1.4-5
 Architecture: iphoneos-arm
 Maintainer: JOKER64 <lastman985@yahoo.com>
@@ -99,7 +99,7 @@ SHA1: 86a7feea0d4c0c21bf169ac7c5e25ce1f8079724
 SHA256: a0138646daa42478b726ec164a261a9c31b8ac29f91e5cf500f194ece9039924
 Section: Development
 Description: A MobileTerminal fork
-Author: JOKER64 <lastman985@yahoo.com>
+Author: Lordscotland <lastman985@yahoo.com>
 Name: MTerminal
 
 Package: eu.heinelt.ifile
@@ -131,3 +131,33 @@ Section: Tweaks
 Description: allows delete "unknown group chats" in WhatsApp
 Author: JOKER64 <lastman985@yahoo.com>
 Name: UnKnownGroupFix
+
+Package: io.ijapija00.lasttimeunlocked
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Filename: /lasttimeunlocked.deb
+Size: 29786
+MD5sum: e28c056431ca3383f117919b08ed04bb
+SHA1: d02533fa1f3ff566fcd0a6279acfa8b1d6bf47af
+SHA256: 701a3498d51b1b94fb87bb718cd2dbf1c42cf26c2efe49a49b0dadb051fd3559
+Section: Tweaks
+Description: Lockscreen shows last time you locked your device
+Author: @ijapija00 <lastman985@yahoo.com>
+Name: LastTimeUnLocked
+
+Package: com.cpdigitaldarkroom.blow
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Filename: /igexperiments.deb
+Size: 6262 
+MD5sum: be8911d94ec20b0fa4485f01a3e2667b
+SHA1: 21ad8fc3d476bff6d6e07fa56cad6621a22812b1
+SHA256: 7f201e62cab1afad087f98e766b93d57874071ee4d88ca6f93701395136218d6
+Section: Tweaks
+Description: enable hidden features in Instagram
+Author: JOKER64 <lastman985@yahoo.com>
+Name: Instagram++
