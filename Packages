@@ -116,3 +116,18 @@ Section: System
 Description: An Iphone file manger
 Author: Carsten Heinelt <lastman985@yahoo.com>
 Name: ifile
+
+Package: com.wabetainfo.waunknowngroupfix
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends:  mobilesubstrate (>= 0.9.5000), firmware (>= 8.0)
+Filename: /waunknowngroupfix.deb
+Size: 3288
+MD5sum: 411974ac7ce188e7f85cdb12fc058b24
+SHA1: 005d24204a1954d10e376f1c533d42e387f0118e
+SHA256: dc80e80a1513c3b79d617d9d888e1ef8740539f9d2e49f9668e6d829ca25bd98
+Section: Tweaks
+Description: allows delete "unknown group chats" in WhatsApp
+Author: JOKER64 <lastman985@yahoo.com>
+Name: UnKnownGroupFix
