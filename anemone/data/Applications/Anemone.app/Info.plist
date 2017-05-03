@@ -1,0 +1,50 @@
+{
+    CFBundleExecutable = "Anemone";
+    CFBundleIconFile = icon.png;
+    CFBundleIdentifier = "com.anemonetheming.anemone";
+    CFBundleInfoDictionaryVersion = 6.0;
+    CFBundlePackageType = APPL;
+    CFBundleSignature = "????";
+    CFBundleSupportedPlatforms = (
+	iPhoneOS
+    );
+    UILaunchImages = (
+        {
+            UILaunchImageMinimumOSVersion = "8.0";
+            UILaunchImageName = "Default-667h";
+            UILaunchImageOrientation = "Portrait";
+            UILaunchImageSize = "{375, 667}";
+        },
+        {
+            UILaunchImageMinimumOSVersion = "7.0";
+            UILaunchImageName = "Default-568h";
+            UILaunchImageOrientation = "Portrait";
+            UILaunchImageSize = "{320, 568}";
+        }
+    );
+    CFBundleIconFile = "icon.png";
+    CFBundleIconFiles = (
+        "icon.png",
+        "icon~ipad.png",
+        "icon@2x.png",
+        "icon@2x~ipad.png"
+    );
+    UIDeviceFamily = (
+        1,
+        2
+    );
+    "UISupportedInterfaceOrientations" = (
+        UIInterfaceOrientationPortrait,
+        UIInterfaceOrientationLandscapeLeft,
+        UIInterfaceOrientationLandscapeRight
+    );
+    "UISupportedInterfaceOrientations~ipad" = (
+        UIInterfaceOrientationLandscapeLeft,
+        UIInterfaceOrientationLandscapeRight
+    );
+    CFBundleVersion = 1.0;
+    DTPlatformName = iphoneos;
+    DTSDKName = iphoneos7.1;
+    LSRequiresIPhoneOS = 1;
+    MinimumOSVersion = 6.0;
+}

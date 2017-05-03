@@ -160,4 +160,64 @@ SHA256: 7f201e62cab1afad087f98e766b93d57874071ee4d88ca6f93701395136218d6
 Section: Tweaks
 Description: enable hidden features in Instagram
 Author: JOKER64 <lastman985@yahoo.com>
-Name: Instagram++
+Name: InstagramFeatures
+
+Package: com.pxcex.hudplayer
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: mobilesubstrate, firmware (>= 9.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: /hudplayer.deb
+Size: 48952
+MD5sum: af1ea94d5a5c4691e8ab278502e37031
+SHA1: 134e783aa39bd47d8851b917e8998af74dbb5740
+SHA256: 9dd06f5ea0e3b678ce3a5132fb714262523eb58f08845f3057dca7b74a908a40
+Section: Tweaks
+Description: change the stock volume HUD with banner
+Author: Pxcex <lastman985@yahoo.com>
+Name: HUDPlayer
+
+Package: com.demy076.smooth3d
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: /smooth3d.deb
+Size: 3894
+MD5sum: 7c39d6cefb93bed4e9754199a79f9c2f
+SHA1: 12b309b2e617443e0d897d2e8adc64036e9264f2
+SHA256: 60e9916d98bf818565337d27b662005ca957e7d7a2aae211f605d01f4950ccb3
+Section: Tweaks
+Description: enhances 3D touch menus
+Author: Demy Kromhof, Dylan Siwalette <lastman985@yahoo.com>
+Name: Smooth3D
+
+Package: com.anemonetheming.anemone
+Version:  2.1.1-27
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Filename: /anemone.deb
+Size: 1869568
+MD5sum: ece9659cd4cfc7fad18c5adf58293cbb
+SHA1: 42bd4d6a21d34ace03501a4cd7177dab173084ed
+SHA256: 19e11bc6f5bbc5cc5b0dc6c24470a81b122fbc2d88dd60cda41f2bc49eb49212
+Section: Tweaks
+Description: An awesome theme manager!
+Author: AnemoneTeam <lastman985@yahoo.com>
+Name: Anemone
+
+Package: org.thebigboss.zanillatheme
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends:  winterboard, firmware (>= 7.0)
+Filename: /theme_zanillatheme.deb
+Size: 8306230
+MD5sum: 106c71e30909ce55af6d597f4d5a5090
+SHA1: f64d40f7903c0bc189254befdf740b176081a664
+SHA256: ab47280c617dbd8f08cfb73c67b7e1b5f3329e462d16843b77650ca3f2756109
+Section: Themes
+Description: Zanilla is a clean and sleek theme
+Author: Kogulan Sivaneshan <lastman985@yahoo.com>
+Name: Zanilla theme
