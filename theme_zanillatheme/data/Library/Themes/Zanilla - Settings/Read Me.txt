@@ -1,6 +1,0 @@
-iFlux requires manual installation.
- 
-To install, use iFile or PC/Mac to place “org.herf.iflux@2x.png” into:
-/Library/PreferenceLoader/Preferences/ 
-
-Thanks! 

@@ -206,18 +206,3 @@ Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <lastman985@yahoo.com>
 Name: Anemone
-
-Package: org.thebigboss.zanillatheme
-Version: 3.0
-Architecture: iphoneos-arm
-Maintainer: JOKER64 <lastman985@yahoo.com>
-Depends:  winterboard, firmware (>= 7.0)
-Filename: /theme_zanillatheme.deb
-Size: 8306230
-MD5sum: 106c71e30909ce55af6d597f4d5a5090
-SHA1: f64d40f7903c0bc189254befdf740b176081a664
-SHA256: ab47280c617dbd8f08cfb73c67b7e1b5f3329e462d16843b77650ca3f2756109
-Section: Themes
-Description: Zanilla is a clean and sleek theme
-Author: Kogulan Sivaneshan <lastman985@yahoo.com>
-Name: Zanilla theme
