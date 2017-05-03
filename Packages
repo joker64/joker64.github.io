@@ -206,3 +206,18 @@ Section: Tweaks
 Description: An awesome theme manager!
 Author: AnemoneTeam <lastman985@yahoo.com>
 Name: Anemone
+
+Package: net.angelxwind.appsyncunified
+Version: 6.0~b1
+Architecture: iphoneos-arm
+Maintainer: JOKER64 <lastman985@yahoo.com>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<< 10.3)
+Filename: /appsyncunified.deb
+Size: 28060
+MD5sum: 08ebf3470673bd5297e8f15e1d8c35da
+SHA1: 4117cdebf3369df220de4330ebc9b7a38dd18442
+SHA256: d6783f85996bee92effd9aa71b0b81be8a46bb16b49e32d73b165c1b9503ad1b
+Section: System
+Description: AppSync Unified allows you to sync and install unsigned iOS applications.
+Author: Linus Yang, Karen Tsai <lastman985@yahoo.com>
+Name: AppSync Unified
