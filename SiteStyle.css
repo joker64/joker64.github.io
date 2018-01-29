@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    background-color: #e6e6e6;
+}
+header{
+    background-color: #939292;
+    position: fixed;
+    font-size: 200%;
+    border-bottom: 1px solid  #a6a6a6;
+    width: 100%;
+    z-index: 1;
+    margin-top: 0px;
+    text-align: center;
+}
+div.side{
+    border-right: 1px solid  #a6a6a6;
+    position: fixed;
+    top: 22px;
+    width: 15%;
+    min-width: 205px;
+    height: 100%;
+    font-size: 150%;
+    margin-top: 16px;
+    color: black;
+    z-index: 2;
+    float: right;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a.side{
+    text-decoration: none;
+    color: black;
+    padding: 5px 1px 1px 10px;
+    display: block;
+}
+.side a:hover{
+    background-color: #a6a6a6;
+}
+div.about{
+    width: 85%;
+    float: right;
+    margin-top: 38px;
+    margin-right: -10px;
+}
+.apps{
+    width: 85%;
+    float: right;
+    margin-top: 38px;
+    margin-right: -10px;
+}
+div.pe{
+    width: 85%;
+    float: right;
+    margin-top: 38px;
+    margin-right: -10px;
+}
+.main{
+    font-size: 35px;
+}
+div.pp{
+    width: 85%;
+    float: right;
+    margin-top: 38px;
+    margin-right: -10px;
+}
+div.dpe{
+    width: 85%;
+    float: right;
+    margin-top: 38px;
+    margin-right: -10px;
+}
+.btn{
+    background-color: #e6e6e6;
+    border: 5px solid #939292;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-spacing: 15px;
+    float: center;
+}
+div.screen-shoot{
+    width: 85%;
+    float: right;
+    margin-top: 38px;
+    margin-right: -10px;
+}
+.ss{
+    font-size: 30px;
+}
+.pr {
+   border-radius: 50%;
+}
+div.dpp{
+    width: 85%;
+    float: right;
+    margin-top: 30px;
+    margin-right: -10px;
+}
+div.cooming-soon{
+    width: 85%;
+    float: right;
+    margin-top: 90px;
+    margin-right: -10px;
+    text-align: center;
+}
+.cs {
+    border-radius: 50%;
+}
+div.BB {
+    width: 85%;
+    float: right;
+    margin-top: 30px;
+    margin-right: -10px; 
+}
+div.dbb {
+     width: 85%;
+    float: right;
+    margin-top: 30px;
+    margin-right: -10px;
+}
+a:hover{
+    color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+.mt {
+    font-size: 20px;
+}
+h3 {
+    font-size: 25px;
+}
+h4{
+    font-size: 25px;
+}
+.ruby {
+    font-size: 22px;
+}
+#btn {
+    font-size: 25px;
+}
